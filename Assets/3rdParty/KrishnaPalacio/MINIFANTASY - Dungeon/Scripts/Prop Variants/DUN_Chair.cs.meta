@@ -1,0 +1,42 @@
+fileFormatVersion: 2
+guid: 6b820f0f753fa444cacb3c02d1d7abff
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - chair_west: {fileID: 7145537068944724988, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - chair_west_knocked_over: {fileID: -3055491028573861754, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - chair_east: {fileID: -5523947511434668376, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - chair_east_knocked_over: {fileID: -1792360492762611805, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - chair_north: {fileID: -1744519679538091734, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - chair_south: {fileID: 8897469135044545092, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - chair_west_shadow: {fileID: -8754962507700609825, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - chair_west_knocked_over_shadow: {fileID: -7705244556953326594, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - chair_east_shadow: {fileID: 7746534282326919062, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - chair_east_knocked_over_shadow: {fileID: -5337670303548885857, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - chair_north_shadow: {fileID: -6877039535093087107, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - chair_south_shadow: {fileID: 5493687131121094212, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206693
+  packageName: MINIFANTASY - Dungeon
+  packageVersion: 1.1.1
+  assetPath: Assets/KrishnaPalacio/MINIFANTASY - Dungeon/Scripts/Prop Variants/DUN_Chair.cs
+  uploadId: 556302

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 576c3ead0e5c0ff41a28b202126c2ebf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206693
+  packageName: MINIFANTASY - Dungeon
+  packageVersion: 1.1.1
+  assetPath: Assets/KrishnaPalacio/MINIFANTASY - Dungeon/Scripts/DUN_AnimatedCharacterSelection.cs
+  uploadId: 556302

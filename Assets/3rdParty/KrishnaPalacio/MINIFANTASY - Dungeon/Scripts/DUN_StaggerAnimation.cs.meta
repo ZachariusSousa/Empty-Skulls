@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a0ec472fc20ffa14f95d679f9f1c3d2f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206693
+  packageName: MINIFANTASY - Dungeon
+  packageVersion: 1.1.1
+  assetPath: Assets/KrishnaPalacio/MINIFANTASY - Dungeon/Scripts/DUN_StaggerAnimation.cs
+  uploadId: 556302

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb8d976dab5e66b4e8a3be85f3fa1ee7, type: 3}
+  m_Name: DungeonTheme2D
+  m_EditorClassIdentifier: Assembly-CSharp::DungeonTheme2D
+  floorTile: {fileID: 11400000, guid: b86ed1cf049070f47bb6ff964b1d299a, type: 2}
+  wallTile: {fileID: 11400000, guid: 3a93b4b1da433a34b95e11ab34c92a50, type: 2}

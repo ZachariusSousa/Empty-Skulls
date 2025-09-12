@@ -1,0 +1,44 @@
+fileFormatVersion: 2
+guid: 5036ee1b37fe2aa459ce752197a6ac96
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - iron_east: {fileID: 8429934069909918921, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - iron_north: {fileID: 1377524041632965078, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - iron_south: {fileID: 7590507637562920295, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - iron_west: {fileID: 3452847209057597333, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - steel_east: {fileID: -6981661289956555602, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - steel_north: {fileID: -8142427736612402864, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - steel_south: {fileID: 2407569730772218126, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - steel_west: {fileID: 7637614873100429697, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - shiny_east: {fileID: -2068701153768235537, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - shiny_north: {fileID: -976886061938866911, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - shiny_south: {fileID: -6777741595023818117, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - shiny_west: {fileID: -6824210185934471467, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - soldier_statue_shadow: {fileID: 5812831960368060511, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206693
+  packageName: MINIFANTASY - Dungeon
+  packageVersion: 1.1.1
+  assetPath: Assets/KrishnaPalacio/MINIFANTASY - Dungeon/Scripts/Prop Variants/DUN_Statue.cs
+  uploadId: 556302

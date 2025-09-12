@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f619791739917ae4b88a97ae9c2b18c6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206693
+  packageName: MINIFANTASY - Dungeon
+  packageVersion: 1.1.1
+  assetPath: Assets/KrishnaPalacio/MINIFANTASY - Dungeon/Animation/Human/HumanPlayerAnimatorController.controller
+  uploadId: 556302

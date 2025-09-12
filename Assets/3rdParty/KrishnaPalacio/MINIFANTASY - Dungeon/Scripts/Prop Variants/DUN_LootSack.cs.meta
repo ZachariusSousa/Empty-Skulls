@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: d395f94880fb7514ba200c20791cf59a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - loot_sack: {fileID: 801322620620196824, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - loot_sack_knocked_over: {fileID: -7320739921232939290, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - loot_sack_upright_shadow: {fileID: -109379005264513712, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - loot_sack_knocked_over_shadow: {fileID: -5018907269183208951, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206693
+  packageName: MINIFANTASY - Dungeon
+  packageVersion: 1.1.1
+  assetPath: Assets/KrishnaPalacio/MINIFANTASY - Dungeon/Scripts/Prop Variants/DUN_LootSack.cs
+  uploadId: 556302

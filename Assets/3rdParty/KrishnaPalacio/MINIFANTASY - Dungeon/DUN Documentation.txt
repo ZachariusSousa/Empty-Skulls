@@ -1,0 +1,75 @@
+Rule Tiles
+	Rule tiles are included as a convenience to speed up the process of level creation. For more on rule tiles, refer to the Unity 2D Tilemap Extras package documentation.
+
+	The Scenes labeled with "(RuleTiles)" make use of Rule Tiles.
+	In order to show the scene properly and make use of Rule Tiles, you may need to download and import the 2D Tilemap Extras package.
+	If you are using a Unity Version 2020 or older, you will need to enable preview packages in "Package Manager > Advanced Project Settings > Enable Preview Packages."
+	If you are using a Unity Version 2021 or newer, the package should appear in the Unity Registry as a standard package.
+
+	You can find the Rule Tiles in the Tile Palette Tab. Open the drop down and select: "DUN Rule Tiles"
+	Minifantasy Rule Tiles appear red with an X symbol in the Tile Palette. This is because the default sprite is set to this "incomplete" sprite.
+	When using Minifantasy Rule Tiles, an incomplete sprite represents an incomplete grouping of rule tiles. When working properly, you should see no incomplete sprites.
+	
+	You may change these settings by opening the Rule Tile object in the pack directory under: "Tile Palettes > Rule Tiles."
+
+	Rule Tiles Included in Minifantasy Dungeon:
+		Row 1 - Wall
+
+Tile Shadows
+	When tiles have corresponding shadow tiles, they are placed in the same tile palette.
+	You can find the corresponding shadow tiles in front of the white background.
+
+	In Tile Palette prefabs that contain shadows, there is sometimes a child object named "Visualization".
+	Activate this child object to see a transparent sprite that shows shadow alignment with greater detail.
+
+Sorting Layer Setup
+	All objects are on the default layer. The objects are grouped as follows:
+	-10	Ground
+	-9	Ground Decoration, Holes	
+	-8	Ground Shadow					Defined as: shadows that rest on the ground.
+	-7	Walls
+	-6	Walls Decoration
+	-5	Walls Shadow					Defined as: shadows that rest on walls.
+	-4	Holes
+	-3		
+	-2	
+	-1	
+	0	Characters, Props, Prop Shadows
+	1	Above (DoorwayTop)
+
+	This layer setup is used for demo purposes and does not use best practices for using layers or rendering sprites in production.
+
+Placing Objects in the Scene
+	We recommend one of these two options for maintaining crisp pixels while moving objects around the scene:
+		1. Grid Snapping
+			Set Size = 0.125 (1 pixel)
+			You can change this setting in "Edit > Grid and Snap Settings > World Grid > Size."
+		2. Grid and Snap Increment Snap
+			Set Move = 0.125 (1 pixel) or 0.0625 (1/2 pixel)
+			You can change this setting in "Edit > Grid and Snap Settings > Increment Snap > Move."
+			Then hold "ctrl" while moving objects to increment their position based on the move setting.
+
+Tile Palettes
+	Tile Palettes are notated with DUN for Dungeon. 
+	This is to avoid conflicts when multiple Minifantasy packs are imported in a single project.
+
+Prop Variants
+	Props that have multiple variations include a script to switch between variants with ease. 
+	To change between prop variants, find the DUN "Prop" Script component on a prop prefab and use the selection dropdown.
+
+Scripts
+	None of the scripts included in this pack are necessary to use the basic pack contents.
+
+	- CameraController: used to control the demo camera
+	- AnimatedCharacterSelection: allows changing between characters in the animated characters demo
+	- AnimatedObjectsGroup: groups animated characters and props together for turning on and off
+	- SetAnimatorParameter: allows changing character animation in the editor
+	- StaggerAnimation: delays the time an animation starts animating
+
+Game Display
+	The demos were created using a 16:9 Aspect Ratio. 
+	If you have issues with the game screen displaying incorrectly, try setting the display to 16:9 Aspect and the Scale to 1x.
+	Also, try toggling the "Run In Edit Mode" button on the Pixel Perfect Camera component located on the Main Camera gameobject for crisp pixels in the game window while editing.
+
+Questions
+	If you have any questions or concerns, contact us at: krishna.palacio@gmail.com

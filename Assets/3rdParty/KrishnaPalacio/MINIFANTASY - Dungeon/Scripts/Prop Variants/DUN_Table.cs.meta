@@ -1,0 +1,58 @@
+fileFormatVersion: 2
+guid: 6b48a1ecbb5f1484cb1c19942e6dcfb6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - small_table: {fileID: 4334513479839838490, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - small_table_broken_west: {fileID: -7363826529030984910, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - small_table_broken_east: {fileID: -7385372698752547042, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - wide_table: {fileID: -4660724893118282161, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - wide_table_broken: {fileID: 6474533612381454296, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - long_table: {fileID: -7370078311767567610, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - long_table_broken_west: {fileID: -6176822522777527773, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - long_table_broken_east: {fileID: 1571723536551405922, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - large_table: {fileID: -708347240892218557, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - large_table_broken: {fileID: -4699302077504393560, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - small_table_shadow: {fileID: 4323101415237281611, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - small_table_broken_west_shadow: {fileID: -201388941982666039, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - small_table_broken_east_shadow: {fileID: 1555585009177036896, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - wide_table_shadow: {fileID: -1251097633990704145, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - wide_table_broken_shadow: {fileID: 5472987855207448432, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - long_table_shadow: {fileID: -1071254262379427136, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - long_table_broken_west_shadow: {fileID: -5059754668654186227, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - long_table_broken_east_shadow: {fileID: 5084460836007813195, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - large_table_shadow: {fileID: 2313429850533536075, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - large_table_broken_shadow: {fileID: -3263390419124328559, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206693
+  packageName: MINIFANTASY - Dungeon
+  packageVersion: 1.1.1
+  assetPath: Assets/KrishnaPalacio/MINIFANTASY - Dungeon/Scripts/Prop Variants/DUN_Table.cs
+  uploadId: 556302

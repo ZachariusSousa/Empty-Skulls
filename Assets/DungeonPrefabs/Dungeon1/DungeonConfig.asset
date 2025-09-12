@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc300e247c4e8c42a72a909826c0de2, type: 3}
+  m_Name: DungeonConfig
+  m_EditorClassIdentifier: Assembly-CSharp::DungeonConfig
+  width: 80
+  height: 50
+  roomCount: 12
+  roomSizeMinMax: {x: 6, y: 12}
+  placementAttempts: 200
+  corridorWidth: 1
+  startRoomSize: {x: 10, y: 8}
+  seed: my-seed-001
+  useRandomSeed: 0

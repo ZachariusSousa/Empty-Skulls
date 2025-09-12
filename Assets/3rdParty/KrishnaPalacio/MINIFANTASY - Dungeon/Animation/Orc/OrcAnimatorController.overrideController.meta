@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3bd9993b186b1344cbef05abe265a6c5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206693
+  packageName: MINIFANTASY - Dungeon
+  packageVersion: 1.1.1
+  assetPath: Assets/KrishnaPalacio/MINIFANTASY - Dungeon/Animation/Orc/OrcAnimatorController.overrideController
+  uploadId: 556302

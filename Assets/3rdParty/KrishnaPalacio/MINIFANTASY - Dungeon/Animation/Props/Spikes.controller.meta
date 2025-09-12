@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c9c900831f7493f44ac65c72d967e33f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206693
+  packageName: MINIFANTASY - Dungeon
+  packageVersion: 1.1.1
+  assetPath: Assets/KrishnaPalacio/MINIFANTASY - Dungeon/Animation/Props/Spikes.controller
+  uploadId: 556302

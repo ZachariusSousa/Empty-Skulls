@@ -1,0 +1,42 @@
+fileFormatVersion: 2
+guid: 2e60b047c028dc542a929b3ff42401d4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - banner: {fileID: -3028991587959703504, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - damaged_banner_0: {fileID: -2424331314724735504, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - damaged_banner_1: {fileID: -664116926571241061, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - damaged_banner_2: {fileID: 7073236119299992956, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - damaged_banner_3: {fileID: 8665862129789353982, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - damaged_banner_4: {fileID: -452686182277670640, guid: f7b37b91088c7d44b98c5e710477bd39,
+      type: 3}
+  - banner_shadow: {fileID: 5279663051781710251, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - damaged_banner_0_shadow: {fileID: 5528457433268544252, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - damaged_banner_1_shadow: {fileID: 8098068279398977029, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - damaged_banner_2_shadow: {fileID: 2521061885386690621, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - damaged_banner_3_shadow: {fileID: -3511487948510583650, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  - damaged_banner_4_shadow: {fileID: -7232355327869492076, guid: bedf2249d571fad4bb00e65a7679e446,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206693
+  packageName: MINIFANTASY - Dungeon
+  packageVersion: 1.1.1
+  assetPath: Assets/KrishnaPalacio/MINIFANTASY - Dungeon/Scripts/Prop Variants/DUN_Banner.cs
+  uploadId: 556302
