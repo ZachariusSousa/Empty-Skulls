@@ -2,20 +2,20 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Tiles
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Light
+  - MiniMap
+  - Enemy
+  - Projectile
   - 
   - 
   - 
@@ -41,3 +41,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 2520019537
+    locked: 0
+  - name: Tiles
+    uniqueID: 1752451263
+    locked: 0
+  - name: Characters
+    uniqueID: 2875814607
+    locked: 0
+  - name: FX
+    uniqueID: 1508884865
+    locked: 0
+  - name: Minimap
+    uniqueID: 1488922787
+    locked: 0
+  m_RenderingLayers:
+  - Default

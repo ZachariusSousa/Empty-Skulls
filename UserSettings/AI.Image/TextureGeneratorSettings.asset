@@ -15,9 +15,51 @@ MonoBehaviour:
   m_Session:
     settings:
       lastSelectedModels:
-        serializedData: []
+        serializedData:
+        - key: 0
+          value:
+            rid: 1998155030638887482
+        - key: 1
+          value:
+            rid: 1998155030638887483
+        - key: 2
+          value:
+            rid: 1998155030638887484
+        - key: 3
+          value:
+            rid: 1998155030638887485
+        - key: 4
+          value:
+            rid: 1998155030638887486
+        - key: 5
+          value:
+            rid: 1998155030638887487
       previewSettings:
         sizeFactor: 1
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 1998155030638887482
+      type: {class: ModelSelection, ns: Unity.AI.Image.Services.Stores.States, asm: Unity.AI.Image}
+      data:
+        modelID: 94c4260f-b988-40e7-b3d3-435b9f449bd0
+    - rid: 1998155030638887483
+      type: {class: ModelSelection, ns: Unity.AI.Image.Services.Stores.States, asm: Unity.AI.Image}
+      data:
+        modelID: 
+    - rid: 1998155030638887484
+      type: {class: ModelSelection, ns: Unity.AI.Image.Services.Stores.States, asm: Unity.AI.Image}
+      data:
+        modelID: 
+    - rid: 1998155030638887485
+      type: {class: ModelSelection, ns: Unity.AI.Image.Services.Stores.States, asm: Unity.AI.Image}
+      data:
+        modelID: 
+    - rid: 1998155030638887486
+      type: {class: ModelSelection, ns: Unity.AI.Image.Services.Stores.States, asm: Unity.AI.Image}
+      data:
+        modelID: 
+    - rid: 1998155030638887487
+      type: {class: ModelSelection, ns: Unity.AI.Image.Services.Stores.States, asm: Unity.AI.Image}
+      data:
+        modelID: 
