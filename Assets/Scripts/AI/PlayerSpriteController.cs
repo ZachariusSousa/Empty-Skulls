@@ -3,44 +3,49 @@ using UnityEngine;
 [RequireComponent(typeof(SpriteRenderer))]
 public class PlayerSpriteController : MonoBehaviour
 {
-    [Header("Idle")]
-    public Sprite idleRight, idleLeft, idleUp, idleDown;
+    public enum Pose { Base = 0, Walk = 1, Shoot = 2, WalkShoot = 3 }
+    private enum Facing { Right, Left, Up, Down }
 
-    [Header("Walk (single frame each)")]
-    public Sprite walkRight, walkLeft, walkUp, walkDown;
+    [Header("Directional Frames (index: 0=Base, 1=Walk, 2=Shoot, 3=WalkShoot)")]
+    public Sprite[] rightFrames = new Sprite[4];
+    public Sprite[] leftFrames  = new Sprite[4];
+    public Sprite[] upFrames    = new Sprite[4];
+    public Sprite[] downFrames  = new Sprite[4];
 
     [Header("Options")]
     public bool mirrorLeftIfEmpty = true;
     public float moveThreshold = 0.05f;
-
-    [Tooltip("Swap between idle/walk every X seconds while moving")]
+    [Tooltip("Seconds between base↔walk while moving (simple 2-state step)")]
     public float secondsPerSwap = 0.12f;
 
     [Header("Input Source")]
-    public bool useExternalInput = false;   // set true if you feed input
-    public Vector2 externalMoveInput;       // assign from movement script
-    public Rigidbody2D rbOverride;          // drag parent RB if you want
+    public bool useExternalInput = false;
+    public Vector2 externalMoveInput;
+    public Rigidbody2D rbOverride;
 
-    SpriteRenderer sr;
-    Rigidbody2D rb;
-    Vector3 lastPos;
-    float swapTimer = 0f;
-    bool showWalkFrame = false;
+    [Header("Shooting")]
+    [Tooltip("How long to show the shoot variants after TriggerShoot()")]
+    public float shootHoldSeconds = 0.15f;
 
-    enum Facing { Right, Left, Up, Down }
-    Facing lastFacing = Facing.Down;
+    private SpriteRenderer sr;
+    private Rigidbody2D rb;
+    private Vector3 lastPos;
+    private float swapTimer = 0f;
+    private bool showWalk = false;
+    private float shootTimer = 0f;
+    private Facing lastFacing = Facing.Down;
 
     void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
         rb = rbOverride ? rbOverride : GetComponent<Rigidbody2D>();
-        if (!rb) rb = GetComponentInParent<Rigidbody2D>(); // parent RB support
+        if (!rb) rb = GetComponentInParent<Rigidbody2D>();
         lastPos = transform.position;
     }
 
     void Update()
     {
-        // velocity source
+        // source velocity
         Vector2 v = useExternalInput ? externalMoveInput :
                     rb ? rb.linearVelocity :
                     (Vector2)((transform.position - lastPos) / Mathf.Max(Time.deltaTime, 0.0001f));
@@ -48,60 +53,98 @@ public class PlayerSpriteController : MonoBehaviour
 
         bool moving = v.sqrMagnitude > moveThreshold * moveThreshold;
 
-        // facing from movement
+        // facing
         if (moving)
         {
             if (Mathf.Abs(v.x) >= Mathf.Abs(v.y))
                 lastFacing = v.x >= 0 ? Facing.Right : Facing.Left;
             else
                 lastFacing = v.y >= 0 ? Facing.Up : Facing.Down;
+        }
 
-            // time-based toggle
+        // walk toggle
+        if (moving)
+        {
             swapTimer += Time.deltaTime;
             if (swapTimer >= Mathf.Max(0.01f, secondsPerSwap))
             {
                 swapTimer = 0f;
-                showWalkFrame = !showWalkFrame;
+                showWalk = !showWalk;
             }
         }
         else
         {
             swapTimer = 0f;
-            showWalkFrame = false; // show idle when stopped
+            showWalk = false;
         }
+
+        // shooting window countdown
+        if (shootTimer > 0f) shootTimer -= Time.deltaTime;
+
+        // choose pose
+        Pose pose;
+        bool shooting = shootTimer > 0f;
+
+        if (moving)
+            pose = shooting ? Pose.WalkShoot : Pose.Walk;
+        else
+            pose = shooting ? Pose.Shoot : Pose.Base;
+
+        // If you want the walk variant to only appear on every-other toggle:
+        // if (pose == Pose.Walk && !showWalk) pose = Pose.Base;
+        // if (pose == Pose.WalkShoot && !showWalk) pose = Pose.Shoot;
 
         // pick sprite
-        Sprite s = null; bool flipX = false;
-        switch (lastFacing)
+        bool flipX;
+        var frames = FramesFor(lastFacing, out flipX);
+
+        int idx = (int)pose;
+        Sprite s = (frames != null && frames.Length > idx) ? frames[idx] : null;
+
+        if (s != null)
         {
-            case Facing.Right:
-                s = showWalkFrame && moving ? (walkRight ? walkRight : idleRight) : idleRight;
-                break;
-
-            case Facing.Left:
-                if (showWalkFrame && moving)
-                {
-                    if (walkLeft) s = walkLeft;
-                    else if (mirrorLeftIfEmpty && walkRight) { s = walkRight; flipX = true; }
-                    else s = idleLeft ? idleLeft : idleRight;
-                }
-                else
-                {
-                    if (idleLeft) s = idleLeft;
-                    else if (mirrorLeftIfEmpty && idleRight) { s = idleRight; flipX = true; }
-                    else s = idleRight;
-                }
-                break;
-
-            case Facing.Up:
-                s = showWalkFrame && moving ? (walkUp ? walkUp : idleUp) : (idleUp ? idleUp : idleRight);
-                break;
-
-            default: // Down
-                s = showWalkFrame && moving ? (walkDown ? walkDown : idleDown) : (idleDown ? idleDown : idleRight);
-                break;
+            sr.sprite = s;
+            sr.flipX = flipX;
         }
-
-        if (s) { sr.sprite = s; sr.flipX = flipX; }
     }
+
+    private Sprite[] FramesFor(Facing f, out bool flipX)
+    {
+        flipX = false;
+        switch (f)
+        {
+            case Facing.Right: return rightFrames;
+            case Facing.Left:
+                if (leftFrames != null && leftFrames.Length >= 4 && leftFrames[0] != null)
+                    return leftFrames;
+                if (mirrorLeftIfEmpty && rightFrames != null && rightFrames.Length >= 4)
+                {
+                    flipX = true;
+                    return rightFrames;
+                }
+                return leftFrames;
+            case Facing.Up:    return upFrames;
+            default:           return downFrames;
+        }
+    }
+
+    /// <summary>
+    /// Call this from your shooting code when a shot is fired.
+    /// Optionally pass a custom duration.
+    /// </summary>
+    public void TriggerShoot(float duration = -1f)
+    {
+        shootTimer = (duration > 0f) ? duration : shootHoldSeconds;
+        // Optional: snap to Shoot immediately (feels snappier)
+        // swapTimer = 0f; showWalk = true;
+    }
+
+#if UNITY_EDITOR
+    void OnValidate()
+    {
+        secondsPerSwap = Mathf.Max(0.01f, secondsPerSwap);
+        moveThreshold = Mathf.Max(0f, moveThreshold);
+        shootHoldSeconds = Mathf.Max(0.01f, shootHoldSeconds);
+    }
+#endif
 }

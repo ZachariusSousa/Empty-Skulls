@@ -1,14 +1,14 @@
 using UnityEngine;
 
-public class LootBoxTrigger : MonoBehaviour
+public class SlotMachineTrigger : MonoBehaviour
 {
-    public GameObject inventoryUIPanel; // Drag the UI panel here in Inspector
+    public GameObject slotsUIPanel;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            inventoryUIPanel.SetActive(true);
+            slotsUIPanel.SetActive(true);
         }
     }
 
@@ -16,7 +16,7 @@ public class LootBoxTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            inventoryUIPanel.SetActive(false);
+            slotsUIPanel.SetActive(false);
         }
     }
 }

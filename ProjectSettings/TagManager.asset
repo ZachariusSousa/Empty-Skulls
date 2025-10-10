@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Enemy
+  - Text
   layers:
   - Default
   - TransparentFX
@@ -16,9 +18,9 @@ TagManager:
   - MiniMap
   - Enemy
   - Projectile
-  - 
-  - 
-  - 
+  - PostProcess
+  - Drops
+  - Interactable
   - 
   - 
   - 
@@ -46,6 +48,12 @@ TagManager:
     locked: 0
   - name: Tiles
     uniqueID: 1752451263
+    locked: 0
+  - name: Drops
+    uniqueID: 870025899
+    locked: 0
+  - name: Interactables
+    uniqueID: 41148903
     locked: 0
   - name: Characters
     uniqueID: 2875814607

@@ -11,9 +11,17 @@ public class SpellCaster : MonoBehaviour
     public float cooldown = 0.12f;
     public Camera cam;                      // assign or auto-uses Camera.main
 
+    [Header("Sprite Hooks")]
+    public PlayerSpriteController spriteCtrl;   // auto-finds child if left empty
+    public float shootPoseSeconds = 0.15f;      // how long to show shoot pose
+
     float cd;
 
-    void Awake() { if (!cam) cam = Camera.main; }
+    void Awake()
+    {
+        if (!cam) cam = Camera.main;
+        if (!spriteCtrl) spriteCtrl = GetComponentInChildren<PlayerSpriteController>();
+    }
 
     void Update()
     {
@@ -24,10 +32,7 @@ public class SpellCaster : MonoBehaviour
         bool pressed = ClickDown();
         bool held    = ClickHeld();
 
-        // Fire instantly on press
         if (pressed) TryFire();
-
-        // While held, fire whenever cooldown elapses
         if (held && cd <= 0f) TryFire();
     }
 
@@ -40,6 +45,11 @@ public class SpellCaster : MonoBehaviour
         var go = Instantiate(projectilePrefab, firePoint.position, Quaternion.identity);
         var proj = go.GetComponent<SpellProjectile>();
         if (proj) proj.Launch(dir);
+
+        // 👉 Only trigger shoot pose (no facing change)
+        if (spriteCtrl)
+            spriteCtrl.TriggerShoot(shootPoseSeconds);
+
         cd = Mathf.Max(0.01f, cooldown);
     }
 
@@ -68,7 +78,9 @@ public class SpellCaster : MonoBehaviour
         #else
         Vector2 screen = Input.mousePosition;
         #endif
-        var w = cam.ScreenToWorldPoint(new Vector3(screen.x, screen.y, Mathf.Abs(cam.transform.position.z)));
+
+        float depth = Mathf.Abs(cam.transform.position.z - firePoint.position.z);
+        var w = cam.ScreenToWorldPoint(new Vector3(screen.x, screen.y, depth));
         w.z = firePoint.position.z;
         return w;
     }
