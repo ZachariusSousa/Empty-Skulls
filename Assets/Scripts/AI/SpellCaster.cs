@@ -46,7 +46,7 @@ public class SpellCaster : MonoBehaviour
         var proj = go.GetComponent<SpellProjectile>();
         if (proj) proj.Launch(dir);
 
-        // 👉 Only trigger shoot pose (no facing change)
+        // Only trigger shoot pose (no facing change)
         if (spriteCtrl)
             spriteCtrl.TriggerShoot(shootPoseSeconds);
 

@@ -1,37 +1,52 @@
 fileFormatVersion: 2
-guid: 99355f6c16f5d0c428bf6566a8f6bd2b
+guid: c46b971177268244e911faf60cff21e4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8137589381329659866
-    second: Robes_0
+      213: 8573549099317436776
+    second: staff_0
   - first:
-      213: -174353308772344795
-    second: Robes_1
+      213: 2299229271038878989
+    second: staff_1
   - first:
-      213: -8570412383065100824
-    second: Robes_2
+      213: 1269225226898710512
+    second: staff_2
   - first:
-      213: 7603606657791788267
-    second: Robes_3
+      213: -7776431598321580939
+    second: staff_3
   - first:
-      213: -4652571141335405521
-    second: Robes_4
+      213: 6047035636892614791
+    second: staff_4
   - first:
-      213: 1161203224449013177
-    second: Robes_5
+      213: -3612023196339701691
+    second: staff_5
   - first:
-      213: 7901182812308118068
-    second: Robes_6
+      213: 7846836837574745603
+    second: staff_6
   - first:
-      213: -8486750722284929842
-    second: Robes_7
+      213: 7686538452671594390
+    second: staff_7
   - first:
-      213: -9170582167031145373
-    second: Robes_8
+      213: 3704420639435874896
+    second: staff_8
   - first:
-      213: -8434000208148523902
-    second: Robes_9
+      213: 6108136309404281946
+    second: staff_9
+  - first:
+      213: -4404551391951940621
+    second: staff_10
+  - first:
+      213: 4888697504980022638
+    second: staff_11
+  - first:
+      213: -1278406298713300735
+    second: staff_12
+  - first:
+      213: -8599809081971145721
+    second: staff_13
+  - first:
+      213: -4945005021801345639
+    second: staff_14
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +93,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,7 +142,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Robes_0
+      name: staff_0
       rect:
         serializedVersion: 2
         x: 1
@@ -142,14 +157,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad725227d668ee070800000000000000
-      internalID: 8137589381329659866
+      spriteID: 861af213b7d5bf670800000000000000
+      internalID: 8573549099317436776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robes_1
+      name: staff_1
       rect:
         serializedVersion: 2
         x: 13
@@ -164,14 +179,146 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52cd535e692949df0800000000000000
-      internalID: -174353308772344795
+      spriteID: d05e37517d088ef10800000000000000
+      internalID: 2299229271038878989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robes_2
+      name: staff_2
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff13458e913d9110800000000000000
+      internalID: 1269225226898710512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: staff_3
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5744be1a9a0941490800000000000000
+      internalID: -7776431598321580939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: staff_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780cc198fd26be350800000000000000
+      internalID: 6047035636892614791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: staff_5
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54873bd4a048fddc0800000000000000
+      internalID: -3612023196339701691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: staff_6
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e971a878095ec60800000000000000
+      internalID: 7846836837574745603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: staff_7
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ffed76ff11caa60800000000000000
+      internalID: 7686538452671594390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: staff_8
       rect:
         serializedVersion: 2
         x: 1
@@ -186,14 +333,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8edabc87857cf0980800000000000000
-      internalID: -8570412383065100824
+      spriteID: 0526338d1feb86330800000000000000
+      internalID: 3704420639435874896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robes_3
+      name: staff_9
       rect:
         serializedVersion: 2
         x: 13
@@ -208,18 +355,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: be4897938ff658960800000000000000
-      internalID: 7603606657791788267
+      spriteID: a5c25b17c9574c450800000000000000
+      internalID: 6108136309404281946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robes_4
+      name: staff_10
       rect:
         serializedVersion: 2
-        x: 1
-        y: 29
+        x: 25
+        y: 41
         width: 10
         height: 10
       alignment: 0
@@ -230,18 +377,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2c2874823fbe6fb0800000000000000
-      internalID: -4652571141335405521
+      spriteID: 3f390c768d3efd2c0800000000000000
+      internalID: -4404551391951940621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robes_5
+      name: staff_11
       rect:
         serializedVersion: 2
-        x: 13
-        y: 29
+        x: 37
+        y: 41
         width: 10
         height: 10
       alignment: 0
@@ -252,18 +399,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b552592e2c6d1010800000000000000
-      internalID: 1161203224449013177
+      spriteID: e653ca6ba7428d340800000000000000
+      internalID: 4888697504980022638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robes_6
+      name: staff_12
       rect:
         serializedVersion: 2
-        x: 1
-        y: 17
+        x: 49
+        y: 41
         width: 10
         height: 10
       alignment: 0
@@ -274,18 +421,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43a1c01d7e3a6ad60800000000000000
-      internalID: 7901182812308118068
+      spriteID: 101629e9e30324ee0800000000000000
+      internalID: -1278406298713300735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robes_7
+      name: staff_13
       rect:
         serializedVersion: 2
-        x: 13
-        y: 17
+        x: 61
+        y: 41
         width: 10
         height: 10
       alignment: 0
@@ -296,18 +443,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eccbaecce21093a80800000000000000
-      internalID: -8486750722284929842
+      spriteID: 7048ee4243757a880800000000000000
+      internalID: -8599809081971145721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robes_8
+      name: staff_14
       rect:
         serializedVersion: 2
-        x: 1
-        y: 5
+        x: 73
+        y: 41
         width: 10
         height: 10
       alignment: 0
@@ -318,30 +465,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36c939e5b1c8bb080800000000000000
-      internalID: -9170582167031145373
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Robes_9
-      rect:
-        serializedVersion: 2
-        x: 13
-        y: 5
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2849cb5fe7964fa80800000000000000
-      internalID: -8434000208148523902
+      spriteID: 99d0207e120df5bb0800000000000000
+      internalID: -4945005021801345639
       vertices: []
       indices: 
       edges: []
@@ -360,16 +485,21 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Robes_0: 8137589381329659866
-      Robes_1: -174353308772344795
-      Robes_2: -8570412383065100824
-      Robes_3: 7603606657791788267
-      Robes_4: -4652571141335405521
-      Robes_5: 1161203224449013177
-      Robes_6: 7901182812308118068
-      Robes_7: -8486750722284929842
-      Robes_8: -9170582167031145373
-      Robes_9: -8434000208148523902
+      staff_0: 8573549099317436776
+      staff_1: 2299229271038878989
+      staff_10: -4404551391951940621
+      staff_11: 4888697504980022638
+      staff_12: -1278406298713300735
+      staff_13: -8599809081971145721
+      staff_14: -4945005021801345639
+      staff_2: 1269225226898710512
+      staff_3: -7776431598321580939
+      staff_4: 6047035636892614791
+      staff_5: -3612023196339701691
+      staff_6: 7846836837574745603
+      staff_7: 7686538452671594390
+      staff_8: 3704420639435874896
+      staff_9: 6108136309404281946
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

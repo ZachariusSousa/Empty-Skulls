@@ -67,12 +67,6 @@ public class RangedAttack : EnemyAttackBase
             Vector2 vel = rot * Vector2.right * speed;
             var proj = Instantiate(projectilePrefab, origin, rot);
 
-            // Basic init
-            proj.Initialize(damage, vel, projectileLifetime, projectileHitMask, gameObject);
-
-            // Optional overrides for melee-style behavior, etc.
-            if (overridePierceCount >= 0) proj.pierceCount = overridePierceCount;
-            if (overrideMaxTravelDistance > 0f) proj.maxTravelDistance = overrideMaxTravelDistance;
         }
     }
 }
