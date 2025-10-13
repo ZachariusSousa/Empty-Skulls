@@ -5,15 +5,14 @@ using UnityEngine.InputSystem;
 
 public class SpellCaster : MonoBehaviour
 {
-    public Transform firePoint;             // empty child on player
-    public GameObject projectilePrefab;     // prefab with SpellProjectile + Rigidbody2D
-    [Tooltip("Seconds between shots while holding")]
+    public Transform firePoint;                 // child on player
+    public GameObject projectilePrefab;         // prefab with Projectile + Collider2D (isTrigger)
     public float cooldown = 0.12f;
-    public Camera cam;                      // assign or auto-uses Camera.main
+    public Camera cam;
 
     [Header("Sprite Hooks")]
-    public PlayerSpriteController spriteCtrl;   // auto-finds child if left empty
-    public float shootPoseSeconds = 0.15f;      // how long to show shoot pose
+    public PlayerSpriteController spriteCtrl;
+    public float shootPoseSeconds = 0.15f;
 
     float cd;
 
@@ -42,11 +41,20 @@ public class SpellCaster : MonoBehaviour
         Vector2 dir = (Vector2)(m - firePoint.position);
         if (dir.sqrMagnitude < 0.0001f) return;
 
-        var go = Instantiate(projectilePrefab, firePoint.position, Quaternion.identity);
-        var proj = go.GetComponent<SpellProjectile>();
-        if (proj) proj.Launch(dir);
+        // Rotates the projectile to face the fire direction (0° = up, so -90)
+        float ang = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        Quaternion rot = Quaternion.Euler(0f, 0f, ang - 90f);
 
-        // Only trigger shoot pose (no facing change)
+        var go = Instantiate(projectilePrefab, firePoint.position, rot);
+
+        // Use the new Projectile script
+        var proj = go.GetComponent<Projectile>();
+        if (proj)
+        {
+            proj.owner = gameObject; 
+            proj.Launch(dir);    
+        }
+
         if (spriteCtrl)
             spriteCtrl.TriggerShoot(shootPoseSeconds);
 
@@ -55,30 +63,29 @@ public class SpellCaster : MonoBehaviour
 
     bool ClickDown()
     {
-        #if ENABLE_INPUT_SYSTEM
+    #if ENABLE_INPUT_SYSTEM
         return Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame;
-        #else
+    #else
         return Input.GetMouseButtonDown(0);
-        #endif
+    #endif
     }
 
     bool ClickHeld()
     {
-        #if ENABLE_INPUT_SYSTEM
+    #if ENABLE_INPUT_SYSTEM
         return Mouse.current != null && Mouse.current.leftButton.isPressed;
-        #else
+    #else
         return Input.GetMouseButton(0);
-        #endif
+    #endif
     }
 
     Vector3 MouseWorld()
     {
-        #if ENABLE_INPUT_SYSTEM
+    #if ENABLE_INPUT_SYSTEM
         Vector2 screen = Mouse.current != null ? (Vector2)Mouse.current.position.ReadValue() : (Vector2)Input.mousePosition;
-        #else
+    #else
         Vector2 screen = Input.mousePosition;
-        #endif
-
+    #endif
         float depth = Mathf.Abs(cam.transform.position.z - firePoint.position.z);
         var w = cam.ScreenToWorldPoint(new Vector3(screen.x, screen.y, depth));
         w.z = firePoint.position.z;
