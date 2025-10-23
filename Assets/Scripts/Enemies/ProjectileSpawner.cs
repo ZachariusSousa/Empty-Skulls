@@ -5,11 +5,14 @@ public class ProjectileSpawner : MonoBehaviour
     public enum Pattern { Straight, Cone, Arc, Circle, RandomInArc }
 
     [Header("Rotation")]
-    public Transform pivot;           // defaults to self
-    public float spinSpeed = 90f;     // deg/sec
+    public Transform pivot;                  // defaults to self
+    public bool   spinEnabled = true;        // explicit on/off for rotation
+    public float  spinSpeed   = 90f;         // deg/sec (speed magnitude)
+    public bool   backAndForth = false;      // if true, flip direction on a timer
+    public float  reverseEverySeconds = 2f;  // X seconds forward, X seconds backward
 
     [Header("Targeting")]
-    public Transform target;          // assign the player (or any Transform)
+    public Transform target;                 // assign the player (or any Transform)
 
     [System.Serializable]
     public class Module
@@ -27,13 +30,17 @@ public class ProjectileSpawner : MonoBehaviour
 
         public float angleOffsetDeg = 0f;
 
-        // New: aim at target instead of pivot.up
+        // Aim at target instead of pivot.up
         public bool aimAtTarget = false;
 
         [HideInInspector] public float cd;
     }
 
     public Module[] modules;
+
+    // --- internal rotation state ---
+    float _spinTimer = 0f;
+    int   _spinDir   = 1; // +1 or -1
 
     void Awake()
     {
@@ -42,9 +49,32 @@ public class ProjectileSpawner : MonoBehaviour
 
     void Update()
     {
-        if (Mathf.Abs(spinSpeed) > 0.0001f)
-            pivot.Rotate(0f, 0f, spinSpeed * Time.deltaTime, Space.Self);
+        // --- Rotation ---
+        if (spinEnabled && pivot)
+        {
+            float dt = Time.deltaTime;
 
+            if (backAndForth)
+            {
+                // Flip direction every reverseEverySeconds
+                float period = Mathf.Max(0.01f, reverseEverySeconds);
+                _spinTimer += dt;
+                if (_spinTimer >= period)
+                {
+                    _spinTimer = 0f;
+                    _spinDir *= -1; // flip
+                }
+            }
+            else
+            {
+                _spinDir = 1; // always forward when not back-and-forth
+                _spinTimer = 0f;
+            }
+
+            pivot.Rotate(0f, 0f, _spinDir * spinSpeed * dt, Space.Self);
+        }
+
+        // --- Firing ---
         if (modules == null) return;
 
         for (int i = 0; i < modules.Length; i++)
