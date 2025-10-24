@@ -58,6 +58,9 @@ TagManager:
   - name: Characters
     uniqueID: 2875814607
     locked: 0
+  - name: Foliage
+    uniqueID: 374973977
+    locked: 0
   - name: FX
     uniqueID: 1508884865
     locked: 0
