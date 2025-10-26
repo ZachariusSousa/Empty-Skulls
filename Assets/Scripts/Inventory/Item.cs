@@ -1,7 +1,7 @@
 using UnityEngine;
 
-public enum ItemKind { Consumable, Weapon, Armor, Ring, Ability, Misc }
-public enum EquipSlotKind { None, Weapon, Armor, Ring, Ability }
+public enum ItemKind { Consumable, Weapon, Armor, Chip, Ability, Misc }
+public enum EquipSlotKind { None, Weapon, Armor, Chip, Ability }
 
 [CreateAssetMenu(menuName = "EmptySkulls/Item", fileName = "NewItem")]
 public class Item : ScriptableObject

@@ -4,7 +4,8 @@ public class PlayerEquipment : MonoBehaviour
 {
     public EquipmentSlotUI weaponSlot;
     public EquipmentSlotUI armorSlot;
-    public EquipmentSlotUI ringSlot;
+    public EquipmentSlotUI chipSlot;
+    public EquipmentSlotUI abilitySlot;
 
     public PlayerStats stats;
 
@@ -14,7 +15,8 @@ public class PlayerEquipment : MonoBehaviour
 
         Acc(weaponSlot?.item);
         Acc(armorSlot?.item);
-        Acc(ringSlot?.item);
+        Acc(chipSlot?.item);
+        Acc(abilitySlot?.item);
 
         // Push to PlayerStats bonus layer
         stats.SetBonus("att",   att);
