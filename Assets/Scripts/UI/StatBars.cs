@@ -54,16 +54,23 @@ public class StatBars : MonoBehaviour
 
     void OnStatChanged(string changed, int _)
     {
+        // Update only what this bar cares about
         switch (statKind)
         {
             case StatKind.HP:
-                if (changed == "hp" || changed == "maxHP") RefreshHP();
+                // respond to HP changes and to either base or effective max changes
+                if (changed == "hp" || changed == "maxHP" || changed == "maxHP_eff")
+                    RefreshHP();
                 break;
+
             case StatKind.MP:
-                if (changed == "mp" || changed == "maxMP") RefreshMP();
+                if (changed == "mp" || changed == "maxMP" || changed == "maxMP_eff")
+                    RefreshMP();
                 break;
+
             case StatKind.XP:
-                if (changed == "xp" || changed == "xpToNext" || changed == "level") RefreshXP();
+                if (changed == "xp" || changed == "xpToNext" || changed == "level")
+                    RefreshXP();
                 break;
         }
     }
@@ -81,24 +88,40 @@ public class StatBars : MonoBehaviour
     void RefreshHP()
     {
         if (stats == null || slider == null) return;
-        slider.maxValue = stats.MaxHP;
-        slider.value = stats.HP;
-        if (label) label.text = $"{stats.HP} / {stats.MaxHP}";
+
+        // Use effective max so equipment/auras resize the bar
+        var max = stats.EffMaxHP;
+        var cur = stats.HP;
+
+        slider.maxValue = max;
+        slider.value = cur;
+
+        if (label)
+            label.text = $"{cur} / {max}";
     }
 
     void RefreshMP()
     {
         if (stats == null || slider == null) return;
-        slider.maxValue = stats.MaxMP;
-        slider.value = stats.MP;
-        if (label) label.text = $"{stats.MP} / {stats.MaxMP}";
+
+        var max = stats.EffMaxMP;
+        var cur = stats.MP;
+
+        slider.maxValue = max;
+        slider.value = cur;
+
+        if (label)
+            label.text = $"{cur} / {max}";
     }
 
     void RefreshXP()
     {
         if (stats == null || slider == null) return;
+
         slider.maxValue = stats.xpToNext;
         slider.value = stats.xp;
-        if (label) label.text = $"{stats.xp} / {stats.xpToNext}";
+
+        if (label)
+            label.text = $"{stats.xp} / {stats.xpToNext}";
     }
 }
