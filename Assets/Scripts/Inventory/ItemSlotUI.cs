@@ -15,14 +15,15 @@ public class ItemSlotUI : MonoBehaviour
     public EquipSlotKind equipSlot = EquipSlotKind.None;  // used when category == Equip
     public ItemKind[] allowedKinds;                       // optional filter for Inventory
 
+    [Header("Links (auto)")]
+    public InventoryUI inventory;                         // auto-found in parent
+
     [HideInInspector] public Item item;
 
     public bool IsEmpty => item == null;
 
-    // --------- LIFECYCLE ---------
     void Awake()
     {
-        // No runtime creation/replacement of children.
         if (!background) background = GetComponent<Image>();
 
         if (!icon)
@@ -30,6 +31,8 @@ public class ItemSlotUI : MonoBehaviour
             var t = transform.Find("Icon"); // direct child only
             if (t) icon = t.GetComponent<Image>();
         }
+
+        if (!inventory) inventory = GetComponentInParent<InventoryUI>();
 
         EnsureIconComponents();
         InitEmptyLook();
@@ -63,7 +66,6 @@ public class ItemSlotUI : MonoBehaviour
     }
 #endif
 
-    // --------- HELPERS ---------
     void EnsureIconComponents()
     {
         if (!icon) return;
@@ -71,7 +73,7 @@ public class ItemSlotUI : MonoBehaviour
         if (!icon.TryGetComponent<CanvasGroup>(out _))
             icon.gameObject.AddComponent<CanvasGroup>();
 
-        icon.raycastTarget = true;   // must be true so OnBeginDrag fires
+        icon.raycastTarget = true;   // must be true so clicks & drags hit the Icon
         icon.preserveAspect = true;
     }
 
@@ -85,7 +87,6 @@ public class ItemSlotUI : MonoBehaviour
         }
     }
 
-    // --------- RULES ---------
     public bool IsCompatible(Item it)
     {
         if (it == null) return true;
@@ -102,7 +103,6 @@ public class ItemSlotUI : MonoBehaviour
         return true;
     }
 
-    // --------- API ---------
     public void SetItem(Item newItem)
     {
         item = newItem;
@@ -112,14 +112,13 @@ public class ItemSlotUI : MonoBehaviour
         {
             icon.sprite = item.icon;
             icon.enabled = true;
-            icon.raycastTarget = true;   // ensure clickable when filled
+            icon.raycastTarget = true;
             icon.preserveAspect = true;
         }
         else
         {
             icon.sprite = null;
-            icon.enabled = false;        // no white box when empty
-            // raycastTarget can stay true; disabled Image won't block clicks
+            icon.enabled = false;
         }
     }
 

@@ -4,11 +4,12 @@ using UnityEngine.UI;
 
 [RequireComponent(typeof(CanvasGroup))]
 public class DraggableItemUI : MonoBehaviour,
-    IBeginDragHandler, IDragHandler, IEndDragHandler
+    IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerClickHandler
 {
     Canvas _rootCanvas;
     CanvasGroup _cg;
     ItemSlotUI _fromSlot;
+    InventoryUI _inventory;    // cached from parent
 
     // Drag ghost
     GameObject _ghostGO;
@@ -20,16 +21,30 @@ public class DraggableItemUI : MonoBehaviour,
         var c = GetComponentInParent<Canvas>();
         _rootCanvas = c ? c.rootCanvas : null;   // use the root canvas
         _cg = GetComponent<CanvasGroup>();
+        _fromSlot = GetComponentInParent<ItemSlotUI>();
+        _inventory = _fromSlot ? _fromSlot.inventory : GetComponentInParent<InventoryUI>();
+
         if (_rootCanvas == null)
             Debug.LogError("[DraggableItemUI] No Canvas found in parents.");
     }
 
+    // ---------- Double-click to auto-equip ----------
+    public void OnPointerClick(PointerEventData e)
+    {
+        if (e.clickCount >= 2)
+        {
+            if (_fromSlot && _inventory)
+                _inventory.TryAutoEquip(_fromSlot);
+        }
+    }
+
+    // ---------- Drag & drop ----------
     public void OnBeginDrag(PointerEventData e)
     {
         _fromSlot = transform.GetComponentInParent<ItemSlotUI>();
         if (_fromSlot == null || _fromSlot.IsEmpty || _fromSlot.item?.icon == null) return;
 
-        // Make a ghost image to drag
+        // Create a ghost image to drag
         _ghostGO = new GameObject("DragGhost", typeof(RectTransform), typeof(Image));
         _ghostRT = _ghostGO.GetComponent<RectTransform>();
         _ghostImg = _ghostGO.GetComponent<Image>();
@@ -41,6 +56,9 @@ public class DraggableItemUI : MonoBehaviour,
         _ghostImg.color = new Color(1f, 1f, 1f, 0.9f);
 
         UpdateGhostPos(e);
+
+        // Hide the source icon while dragging (visual "pick up")
+        if (_fromSlot.icon) _fromSlot.icon.enabled = false;
 
         // Let raycasts hit slots behind while dragging
         _cg.blocksRaycasts = false;
@@ -60,6 +78,8 @@ public class DraggableItemUI : MonoBehaviour,
         if (e.pointerCurrentRaycast.gameObject)
             target = e.pointerCurrentRaycast.gameObject.GetComponentInParent<ItemSlotUI>();
 
+        bool swapped = false;
+
         if (_fromSlot != null && !_fromSlot.IsEmpty && target != null)
         {
             if (target.IsCompatible(_fromSlot.item))
@@ -67,8 +87,13 @@ public class DraggableItemUI : MonoBehaviour,
                 var tmp = target.item;
                 target.SetItem(_fromSlot.item);
                 _fromSlot.SetItem(tmp);
+                swapped = true;
             }
         }
+
+        // If not swapped (dropped nowhere/invalid), restore the source icon
+        if (!swapped && _fromSlot != null)
+            _fromSlot.SetItem(_fromSlot.item);
 
         if (_ghostGO) Destroy(_ghostGO);
         _ghostGO = null; _ghostRT = null; _ghostImg = null;
