@@ -6,101 +6,103 @@ public enum SlotCategory { Inventory, Equip }
 [DisallowMultipleComponent]
 public class ItemSlotUI : MonoBehaviour
 {
-    [Header("UI (auto-wired)")]
-    public Image background;     // Image on this GameObject
-    public Image icon;           // Image on child "Icon"
+    [Header("UI (auto)")]
+    public Image background;   // Image on this object
+    public Image icon;         // Image on child "Icon"
 
     [Header("Slot Rules")]
     public SlotCategory category = SlotCategory.Inventory;
-
-    [Tooltip("For equipment slots only: which equip slot this is (e.g., Weapon, Armor, Chip, Ability).")]
-    public EquipSlotKind equipSlot = EquipSlotKind.None;
-
-    [Tooltip("For inventory slots: leave empty to accept any kind; otherwise only these kinds are allowed.")]
-    public ItemKind[] allowedKinds; // used only when category == Inventory
+    public EquipSlotKind equipSlot = EquipSlotKind.None;  // used when category == Equip
+    public ItemKind[] allowedKinds;                       // optional filter for Inventory
 
     [HideInInspector] public Item item;
 
-    // cache default state (so play-mode changes don't persist)
-    Sprite _defaultIconSprite;
-    bool _defaultIconEnabled;
-
     public bool IsEmpty => item == null;
 
-    void Reset() => AutoWire();
-    void OnValidate() => AutoWire();
-
+    // --------- LIFECYCLE ---------
     void Awake()
     {
-        if (!background || !icon) AutoWire();
+        // No runtime creation/replacement of children.
+        if (!background) background = GetComponent<Image>();
 
         if (!icon)
         {
-            Debug.LogError($"[ItemSlotUI] Missing 'Icon' child with Image under '{name}'. " +
-                           "I tried to create one but failed. Ensure a direct child named 'Icon' has an Image.");
-            return;
+            var t = transform.Find("Icon"); // direct child only
+            if (t) icon = t.GetComponent<Image>();
         }
 
-        _defaultIconSprite = icon.sprite;
-        _defaultIconEnabled = icon.enabled;
+        EnsureIconComponents();
+        InitEmptyLook();
     }
 
-    void AutoWire()
+#if UNITY_EDITOR
+    void Reset() { AutoWire_EditorOnly(); EnsureIconComponents(); InitEmptyLook(); }
+    void OnValidate() { AutoWire_EditorOnly(); EnsureIconComponents(); }
+
+    // Editor-only auto-wiring so we never spawn/replace at runtime
+    void AutoWire_EditorOnly()
     {
-        // Background must be on this same object
+        if (Application.isPlaying) return;
+
         if (!background) background = GetComponent<Image>();
 
-        // Try to find a direct child named "Icon"
         var t = transform.Find("Icon");
-        if (t)
+        if (!t)
         {
-            if (!icon) icon = t.GetComponent<Image>();
-            if (!icon)
-            {
-                icon = t.gameObject.AddComponent<Image>();
-                icon.raycastTarget = false;
-                icon.preserveAspect = true;
-            }
-        }
-        else
-        {
-            // If child "Icon" doesn't exist, create it with an Image
             var go = new GameObject("Icon", typeof(RectTransform), typeof(Image));
             var rt = go.GetComponent<RectTransform>();
             rt.SetParent(transform, false);
             rt.anchorMin = Vector2.zero; rt.anchorMax = Vector2.one;
             rt.offsetMin = Vector2.zero; rt.offsetMax = Vector2.zero;
             icon = go.GetComponent<Image>();
-            icon.raycastTarget = false;
-            icon.preserveAspect = true;
+        }
+        else
+        {
+            icon = t.GetComponent<Image>() ?? t.gameObject.AddComponent<Image>();
+        }
+    }
+#endif
+
+    // --------- HELPERS ---------
+    void EnsureIconComponents()
+    {
+        if (!icon) return;
+
+        if (!icon.TryGetComponent<CanvasGroup>(out _))
+            icon.gameObject.AddComponent<CanvasGroup>();
+
+        icon.raycastTarget = true;   // must be true so OnBeginDrag fires
+        icon.preserveAspect = true;
+    }
+
+    void InitEmptyLook()
+    {
+        if (!icon) return;
+        if (item == null)
+        {
+            icon.sprite = null;
+            icon.enabled = false;    // hides Unity's default white sprite
         }
     }
 
-    /// <summary>
-    /// Returns true if this slot can accept the given item based on slot rules.
-    /// </summary>
+    // --------- RULES ---------
     public bool IsCompatible(Item it)
     {
         if (it == null) return true;
 
         if (category == SlotCategory.Equip)
-        {
-            // Must be equippable and match the exact equip slot
             return it.isEquippable && it.equipSlot == equipSlot;
-        }
 
-        // Inventory slot
         if (allowedKinds != null && allowedKinds.Length > 0)
         {
             for (int i = 0; i < allowedKinds.Length; i++)
                 if (allowedKinds[i] == it.kind) return true;
             return false;
         }
-
-        // No filter → accept anything
         return true;
     }
 
+    // --------- API ---------
     public void SetItem(Item newItem)
     {
         item = newItem;
@@ -110,12 +112,14 @@ public class ItemSlotUI : MonoBehaviour
         {
             icon.sprite = item.icon;
             icon.enabled = true;
+            icon.raycastTarget = true;   // ensure clickable when filled
             icon.preserveAspect = true;
         }
         else
         {
             icon.sprite = null;
-            icon.enabled = false; // <- hides the white box when empty
+            icon.enabled = false;        // no white box when empty
+            // raycastTarget can stay true; disabled Image won't block clicks
         }
     }
 

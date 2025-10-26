@@ -7,81 +7,80 @@ public class DraggableItemUI : MonoBehaviour,
     IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     Canvas _rootCanvas;
-    RectTransform _rt;
     CanvasGroup _cg;
-    Transform _originalParent;
     ItemSlotUI _fromSlot;
+
+    // Drag ghost
+    GameObject _ghostGO;
+    RectTransform _ghostRT;
+    Image _ghostImg;
 
     void Awake()
     {
-        _rt = GetComponent<RectTransform>();
+        var c = GetComponentInParent<Canvas>();
+        _rootCanvas = c ? c.rootCanvas : null;   // use the root canvas
         _cg = GetComponent<CanvasGroup>();
-        _rootCanvas = GetComponentInParent<Canvas>();
+        if (_rootCanvas == null)
+            Debug.LogError("[DraggableItemUI] No Canvas found in parents.");
     }
 
-    public void OnBeginDrag(PointerEventData eventData)
+    public void OnBeginDrag(PointerEventData e)
     {
-        _originalParent = transform.parent;
-        _fromSlot = _originalParent.GetComponent<ItemSlotUI>();
-        if (_fromSlot == null || _fromSlot.IsEmpty) return;
+        _fromSlot = transform.GetComponentInParent<ItemSlotUI>();
+        if (_fromSlot == null || _fromSlot.IsEmpty || _fromSlot.item?.icon == null) return;
 
-        // Pop to top so we can drag above everything
-        transform.SetParent(_rootCanvas.transform, true);
-        _cg.blocksRaycasts = false; // allow raycast to pass through while dragging
+        // Make a ghost image to drag
+        _ghostGO = new GameObject("DragGhost", typeof(RectTransform), typeof(Image));
+        _ghostRT = _ghostGO.GetComponent<RectTransform>();
+        _ghostImg = _ghostGO.GetComponent<Image>();
+
+        _ghostRT.SetParent(_rootCanvas.transform, false);
+        _ghostImg.sprite = _fromSlot.item.icon;
+        _ghostImg.raycastTarget = false; // let raycasts pass through
+        _ghostImg.preserveAspect = true;
+        _ghostImg.color = new Color(1f, 1f, 1f, 0.9f);
+
+        UpdateGhostPos(e);
+
+        // Let raycasts hit slots behind while dragging
+        _cg.blocksRaycasts = false;
     }
 
-    public void OnDrag(PointerEventData eventData)
+    public void OnDrag(PointerEventData e)
     {
-        if (_fromSlot == null || _fromSlot.IsEmpty) return;
-        RectTransformUtility.ScreenPointToLocalPointInRectangle(
-            _rootCanvas.transform as RectTransform,
-            eventData.position, _rootCanvas.worldCamera, out var pos);
-        _rt.anchoredPosition = pos;
+        if (_ghostRT == null) return;
+        UpdateGhostPos(e);
     }
 
-    public void OnEndDrag(PointerEventData eventData)
+    public void OnEndDrag(PointerEventData e)
     {
         _cg.blocksRaycasts = true;
 
-        // Did we drop on a slot?
-        var target = eventData.pointerCurrentRaycast.gameObject;
-        var targetSlot = target ? target.GetComponentInParent<ItemSlotUI>() : null;
+        ItemSlotUI target = null;
+        if (e.pointerCurrentRaycast.gameObject)
+            target = e.pointerCurrentRaycast.gameObject.GetComponentInParent<ItemSlotUI>();
 
-        if (targetSlot == null)
+        if (_fromSlot != null && !_fromSlot.IsEmpty && target != null)
         {
-            // Not dropped on a slot → snap back
-            transform.SetParent(_originalParent, true);
-            _rt.anchoredPosition = Vector2.zero;
-            return;
-        }
-
-        // Validate equip rules if dropping onto equipment
-        if (targetSlot is EquipmentSlotUI equipSlot)
-        {
-            if (_fromSlot.item == null || !_fromSlot.item.isEquippable ||
-                _fromSlot.item.equipSlot != equipSlot.slotKind)
+            if (target.IsCompatible(_fromSlot.item))
             {
-                // invalid equip, snap back
-                transform.SetParent(_originalParent, true);
-                _rt.anchoredPosition = Vector2.zero;
-                return;
+                var tmp = target.item;
+                target.SetItem(_fromSlot.item);
+                _fromSlot.SetItem(tmp);
             }
         }
 
-        // Swap items
-        var tmp = targetSlot.item;
-        targetSlot.SetItem(_fromSlot.item);
-        _fromSlot.SetItem(tmp);
+        if (_ghostGO) Destroy(_ghostGO);
+        _ghostGO = null; _ghostRT = null; _ghostImg = null;
+    }
 
-        // Re-parent icon to the slot we just moved into
-        transform.SetParent(targetSlot.icon.transform, false);
-        _rt.anchoredPosition = Vector2.zero;
-
-        // Put any old icon (if swap) back onto old slot
-        if (_fromSlot.item != null)
+    void UpdateGhostPos(PointerEventData e)
+    {
+        RectTransform canvasRT = _rootCanvas.transform as RectTransform;
+        if (RectTransformUtility.ScreenPointToLocalPointInRectangle(
+            canvasRT, e.position, _rootCanvas.worldCamera, out var localPos))
         {
-            // The icon object remains with the dragged item.
-            // If you want separate icons per slot, you can instead refresh from data.
+            _ghostRT.anchoredPosition = localPos;
         }
     }
 }
