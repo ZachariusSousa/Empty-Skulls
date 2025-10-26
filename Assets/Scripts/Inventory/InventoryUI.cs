@@ -1,48 +1,151 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class InventoryUI : MonoBehaviour
 {
-    [Header("All slots under this UI (auto-wired if empty)")]
+    [Header("Auto-wiring")]
+    [Tooltip("Roots to search for ItemSlotUI in addition to this object.")]
+    public Transform[] extraRoots;
+
+    [Tooltip("Also search the entire scene for ItemSlotUI (inactive included).")]
+    public bool searchWholeScene = true;
+
+    [Header("All slots discovered (read-only at runtime)")]
     public ItemSlotUI[] slots;
+
+    [Header("Debug")]
+    public bool logDebug = false;
 
     void Awake()
     {
-        if (slots == null || slots.Length == 0)
-            slots = GetComponentsInChildren<ItemSlotUI>(includeInactive: true);
+        AutoWireSlots();
     }
 
-    /// Move an equippable item from 'fromSlot' into the first compatible equipment slot.
-    /// Prefers an empty compatible equipment slot; otherwise swaps with the first compatible.
-    public bool TryAutoEquip(ItemSlotUI fromSlot)
+    void AutoWireSlots()
     {
-        if (!fromSlot || fromSlot.IsEmpty) return false;
+        var list = new List<ItemSlotUI>(64);
 
-        var it = fromSlot.item;
-        if (it == null || !it.isEquippable) return false;
+        // 1) Children of this object
+        var local = GetComponentsInChildren<ItemSlotUI>(includeInactive: true);
+        if (local != null && local.Length > 0) list.AddRange(local);
 
-        // Pass 1: empty compatible equipment slot
-        for (int i = 0; i < slots.Length; i++)
+        // 2) Extra roots
+        if (extraRoots != null)
         {
-            var s = slots[i];
-            if (s && s.category == SlotCategory.Equip && s.IsEmpty && s.IsCompatible(it))
+            foreach (var root in extraRoots)
             {
-                s.SetItem(it);
-                fromSlot.Clear();
-                return true;
+                if (!root) continue;
+                var arr = root.GetComponentsInChildren<ItemSlotUI>(includeInactive: true);
+                if (arr != null && arr.Length > 0) list.AddRange(arr);
             }
         }
 
-        // Pass 2: swap with first compatible equipment slot
-        for (int i = 0; i < slots.Length; i++)
+        // 3) Whole scene
+        if (searchWholeScene)
         {
-            var s = slots[i];
-            if (s && s.category == SlotCategory.Equip && s.IsCompatible(it))
+#if UNITY_2023_1_OR_NEWER
+            var all = FindObjectsByType<ItemSlotUI>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+#else
+            var all = Resources.FindObjectsOfTypeAll<ItemSlotUI>();
+#endif
+            if (all != null && all.Length > 0) list.AddRange(all);
+        }
+
+        // Dedup
+        var seen = new HashSet<ItemSlotUI>();
+        var unique = new List<ItemSlotUI>(list.Count);
+        foreach (var s in list)
+        {
+            if (s && !seen.Contains(s))
             {
-                var tmp = s.item;
-                s.SetItem(it);
-                fromSlot.SetItem(tmp);
-                return true;
+                seen.Add(s);
+                unique.Add(s);
             }
+        }
+
+        slots = unique.ToArray();
+
+        if (logDebug)
+        {
+            int equip = 0, inv = 0;
+            foreach (var s in slots) { if (!s) continue; if (s.category == SlotCategory.Equip) equip++; else inv++; }
+        }
+    }
+
+    // ===== Helpers =====
+    ItemSlotUI FindFirstEmptyEquipSlotCompatible(Item item)
+    {
+        foreach (var s in slots)
+            if (s && s.category == SlotCategory.Equip && s.IsEmpty && s.IsCompatible(item))
+                return s;
+        return null;
+    }
+
+    ItemSlotUI FindFirstCompatibleEquipSlotOccupied(Item item)
+    {
+        foreach (var s in slots)
+            if (s && s.category == SlotCategory.Equip && !s.IsEmpty && s.IsCompatible(item))
+                return s;
+        return null;
+    }
+
+    ItemSlotUI FindFirstEmptyInventorySlotCompatible(Item item)
+    {
+        foreach (var s in slots)
+            if (s && s.category == SlotCategory.Inventory && s.IsEmpty && s.IsCompatible(item))
+                return s;
+        return null;
+    }
+
+    // ===== Public API =====
+
+    /// Auto-equip an item from any slot into an Equip slot.
+    public bool TryAutoEquip(ItemSlotUI fromSlot)
+    {
+        if (fromSlot == null || fromSlot.IsEmpty) return false;
+        var it = fromSlot.item;
+        if (it == null || !it.isEquippable) return false;
+
+        if (slots == null || slots.Length == 0) AutoWireSlots();
+
+        var emptyEquip = FindFirstEmptyEquipSlotCompatible(it);
+        if (emptyEquip != null)
+        {
+            emptyEquip.SetItem(it);
+            fromSlot.Clear();
+            return true;
+        }
+
+        var occupiedEquip = FindFirstCompatibleEquipSlotOccupied(it);
+        if (occupiedEquip != null)
+        {
+            var tmp = occupiedEquip.item;
+            occupiedEquip.SetItem(it);
+            fromSlot.SetItem(tmp);
+            return true;
+        }
+
+        return false;
+    }
+
+    /// Unequip an item from an Equip slot into the first compatible empty Inventory slot.
+    public bool TryUnequip(ItemSlotUI fromEquipSlot)
+    {
+        if (fromEquipSlot == null || fromEquipSlot.IsEmpty) return false;
+        if (fromEquipSlot.category != SlotCategory.Equip) return false;
+
+        var it = fromEquipSlot.item;
+        if (it == null) return false;
+
+        if (slots == null || slots.Length == 0) AutoWireSlots();
+
+        var targetInv = FindFirstEmptyInventorySlotCompatible(it);
+        if (targetInv != null)
+        {
+            targetInv.SetItem(it);
+            fromEquipSlot.Clear();
+            if (logDebug) Debug.Log($"[InventoryUI] Unequip → '{it.name}' -> '{targetInv.name}'");
+            return true;
         }
 
         return false;

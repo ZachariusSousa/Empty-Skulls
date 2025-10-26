@@ -4,22 +4,31 @@ using UnityEngine.UI;
 
 [RequireComponent(typeof(CanvasGroup))]
 public class DraggableItemUI : MonoBehaviour,
-    IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerClickHandler
+    IPointerDownHandler, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
+    [Header("Double-Click Settings")]
+    public float doubleClickInterval = 0.3f;
+    public float doubleClickMaxTravel = 10f;
+
     Canvas _rootCanvas;
     CanvasGroup _cg;
     ItemSlotUI _fromSlot;
-    InventoryUI _inventory;    // cached from parent
+    InventoryUI _inventory;
 
     // Drag ghost
     GameObject _ghostGO;
     RectTransform _ghostRT;
     Image _ghostImg;
 
+    // Double-click state
+    float _lastClickTime = -999f;
+    Vector2 _lastClickPos;
+    bool _isDragging;
+
     void Awake()
     {
         var c = GetComponentInParent<Canvas>();
-        _rootCanvas = c ? c.rootCanvas : null;   // use the root canvas
+        _rootCanvas = c ? c.rootCanvas : null;
         _cg = GetComponent<CanvasGroup>();
         _fromSlot = GetComponentInParent<ItemSlotUI>();
         _inventory = _fromSlot ? _fromSlot.inventory : GetComponentInParent<InventoryUI>();
@@ -28,39 +37,63 @@ public class DraggableItemUI : MonoBehaviour,
             Debug.LogError("[DraggableItemUI] No Canvas found in parents.");
     }
 
-    // ---------- Double-click to auto-equip ----------
-    public void OnPointerClick(PointerEventData e)
+    // ===== Double-click (manual) =====
+    public void OnPointerDown(PointerEventData e)
     {
-        if (e.clickCount >= 2)
+        if (_fromSlot == null) _fromSlot = GetComponentInParent<ItemSlotUI>();
+        if (_inventory == null && _fromSlot) _inventory = _fromSlot.inventory;
+
+        if (_fromSlot == null || _fromSlot.IsEmpty || _fromSlot.item == null)
         {
-            if (_fromSlot && _inventory)
-                _inventory.TryAutoEquip(_fromSlot);
+            _lastClickTime = -999f;
+            return;
+        }
+
+        var now = Time.unscaledTime;
+        var pos = e.position;
+
+        if (now - _lastClickTime <= doubleClickInterval &&
+            (pos - _lastClickPos).sqrMagnitude <= (doubleClickMaxTravel * doubleClickMaxTravel))
+        {
+            if (!_isDragging && _inventory != null)
+            {
+                bool ok = (_fromSlot.category == SlotCategory.Equip)
+                    ? _inventory.TryUnequip(_fromSlot)   // Unequip from Equip slot
+                    : _inventory.TryAutoEquip(_fromSlot); // Equip from Inventory slot
+
+                // Optional debug:
+                // Debug.Log($"[DraggableItemUI] Double-click action result = {ok}");
+            }
+            _lastClickTime = -999f; // reset
+        }
+        else
+        {
+            _lastClickTime = now;
+            _lastClickPos = pos;
         }
     }
 
-    // ---------- Drag & drop ----------
+    // ===== Drag & drop =====
     public void OnBeginDrag(PointerEventData e)
     {
         _fromSlot = transform.GetComponentInParent<ItemSlotUI>();
         if (_fromSlot == null || _fromSlot.IsEmpty || _fromSlot.item?.icon == null) return;
 
-        // Create a ghost image to drag
+        _isDragging = true;
+
         _ghostGO = new GameObject("DragGhost", typeof(RectTransform), typeof(Image));
         _ghostRT = _ghostGO.GetComponent<RectTransform>();
         _ghostImg = _ghostGO.GetComponent<Image>();
 
         _ghostRT.SetParent(_rootCanvas.transform, false);
         _ghostImg.sprite = _fromSlot.item.icon;
-        _ghostImg.raycastTarget = false; // let raycasts pass through
+        _ghostImg.raycastTarget = false;
         _ghostImg.preserveAspect = true;
         _ghostImg.color = new Color(1f, 1f, 1f, 0.9f);
 
         UpdateGhostPos(e);
 
-        // Hide the source icon while dragging (visual "pick up")
         if (_fromSlot.icon) _fromSlot.icon.enabled = false;
-
-        // Let raycasts hit slots behind while dragging
         _cg.blocksRaycasts = false;
     }
 
@@ -91,12 +124,13 @@ public class DraggableItemUI : MonoBehaviour,
             }
         }
 
-        // If not swapped (dropped nowhere/invalid), restore the source icon
         if (!swapped && _fromSlot != null)
             _fromSlot.SetItem(_fromSlot.item);
 
         if (_ghostGO) Destroy(_ghostGO);
         _ghostGO = null; _ghostRT = null; _ghostImg = null;
+
+        _isDragging = false;
     }
 
     void UpdateGhostPos(PointerEventData e)
