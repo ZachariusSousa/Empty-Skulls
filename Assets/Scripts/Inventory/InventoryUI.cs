@@ -144,7 +144,6 @@ public class InventoryUI : MonoBehaviour
         {
             targetInv.SetItem(it);
             fromEquipSlot.Clear();
-            if (logDebug) Debug.Log($"[InventoryUI] Unequip → '{it.name}' -> '{targetInv.name}'");
             return true;
         }
 
