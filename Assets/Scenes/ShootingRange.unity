@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Intensity: 1.94
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: bf48746819a65916
+  m_ApplyToSortingLayers: bf487468
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -156380,7 +156380,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpellCaster
   firePoint: {fileID: 937998646}
-  projectilePrefab: {fileID: 1939780587495537639, guid: 4c437f9b5585b964b92c8c87c27c1357, type: 3}
+  projectilePrefab: {fileID: 1939780587495537639, guid: 550b9e98f9fd49a4eb06821a25bffa48, type: 3}
   cooldown: 0.2
   cam: {fileID: 961822799}
   spriteCtrl: {fileID: 0}

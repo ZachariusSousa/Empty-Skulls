@@ -187,11 +187,11 @@ MonoBehaviour:
   faceVelocity: 1
   spriteSpin: 0
   spriteAngleOffset: 45
-  damage: 1
+  damage: 20
   pierce: 0
   hitMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 512
   impactVfx: {fileID: 0}
   owner: {fileID: 0}
   ignoreOwner: 1

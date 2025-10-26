@@ -113,16 +113,44 @@ public class Projectile : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        // 1) Layer gate
         if ((hitMask.value & (1 << other.gameObject.layer)) == 0) return;
 
-        if (ignoreOwner && owner && other.attachedRigidbody && other.attachedRigidbody.gameObject == owner) return;
-        if (ignoreOwner && owner && other.gameObject == owner) return;
+        // 2) Ignore owner (including owner’s children)
+        if (ignoreOwner && owner)
+        {
+            if (other.gameObject == owner) return;
+            if (other.transform.IsChildOf(owner.transform)) return;
+            var rb = other.attachedRigidbody ? other.attachedRigidbody.gameObject : null;
+            if (rb && rb == owner) return;
+        }
 
-        _hits++;
-        // hook damage here...
+        // 3) Try to damage something with IHealth
+        //    (look on this collider, then its parents — useful when hitboxes are children)
+        var health = other.GetComponent<IHealth>() ?? other.GetComponentInParent<IHealth>();
+        if (health != null)
+        {
+            // Hit point and direction
+            Vector2 hitPoint = other.ClosestPoint(transform.position);
+            // Direction from projectile toward the target we hit
+            Vector2 hitDir = ((Vector2)other.bounds.center - (Vector2)transform.position).normalized;
 
-        if (_hits > pierce)
+            // Apply damage
+            health.ApplyDamage(damage, hitPoint, hitDir);
+
+            _hits++;
+            if (_hits > pierce)
+            {
+                Kill();
+                return;
+            }
+            // If you want the projectile to continue (piercing), just fall through.
+        }
+        else
+        {
+            // No IHealth on what we hit (e.g., a wall) → usually kill immediately.
             Kill();
+        }
     }
 
     void Kill()

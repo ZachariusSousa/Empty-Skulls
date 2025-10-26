@@ -79,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1508884865
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: -6686358444854819152, guid: cedcb99897a23504ab204e1d588c48b8, type: 3}
   m_Color: {r: 1, g: 0, b: 0.09565163, a: 1}
@@ -186,10 +186,11 @@ MonoBehaviour:
   faceVelocity: 1
   spriteSpin: 0
   spriteAngleOffset: 45
+  damage: 1
   pierce: 0
   hitMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 64
   impactVfx: {fileID: 0}
   owner: {fileID: 0}
   ignoreOwner: 1
