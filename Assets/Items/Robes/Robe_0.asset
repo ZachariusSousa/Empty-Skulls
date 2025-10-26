@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbbb74bd114bd184eb09b2927c6b7f71, type: 3}
   m_Name: Robe_0
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  displayName: Scavenged Chip of Health
+  displayName: Robe of Newspaper
   description: 
-  icon: {fileID: -9076418124995611519, guid: 6971424ab2fbadd40afffe7e165fbc62, type: 3}
-  kind: 3
+  icon: {fileID: 8137589381329659866, guid: 99355f6c16f5d0c428bf6566a8f6bd2b, type: 3}
+  kind: 2
   isEquippable: 1
-  equipSlot: 3
+  equipSlot: 2
   bonusATT: 0
-  bonusDEF: 0
+  bonusDEF: 2
   bonusSPD: 0
   bonusDEX: 0
   bonusVIT: 0
-  bonusWIS: 0
+  bonusWIS: 1
   bonusLUCK: 0
-  bonusMaxHP: 30
+  bonusMaxHP: 0
   bonusMaxMP: 0
   onUseEffects: []
