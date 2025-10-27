@@ -17,7 +17,11 @@ public class Health : MonoBehaviour, IHealth
 
     void Die()
     {
-        // TODO: drop loot, award XP, etc.
+        // Drop loot (if any)
+        var looter = GetComponent<EnemyLoot>();
+        if (looter) looter.DropLootAt(transform.position);
+
+        // TODO: award XP, etc.
         Destroy(gameObject);
     }
 }

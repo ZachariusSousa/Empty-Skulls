@@ -25,7 +25,7 @@ public class EnemyStats : MonoBehaviour
 
     [Header("Defense (optional)")]
     public int def = 0;              // flat reduction
-    public int defCap = 25;          // clamp like RotMG
+    public int defCap = 25;
 
     [Header("Drops")]
     public DropEntry[] drops;
