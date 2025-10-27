@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections.Generic;
 
 public class LootBagUI : MonoBehaviour
@@ -18,6 +19,8 @@ public class LootBagUI : MonoBehaviour
 
     ItemSlotUI[] _uiSlots;   // auto-discovered once
     LootBag _bag;
+
+    bool _painting;
 
     public LootBag CurrentBag => _bag;
 
@@ -78,10 +81,46 @@ public class LootBagUI : MonoBehaviour
             Debug.Log($"[LootBagUI] Wired {_uiSlots.Length} loot slots under '{name}'.");
     }
 
+     void WireLootDragSync()
+    {
+        if (_uiSlots == null) return;
+
+        for (int i = 0; i < _uiSlots.Length; i++)
+        {
+            var ui = _uiSlots[i];
+            if (!ui) continue;
+
+            int idx = i; // capture for lambda
+
+            // Replace any previous handler to avoid duplicates
+            ui.onItemChanged = (slot, oldItem, newItem) =>
+            {
+                if (_painting || _bag == null) return;
+
+                // User removed item from this UI slot (dragged out) → take from bag
+                if (oldItem != null && newItem == null)
+                {
+                    _bag.TryTake(idx, out var _);
+                }
+                // User dropped an item back into this UI slot → place into bag
+                else if (oldItem == null && newItem != null)
+                {
+                    _bag.TryPlace(idx, new ItemStack(newItem, 1));
+                }
+                // Replacements (old!=null && new!=null): treat as take then place
+                else if (oldItem != null && newItem != null)
+                {
+                    // keep it simple & safe
+                    _bag.TryTake(idx, out var _);
+                    _bag.TryPlace(idx, new ItemStack(newItem, 1));
+                }
+            };
+        }
+    }
+
     // ---------- Visibility / binding ----------
     public void Bind(LootBag bag)
     {
-        // Unsubscribe from previous (safe even if not wired)
         Unbind();
 
         _bag = bag;
@@ -89,6 +128,7 @@ public class LootBagUI : MonoBehaviour
         {
             _bag.onChanged += RefreshFromBag;
             EnsureWired();
+            WireLootDragSync();        // NEW: keep bag in sync with drag/drop
             RefreshFromBag(_bag);
             gameObject.SetActive(true);
         }
@@ -124,6 +164,7 @@ public class LootBagUI : MonoBehaviour
         EnsureWired();
         if (_uiSlots == null) return;
 
+        _painting = true;                 // NEW: prevent feedback loops
         for (int i = 0; i < _uiSlots.Length; i++)
         {
             var ui = _uiSlots[i];
@@ -131,7 +172,15 @@ public class LootBagUI : MonoBehaviour
 
             Item item = (i < b.slots.Length && b.slots[i].IsValid) ? b.slots[i].item : null;
             ui.SetItem(item);
+
+            // Optional: if you have a Button on the icon, toggle interactivity
+            if (ui.icon)
+            {
+                var btn = ui.icon.GetComponent<Button>();
+                if (btn) btn.interactable = (item != null);
+            }
         }
+        _painting = false;                // NEW
     }
 
     // ---------- Optional: click handler to move 1 item to player's first compatible inv slot ----------

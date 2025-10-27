@@ -153,6 +153,6 @@ MonoBehaviour:
   lootTable: {fileID: 11400000, guid: 79dc1ba26a668c34ca6ce0c097676911, type: 2}
   capacity: 8
   despawnSeconds: 60
-  openDistance: 3.5
+  openDistance: 1
   slots: []
   rolled: 0

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public enum SlotCategory { Inventory, Equip }
 
@@ -19,6 +20,8 @@ public class ItemSlotUI : MonoBehaviour
     public InventoryUI inventory;                         // auto-found in parent
 
     [HideInInspector] public Item item;
+
+    public Action<ItemSlotUI, Item, Item> onItemChanged;
 
     public bool IsEmpty => item == null;
 
@@ -105,7 +108,9 @@ public class ItemSlotUI : MonoBehaviour
 
     public void SetItem(Item newItem)
     {
+        var old = item;            // NEW
         item = newItem;
+
         if (!icon) return;
 
         if (item != null && item.icon != null)
@@ -120,6 +125,8 @@ public class ItemSlotUI : MonoBehaviour
             icon.sprite = null;
             icon.enabled = false;
         }
+
+        onItemChanged?.Invoke(this, old, newItem);   // NEW
     }
 
     public void Clear() => SetItem(null);

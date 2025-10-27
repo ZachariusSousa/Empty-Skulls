@@ -16751,7 +16751,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LootBagOpener
   lootUI: {fileID: 2028749954}
   lootTag: LootBag
-  openDistance: 3.5
+  openDistance: 1
+  lootMask:
+    serializedVersion: 2
+    m_Bits: 4096
 --- !u!1 &560135459
 GameObject:
   m_ObjectHideFlags: 0
@@ -79296,7 +79299,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 641818bd1ba230f4da5e3c38ccccecb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LootBagUI
-  lootSlotRoots: []
+  extraRoots: []
+  searchWholeScene: 0
   includeInactive: 1
   logDebug: 0
 --- !u!1 &2030010799
