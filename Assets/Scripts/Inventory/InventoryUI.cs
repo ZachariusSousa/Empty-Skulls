@@ -73,7 +73,7 @@ public class InventoryUI : MonoBehaviour
     }
 
     // ===== Helpers =====
-    ItemSlotUI FindFirstEmptyEquipSlotCompatible(Item item)
+    public ItemSlotUI FindFirstEmptyEquipSlotCompatible(Item item)
     {
         foreach (var s in slots)
             if (s && s.category == SlotCategory.Equip && s.IsEmpty && s.IsCompatible(item))
@@ -81,7 +81,7 @@ public class InventoryUI : MonoBehaviour
         return null;
     }
 
-    ItemSlotUI FindFirstCompatibleEquipSlotOccupied(Item item)
+    public ItemSlotUI FindFirstCompatibleEquipSlotOccupied(Item item)
     {
         foreach (var s in slots)
             if (s && s.category == SlotCategory.Equip && !s.IsEmpty && s.IsCompatible(item))
@@ -89,7 +89,7 @@ public class InventoryUI : MonoBehaviour
         return null;
     }
 
-    ItemSlotUI FindFirstEmptyInventorySlotCompatible(Item item)
+    public ItemSlotUI FindFirstEmptyInventorySlotCompatible(Item item)
     {
         foreach (var s in slots)
             if (s && s.category == SlotCategory.Inventory && s.IsEmpty && s.IsCompatible(item))
@@ -103,11 +103,13 @@ public class InventoryUI : MonoBehaviour
     public bool TryAutoEquip(ItemSlotUI fromSlot)
     {
         if (fromSlot == null || fromSlot.IsEmpty) return false;
+
         var it = fromSlot.item;
         if (it == null || !it.isEquippable) return false;
 
         if (slots == null || slots.Length == 0) AutoWireSlots();
 
+        // 1) Equip only if there is an EMPTY compatible equip slot
         var emptyEquip = FindFirstEmptyEquipSlotCompatible(it);
         if (emptyEquip != null)
         {
@@ -116,15 +118,16 @@ public class InventoryUI : MonoBehaviour
             return true;
         }
 
-        var occupiedEquip = FindFirstCompatibleEquipSlotOccupied(it);
-        if (occupiedEquip != null)
+        // 2) No empty equip slot → stash into first empty inventory slot (if different from source)
+        var invEmpty = FindFirstEmptyInventorySlotCompatible(it);
+        if (invEmpty != null && invEmpty != fromSlot)
         {
-            var tmp = occupiedEquip.item;
-            occupiedEquip.SetItem(it);
-            fromSlot.SetItem(tmp);
+            invEmpty.SetItem(it);
+            fromSlot.Clear();
             return true;
         }
 
+        // No equip, no stash target → no action
         return false;
     }
 

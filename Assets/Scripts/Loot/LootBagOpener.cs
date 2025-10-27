@@ -3,57 +3,87 @@ using UnityEngine;
 public class LootBagOpener : MonoBehaviour
 {
     public LootBagUI lootUI;
-    public string lootTag = "LootBag";     // tag your bag prefabs with this
+    public string lootTag = "LootBag";
     public float openDistance = 3.5f;
+    public LayerMask lootMask; 
 
     LootBag _current;
 
     void Update()
     {
-        // If we have an open bag but walked away, close it
+        // Close if gone or too far
         if (_current)
         {
-            float d = Vector3.Distance(transform.position, _current.transform.position);
-            if (d > Mathf.Min(_current.openDistance, openDistance))
+            if (!_current.gameObject || !_current.gameObject.activeInHierarchy)
             {
                 lootUI.Unbind();
                 _current = null;
             }
+            else
+            {
+                float d = Vector3.Distance(transform.position, _current.transform.position);
+                if (d > Mathf.Min(_current.openDistance, openDistance))
+                {
+                    lootUI.Unbind();
+                    _current = null;
+                }
+            }
         }
-    }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        TryOpen(other.gameObject);
-    }
-
-    void OnTriggerStay2D(Collider2D other)
-    {
-        if (!_current) TryOpen(other.gameObject);
-    }
-
-    void TryOpen(GameObject go)
-    {
-        if (lootUI == null || _current != null) return;
-        if (!go.CompareTag(lootTag)) return;
-
-        var bag = go.GetComponent<LootBag>();
-        if (!bag) return;
-
-        float d = Vector3.Distance(transform.position, bag.transform.position);
-        if (d <= bag.openDistance)
+        // Acquire
+        if (!_current)
         {
-            _current = bag;
-            lootUI.Bind(bag);
+            var best = FindBestBag(transform.position, openDistance);
+            if (best)
+            {
+                _current = best;
+                lootUI.Bind(_current);
+            }
         }
     }
 
-    void OnTriggerExit2D(Collider2D other)
+    LootBag FindBestBag(Vector3 pos, float radius)
     {
-        if (_current && other.gameObject == _current.gameObject)
+        // if mask is 0 (Nothing), ignore it and search all layers
+        Collider2D[] hits = (lootMask.value != 0)
+            ? Physics2D.OverlapCircleAll(pos, radius, lootMask)
+            : Physics2D.OverlapCircleAll(pos, radius);
+
+        LootBag bestNonEmpty = null; float bestNonEmptyD = float.MaxValue;
+        LootBag bestAny = null;      float bestAnyD = float.MaxValue;
+
+        foreach (var h in hits)
         {
-            lootUI.Unbind();
-            _current = null;
+            if (!h) continue;
+            if (!h.CompareTag(lootTag)) continue;
+
+            var bag = h.GetComponent<LootBag>();
+            if (!bag || !bag.gameObject.activeInHierarchy) continue;
+
+            float d = (bag.transform.position - pos).sqrMagnitude;
+
+            if (!bag.IsEmpty() && d < bestNonEmptyD)
+            {
+                bestNonEmptyD = d; bestNonEmpty = bag;
+            }
+            if (d < bestAnyD)
+            {
+                bestAnyD = d; bestAny = bag;
+            }
         }
+
+        var chosen = bestNonEmpty ? bestNonEmpty : bestAny;
+        if (!chosen) return null;
+
+        float realD = Vector3.Distance(pos, chosen.transform.position);
+        return (realD <= Mathf.Min(chosen.openDistance, openDistance)) ? chosen : null;
     }
+
+#if UNITY_EDITOR
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = new Color(1,1,1,0.25f);
+        Gizmos.DrawWireSphere(transform.position, openDistance);
+    }
+#endif
 }

@@ -1,3 +1,4 @@
+// EnemyLoot.cs
 using UnityEngine;
 using System.Collections.Generic;
 
@@ -5,15 +6,21 @@ using System.Collections.Generic;
 public class EnemyLoot : MonoBehaviour
 {
     [Header("Table & Prefab")]
-    public LootTable lootTable;   // assign LootTable asset here
-    public GameObject lootBagPrefab;    // prefab with LootBag component
+    public LootTable lootTable;
+    public GameObject lootBagPrefab;
 
     [Header("Spawn")]
     public bool seedForDeterminism = true;
 
+    // NEW: guard against double-drop
+    bool _dropped;
+
     /// <summary>Call this from Health.Die()</summary>
     public void DropLootAt(Vector3 worldPos)
     {
+        if (_dropped) return;   // ← prevent duplicates
+        _dropped = true;
+
         if (!lootTable || !lootBagPrefab) return;
 
         if (seedForDeterminism)
@@ -22,7 +29,7 @@ public class EnemyLoot : MonoBehaviour
         List<ItemStack> drops = lootTable.RollBag(); // null => no bag
         if (drops == null || drops.Count == 0) return;
 
-        var bagGO = Object.Instantiate(lootBagPrefab, worldPos, Quaternion.identity);
+        var bagGO = Instantiate(lootBagPrefab, worldPos, Quaternion.identity);
         var bag = bagGO.GetComponent<LootBag>();
         if (!bag)
         {
@@ -37,7 +44,7 @@ public class EnemyLoot : MonoBehaviour
         for (; i < bag.capacity; i++)
             bag.slots[i] = default;
 
-        bag.rolled = true;            // so it won't auto-roll on Enable
-        bag.onChanged?.Invoke(bag);   // notify any UI listeners
+        bag.rolled = true;          // critical: prevents Start() populate
+        bag.onChanged?.Invoke(bag);
     }
 }

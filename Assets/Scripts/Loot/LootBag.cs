@@ -26,7 +26,7 @@ public class LootBag : MonoBehaviour
             slots = new ItemStack[capacity];
     }
 
-    void OnEnable()
+    void Start()
     {
         // Optional deterministic seed: scene time + position
         if (!rolled && lootTable != null)

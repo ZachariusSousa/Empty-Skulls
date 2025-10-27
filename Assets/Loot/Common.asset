@@ -12,9 +12,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ed179cc90f0e2f40aede329e9dc483c, type: 3}
   m_Name: Common
   m_EditorClassIdentifier: Assembly-CSharp::LootTable
-  bagDropChance: 0.25
+  bagDropChance: 0.509
   items:
-  - item: {fileID: 0}
-    dropChance: 0.206
-    minStack: 0
-    maxStack: 0
+  - item: {fileID: 11400000, guid: 3f06a82888ff12b488e840189aa9a3d8, type: 2}
+    dropChance: 0.268
+    minStack: 1
+    maxStack: 1
+  - item: {fileID: 11400000, guid: 53e90370f844a9d45a093fa1d33d5d05, type: 2}
+    dropChance: 0.268
+    minStack: 1
+    maxStack: 1
+  - item: {fileID: 11400000, guid: e877814210c43e24d972682e8d5f6cb2, type: 2}
+    dropChance: 0.268
+    minStack: 1
+    maxStack: 1
+  - item: {fileID: 11400000, guid: eebaf6860fa67844e929bba993592101, type: 2}
+    dropChance: 0.268
+    minStack: 1
+    maxStack: 1
+  - item: {fileID: 11400000, guid: 2adbfdca9f48a584baa6e6ba466fb8fb, type: 2}
+    dropChance: 0.268
+    minStack: 1
+    maxStack: 1
+  - item: {fileID: 11400000, guid: 6b1f87e6577394548bd6fde84ebfafb6, type: 2}
+    dropChance: 0.268
+    minStack: 1
+    maxStack: 1
+  - item: {fileID: 11400000, guid: 6feeba968494ba74b94c4f911048ac34, type: 2}
+    dropChance: 0.268
+    minStack: 1
+    maxStack: 1
+  - item: {fileID: 11400000, guid: 2d9507838b0005a49bd0998168ea8dc4, type: 2}
+    dropChance: 0.268
+    minStack: 1
+    maxStack: 1
