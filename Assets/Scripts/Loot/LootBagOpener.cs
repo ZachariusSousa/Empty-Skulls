@@ -25,6 +25,10 @@ public class LootBagOpener : MonoBehaviour
                 if (d > Mathf.Min(_current.openDistance, openDistance))
                 {
                     lootUI.Unbind();
+
+                    if (_current != null && _current.IsEmpty())
+                        Destroy(_current.gameObject);
+
                     _current = null;
                 }
             }

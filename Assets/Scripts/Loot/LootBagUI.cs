@@ -126,11 +126,14 @@ public class LootBagUI : MonoBehaviour
         _bag = bag;
         if (_bag != null)
         {
-            _bag.onChanged += RefreshFromBag;
-            EnsureWired();
-            WireLootDragSync();        // NEW: keep bag in sync with drag/drop
-            RefreshFromBag(_bag);
+            // 1) Make sure the panel & children are active first
             gameObject.SetActive(true);
+
+            // 2) Wire and paint
+            EnsureWired();
+            WireLootDragSync();
+            _bag.onChanged += RefreshFromBag;
+            RefreshFromBag(_bag);
         }
         else
         {

@@ -7,11 +7,7 @@ public class EnemyLoot : MonoBehaviour
     public LootTable lootTable;
     public GameObject lootBagPrefab;
 
-    [Header("Spawn")]
-    public bool seedForDeterminism = true;
-
     bool _dropped;
-    // If pooling: void OnEnable() => _dropped = false;
 
     public void DropLootAt(Vector3 worldPos)
     {
@@ -28,11 +24,6 @@ public class EnemyLoot : MonoBehaviour
         }
 
         bag.lootTable = lootTable;
-
-        int? seed = null;
-        if (seedForDeterminism)
-            seed = unchecked((int)(Time.time * 1000f) ^ worldPos.GetHashCode());
-
-        bag.Populate(seed); // ← single, authoritative roll
+        bag.Populate(); 
     }
 }

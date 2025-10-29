@@ -9641,7 +9641,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyLoot
   lootTable: {fileID: 11400000, guid: 79dc1ba26a668c34ca6ce0c097676911, type: 2}
   lootBagPrefab: {fileID: 7987653945414701913, guid: cbb51ffaa9a3c3b40a1a4abb16830da2, type: 3}
-  seedForDeterminism: 1
 --- !u!1 &316786391
 GameObject:
   m_ObjectHideFlags: 0
@@ -50752,7 +50751,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyLoot
   lootTable: {fileID: 11400000, guid: 79dc1ba26a668c34ca6ce0c097676911, type: 2}
   lootBagPrefab: {fileID: 7987653945414701913, guid: cbb51ffaa9a3c3b40a1a4abb16830da2, type: 3}
-  seedForDeterminism: 1
 --- !u!1 &947561265
 GameObject:
   m_ObjectHideFlags: 0
@@ -63178,7 +63176,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyLoot
   lootTable: {fileID: 11400000, guid: 79dc1ba26a668c34ca6ce0c097676911, type: 2}
   lootBagPrefab: {fileID: 7987653945414701913, guid: cbb51ffaa9a3c3b40a1a4abb16830da2, type: 3}
-  seedForDeterminism: 1
 --- !u!1 &1416312747
 GameObject:
   m_ObjectHideFlags: 0
@@ -71360,7 +71357,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyLoot
   lootTable: {fileID: 11400000, guid: 79dc1ba26a668c34ca6ce0c097676911, type: 2}
   lootBagPrefab: {fileID: 7987653945414701913, guid: cbb51ffaa9a3c3b40a1a4abb16830da2, type: 3}
-  seedForDeterminism: 1
 --- !u!114 &1749835722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78116,7 +78112,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyLoot
   lootTable: {fileID: 11400000, guid: 79dc1ba26a668c34ca6ce0c097676911, type: 2}
   lootBagPrefab: {fileID: 7987653945414701913, guid: cbb51ffaa9a3c3b40a1a4abb16830da2, type: 3}
-  seedForDeterminism: 1
 --- !u!1 &1999302124
 GameObject:
   m_ObjectHideFlags: 0
@@ -79299,7 +79294,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 641818bd1ba230f4da5e3c38ccccecb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LootBagUI
-  extraRoots: []
+  extraRoots:
+  - {fileID: 4314592289815618700}
+  - {fileID: 4314592288712729058}
+  - {fileID: 4314592289513495383}
+  - {fileID: 4314592289990912182}
+  - {fileID: 4314592289469154555}
+  - {fileID: 4314592287953571128}
+  - {fileID: 4314592288544302182}
+  - {fileID: 4314592289509714248}
   searchWholeScene: 0
   includeInactive: 1
   logDebug: 0
