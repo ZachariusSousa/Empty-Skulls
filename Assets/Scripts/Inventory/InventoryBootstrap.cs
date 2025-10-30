@@ -7,8 +7,7 @@ public class InventoryBootstrap : MonoBehaviour
 
     void Awake()
     {
-        if (slots == null || slots.Length == 0)
-            slots = GetComponentsInChildren<ItemSlotUI>(includeInactive: true);
+        slots = GetComponentsInChildren<ItemSlotUI>(includeInactive: true);
     }
 
     void Start()
@@ -27,7 +26,7 @@ public class InventoryBootstrap : MonoBehaviour
                 for (int i = 0; i < slots.Length && !placed; i++)
                 {
                     var s = slots[i];
-                    if (s && s.IsEmpty && s.category == SlotCategory.Equip && s.IsCompatible(it))
+                    if (s && s.IsEmpty && s.role == SlotRole.Equip && s.IsCompatible(it))
                     {
                         s.SetItem(it);
                         placed = true;
@@ -35,11 +34,11 @@ public class InventoryBootstrap : MonoBehaviour
                 }
             }
 
-            // Second pass: try any compatible inventory slot
+            // Second pass: try any compatible player-inventory slot
             for (int i = 0; i < slots.Length && !placed; i++)
             {
                 var s = slots[i];
-                if (s && s.IsEmpty && s.category == SlotCategory.Inventory && s.IsCompatible(it))
+                if (s && s.IsEmpty && s.role == SlotRole.Inventory && s.IsCompatible(it))
                 {
                     s.SetItem(it);
                     placed = true;

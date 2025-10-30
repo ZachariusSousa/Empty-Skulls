@@ -1,8 +1,14 @@
+// InventoryUI.cs
 using UnityEngine;
 using System.Collections.Generic;
 
+public enum InventoryOwner { Player, LootBag, Other }
+
 public class InventoryUI : MonoBehaviour
 {
+    [Header("Ownership")]
+    public InventoryOwner owner = InventoryOwner.Player;
+
     [Header("Auto-wiring")]
     [Tooltip("Roots to search for ItemSlotUI in addition to this object.")]
     public Transform[] extraRoots;
@@ -40,14 +46,11 @@ public class InventoryUI : MonoBehaviour
             }
         }
 
-        // 3) Whole scene
+        // 3) Whole scene (optional)
         if (searchWholeScene)
         {
-#if UNITY_2023_1_OR_NEWER
-            var all = FindObjectsByType<ItemSlotUI>(FindObjectsInactive.Include, FindObjectsSortMode.None);
-#else
+            // no version-specific fallbacks; this works in play mode + editor (includes inactive)
             var all = Resources.FindObjectsOfTypeAll<ItemSlotUI>();
-#endif
             if (all != null && all.Length > 0) list.AddRange(all);
         }
 
@@ -67,16 +70,27 @@ public class InventoryUI : MonoBehaviour
 
         if (logDebug)
         {
-            int equip = 0, inv = 0;
-            foreach (var s in slots) { if (!s) continue; if (s.category == SlotCategory.Equip) equip++; else inv++; }
+            int equip = 0, inv = 0, bag = 0;
+            foreach (var s in slots)
+            {
+                if (!s) continue;
+                switch (s.role)
+                {
+                    case SlotRole.Equip: equip++; break;
+                    case SlotRole.Inventory: inv++; break;
+                    case SlotRole.LootBag: bag++; break;
+                }
+            }
+            Debug.Log($"[InventoryUI] Wired slots → Equip:{equip} Inv:{inv} LootBag:{bag}");
         }
     }
 
     // ===== Helpers =====
+
     public ItemSlotUI FindFirstEmptyEquipSlotCompatible(Item item)
     {
         foreach (var s in slots)
-            if (s && s.category == SlotCategory.Equip && s.IsEmpty && s.IsCompatible(item))
+            if (s && s.role == SlotRole.Equip && s.IsEmpty && s.IsCompatible(item))
                 return s;
         return null;
     }
@@ -84,7 +98,7 @@ public class InventoryUI : MonoBehaviour
     public ItemSlotUI FindFirstCompatibleEquipSlotOccupied(Item item)
     {
         foreach (var s in slots)
-            if (s && s.category == SlotCategory.Equip && !s.IsEmpty && s.IsCompatible(item))
+            if (s && s.role == SlotRole.Equip && !s.IsEmpty && s.IsCompatible(item))
                 return s;
         return null;
     }
@@ -92,14 +106,14 @@ public class InventoryUI : MonoBehaviour
     public ItemSlotUI FindFirstEmptyInventorySlotCompatible(Item item)
     {
         foreach (var s in slots)
-            if (s && s.category == SlotCategory.Inventory && s.IsEmpty && s.IsCompatible(item))
+            if (s && s.role == SlotRole.Inventory && s.IsEmpty && s.IsCompatible(item))
                 return s;
         return null;
     }
 
     // ===== Public API =====
 
-    /// Auto-equip an item from any slot into an Equip slot.
+    /// Try to move an equippable item into an Equip slot; if none free, stash into first empty PlayerInventory slot.
     public bool TryAutoEquip(ItemSlotUI fromSlot)
     {
         if (fromSlot == null || fromSlot.IsEmpty) return false;
@@ -109,7 +123,7 @@ public class InventoryUI : MonoBehaviour
 
         if (slots == null || slots.Length == 0) AutoWireSlots();
 
-        // 1) Equip only if there is an EMPTY compatible equip slot
+        // 1) Equip if there is an EMPTY compatible equip slot
         var emptyEquip = FindFirstEmptyEquipSlotCompatible(it);
         if (emptyEquip != null)
         {
@@ -118,7 +132,17 @@ public class InventoryUI : MonoBehaviour
             return true;
         }
 
-        // 2) No empty equip slot → stash into first empty inventory slot (if different from source)
+        // 2) If a compatible equip slot is OCCUPIED, SWAP
+        var occupiedEquip = FindFirstCompatibleEquipSlotOccupied(it);
+        if (occupiedEquip != null)
+        {
+            var equipped = occupiedEquip.item;   // currently equipped item
+            occupiedEquip.SetItem(it);           // place new item into equip slot
+            fromSlot.SetItem(equipped);          // put the old one back into the source slot
+            return true;
+        }
+
+        // 3) No compatible equip slot → stash into first empty Player inventory slot (if different from source)
         var invEmpty = FindFirstEmptyInventorySlotCompatible(it);
         if (invEmpty != null && invEmpty != fromSlot)
         {
@@ -127,15 +151,13 @@ public class InventoryUI : MonoBehaviour
             return true;
         }
 
-        // No equip, no stash target → no action
         return false;
     }
-
-    /// Unequip an item from an Equip slot into the first compatible empty Inventory slot.
+    /// Unequip from an Equip slot to first empty Inventory slot.
     public bool TryUnequip(ItemSlotUI fromEquipSlot)
     {
         if (fromEquipSlot == null || fromEquipSlot.IsEmpty) return false;
-        if (fromEquipSlot.category != SlotCategory.Equip) return false;
+        if (fromEquipSlot.role != SlotRole.Equip) return false;
 
         var it = fromEquipSlot.item;
         if (it == null) return false;
@@ -151,5 +173,14 @@ public class InventoryUI : MonoBehaviour
         }
 
         return false;
+    }
+
+    // === Static helper to find the Player's inventory in scene ===
+    public static InventoryUI FindPlayerInventory()
+    {
+        var all = FindObjectsOfType<InventoryUI>(true);
+        foreach (var inv in all)
+            if (inv && inv.owner == InventoryOwner.Player) return inv;
+        return null;
     }
 }

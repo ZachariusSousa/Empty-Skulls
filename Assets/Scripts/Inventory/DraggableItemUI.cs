@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using System.Linq;
 
 [RequireComponent(typeof(CanvasGroup))]
 public class DraggableItemUI : MonoBehaviour,
@@ -37,7 +38,7 @@ public class DraggableItemUI : MonoBehaviour,
             Debug.LogError("[DraggableItemUI] No Canvas found in parents.");
     }
 
-    // ===== Double-click (manual) =====
+    // ===== Double-click =====
     public void OnPointerDown(PointerEventData e)
     {
         if (_fromSlot == null) _fromSlot = GetComponentInParent<ItemSlotUI>();
@@ -52,18 +53,13 @@ public class DraggableItemUI : MonoBehaviour,
         var now = Time.unscaledTime;
         var pos = e.position;
 
-        if (now - _lastClickTime <= doubleClickInterval &&
-            (pos - _lastClickPos).sqrMagnitude <= (doubleClickMaxTravel * doubleClickMaxTravel))
-        {
-            if (!_isDragging && _inventory != null)
-            {
-                bool ok = (_fromSlot.category == SlotCategory.Equip)
-                    ? _inventory.TryUnequip(_fromSlot)   // Unequip from Equip slot
-                    : _inventory.TryAutoEquip(_fromSlot); // Equip from Inventory slot
+        bool isDouble =
+            (now - _lastClickTime <= doubleClickInterval) &&
+            ((pos - _lastClickPos).sqrMagnitude <= (doubleClickMaxTravel * doubleClickMaxTravel));
 
-                // Optional debug:
-                // Debug.Log($"[DraggableItemUI] Double-click action result = {ok}");
-            }
+        if (isDouble && !_isDragging)
+        {
+            HandleDoubleClick(_fromSlot);
             _lastClickTime = -999f; // reset
         }
         else
@@ -73,7 +69,61 @@ public class DraggableItemUI : MonoBehaviour,
         }
     }
 
-    // ===== Drag & drop =====
+    void HandleDoubleClick(ItemSlotUI slot)
+{
+    if (!slot || slot.IsEmpty) return;
+    var item = slot.item;
+
+    switch (slot.role)
+    {
+        case SlotRole.Equip:
+            if (slot.inventory != null)
+                slot.inventory.TryUnequip(slot);
+            break;
+
+        case SlotRole.LootBag:
+        {
+            var target = slot.inventory
+                ? slot.inventory.FindFirstEmptyInventorySlotCompatible(item)
+                : null;
+            if (target != null)
+            {
+                target.SetItem(item);
+                slot.Clear();
+            }
+            break;
+        }
+
+        case SlotRole.Inventory:
+        default:
+        {
+            if (item.kind == ItemKind.Consumable)
+                    {
+                var useHandler = FindObjectOfType<ItemUseHandler>();
+                if (useHandler != null) useHandler.TryUse(slot);
+                Debug.Log($"[DraggableItemUI] Double-click used consumable '{item.name}'.");
+            }
+            else if (item.isEquippable && slot.inventory != null)
+            {
+                slot.inventory.TryAutoEquip(slot);
+            }
+            break;
+        }
+    }
+}
+
+
+    ItemSlotUI FindFirstEmptyInventorySlot(Item item)
+    {
+        // Look across all slots in the scene; pick first empty Inventory that is compatible.
+        var all = Object.FindObjectsByType<ItemSlotUI>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+
+        return all.FirstOrDefault(s =>
+            s && s.role == SlotRole.Inventory &&
+            s.IsEmpty && s.IsCompatible(item));
+    }
+
+    // ===== Drag & drop (unchanged) =====
     public void OnBeginDrag(PointerEventData e)
     {
         _fromSlot = transform.GetComponentInParent<ItemSlotUI>();
