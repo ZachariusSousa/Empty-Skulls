@@ -97,16 +97,26 @@ public class DraggableItemUI : MonoBehaviour,
         case SlotRole.Inventory:
         default:
         {
-            if (item.kind == ItemKind.Consumable)
+                    if (item.kind == ItemKind.Consumable)
                     {
-                var useHandler = FindObjectOfType<ItemUseHandler>();
-                if (useHandler != null) useHandler.TryUse(slot);
-                Debug.Log($"[DraggableItemUI] Double-click used consumable '{item.name}'.");
-            }
-            else if (item.isEquippable && slot.inventory != null)
-            {
-                slot.inventory.TryAutoEquip(slot);
-            }
+                        var useHandler = FindObjectOfType<ItemUseHandler>();
+                        if (useHandler != null)
+                        {
+                            bool used = useHandler.TryUse(slot);
+                            if (used)
+                            {
+                                slot.Clear(); 
+                            }
+                            else
+                            {
+                                Debug.Log($"[DraggableItemUI] Tried to use '{item.name}', but HP was full.");
+                            }
+                        }
+                    }
+                    else if (item.isEquippable && slot.inventory != null)
+                    {
+                        slot.inventory.TryAutoEquip(slot);
+                    }
             break;
         }
     }

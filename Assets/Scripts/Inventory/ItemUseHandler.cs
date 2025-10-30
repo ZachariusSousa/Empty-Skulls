@@ -51,24 +51,24 @@ public class ItemUseHandler : MonoBehaviour, IPointerClickHandler
         TryUse(slot);
     }
 
-    public void TryUse(ItemSlotUI slot)
+    public bool TryUse(ItemSlotUI slot)
     {
+        if (slot == null || slot.IsEmpty || slot.item == null)
+            return false;
+
         var item = slot.item;
-        if (!item) return;
+        if (item.kind != ItemKind.Consumable)
+            return false;
 
-        if (item.kind != ItemKind.Consumable) return;
+        bool applied = false;
 
-        bool anyApplied = false;
-        if (item.onUseEffects != null)
+        // Apply all effects; if any succeed, mark as applied
+        foreach (var eff in item.onUseEffects)
         {
-            foreach (var eff in item.onUseEffects)
-            {
-                if (!eff) continue;
-                anyApplied |= eff.Apply(player);
-            }
+            if (eff.Apply(player))
+                applied = true;
         }
 
-        if (anyApplied)
-            slot.SetItem(null); // no stacking yet
+        return applied;
     }
 }
