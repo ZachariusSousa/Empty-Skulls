@@ -50,6 +50,20 @@ public class LootBag : MonoBehaviour
             return;
         }
 
+        // Sort rare-first so capacity trims commons
+        drops.Sort((a, b) =>
+        {
+            float pa = lootTable ? lootTable.GetChanceFor(a.item) : 1f;
+            float pb = lootTable ? lootTable.GetChanceFor(b.item) : 1f;
+
+            int byChance = pa.CompareTo(pb); // lower chance => earlier
+            if (byChance != 0) return byChance;
+
+            var ra = a.item ? a.item.rarity : LootRarity.Common;
+            var rb = b.item ? b.item.rarity : LootRarity.Common;
+            return rb.CompareTo(ra); // higher rarity first
+        });
+
         if (slots == null || slots.Length != capacity)
             slots = new ItemStack[capacity];
 
@@ -68,14 +82,12 @@ public class LootBag : MonoBehaviour
         {
             if (slots[i].IsValid && slots[i].item != null)
             {
-                // assumes Item has public LootRarity rarity
                 if (slots[i].item.rarity > best)
                     best = slots[i].item.rarity;
             }
         }
         return best;
     }
-
 
     public bool IsEmpty()
     {
@@ -113,5 +125,4 @@ public class LootBag : MonoBehaviour
         onChanged?.Invoke(this);
         return true;
     }
-
 }

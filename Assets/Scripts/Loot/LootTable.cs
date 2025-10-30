@@ -104,4 +104,16 @@ public class LootTable : ScriptableObject
         return drops; // guaranteed non-empty if any item has p>0
     }
 
+    // chance lookup for sorting
+    public float GetChanceFor(Item it)
+    {
+        if (!it || items == null) return 1f; // treat unknown as common
+        for (int i = 0; i < items.Count; i++)
+        {
+            var e = items[i];
+            if (e != null && e.item == it)
+                return Mathf.Clamp01(e.dropChance);
+        }
+        return 1f;
+    }
 }
