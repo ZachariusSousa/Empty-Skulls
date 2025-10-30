@@ -6,7 +6,7 @@ using UnityEngine.Events;
 /// EntityStats will call HandleDeath(this) when HP hits 0.
 /// </summary>
 [DisallowMultipleComponent]
-public class EnemyDeath : MonoBehaviour
+public class Death : MonoBehaviour
 {
     [Header("Loot (optional)")]
     public LootTable lootTable;

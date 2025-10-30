@@ -7,7 +7,7 @@ public class StatBars : MonoBehaviour
     public enum StatKind { HP, MP, XP }
 
     [Header("Wiring")]
-    public PlayerStats stats;
+    public PlayerStats player;              // single source of truth
     public StatKind statKind = StatKind.HP;
     public Slider slider;
     public TextMeshProUGUI label;
@@ -17,57 +17,48 @@ public class StatBars : MonoBehaviour
 
     void Awake()
     {
-        // Auto-find PlayerStats if not assigned
-        if (autoFindPlayerByTag && stats == null)
+        if (autoFindPlayerByTag && player == null)
         {
             var t = GameObject.FindGameObjectWithTag(playerTag);
-            if (t) stats = t.GetComponent<PlayerStats>();
+            if (t) player = t.GetComponent<PlayerStats>();
         }
 
-        // Auto-grab the Slider if on same object
-        if (slider == null)
-            slider = GetComponent<Slider>();
+        if (slider == null) slider = GetComponent<Slider>();
 
-        // Auto-find TMP label if child named "Text"
         if (label == null)
         {
             var textChild = transform.Find("Text");
-            if (textChild)
-                label = textChild.GetComponent<TextMeshProUGUI>();
+            if (textChild) label = textChild.GetComponent<TextMeshProUGUI>();
         }
     }
 
     void OnEnable()
     {
-        if (stats != null)
+        if (player != null)
         {
-            stats.onStatChanged.AddListener(OnStatChanged);
+            player.onStatChanged.AddListener(OnStatChanged);
             RefreshAll();
         }
     }
 
     void OnDisable()
     {
-        if (stats != null)
-            stats.onStatChanged.RemoveListener(OnStatChanged);
+        if (player != null)
+            player.onStatChanged.RemoveListener(OnStatChanged);
     }
 
     void OnStatChanged(string changed, int _)
     {
-        // Update only what this bar cares about
         switch (statKind)
         {
             case StatKind.HP:
-                // respond to HP changes and to either base or effective max changes
                 if (changed == "hp" || changed == "maxHP" || changed == "maxHP_eff")
                     RefreshHP();
                 break;
-
             case StatKind.MP:
                 if (changed == "mp" || changed == "maxMP" || changed == "maxMP_eff")
                     RefreshMP();
                 break;
-
             case StatKind.XP:
                 if (changed == "xp" || changed == "xpToNext" || changed == "level")
                     RefreshXP();
@@ -87,41 +78,37 @@ public class StatBars : MonoBehaviour
 
     void RefreshHP()
     {
-        if (stats == null || slider == null) return;
+        if (player == null || slider == null) return;
+        int max = player.EffMaxHP;
+        int cur = player.HP;
 
-        // Use effective max so equipment/auras resize the bar
-        var max = stats.EffMaxHP;
-        var cur = stats.HP;
+        slider.maxValue = Mathf.Max(1, max);
+        slider.value = Mathf.Clamp(cur, 0, max);
 
-        slider.maxValue = max;
-        slider.value = cur;
-
-        if (label)
-            label.text = $"{cur} / {max}";
+        if (label) label.text = $"{slider.value} / {slider.maxValue}";
     }
 
     void RefreshMP()
     {
-        if (stats == null || slider == null) return;
+        if (player == null || slider == null) return;
+        int max = player.EffMaxMP;
+        int cur = player.MP; // uses property
 
-        var max = stats.EffMaxMP;
-        var cur = stats.MP;
+        slider.maxValue = Mathf.Max(1, max);
+        slider.value = Mathf.Clamp(cur, 0, max);
 
-        slider.maxValue = max;
-        slider.value = cur;
-
-        if (label)
-            label.text = $"{cur} / {max}";
+        if (label) label.text = $"{slider.value} / {slider.maxValue}";
     }
 
     void RefreshXP()
     {
-        if (stats == null || slider == null) return;
+        if (player == null || slider == null) return;
+        int max = Mathf.Max(1, player.xpToNext);
+        int cur = Mathf.Clamp(player.xp, 0, max);
 
-        slider.maxValue = stats.xpToNext;
-        slider.value = stats.xp;
+        slider.maxValue = max;
+        slider.value = cur;
 
-        if (label)
-            label.text = $"{stats.xp} / {stats.xpToNext}";
+        if (label) label.text = $"{slider.value} / {slider.maxValue}";
     }
 }
