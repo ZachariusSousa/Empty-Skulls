@@ -10,6 +10,7 @@ public class Item : ScriptableObject
     public string displayName = "Item";
     [TextArea] public string description;
     public Sprite icon;
+    public LootRarity rarity = LootRarity.Common;
 
     [Header("Behavior")]
     public ItemKind kind = ItemKind.Consumable;
@@ -29,6 +30,7 @@ public class Item : ScriptableObject
 
     [Header("On-Use Effects (for Consumables, etc.)")]
     public ItemEffect[] onUseEffects;
+    
 
     // Doesnt work for stacking currently
 }

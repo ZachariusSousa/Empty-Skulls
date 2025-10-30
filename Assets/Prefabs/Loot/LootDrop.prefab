@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 2604696923745819595}
   - component: {fileID: 8376939032677266090}
   - component: {fileID: 2015760819273378597}
+  - component: {fileID: 8053897718650008251}
   m_Layer: 12
-  m_Name: common
+  m_Name: LootDrop
   m_TagString: LootBag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81,7 +82,7 @@ SpriteRenderer:
   m_SortingLayerID: 870025899
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f56db3d90d2b7bd43b4219c18781675e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cab327f41deb10348b7cdaf2d7f7a27d, type: 3}
   m_Color: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -156,3 +157,21 @@ MonoBehaviour:
   openDistance: 1
   slots: []
   rolled: 0
+--- !u!114 &8053897718650008251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7987653945414701913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 021cda36773bd1c45a6e85dffe03b769, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LootBagSkinner
+  targetRenderer: {fileID: 2604696923745819595}
+  commonSprite: {fileID: 21300000, guid: f56db3d90d2b7bd43b4219c18781675e, type: 3}
+  uncommonSprite: {fileID: 21300000, guid: cab327f41deb10348b7cdaf2d7f7a27d, type: 3}
+  rareSprite: {fileID: 21300000, guid: acc089ffdee24004098ee002e96afb3b, type: 3}
+  epicSprite: {fileID: 0}
+  legendarySprite: {fileID: 0}

@@ -60,6 +60,22 @@ public class LootBag : MonoBehaviour
         onChanged?.Invoke(this);
     }
 
+    public LootRarity GetHighestRarity()
+    {
+        LootRarity best = LootRarity.Common;
+        if (slots == null) return best;
+        for (int i = 0; i < slots.Length; i++)
+        {
+            if (slots[i].IsValid && slots[i].item != null)
+            {
+                // assumes Item has public LootRarity rarity
+                if (slots[i].item.rarity > best)
+                    best = slots[i].item.rarity;
+            }
+        }
+        return best;
+    }
+
 
     public bool IsEmpty()
     {
