@@ -109,7 +109,7 @@ public class DraggableItemUI : MonoBehaviour,
                             }
                             else
                             {
-                                Debug.Log($"[DraggableItemUI] Tried to use '{item.name}', but HP was full.");
+                                Debug.Log($"[DraggableItemUI] Tried to use '{item.name}', but bar was full.");
                             }
                         }
                     }
