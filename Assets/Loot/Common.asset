@@ -46,3 +46,11 @@ MonoBehaviour:
     dropChance: 0.268
     minStack: 1
     maxStack: 1
+  - item: {fileID: 11400000, guid: 71c17ae8416dae44193c3cedf677bedf, type: 2}
+    dropChance: 1
+    minStack: 1
+    maxStack: 1
+  - item: {fileID: 11400000, guid: c80a02c25775a2c4a8b9693ad677228d, type: 2}
+    dropChance: 0.5
+    minStack: 1
+    maxStack: 1

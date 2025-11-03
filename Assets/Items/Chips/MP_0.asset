@@ -15,6 +15,7 @@ MonoBehaviour:
   displayName: Scavenged Chip of Health
   description: 
   icon: {fileID: 1598938003931305757, guid: 6971424ab2fbadd40afffe7e165fbc62, type: 3}
+  rarity: 0
   kind: 3
   isEquippable: 1
   equipSlot: 3

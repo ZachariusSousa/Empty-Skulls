@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77f6d554b32896249a7886a5d3b79757, type: 3}
   m_Name: Restore100 (MP)
   m_EditorClassIdentifier: Assembly-CSharp::RestoreMpEffect
-  amount: 40
+  amount: 100

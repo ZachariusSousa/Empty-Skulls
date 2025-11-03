@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbbb74bd114bd184eb09b2927c6b7f71, type: 3}
   m_Name: ManaPot
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  displayName: Item
+  displayName: Common Mana Potion
   description: 
-  icon: {fileID: 0}
+  icon: {fileID: 6723297690105402245, guid: fe0febf3f1a848347a6646a7b404e251, type: 3}
   rarity: 0
   kind: 0
   isEquippable: 0
@@ -28,4 +28,5 @@ MonoBehaviour:
   bonusLUCK: 0
   bonusMaxHP: 0
   bonusMaxMP: 0
-  onUseEffects: []
+  onUseEffects:
+  - {fileID: 11400000, guid: 506f949ceae8c5042979837614b430f6, type: 2}
