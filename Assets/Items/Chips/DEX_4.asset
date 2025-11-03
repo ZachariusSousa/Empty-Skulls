@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbbb74bd114bd184eb09b2927c6b7f71, type: 3}
+  m_Name: DEX_4
+  m_EditorClassIdentifier: Assembly-CSharp::Item
+  displayName: Scavenged Chip of Health
+  description: 
+  icon: {fileID: 9156989357500427984, guid: 6971424ab2fbadd40afffe7e165fbc62, type: 3}
+  rarity: 0
+  kind: 3
+  isEquippable: 1
+  equipSlot: 3
+  bonusATT: 0
+  bonusDEF: 0
+  bonusSPD: 0
+  bonusDEX: 0
+  bonusVIT: 0
+  bonusWIS: 0
+  bonusLUCK: 0
+  bonusMaxHP: 30
+  bonusMaxMP: 0
+  onUseEffects: []

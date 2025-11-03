@@ -133,8 +133,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 8
-  m_fontSizeBase: 8
+  m_fontSize: 6
+  m_fontSizeBase: 6
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -200,3 +200,4 @@ MonoBehaviour:
   startScale: 0.9
   popScale: 1.15
   popTime: 0.08
+  spawnOffset: {x: 0, y: 0.8, z: 0}
