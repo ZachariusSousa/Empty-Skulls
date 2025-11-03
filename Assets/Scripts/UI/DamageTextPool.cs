@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[DisallowMultipleComponent]
 public class DamageTextPool : MonoBehaviour
 {
     public static DamageTextPool Instance { get; private set; }
@@ -17,18 +18,21 @@ public class DamageTextPool : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
-        if (prefab)
-        {
-            for (int i = 0; i < warmup; i++)
-            {
-                var dt = Instantiate(prefab, transform);
-                dt.gameObject.SetActive(false);
-                _pool.Enqueue(dt);
-            }
-        }
-        else
+        if (!prefab)
         {
             Debug.LogWarning("[DamageTextPool] Prefab not assigned.");
+            return;
+        }
+
+        // Prewarm – do NOT parent to this object to avoid inheriting off-screen transforms.
+        for (int i = 0; i < warmup; i++)
+        {
+            var dt = Instantiate(prefab);     // no parent
+            dt.gameObject.SetActive(false);
+            dt.transform.position = Vector3.zero;
+            dt.transform.rotation = Quaternion.identity;
+            dt.transform.localScale = Vector3.one;
+            _pool.Enqueue(dt);
         }
     }
 
@@ -38,7 +42,12 @@ public class DamageTextPool : MonoBehaviour
 
         DamageText dt = (Instance._pool.Count > 0)
             ? Instance._pool.Dequeue()
-            : Instantiate(Instance.prefab, Instance.transform);
+            : Instantiate(Instance.prefab);   // no parent
+
+        // Ensure sane transform BEFORE play
+        dt.transform.SetParent(null, worldPositionStays: true);
+        dt.transform.rotation = Quaternion.identity;
+        dt.transform.localScale = Vector3.one;
 
         dt.gameObject.SetActive(true);
         dt.Play(amount, pos, color, crit);
@@ -48,6 +57,13 @@ public class DamageTextPool : MonoBehaviour
     {
         if (!dt) return;
         dt.gameObject.SetActive(false);
+
+        // Reset transform so recycled instances don’t carry bad offsets
+        dt.transform.SetParent(null, worldPositionStays: true);
+        dt.transform.position = Vector3.zero;
+        dt.transform.rotation = Quaternion.identity;
+        dt.transform.localScale = Vector3.one;
+
         if (Instance) Instance._pool.Enqueue(dt);
         else Destroy(dt.gameObject);
     }

@@ -1,11 +1,12 @@
 using UnityEngine;
-using TMPro; // gives us TMP_Text base class
+using TMPro; // TMP_Text base class works for TextMeshPro & TextMeshProUGUI
 
 [DisallowMultipleComponent]
 public class DamageText : MonoBehaviour
 {
     [Header("Refs")]
-    public TMP_Text tmp; // works for both TextMeshPro and TextMeshProUGUI
+    public TMP_Text tmp; // assign your TextMeshPro (3D) or TextMeshProUGUI here
+
 
     [Header("Motion")]
     public Vector3 startJitter = new Vector3(0.15f, 0.15f, 0f);
@@ -20,7 +21,7 @@ public class DamageText : MonoBehaviour
 
     float _t;
     Vector3 _vel;
-    Color _color = Color.white;
+    Color _baseColor = Color.red;
     float _popT;
 
     void Reset() { AutoWireTMP(); }
@@ -31,8 +32,9 @@ public class DamageText : MonoBehaviour
         if (!tmp) AutoWireTMP();
         if (!tmp)
         {
-            Debug.LogError("[DamageText] No TMP component found on this object or its children. Add TextMeshPro or TextMeshProUGUI.", this);
+            Debug.LogError("[DamageText] No TMP component found. Add TextMeshPro or TextMeshProUGUI.", this);
             enabled = false;
+            return;
         }
     }
 
@@ -44,44 +46,45 @@ public class DamageText : MonoBehaviour
 
     public void Play(int amount, Vector3 worldPos, Color color, bool crit = false)
     {
-        if (!tmp) { AutoWireTMP(); if (!tmp) { enabled = false; return; } }
+        if (!tmp) { enabled = false; return; }
 
-        transform.position = worldPos
+        // Force sane transform and on-screen Z
+        transform.position = new Vector3(worldPos.x, worldPos.y, 0f)
             + new Vector3(Random.Range(-startJitter.x, startJitter.x),
                           Random.Range(-startJitter.y, startJitter.y), 0f);
+        transform.rotation = Quaternion.identity;
+        transform.localScale = Vector3.one * (crit ? popScale : startScale);
 
         tmp.text = amount.ToString();
-        _color = color;
-        tmp.color = _color;
+        _baseColor = color;
+        tmp.color = _baseColor;
 
+        _vel = riseVelocity + new Vector3(Random.Range(-0.15f, 0.15f), 0f, 0f);
         _t = 0f;
         _popT = 0f;
-        transform.localScale = Vector3.one * (crit ? popScale : startScale);
-        _vel = riseVelocity + new Vector3(Random.Range(-0.15f, 0.15f), 0f, 0f);
-        gameObject.SetActive(true);
-        enabled = true; 
+        enabled = true;
     }
 
     void Update()
     {
-        if (!tmp) return; 
+        if (!tmp) return;
 
         float dt = Time.deltaTime;
         _t += dt;
 
-        // motion
+        // Motion
         _vel.y += gravity * dt * 0.5f;
         transform.position += _vel * dt;
 
-        // pop → settle scale
+        // Pop → settle
         if (_popT < popTime) _popT += dt;
         float k = Mathf.Clamp01(_popT / popTime);
         float scale = Mathf.Lerp(transform.localScale.x, 1f, k);
         transform.localScale = Vector3.one * scale;
 
-        // fade during last 40% of lifetime
+        // Fade during last 40%
         float a = Mathf.InverseLerp(lifetime, lifetime * 0.6f, _t);
-        var c = _color; c.a = 1f - Mathf.Clamp01(a);
+        var c = _baseColor; c.a = 1f - Mathf.Clamp01(a);
         tmp.color = c;
 
         if (_t >= lifetime)
