@@ -47,7 +47,6 @@ public class Projectile : MonoBehaviour
     Collider2D _col;
     float _spinAccum;
 
-    /// <summary>Set launch direction and (optionally) assign owner & stats.</summary>
     public void Launch(Vector2 direction, EntityStats ownerStatsRef = null, GameObject ownerGO = null)
     {
         if (direction.sqrMagnitude > 0f)
@@ -139,7 +138,12 @@ public class Projectile : MonoBehaviour
         {
             // include owner's attack if provided
             int finalDamage = damage + (ownerStats ? Mathf.Max(0, ownerStats.EffATT) : 0);
-            target.ApplyDamage(finalDamage, defCap);
+
+            // approximate impact point for triggers (better than transform.position)
+            Vector2 hitPoint = other.ClosestPoint(transform.position);
+
+            // NEW: call overload that shows damage numbers at hitPoint
+            target.ApplyDamage(finalDamage, (Vector3)hitPoint, false, defCap);
 
             _hits++;
             if (_hits > pierce)
@@ -161,5 +165,4 @@ public class Projectile : MonoBehaviour
         if (impactVfx) Instantiate(impactVfx, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
-
 }

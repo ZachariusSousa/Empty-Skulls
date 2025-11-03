@@ -88,7 +88,6 @@ public class EnemyDeath : MonoBehaviour
         Destroy(who.gameObject, Mathf.Max(0f, destroyDelay));
     }
 
-    // Optional: auto-subscribe if someone calls EntityStats.onDeath directly
     void OnEnable()
     {
         var stats = GetComponent<EntityStats>();
@@ -100,6 +99,6 @@ public class EnemyDeath : MonoBehaviour
     {
         var stats = GetComponent<EntityStats>();
         if (stats != null)
-            stats.onDeath.RemoveAllListeners(); // keep it simple
+            stats.onDeath.RemoveAllListeners();
     }
 }

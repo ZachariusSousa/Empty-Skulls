@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6361847733491121198}
   - component: {fileID: 675647455644534415}
   - component: {fileID: 7917227546408274136}
+  - component: {fileID: 4963874732905393763}
   m_Layer: 5
   m_Name: DamageText
   m_TagString: Untagged
@@ -136,3 +137,23 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &4963874732905393763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9087497363120329286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3751c563f56811a4086c4c539861ee3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DamageText
+  tmp: {fileID: 0}
+  startJitter: {x: 0.15, y: 0.15, z: 0}
+  riseVelocity: {x: 0, y: 1, z: 0}
+  lifetime: 0.6
+  gravity: -1.5
+  startScale: 0.9
+  popScale: 1.15
+  popTime: 0.08

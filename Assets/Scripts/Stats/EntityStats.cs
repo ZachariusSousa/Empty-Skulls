@@ -3,6 +3,7 @@ using UnityEngine.Events;
 
 [System.Serializable] public class StatIntEvent : UnityEvent<string, int> {}
 [System.Serializable] public class DeathEvent   : UnityEvent {}
+[System.Serializable] public class DamageNumEvent : UnityEvent<int, Vector3, bool> {} // (final, pos, crit)
 
 [DisallowMultipleComponent]
 public class EntityStats : MonoBehaviour
@@ -18,9 +19,15 @@ public class EntityStats : MonoBehaviour
     [Header("Bonuses (runtime)")]
     [SerializeField] protected int b_maxHP, b_att, b_def;
 
+    [Header("Damage Numbers")]
+    public bool showDamageNumbers = true;
+    public Color normalHitColor = Color.white;
+    public Color critHitColor   = new Color(1f, 0.9f, 0.25f);
+
     [Header("Events")]
     public StatIntEvent onStatChanged; // (name, value)
     public DeathEvent   onDeath;       // fired when HP hits 0 (before EnemyDeath.HandleDeath)
+    public DamageNumEvent onDamaged;   // (finalDamage, hitPos, crit)
 
     // Effective values
     public int EffMaxHP => maxHP + b_maxHP;
@@ -44,8 +51,12 @@ public class EntityStats : MonoBehaviour
         onStatChanged?.Invoke("hp", hp);
     }
 
-    /// <summary>Flat DEF with minimum 1 damage; DEF capped (default 25). Triggers Die() at 0 HP.</summary>
     public virtual void ApplyDamage(int rawDamage, int defCap = 25)
+    {
+        ApplyDamage(rawDamage, transform.position, false, defCap);
+    }
+
+    public virtual void ApplyDamage(int rawDamage, Vector3 hitWorldPos, bool crit = false, int defCap = 25)
     {
         if (rawDamage <= 0 || IsDead) return;
 
@@ -54,6 +65,16 @@ public class EntityStats : MonoBehaviour
 
         hp = Mathf.Clamp(hp - final, 0, EffMaxHP);
         onStatChanged?.Invoke("hp", hp);
+
+        // Event for any listeners (UI/VFX/etc.)
+        onDamaged?.Invoke(final, hitWorldPos, crit);
+
+        // Spawn floating damage number
+        if (showDamageNumbers)
+        {
+            var color = crit ? critHitColor : normalHitColor;
+            DamageTextPool.Spawn(final, hitWorldPos, color, crit);
+        }
 
         if (hp == 0) Die();
     }

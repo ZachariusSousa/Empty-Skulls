@@ -187,14 +187,16 @@ MonoBehaviour:
   faceVelocity: 1
   spriteSpin: 0
   spriteAngleOffset: 45
-  damage: 20
+  damage: 1
   pierce: 0
+  defCap: 25
   hitMask:
     serializedVersion: 2
     m_Bits: 512
   impactVfx: {fileID: 0}
   owner: {fileID: 0}
   ignoreOwner: 1
+  ownerStats: {fileID: 0}
 --- !u!96 &-3858700667595549480
 TrailRenderer:
   serializedVersion: 3
