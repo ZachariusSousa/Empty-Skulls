@@ -18,16 +18,11 @@ public class DamageTextPool : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
-        if (!prefab)
-        {
-            Debug.LogWarning("[DamageTextPool] Prefab not assigned.");
-            return;
-        }
+        if (!prefab) return;
 
-        // Prewarm – do NOT parent to this object to avoid inheriting off-screen transforms.
         for (int i = 0; i < warmup; i++)
         {
-            var dt = Instantiate(prefab);     // no parent
+            var dt = Instantiate(prefab);
             dt.gameObject.SetActive(false);
             dt.transform.position = Vector3.zero;
             dt.transform.rotation = Quaternion.identity;
@@ -36,21 +31,20 @@ public class DamageTextPool : MonoBehaviour
         }
     }
 
-    public static void Spawn(int amount, Vector3 pos, Color color, bool crit = false)
+    public static void Spawn(int amount, Vector3 pos, Color color, bool crit = false, bool showPlus = false)
     {
         if (!Instance || !Instance.prefab) return;
 
         DamageText dt = (Instance._pool.Count > 0)
             ? Instance._pool.Dequeue()
-            : Instantiate(Instance.prefab);   // no parent
+            : Instantiate(Instance.prefab);
 
-        // Ensure sane transform BEFORE play
-        dt.transform.SetParent(null, worldPositionStays: true);
+        dt.transform.SetParent(null, true);
         dt.transform.rotation = Quaternion.identity;
         dt.transform.localScale = Vector3.one;
 
         dt.gameObject.SetActive(true);
-        dt.Play(amount, pos, color, crit);
+        dt.Play(amount, pos, color, crit, showPlus);
     }
 
     public static void Release(DamageText dt)
@@ -58,8 +52,7 @@ public class DamageTextPool : MonoBehaviour
         if (!dt) return;
         dt.gameObject.SetActive(false);
 
-        // Reset transform so recycled instances don’t carry bad offsets
-        dt.transform.SetParent(null, worldPositionStays: true);
+        dt.transform.SetParent(null, true);
         dt.transform.position = Vector3.zero;
         dt.transform.rotation = Quaternion.identity;
         dt.transform.localScale = Vector3.one;

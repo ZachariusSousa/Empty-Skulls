@@ -23,7 +23,7 @@ public class DamageText : MonoBehaviour
 
     float _t;
     Vector3 _vel;
-    Color _baseColor = Color.red;
+    Color _baseColor = Color.white;
     float _popT;
 
     void Reset() => AutoWireTMP();
@@ -32,12 +32,7 @@ public class DamageText : MonoBehaviour
     void Awake()
     {
         if (!tmp) AutoWireTMP();
-        if (!tmp)
-        {
-            Debug.LogError("[DamageText] No TMP component found.", this);
-            enabled = false;
-            return;
-        }
+        if (!tmp) { enabled = false; return; }
     }
 
     void AutoWireTMP()
@@ -46,11 +41,10 @@ public class DamageText : MonoBehaviour
         if (!tmp) tmp = GetComponentInChildren<TMP_Text>(true);
     }
 
-    public void Play(int amount, Vector3 worldPos, Color _ = default, bool crit = false)
+    public void Play(int amount, Vector3 worldPos, Color color, bool crit = false, bool showPlus = false)
     {
         if (!tmp) { enabled = false; return; }
 
-        // Apply the spawn offset + jitter
         transform.position = worldPos + spawnOffset
             + new Vector3(Random.Range(-startJitter.x, startJitter.x),
                           Random.Range(-startJitter.y, startJitter.y), 0f);
@@ -58,7 +52,8 @@ public class DamageText : MonoBehaviour
         transform.rotation = Quaternion.identity;
         transform.localScale = Vector3.one * (crit ? popScale : startScale);
 
-        tmp.text = amount.ToString();
+        _baseColor = color;
+        tmp.text = (showPlus && amount > 0) ? $"+{amount}" : amount.ToString();
         tmp.color = _baseColor;
 
         _vel = riseVelocity + new Vector3(Random.Range(-0.15f, 0.15f), 0f, 0f);

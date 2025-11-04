@@ -142,6 +142,7 @@ public class Shooter : MonoBehaviour
         if (_burstTimer > 0f) _burstTimer -= Time.deltaTime;
 
         SyncItemIfChanged();
+        if (!HasEquippedWeapon()) return;
 
         if (!control.driveByInput) return;
         if (!GetActiveProjectilePrefab()) return;
@@ -196,6 +197,7 @@ public class Shooter : MonoBehaviour
 
     public void FireOnce()
     {
+        if (!HasEquippedWeapon()) return;
         if (!ReadyToFire()) return;
         _cooldown = SecondsPerShot();
         ShootPellets();
@@ -217,7 +219,7 @@ public class Shooter : MonoBehaviour
         if (ReadyToFire()) FireOnce();
     }
 
-    bool ReadyToFire() => _cooldown <= 0f;
+    bool ReadyToFire() => _cooldown <= 0f && HasEquippedWeapon();
 
     float SecondsPerShot()
     {
@@ -349,4 +351,12 @@ public class Shooter : MonoBehaviour
         else
             wiring.projectilePrefab = _baseProjectilePrefab;
     }
+
+    bool HasEquippedWeapon()
+{
+    // If there’s no weaponSlot wired, assume this is an NPC/enemy shooter: allow firing.
+    if (!weaponSlot) return true;
+    return _appliedItem != null;
+}
+
 }
