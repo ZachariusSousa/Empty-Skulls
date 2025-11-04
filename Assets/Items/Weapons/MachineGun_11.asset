@@ -16,9 +16,9 @@ MonoBehaviour:
   description: 
   icon: {fileID: -6938011431982283160, guid: 61195ba124612b6429ae0abc38e99bb5, type: 3}
   rarity: 0
-  kind: 2
+  kind: 1
   isEquippable: 1
-  equipSlot: 2
+  equipSlot: 1
   bonusATT: 0
   bonusDEF: 2
   bonusSPD: 0

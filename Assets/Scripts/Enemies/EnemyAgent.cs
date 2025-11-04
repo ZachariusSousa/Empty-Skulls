@@ -24,8 +24,14 @@ public class EnemyAgent : MonoBehaviour
     public bool requireLineOfSight = false;
     public LayerMask losMask;                // walls/obstacles
 
-    [Header("Attack Module")]
-    public EnemyAttackBase attack;           // plug MeleeAttack or RangedAttack here
+    // ===== Shooter integration (no extra scripts) =====
+    [Header("Shooting")]
+    public Shooter shooter;                  // assign in Inspector
+    public float minAttackDistance = 1.5f;   // fire if target is within [min, max]
+    public float maxAttackDistance = 7.5f;
+    public bool useBursts = false;           // optional burst
+    public int burstCount = 3;
+    public float burstInterval = 0.08f;
 
     Rigidbody2D _rb;
     Vector2 _vel;
@@ -35,7 +41,9 @@ public class EnemyAgent : MonoBehaviour
     void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
-        if (!attack) attack = GetComponent<EnemyAttackBase>();
+        if (!shooter) shooter = GetComponent<Shooter>();
+        if (shooter) shooter.control.driveByInput = false; 
+
     }
 
     void Start()
@@ -88,14 +96,31 @@ public class EnemyAgent : MonoBehaviour
                 desired += tangent * strafeSpeed;
             }
 
-            // Try to attack when in band and LOS (or LOS not required)
-            if (attack && hasLOS && dist >= attack.minAttackDistance && dist <= attack.maxAttackDistance)
-                attack.TryAttack(target);
+            // --- SHOOTER LOGIC (direct) ---
+            if (shooter && hasLOS && dist >= minAttackDistance && dist <= maxAttackDistance)
+            {
+                shooter.AimAtWorld((Vector2)target.position);
+
+                if (useBursts && burstCount > 1)
+                {
+                    // Burst fire (non-blocking)
+                    StartCoroutine(shooter.FireBurst(burstCount));
+                }
+                else
+                {
+                    // Single shot (Shooter handles its own RPM/cooldown)
+                    shooter.FireOnce();
+                }
+            }
         }
 
         // Smooth accel
         _vel = Vector2.MoveTowards(_vel, desired, acceleration * Time.fixedDeltaTime);
-        _rb.linearVelocity = _vel;
+#if UNITY_6000_0_OR_NEWER
+        _rb.linearVelocity = _vel;  // Unity 6
+#else
+        _rb.velocity = _vel;        // fallback if needed
+#endif
     }
 
     bool HasLineOfSight()
@@ -113,5 +138,9 @@ public class EnemyAgent : MonoBehaviour
         Gizmos.color = Color.gray; Gizmos.DrawWireSphere(transform.position, loseRadius);
         Gizmos.color = Color.yellow; Gizmos.DrawWireSphere(transform.position, minDistance);
         Gizmos.color = Color.red; Gizmos.DrawWireSphere(transform.position, maxDistance);
+
+        // Attack band for clarity
+        Gizmos.color = Color.magenta; Gizmos.DrawWireSphere(transform.position, minAttackDistance);
+        Gizmos.color = Color.magenta; Gizmos.DrawWireSphere(transform.position, maxAttackDistance);
     }
 }

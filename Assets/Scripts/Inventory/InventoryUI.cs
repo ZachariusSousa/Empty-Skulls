@@ -81,7 +81,6 @@ public class InventoryUI : MonoBehaviour
                     case SlotRole.LootBag: bag++; break;
                 }
             }
-            Debug.Log($"[InventoryUI] Wired slots → Equip:{equip} Inv:{inv} LootBag:{bag}");
         }
     }
 

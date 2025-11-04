@@ -26,7 +26,7 @@ public class Projectile : MonoBehaviour
     public float spriteAngleOffset = 0f; // baseline offset (e.g., 0°→up, 45°, etc.)
 
     [Header("Hits")]
-    public int damage = 1;             // base damage from the projectile
+    public int damage = 1;             // base damage (gun can override per-shot)
     public int pierce = 0;             // 0 = die on first hit; 1 = pass through 1 target, etc.
     public int defCap = 25;            // defense cap used by EntityStats.ApplyDamage
     public LayerMask hitMask = ~0;
@@ -35,7 +35,13 @@ public class Projectile : MonoBehaviour
     [Header("Owner")]
     public GameObject owner;
     public bool ignoreOwner = true;
-    public EntityStats ownerStats;     // optional: include shooter's attack
+    public EntityStats ownerStats;     // optional: shooter stats (for ATT, crit, etc.)
+
+    // ------- NEW: Stat Scaling Options (keep it simple) -------
+    [Header("Damage Scaling (Optional)")]
+    [Tooltip("If enabled, add owner's EffATT * damagePerATT on hit. Leave OFF if Gun already baked ATT into 'damage'.")]
+    public bool addOwnerATT = false;
+    [Min(0)] public int damagePerATT = 1;
 
     // runtime
     Vector2 _dir = Vector2.up;   // forward direction (normalized)
@@ -136,13 +142,16 @@ public class Projectile : MonoBehaviour
         var target = other.GetComponent<EntityStats>() ?? other.GetComponentInParent<EntityStats>();
         if (target != null)
         {
-            // include owner's attack if provided
-            int finalDamage = damage + (ownerStats ? Mathf.Max(0, ownerStats.EffATT) : 0);
+            // ---- DAMAGE CALC ----
+            // If gun already baked stats → leave addOwnerATT = false (default).
+            int attBonus = (addOwnerATT && ownerStats) ? Mathf.Max(0, ownerStats.EffATT) * damagePerATT : 0;
+            int finalDamage = damage; 
+
 
             // approximate impact point for triggers (better than transform.position)
             Vector2 hitPoint = other.ClosestPoint(transform.position);
 
-            // NEW: call overload that shows damage numbers at hitPoint
+            // Apply with def cap + show damage numbers at hitPoint
             target.ApplyDamage(finalDamage, (Vector3)hitPoint, false, defCap);
 
             _hits++;

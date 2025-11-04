@@ -16,15 +16,15 @@ MonoBehaviour:
   description: 
   icon: {fileID: -2408530018317867212, guid: 5864f33237d29da428fbaa258d90c5bd, type: 3}
   rarity: 0
-  kind: 2
+  kind: 1
   isEquippable: 1
-  equipSlot: 2
-  bonusATT: 0
-  bonusDEF: 2
+  equipSlot: 1
+  bonusATT: 10
+  bonusDEF: 0
   bonusSPD: 0
   bonusDEX: 0
   bonusVIT: 0
-  bonusWIS: 1
+  bonusWIS: 0
   bonusLUCK: 0
   bonusMaxHP: 0
   bonusMaxMP: 0

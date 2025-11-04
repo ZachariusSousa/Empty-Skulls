@@ -4,143 +4,117 @@ using UnityEngine.Events;
 [DisallowMultipleComponent]
 public class PlayerStats : EntityStats
 {
-    [Header("Progression")]
-    [Min(1)] public int level = 1;
-    public int xp = 0;
-    public int xpToNext = 50;
-
-    [Header("Mana & Attributes")]
-    public int maxMP = 100;
-    public int mp = 100;
-
-    public int spd = 25;
-    public int dex = 10;
-    public int vit = 10;
-    public int wis = 10;
-    public int luck = 0;
-
-    [Header("Bonuses (runtime)")]
-    [SerializeField] int b_maxMP, b_spd, b_dex, b_vit, b_wis, b_luck;
-
-    [Header("Events")]
-    public UnityEvent onLevelUp;
-
-    // Effective
-    public int EffMaxMP => maxMP + b_maxMP;
-    public int EffSPD   => spd + b_spd;
-    public int EffDEX   => dex + b_dex;
-    public int EffVIT   => vit + b_vit;
-    public int EffWIS   => wis + b_wis;
-    public int EffLUCK  => luck + b_luck;
-
-    // --- Back-compat: MP property for existing code ---
-    public int MP
+    // ===== PLAYER-ONLY GROUPS =====
+    [System.Serializable]
+    public struct ProgressionGroup
     {
-        get => mp;
-        set
-        {
-            mp = Mathf.Clamp(value, 0, EffMaxMP);
-            onStatChanged?.Invoke("mp", mp);
-        }
+        [Header("Progression")]
+        [Min(1)] public int level;
+        public int xp;
+        public int xpToNext;
     }
 
-    // --- Back-compat: TakeDamage wrapper(s) ---
-    public void TakeDamage(int rawDamage) => ApplyDamage(rawDamage);
-    public void TakeDamage(int rawDamage, int defCap) => ApplyDamage(rawDamage, defCap);
+    [System.Serializable]
+    public struct PlayerEventsGroup
+    {
+        [Header("Player Events")]
+        public UnityEvent onLevelUp;
+    }
+
+    public ProgressionGroup prog = new ProgressionGroup { level = 1, xp = 0, xpToNext = 50 };
+    public PlayerEventsGroup pevents;
 
     protected override void Awake()
     {
         base.Awake();
-        mp = Mathf.Clamp(mp, 0, EffMaxMP);
+        // Ensure current values are clamped to effective caps after deserialization
+        // (EntityStats.Awake already does this; kept for clarity)
     }
 
-    // --- XP / Level ---
+    // ===== XP / LEVEL =====
     public void AddXP(int amount)
     {
         if (amount <= 0) return;
-        xp += amount;
-        onStatChanged?.Invoke("xp", xp);
+        prog.xp += amount;
+        eventsGroup.onStatChanged?.Invoke("xp", prog.xp);
 
-        while (xp >= xpToNext)
+        while (prog.xp >= prog.xpToNext)
         {
-            xp -= xpToNext;
+            prog.xp -= prog.xpToNext;
             LevelUp();
         }
     }
 
     void LevelUp()
     {
-        level++;
-        onStatChanged?.Invoke("level", level);
+        prog.level++;
+        eventsGroup.onStatChanged?.Invoke("level", prog.level);
 
-        // Simple growth
-        maxHP += 10;
-        maxMP += 5;
-        att   += 1;
-        spd   += 1;
-        dex   += 1;
-        vit   += 1;
-        wis   += 1;
+        // Simple growth curve — tweak to taste
+        baseStats.maxHP += 10;
+        baseStats.maxMP += 5;
+        baseStats.att   += 1;
+        baseStats.spd   += 1;
+        baseStats.dex   += 1;
+        baseStats.vit   += 1;
+        baseStats.wis   += 1;
 
-        hp = EffMaxHP;
-        mp = EffMaxMP;
+        // Refill on level
+        current.hp = EffMaxHP;
+        current.mp = EffMaxMP;
 
-        xpToNext = Mathf.RoundToInt(xpToNext * 1.25f) + 10;
+        prog.xpToNext = Mathf.RoundToInt(prog.xpToNext * 1.25f) + 10;
 
-        onStatChanged?.Invoke("maxHP", maxHP);
-        onStatChanged?.Invoke("maxHP_eff", EffMaxHP);
-        onStatChanged?.Invoke("hp", hp);
+        // Notify
+        eventsGroup.onStatChanged?.Invoke("maxHP", baseStats.maxHP);
+        eventsGroup.onStatChanged?.Invoke("maxMP", baseStats.maxMP);
+        eventsGroup.onStatChanged?.Invoke("maxHP_eff", EffMaxHP);
+        eventsGroup.onStatChanged?.Invoke("maxMP_eff", EffMaxMP);
+        eventsGroup.onStatChanged?.Invoke("hp", current.hp);
+        eventsGroup.onStatChanged?.Invoke("mp", current.mp);
+        eventsGroup.onStatChanged?.Invoke("xpToNext", prog.xpToNext);
 
-        onStatChanged?.Invoke("maxMP", maxMP);
-        onStatChanged?.Invoke("maxMP_eff", EffMaxMP);
-        onStatChanged?.Invoke("mp", mp);
-
-        onStatChanged?.Invoke("xpToNext", xpToNext);
-
-        onLevelUp?.Invoke();
+        pevents.onLevelUp?.Invoke();
     }
 
-    // --- MP helpers ---
-    public void RestoreMP(int amount)
-    {
-        if (amount <= 0 || IsDead) return;
-        MP = mp + amount; // uses property to clamp + event
-    }
-
-    public void UseMP(int amount)
-    {
-        if (amount <= 0 || IsDead) return;
-        MP = mp - amount; // uses property to clamp + event
-    }
-
-    // --- Player-only bonuses; falls back to base for others ---
-    public void SetPlayerBonus(string stat, int value)
-    {
-        switch (stat.ToLowerInvariant())
-        {
-            case "maxmp": b_maxMP = value; onStatChanged?.Invoke("maxMP_bonus", b_maxMP); break;
-            case "spd":   b_spd   = value; onStatChanged?.Invoke("spd_bonus", b_spd);     break;
-            case "dex":   b_dex   = value; onStatChanged?.Invoke("dex_bonus", b_dex);     break;
-            case "vit":   b_vit   = value; onStatChanged?.Invoke("vit_bonus", b_vit);     break;
-            case "wis":   b_wis   = value; onStatChanged?.Invoke("wis_bonus", b_wis);     break;
-            case "luck":  b_luck  = value; onStatChanged?.Invoke("luck_bonus", b_luck);   break;
-            default:
-                SetBonus(stat, value);
-                return;
-        }
-        mp = Mathf.Clamp(mp, 0, EffMaxMP);
-        onStatChanged?.Invoke("mp", mp);
-        onStatChanged?.Invoke("maxMP_eff", EffMaxMP);
-    }
-
-    // --- Passive regen (optional) ---
+    // ===== Optional passive regen (VIT/WIS) =====
     float _hpAcc, _mpAcc;
     void Update()
     {
+        if (IsDead) return;
+
         _hpAcc += EffVIT * Time.deltaTime / 5f;
         _mpAcc += EffWIS * Time.deltaTime / 5f;
 
         if (_hpAcc >= 1f) { int add = Mathf.FloorToInt(_hpAcc); _hpAcc -= add; Heal(add); }
         if (_mpAcc >= 1f) { int add = Mathf.FloorToInt(_mpAcc); _mpAcc -= add; RestoreMP(add); }
     }
+
+    [ContextMenu("Refill HP/MP")]
+    void Ctx_RefillHPMP()
+    {
+        current.hp = EffMaxHP;
+        current.mp = EffMaxMP;
+        eventsGroup.onStatChanged?.Invoke("hp", current.hp);
+        eventsGroup.onStatChanged?.Invoke("mp", current.mp);
+    }
+
+    // ===== BACK-COMPAT SHIMS (so old scripts keep compiling) =====
+    // Old flat fields/events: xp, xpToNext, onStatChanged, TakeDamage(...)
+    public int xp
+    {
+        get => prog.xp;
+        set { prog.xp = Mathf.Max(0, value); eventsGroup.onStatChanged?.Invoke("xp", prog.xp); }
+    }
+
+    public int xpToNext
+    {
+        get => prog.xpToNext;
+        set { prog.xpToNext = Mathf.Max(1, value); eventsGroup.onStatChanged?.Invoke("xpToNext", prog.xpToNext); }
+    }
+
+    public StatIntEvent onStatChanged => eventsGroup.onStatChanged;
+
+    public void TakeDamage(int amount, int defCap) => ApplyDamage(amount, transform.position, false, defCap);
+
 }

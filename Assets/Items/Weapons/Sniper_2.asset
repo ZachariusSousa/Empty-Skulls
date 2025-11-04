@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Item
   displayName: Robe of Newspaper
   description: 
-  icon: {fileID: -4069719694654505835, guid: 5864f33237d29da428fbaa258d90c5bd, type: 3}
+  icon: {fileID: -7059823160240741735, guid: 317fe7f38dc8ef04a87456fabb6156b9, type: 3}
   rarity: 0
-  kind: 2
+  kind: 1
   isEquippable: 1
-  equipSlot: 2
+  equipSlot: 1
   bonusATT: 0
   bonusDEF: 2
   bonusSPD: 0

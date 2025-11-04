@@ -1,156 +1,245 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-[System.Serializable] public class StatIntEvent : UnityEvent<string, int> {}
-[System.Serializable] public class DeathEvent   : UnityEvent {}
+[System.Serializable] public class StatIntEvent   : UnityEvent<string, int> {}
+[System.Serializable] public class DeathEvent     : UnityEvent {}
 [System.Serializable] public class DamageNumEvent : UnityEvent<int, Vector3, bool> {} // (final, pos, crit)
 
 [DisallowMultipleComponent]
 public class EntityStats : MonoBehaviour
 {
-    [Header("Core")]
-    [Min(1)] public int maxHP = 100;
-    [SerializeField] protected int hp = 100;
+    // ===== GROUPS =====
+    [System.Serializable]
+    public struct BaseStatsGroup
+    {
+        [Header("Base Stats (RotMG-style)")]
+        [Min(1)] public int maxHP; // 1
+        [Min(0)] public int maxMP; // 2
+        [Min(0)] public int att;   // 3
+        [Min(0)] public int def;   // 4
+        [Min(0)] public int spd;   // 5
+        [Min(0)] public int dex;   // 6
+        [Min(0)] public int vit;   // 7
+        [Min(0)] public int wis;   // 8
+    }
 
-    [Header("Combat")]
-    public int att = 10;   // outgoing damage
-    public int def = 0;    // flat reduction (cap applied in ApplyDamage)
+    [System.Serializable]
+    public struct CurrentGroup
+    {
+        [Header("Current (Runtime)")]
+        [SerializeField] public int hp;
+        [SerializeField] public int mp;
+    }
 
-    [Header("Bonuses (runtime)")]
-    [SerializeField] protected int b_maxHP, b_att, b_def;
+    [System.Serializable]
+    public struct BonusGroup
+    {
+        [Header("Bonuses (Runtime)")]
+        [SerializeField] public int b_maxHP;
+        [SerializeField] public int b_maxMP;
+        [SerializeField] public int b_att;
+        [SerializeField] public int b_def;
+        [SerializeField] public int b_spd;
+        [SerializeField] public int b_dex;
+        [SerializeField] public int b_vit;
+        [SerializeField] public int b_wis;
+    }
 
-    [Header("Damage Numbers")]
-    public bool showDamageNumbers = true;
-    public Color normalHitColor = Color.white;
-    public Color critHitColor   = new Color(1f, 0.9f, 0.25f);
+    [System.Serializable]
+    public struct DamageNumbersGroup
+    {
+        [Header("Damage Numbers")]
+        public bool showDamageNumbers;
+        public Color normalHitColor;
+        public Color critHitColor;
+    }
 
-    [Header("Events")]
-    public StatIntEvent onStatChanged; // (name, value)
-    public DeathEvent   onDeath;       // fired when HP hits 0 (before EnemyDeath.HandleDeath)
-    public DamageNumEvent onDamaged;   // (finalDamage, hitPos, crit)
+    [System.Serializable]
+    public struct EventsGroup
+    {
+        [Header("Events")]
+        public StatIntEvent onStatChanged; // (name, value)
+        public DeathEvent   onDeath;
+        public DamageNumEvent onDamaged;   // (finalDamage, hitPos, crit)
+    }
 
-    // Effective values
-    public int EffMaxHP => maxHP + b_maxHP;
-    public int EffATT   => att   + b_att;
-    public int EffDEF   => def   + b_def;
+    // ===== INSTANCES =====
+    public BaseStatsGroup baseStats = new BaseStatsGroup
+    {
+        maxHP = 100, maxMP = 0, att = 10, def = 0, spd = 0, dex = 0, vit = 0, wis = 0
+    };
+    public CurrentGroup current = new CurrentGroup { hp = 100, mp = 0 };
+    public BonusGroup bonus; // defaults 0
+    public DamageNumbersGroup dmgNums = new DamageNumbersGroup
+    {
+        showDamageNumbers = true,
+        normalHitColor = Color.white,
+        critHitColor = new Color(1f, 0.9f, 0.25f)
+    };
+    public EventsGroup eventsGroup;
 
-    // Convenience
-    public int HP    => hp;
-    public int MaxHP => EffMaxHP;
-    public bool IsDead => hp <= 0;
+    // ===== EFFECTIVE VALUES =====
+    public int EffMaxHP => Mathf.Max(1, baseStats.maxHP + bonus.b_maxHP);
+    public int EffMaxMP => Mathf.Max(0, baseStats.maxMP + bonus.b_maxMP);
+    public int EffATT   => Mathf.Max(0, baseStats.att   + bonus.b_att);
+    public int EffDEF   => Mathf.Max(0, baseStats.def   + bonus.b_def);
+    public int EffSPD   => Mathf.Max(0, baseStats.spd   + bonus.b_spd);
+    public int EffDEX   => Mathf.Max(0, baseStats.dex   + bonus.b_dex);
+    public int EffVIT   => Mathf.Max(0, baseStats.vit   + bonus.b_vit);
+    public int EffWIS   => Mathf.Max(0, baseStats.wis   + bonus.b_wis);
+
+    // Shortcuts
+    public int HP => current.hp;
+    public int MP => current.mp;
+    public bool IsDead => current.hp <= 0;
 
     protected virtual void Awake()
     {
-        hp = Mathf.Clamp(hp, 0, EffMaxHP);
+        current.hp = Mathf.Clamp(current.hp, 0, EffMaxHP);
+        current.mp = Mathf.Clamp(current.mp, 0, EffMaxMP);
     }
 
+    // ===== CORE API =====
     public virtual void Heal(int amount)
     {
         if (amount <= 0 || IsDead) return;
-        hp = Mathf.Clamp(hp + amount, 0, EffMaxHP);
-        onStatChanged?.Invoke("hp", hp);
+        current.hp = Mathf.Clamp(current.hp + amount, 0, EffMaxHP);
+        eventsGroup.onStatChanged?.Invoke("hp", current.hp);
     }
 
-    public virtual void ApplyDamage(int rawDamage, int defCap = 25)
+    public virtual void RestoreMP(int amount)
     {
-        ApplyDamage(rawDamage, transform.position, false, defCap);
+        if (amount <= 0 || IsDead) return;
+        current.mp = Mathf.Clamp(current.mp + amount, 0, EffMaxMP);
+        eventsGroup.onStatChanged?.Invoke("mp", current.mp);
     }
 
-    public virtual void ApplyDamage(int rawDamage, Vector3 hitWorldPos, bool crit = false, int defCap = 25)
+    public virtual void UseMP(int amount)
     {
-        if (rawDamage <= 0 || IsDead) return;
+        if (amount <= 0 || IsDead) return;
+        current.mp = Mathf.Clamp(current.mp - amount, 0, EffMaxMP);
+        eventsGroup.onStatChanged?.Invoke("mp", current.mp);
+    }
 
+    public virtual void ApplyDamage(int rawDamage, Vector3 hitPos, bool crit = false, int defCap = 25)
+    {
+        if (IsDead || rawDamage <= 0) return;
+
+        // Clamp defense to cap, like RotMG
         int effDef = Mathf.Min(EffDEF, defCap);
-        int final  = Mathf.Max(1, rawDamage - effDef);
+        int finalDamage = Mathf.Max(1, rawDamage - effDef);
 
-        hp = Mathf.Clamp(hp - final, 0, EffMaxHP);
-        onStatChanged?.Invoke("hp", hp);
+        current.hp = Mathf.Clamp(current.hp - finalDamage, 0, EffMaxHP);
+        eventsGroup.onStatChanged?.Invoke("hp", current.hp);
 
-        // Event for any listeners (UI/VFX/etc.)
-        onDamaged?.Invoke(final, hitWorldPos, crit);
-
-        // Spawn floating damage number
-        if (showDamageNumbers)
+        // Damage number
+        if (dmgNums.showDamageNumbers)
         {
-            var color = crit ? critHitColor : normalHitColor;
-            DamageTextPool.Spawn(final, hitWorldPos, color, crit);
+            var color = crit ? dmgNums.critHitColor : dmgNums.normalHitColor;
+            DamageTextPool.Spawn(finalDamage, hitPos, color, crit);
         }
 
-        if (hp == 0) Die();
+        // Optional event
+        eventsGroup.onDamaged?.Invoke(finalDamage, hitPos, crit);
+
+        if (current.hp <= 0)
+            Die();
     }
 
     protected virtual void Die()
     {
-        // Let listeners react first (e.g., stop AI, play animations)
-        try { onDeath?.Invoke(); } catch {}
+        try { eventsGroup.onDeath?.Invoke(); } catch {}
 
-        // Delegate to Death component if present
         var death = GetComponent<EnemyDeath>();
-        if (death != null)
-        {
-            death.HandleDeath(this);
-            return;
-        }
+        if (death != null) { death.HandleDeath(this); return; }
 
-        // Fallback (no EnemyDeath component attached): just destroy
         Destroy(gameObject);
     }
 
-    // ---- Optional helpers ----
+    // ===== Helpers to set via string (optional) =====
     public virtual void Set(string stat, int value)
     {
         switch (stat.ToLowerInvariant())
         {
             case "hp":
-                hp = Mathf.Clamp(value, 0, EffMaxHP);
-                onStatChanged?.Invoke("hp", hp);
-                if (hp == 0) Die();
+                current.hp = Mathf.Clamp(value, 0, EffMaxHP);
+                eventsGroup.onStatChanged?.Invoke("hp", current.hp);
+                if (current.hp == 0) Die();
                 break;
-
+            case "mp":
+                current.mp = Mathf.Clamp(value, 0, EffMaxMP);
+                eventsGroup.onStatChanged?.Invoke("mp", current.mp);
+                break;
             case "maxhp":
-                maxHP = Mathf.Max(1, value);
-                hp = Mathf.Min(hp, EffMaxHP);
-                onStatChanged?.Invoke("maxHP", maxHP);
-                onStatChanged?.Invoke("maxHP_eff", EffMaxHP);
-                onStatChanged?.Invoke("hp", hp);
-                if (hp == 0) Die();
+                baseStats.maxHP = Mathf.Max(1, value);
+                ClampCurrents();
+                eventsGroup.onStatChanged?.Invoke("maxHP", baseStats.maxHP);
+                eventsGroup.onStatChanged?.Invoke("maxHP_eff", EffMaxHP);
                 break;
-
-            case "att":
-                att = Mathf.Max(0, value);
-                onStatChanged?.Invoke("att", att);
+            case "maxmp":
+                baseStats.maxMP = Mathf.Max(0, value);
+                ClampCurrents();
+                eventsGroup.onStatChanged?.Invoke("maxMP", baseStats.maxMP);
+                eventsGroup.onStatChanged?.Invoke("maxMP_eff", EffMaxMP);
                 break;
-
-            case "def":
-                def = Mathf.Max(0, value);
-                onStatChanged?.Invoke("def", def);
-                break;
-
+            case "att": baseStats.att = Mathf.Max(0, value); eventsGroup.onStatChanged?.Invoke("att", baseStats.att); break;
+            case "def": baseStats.def = Mathf.Max(0, value); eventsGroup.onStatChanged?.Invoke("def", baseStats.def); break;
+            case "spd": baseStats.spd = Mathf.Max(0, value); eventsGroup.onStatChanged?.Invoke("spd", baseStats.spd); break;
+            case "dex": baseStats.dex = Mathf.Max(0, value); eventsGroup.onStatChanged?.Invoke("dex", baseStats.dex); break;
+            case "vit": baseStats.vit = Mathf.Max(0, value); eventsGroup.onStatChanged?.Invoke("vit", baseStats.vit); break;
+            case "wis": baseStats.wis = Mathf.Max(0, value); eventsGroup.onStatChanged?.Invoke("wis", baseStats.wis); break;
             default:
-                Debug.LogWarning($"[EntityStats] Unknown stat '{stat}'");
-                break;
+                Debug.LogWarning($"[EntityStats] Unknown stat '{stat}'"); break;
         }
     }
 
     public virtual void SetBonus(string stat, int value)
     {
-        int oldEffMax = EffMaxHP;
+        int oldEffHP = EffMaxHP;
+        int oldEffMP = EffMaxMP;
+
         switch (stat.ToLowerInvariant())
         {
-            case "maxhp": b_maxHP = value; onStatChanged?.Invoke("maxHP_bonus", b_maxHP); break;
-            case "att":   b_att   = value; onStatChanged?.Invoke("att_bonus", b_att);     break;
-            case "def":   b_def   = value; onStatChanged?.Invoke("def_bonus", b_def);     break;
+            case "maxhp": bonus.b_maxHP = value; eventsGroup.onStatChanged?.Invoke("maxHP_bonus", bonus.b_maxHP); break;
+            case "maxmp": bonus.b_maxMP = value; eventsGroup.onStatChanged?.Invoke("maxMP_bonus", bonus.b_maxMP); break;
+            case "att":   bonus.b_att   = value; eventsGroup.onStatChanged?.Invoke("att_bonus",   bonus.b_att);   break;
+            case "def":   bonus.b_def   = value; eventsGroup.onStatChanged?.Invoke("def_bonus",   bonus.b_def);   break;
+            case "spd":   bonus.b_spd   = value; eventsGroup.onStatChanged?.Invoke("spd_bonus",   bonus.b_spd);   break;
+            case "dex":   bonus.b_dex   = value; eventsGroup.onStatChanged?.Invoke("dex_bonus",   bonus.b_dex);   break;
+            case "vit":   bonus.b_vit   = value; eventsGroup.onStatChanged?.Invoke("vit_bonus",   bonus.b_vit);   break;
+            case "wis":   bonus.b_wis   = value; eventsGroup.onStatChanged?.Invoke("wis_bonus",   bonus.b_wis);   break;
             default:
-                Debug.LogWarning($"[EntityStats] Unknown bonus '{stat}'");
-                break;
+                Debug.LogWarning($"[EntityStats] Unknown bonus '{stat}'"); break;
         }
 
-        if (EffMaxHP != oldEffMax)
+        if (EffMaxHP != oldEffHP || EffMaxMP != oldEffMP)
         {
-            hp = Mathf.Clamp(hp, 0, EffMaxHP);
-            onStatChanged?.Invoke("maxHP_eff", EffMaxHP);
-            onStatChanged?.Invoke("hp", hp);
-            if (hp == 0) Die();
+            ClampCurrents();
+            eventsGroup.onStatChanged?.Invoke("maxHP_eff", EffMaxHP);
+            eventsGroup.onStatChanged?.Invoke("maxMP_eff", EffMaxMP);
+            eventsGroup.onStatChanged?.Invoke("hp", current.hp);
+            eventsGroup.onStatChanged?.Invoke("mp", current.mp);
+            if (current.hp == 0) Die();
         }
     }
+
+    void ClampCurrents()
+    {
+        current.hp = Mathf.Clamp(current.hp, 0, EffMaxHP);
+        current.mp = Mathf.Clamp(current.mp, 0, EffMaxMP);
+    }
+
+    // ===== Context menu =====
+    [ContextMenu("Refill HP/MP")]
+    void Ctx_Refill()
+    {
+        current.hp = EffMaxHP;
+        current.mp = EffMaxMP;
+        eventsGroup.onStatChanged?.Invoke("hp", current.hp);
+        eventsGroup.onStatChanged?.Invoke("mp", current.mp);
+    }
+
+    // ===== BACK-COMPAT SHIMS =====
+    public DeathEvent onDeath => eventsGroup.onDeath;
+    public StatIntEvent onStatChanged => eventsGroup.onStatChanged;
 }
