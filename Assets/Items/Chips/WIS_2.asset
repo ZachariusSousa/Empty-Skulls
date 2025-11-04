@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbbb74bd114bd184eb09b2927c6b7f71, type: 3}
   m_Name: WIS_2
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  displayName: Scavenged Chip of Health
+  displayName: Calibrated Chip of Wisdom
   description: 
   icon: {fileID: -8855924271319049277, guid: 6971424ab2fbadd40afffe7e165fbc62, type: 3}
   rarity: 0

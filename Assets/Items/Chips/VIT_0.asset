@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbbb74bd114bd184eb09b2927c6b7f71, type: 3}
   m_Name: VIT_0
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  displayName: Scavenged Chip of Health
+  displayName: Scavenged Chip of Vitality
   description: 
   icon: {fileID: -4888625549769844942, guid: 6971424ab2fbadd40afffe7e165fbc62, type: 3}
   rarity: 0

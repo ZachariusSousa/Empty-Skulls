@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbbb74bd114bd184eb09b2927c6b7f71, type: 3}
   m_Name: SPD_4
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  displayName: Scavenged Chip of Health
+  displayName: Prototype Chip of Speed
   description: 
-  icon: {fileID: 4612487941582672630, guid: 6971424ab2fbadd40afffe7e165fbc62, type: 3}
+  icon: {fileID: -5071378541859371333, guid: 6971424ab2fbadd40afffe7e165fbc62, type: 3}
   rarity: 0
   kind: 3
   isEquippable: 1

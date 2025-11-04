@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbbb74bd114bd184eb09b2927c6b7f71, type: 3}
   m_Name: VIT_4
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  displayName: Scavenged Chip of Health
+  displayName: Prototype Chip of Vitality
   description: 
-  icon: {fileID: -8835946948156622082, guid: 6971424ab2fbadd40afffe7e165fbc62, type: 3}
+  icon: {fileID: 5812692718359130826, guid: 6971424ab2fbadd40afffe7e165fbc62, type: 3}
   rarity: 0
   kind: 3
   isEquippable: 1
