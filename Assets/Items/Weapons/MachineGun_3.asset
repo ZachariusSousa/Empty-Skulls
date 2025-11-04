@@ -19,13 +19,18 @@ MonoBehaviour:
   kind: 1
   isEquippable: 1
   equipSlot: 1
-  bonusATT: 0
-  bonusDEF: 2
+  bonusATT: 20
+  bonusDEF: 0
   bonusSPD: 0
   bonusDEX: 0
   bonusVIT: 0
-  bonusWIS: 1
+  bonusWIS: 0
   bonusLUCK: 0
   bonusMaxHP: 0
   bonusMaxMP: 0
   onUseEffects: []
+  weaponClass: 1
+  overrideRPM: 0
+  overridePellets: 0
+  overrideSpread: 0
+  overrideProjectilePrefab: {fileID: 1939780587495537639, guid: 550b9e98f9fd49a4eb06821a25bffa48, type: 3}

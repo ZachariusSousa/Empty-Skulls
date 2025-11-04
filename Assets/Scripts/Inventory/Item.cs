@@ -3,6 +3,9 @@ using UnityEngine;
 public enum ItemKind { Consumable, Weapon, Armor, Chip, Ability, Misc }
 public enum EquipSlotKind { None, Weapon, Armor, Chip, Ability }
 
+// simple weapon class presets
+public enum WeaponClass { None, MachineGun, Sniper, Shotgun }
+
 [CreateAssetMenu(menuName = "EmptySkulls/Item", fileName = "NewItem")]
 public class Item : ScriptableObject
 {
@@ -30,7 +33,28 @@ public class Item : ScriptableObject
 
     [Header("On-Use Effects (for Consumables, etc.)")]
     public ItemEffect[] onUseEffects;
-    
 
-    // Doesnt work for stacking currently
+    // --- Weapon-specific (optional) ---
+    [Header("Weapon (optional)")]
+    public WeaponClass weaponClass = WeaponClass.None;
+
+    [Tooltip("Fire rate per level of dexterity")]
+    public float dexMultiplier = 0f;
+
+    [Tooltip("Bullets to fire per shot")]
+    public int pelletsToFire = 0;
+
+    [Tooltip("Bullet spread angle in degrees")]
+    public float bulletSpread = 0f;
+
+    [Tooltip("Whether weapon has burts firing mode")]
+    public bool isBurstFire = false;
+
+    [Tooltip("Whether weapon pierces defence")]
+    public bool pierceDEF = false;
+
+    [Tooltip("Optional projectile prefab; if left null, Shooter's wiring.projectilePrefab is used.")]
+    public GameObject overrideProjectilePrefab;
+
+    // Note: Keep weaponClass None for non-weapon items.
 }

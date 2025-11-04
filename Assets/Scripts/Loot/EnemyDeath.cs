@@ -59,7 +59,11 @@ public class EnemyDeath : MonoBehaviour
         // 3) Drop loot (replaces EnemyLoot)
         if (lootTable && lootBagPrefab)
         {
-            var bagGO = Instantiate(lootBagPrefab, who.transform.position, Quaternion.identity);
+            Vector3 spawnPos = who.transform.position;
+            spawnPos.z = 0f; // ensure always on z = 0
+
+            var bagGO = Instantiate(lootBagPrefab, spawnPos, Quaternion.identity);
+
             if (bagGO.TryGetComponent<LootBag>(out var bag))
             {
                 bag.lootTable = lootTable;
