@@ -18,5 +18,4 @@ Experimental AI companion trained with PyTorch, capable of learning and mimickin
 (In development — blending fast-paced roguelike gameplay with emerging AI learning systems.)
 
 
-
-<img width="2324" height="1299" alt="emptyskullsv1" src="https://github.com/user-attachments/assets/54446c94-d2bf-448b-a8f9-fc0e4c7cf915" />
+<img width="2136" height="1292" alt="emptyskullsv1" src="https://github.com/user-attachments/assets/4bbeb77e-acf6-43d3-a2e5-ba53e5a20c1d" />
