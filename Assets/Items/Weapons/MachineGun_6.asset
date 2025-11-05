@@ -30,7 +30,9 @@ MonoBehaviour:
   bonusMaxMP: 0
   onUseEffects: []
   weaponClass: 1
-  overrideRPM: 0
-  overridePellets: 0
-  overrideSpread: 0
+  dexMultiplier: 20
+  pelletsToFire: 1
+  bulletSpread: 5
+  isBurstFire: 0
+  pierceDEF: 0
   overrideProjectilePrefab: {fileID: 1939780587495537639, guid: 550b9e98f9fd49a4eb06821a25bffa48, type: 3}

@@ -20,7 +20,7 @@ MonoBehaviour:
   isEquippable: 1
   equipSlot: 1
   bonusATT: 0
-  bonusDEF: 2
+  bonusDEF: 0
   bonusSPD: 0
   bonusDEX: 0
   bonusVIT: 0
@@ -30,7 +30,9 @@ MonoBehaviour:
   bonusMaxMP: 0
   onUseEffects: []
   weaponClass: 3
-  overrideRPM: 0
-  overridePellets: 0
-  overrideSpread: 0
+  dexMultiplier: 2
+  pelletsToFire: 7
+  bulletSpread: 25
+  isBurstFire: 0
+  pierceDEF: 0
   overrideProjectilePrefab: {fileID: 1939780587495537639, guid: 550b9e98f9fd49a4eb06821a25bffa48, type: 3}
