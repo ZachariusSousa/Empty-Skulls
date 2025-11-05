@@ -54,3 +54,35 @@ MonoBehaviour:
     dropChance: 0.5
     minStack: 1
     maxStack: 1
+  - item: {fileID: 11400000, guid: a347a542b384e064f8b27a45b74ab1d4, type: 2}
+    dropChance: 0.5
+    minStack: 1
+    maxStack: 1
+  - item: {fileID: 11400000, guid: feca9186cb8db60438532578fbb77972, type: 2}
+    dropChance: 0.5
+    minStack: 1
+    maxStack: 1
+  - item: {fileID: 11400000, guid: e4d19d56eecece2498ea18dd7a2306e0, type: 2}
+    dropChance: 0.5
+    minStack: 1
+    maxStack: 1
+  - item: {fileID: 11400000, guid: 326a0370c5c3f334aa473eba2f624949, type: 2}
+    dropChance: 0.5
+    minStack: 1
+    maxStack: 1
+  - item: {fileID: 11400000, guid: c80a02c25775a2c4a8b9693ad677228d, type: 2}
+    dropChance: 0.5
+    minStack: 1
+    maxStack: 1
+  - item: {fileID: 11400000, guid: c80a02c25775a2c4a8b9693ad677228d, type: 2}
+    dropChance: 0.5
+    minStack: 1
+    maxStack: 1
+  - item: {fileID: 11400000, guid: c80a02c25775a2c4a8b9693ad677228d, type: 2}
+    dropChance: 0.5
+    minStack: 1
+    maxStack: 1
+  - item: {fileID: 11400000, guid: 3a56e1a072f675749bcfbf42127698fa, type: 2}
+    dropChance: 0.5
+    minStack: 1
+    maxStack: 1

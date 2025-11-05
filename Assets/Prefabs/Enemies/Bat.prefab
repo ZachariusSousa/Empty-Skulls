@@ -401,7 +401,7 @@ MonoBehaviour:
   deathSfx: {fileID: 0}
   sfxVolume: 1
   awardXpToPlayer: 1
-  xpAmount: 10
+  xpAmount: 100
   playerTag: Player
   disableCollidersOnDeath: 0
   disableRenderersOnDeath: 0

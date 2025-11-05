@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Item
   displayName: Common Health Potion
   description: 
-  icon: {fileID: -8103479726585024082, guid: fe0febf3f1a848347a6646a7b404e251, type: 3}
-  rarity: 0
+  icon: {fileID: 7227030021023105385, guid: cac5c5ebe4ea5324a9873523e83a61b1, type: 3}
+  rarity: 2
   kind: 0
   isEquippable: 0
   equipSlot: 0
@@ -29,4 +29,11 @@ MonoBehaviour:
   bonusMaxHP: 0
   bonusMaxMP: 0
   onUseEffects:
-  - {fileID: 11400000, guid: 09698011df491fd4d9bdd34016851fb5, type: 2}
+  - {fileID: 11400000, guid: 5f7c369973b888b43ac21ced893246d0, type: 2}
+  weaponClass: 0
+  dexMultiplier: 0
+  pelletsToFire: 0
+  bulletSpread: 0
+  isBurstFire: 0
+  pierceDEF: 0
+  overrideProjectilePrefab: {fileID: 0}

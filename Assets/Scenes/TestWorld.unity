@@ -10400,6 +10400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
   player: {fileID: 553590501}
   parentForSpawns: {fileID: 337179375}
+  viewCam: {fileID: 0}
   area:
     mode: 1
     points:
@@ -10437,6 +10438,9 @@ MonoBehaviour:
     baseBudgetPerMinute: 2000
     difficultyRampPerMinute: 0
     minDistanceFromPlayer: 6
+    maxDistanceFromPlayer: 0
+    requireOutsideView: 0
+    viewMargin: 1
     positionRetries: 4
   options:
   - prefab: {fileID: 4741678075019526956, guid: 10e0d4582ede3764a87550c94e890198, type: 3}
@@ -82879,6 +82883,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3226951006403636571, guid: 3479e04b0f9d7a04ca74816ffd3b6937, type: 3}
+      propertyPath: xpAmount
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7658301285398099279, guid: 3479e04b0f9d7a04ca74816ffd3b6937, type: 3}
       propertyPath: m_Name
       value: Goblin
@@ -82940,6 +82948,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 89729249565309525, guid: 10e0d4582ede3764a87550c94e890198, type: 3}
+      propertyPath: xpAmount
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 1156578151499262943, guid: 10e0d4582ede3764a87550c94e890198, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.5297298
@@ -84613,6 +84625,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3922841380015490611, guid: e96585c12cb6e96488848ca1ec27ab41, type: 3}
+      propertyPath: xpAmount
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 6170860067578021494, guid: e96585c12cb6e96488848ca1ec27ab41, type: 3}
       propertyPath: m_Name
       value: Ghost
@@ -85103,6 +85119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Demon
       objectReference: {fileID: 0}
+    - target: {fileID: 7297762503198061540, guid: 1965fbbb79b408c4da586ee0abecda6e, type: 3}
+      propertyPath: xpAmount
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7726151846269050807, guid: 1965fbbb79b408c4da586ee0abecda6e, type: 3}
       propertyPath: target
       value: 
@@ -85132,6 +85152,10 @@ PrefabInstance:
     - target: {fileID: 4973510038766219039, guid: 9dbb94d9e5ed23041aac6c5cb140e916, type: 3}
       propertyPath: m_Name
       value: Skeleton
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517651445148144935, guid: 9dbb94d9e5ed23041aac6c5cb140e916, type: 3}
+      propertyPath: xpAmount
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8875258541167246137, guid: 9dbb94d9e5ed23041aac6c5cb140e916, type: 3}
       propertyPath: m_LocalPosition.x

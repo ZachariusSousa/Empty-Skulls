@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Item
   displayName: Common Mana Potion
   description: 
-  icon: {fileID: 6723297690105402245, guid: fe0febf3f1a848347a6646a7b404e251, type: 3}
-  rarity: 0
+  icon: {fileID: 3510390449893082495, guid: cac5c5ebe4ea5324a9873523e83a61b1, type: 3}
+  rarity: 2
   kind: 0
   isEquippable: 0
   equipSlot: 0
@@ -29,4 +29,11 @@ MonoBehaviour:
   bonusMaxHP: 0
   bonusMaxMP: 0
   onUseEffects:
-  - {fileID: 11400000, guid: 506f949ceae8c5042979837614b430f6, type: 2}
+  - {fileID: 11400000, guid: 122e03aa67fa78c4db0bb76086dc56a7, type: 2}
+  weaponClass: 0
+  dexMultiplier: 0
+  pelletsToFire: 0
+  bulletSpread: 0
+  isBurstFire: 0
+  pierceDEF: 0
+  overrideProjectilePrefab: {fileID: 0}

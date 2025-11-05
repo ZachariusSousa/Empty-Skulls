@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: HpStat
   m_EditorClassIdentifier: Assembly-CSharp::StatPotionEffect
   stat: 0
-  amount: 1
+  amount: 5
   cap: -1

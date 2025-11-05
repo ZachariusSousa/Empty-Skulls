@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e066281dea51674a9c8d9073026b6d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
-  lifetime: 0.2
+  lifetime: 0.15
   fadeLast: 0
   baseSpeed: 50
   useSpeedCurve: 1
@@ -197,6 +197,8 @@ MonoBehaviour:
   owner: {fileID: 0}
   ignoreOwner: 1
   ownerStats: {fileID: 0}
+  addOwnerATT: 0
+  damagePerATT: 1
 --- !u!96 &-3858700667595549480
 TrailRenderer:
   serializedVersion: 3
