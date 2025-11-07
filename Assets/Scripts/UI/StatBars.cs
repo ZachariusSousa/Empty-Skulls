@@ -2,16 +2,23 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class StatBars : MonoBehaviour
+public class StatUI : MonoBehaviour
 {
     public enum StatKind { HP, MP, XP }
 
-    [Header("Wiring")]
-    public PlayerStats player;              // single source of truth
-    public StatKind statKind = StatKind.HP;
-    public Slider slider;
-    public TextMeshProUGUI label;
+    [Header("General")]
+    public PlayerStats player;
+    public StatKind statKind;
 
+    [Header("Orb (HP / MP)")]
+    public Image orbImage;          // The Image that changes sprite
+    public Sprite[] orbFrames;      // Ordered from empty → full
+
+    [Header("Slider (XP)")]
+    public Slider xpSlider;
+    public TextMeshProUGUI xpLabel;
+
+    [Header("Options")]
     public bool autoFindPlayerByTag = true;
     public string playerTag = "Player";
 
@@ -23,27 +30,22 @@ public class StatBars : MonoBehaviour
             if (t) player = t.GetComponent<PlayerStats>();
         }
 
-        if (slider == null) slider = GetComponent<Slider>();
-
-        if (label == null)
-        {
-            var textChild = transform.Find("Text");
-            if (textChild) label = textChild.GetComponent<TextMeshProUGUI>();
-        }
+        if (statKind == StatKind.XP && xpSlider == null)
+            xpSlider = GetComponent<Slider>();
     }
 
     void OnEnable()
     {
-        if (player != null)
+        if (player)
         {
             player.onStatChanged.AddListener(OnStatChanged);
-            RefreshAll();
+            Refresh();
         }
     }
 
     void OnDisable()
     {
-        if (player != null)
+        if (player)
             player.onStatChanged.RemoveListener(OnStatChanged);
     }
 
@@ -52,63 +54,53 @@ public class StatBars : MonoBehaviour
         switch (statKind)
         {
             case StatKind.HP:
-                if (changed == "hp" || changed == "maxHP" || changed == "maxHP_eff")
-                    RefreshHP();
+                if (changed == "hp" || changed == "maxHP" || changed == "maxHP_eff") Refresh();
                 break;
             case StatKind.MP:
-                if (changed == "mp" || changed == "maxMP" || changed == "maxMP_eff")
-                    RefreshMP();
+                if (changed == "mp" || changed == "maxMP" || changed == "maxMP_eff") Refresh();
                 break;
             case StatKind.XP:
-                if (changed == "xp" || changed == "xpToNext" || changed == "level")
-                    RefreshXP();
+                if (changed == "xp" || changed == "xpToNext" || changed == "level") Refresh();
                 break;
         }
     }
 
-    void RefreshAll()
+    void Refresh()
     {
+        if (!player) return;
+
         switch (statKind)
         {
-            case StatKind.HP: RefreshHP(); break;
-            case StatKind.MP: RefreshMP(); break;
-            case StatKind.XP: RefreshXP(); break;
+            case StatKind.HP:
+                UpdateOrb(player.HP, player.EffMaxHP);
+                break;
+            case StatKind.MP:
+                UpdateOrb(player.MP, player.EffMaxMP);
+                break;
+            case StatKind.XP:
+                UpdateXP();
+                break;
         }
     }
 
-    void RefreshHP()
+    void UpdateOrb(int cur, int max)
     {
-        if (player == null || slider == null) return;
-        int max = player.EffMaxHP;
-        int cur = player.HP;
-
-        slider.maxValue = Mathf.Max(1, max);
-        slider.value = Mathf.Clamp(cur, 0, max);
-
-        if (label) label.text = $"{slider.value} / {slider.maxValue}";
+        if (!orbImage || orbFrames == null || orbFrames.Length == 0) return;
+        float pct = max > 0 ? (float)cur / max : 0f;
+        int idx = Mathf.Clamp(Mathf.FloorToInt(pct * (orbFrames.Length - 1)), 0, orbFrames.Length - 1);
+        orbImage.sprite = orbFrames[idx];
     }
 
-    void RefreshMP()
+    void UpdateXP()
     {
-        if (player == null || slider == null) return;
-        int max = player.EffMaxMP;
-        int cur = player.MP; // uses property
+        if (!xpSlider) return;
 
-        slider.maxValue = Mathf.Max(1, max);
-        slider.value = Mathf.Clamp(cur, 0, max);
-
-        if (label) label.text = $"{slider.value} / {slider.maxValue}";
-    }
-
-    void RefreshXP()
-    {
-        if (player == null || slider == null) return;
         int max = Mathf.Max(1, player.xpToNext);
         int cur = Mathf.Clamp(player.xp, 0, max);
 
-        slider.maxValue = max;
-        slider.value = cur;
+        xpSlider.maxValue = max;
+        xpSlider.value = cur;
 
-        if (label) label.text = $"{slider.value} / {slider.maxValue}";
+        if (xpLabel) xpLabel.text = $"{cur} / {max}";
     }
 }
