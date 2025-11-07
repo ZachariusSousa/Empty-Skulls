@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Item
   displayName: Common Health Potion
   description: 
-  icon: {fileID: 4293677604592545810, guid: cac5c5ebe4ea5324a9873523e83a61b1, type: 3}
+  icon: {fileID: 444838384778493147, guid: 7b184c8ce90b1eb49a47c74c78f4d3e6, type: 3}
   rarity: 2
   kind: 0
   isEquippable: 0

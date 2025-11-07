@@ -1,0 +1,1 @@
+- These selectors help users navigate through menu options, items, abilities, and other elements.

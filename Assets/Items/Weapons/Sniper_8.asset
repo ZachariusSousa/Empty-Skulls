@@ -15,7 +15,7 @@ MonoBehaviour:
   displayName: Robe of Newspaper
   description: 
   icon: {fileID: -8356360625173667882, guid: 317fe7f38dc8ef04a87456fabb6156b9, type: 3}
-  rarity: 0
+  rarity: 2
   kind: 1
   isEquippable: 1
   equipSlot: 1

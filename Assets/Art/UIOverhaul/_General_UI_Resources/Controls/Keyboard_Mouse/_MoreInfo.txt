@@ -1,0 +1,4 @@
+8x8px Keyboard and mouse control icons
+
+- Each key includes pressed and unpressed states
+- White outline variants available for key highlighting

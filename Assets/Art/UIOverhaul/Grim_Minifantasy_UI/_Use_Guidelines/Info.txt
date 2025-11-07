@@ -1,0 +1,5 @@
+This guideline is designed to help you understand how to get the most from this set.
+
+The Groups show the function of the different elements.
+
+You can check 'Use_Guidelines.png' for quick reference, or overlay 'Use_Guidelines_Layer' on the sprite sheet if you want to have it visible while working with the sprite sheet in your preferred software.

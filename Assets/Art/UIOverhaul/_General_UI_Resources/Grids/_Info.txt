@@ -1,0 +1,1 @@
+- These 16x16 sliced grid sets provide separations, boxes, and grids for use within menu panels, inventories, journals, and similar interfaces.

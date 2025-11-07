@@ -1,0 +1,15 @@
+Two click Effects in different colours.
+- Collapsing in
+- Expanding out
+
+
+*Frame Size*
+
+16x16px
+
+
+
+*Frame Duration*
+
+100ms
+

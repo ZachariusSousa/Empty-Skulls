@@ -1,0 +1,83 @@
+8x8 icons to be used in menus and placed next to relevant overlay elements such as HP bars. 
+From top to bottom, left to right:
+
+GENERAL
+- Gear/settings
+- Screen
+- Home
+- Keypad
+- Menu 1
+- Menu 2
+- Music note 1
+- Music note 2
+- Sound
+- Speaker
+
+- Controller
+- Mouse
+- Keyboard
+- Disk
+- Save
+- Load
+- Lock
+- Unlock
+- Bin
+- Edit
+
+- Single Player
+- Co-op
+- Multiplayer
+- Ranked
+- Filters
+- Messages
+- Achievements
+- Shop
+- Question
+- Info
+
+- Arrows
+- Check
+- Cross
+
+- Mathematical symbols
+
+- Video player symbols
+
+
+CHARACTER
+- Map
+- Compass
+- Book
+- Scroll
+- Augment lens
+- Ink and pen
+- Ink and Feather
+- Box/Chest
+- Anvil
+- Blue Print
+- Needle and thread
+
+- Human/body
+- Crossed swords
+- Armor
+- Shield
+- Hammer
+- Backpack
+- heart
+- Magic Spark
+- Lightning
+- Stamina
+- Food
+- Water
+
+SOCIAL MEDIA
+- Facebook
+- Instagram
+- X
+- Bluesky
+- Tik Tok
+- YouTube
+- Twitch
+- Telegram
+- Discord
+- Reddit

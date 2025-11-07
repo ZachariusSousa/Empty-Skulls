@@ -1,0 +1,4719 @@
+fileFormatVersion: 2
+guid: 2057b1a659d3bc246b36f0e9d81fd020
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5798882232668928683
+    second: _Controllers_Shadows_0
+  - first:
+      213: -4233766790455283621
+    second: _Controllers_Shadows_1
+  - first:
+      213: -6769074901271602458
+    second: _Controllers_Shadows_2
+  - first:
+      213: -3710058557357545384
+    second: _Controllers_Shadows_3
+  - first:
+      213: 2651596230261455172
+    second: _Controllers_Shadows_4
+  - first:
+      213: 3187768795921272733
+    second: _Controllers_Shadows_5
+  - first:
+      213: 2441029554217848252
+    second: _Controllers_Shadows_6
+  - first:
+      213: -5545702524856516393
+    second: _Controllers_Shadows_7
+  - first:
+      213: 1851484339235360447
+    second: _Controllers_Shadows_8
+  - first:
+      213: -3926665492592279658
+    second: _Controllers_Shadows_9
+  - first:
+      213: -8990191637816456008
+    second: _Controllers_Shadows_10
+  - first:
+      213: 6826251244011798787
+    second: _Controllers_Shadows_11
+  - first:
+      213: -3318362137074414007
+    second: _Controllers_Shadows_12
+  - first:
+      213: 3528243199823376704
+    second: _Controllers_Shadows_13
+  - first:
+      213: -9070806820826020191
+    second: _Controllers_Shadows_14
+  - first:
+      213: 678212710784065245
+    second: _Controllers_Shadows_15
+  - first:
+      213: -4232460534235447866
+    second: _Controllers_Shadows_16
+  - first:
+      213: 7644568289150913373
+    second: _Controllers_Shadows_17
+  - first:
+      213: 8604867718439343811
+    second: _Controllers_Shadows_18
+  - first:
+      213: 6712378983883941237
+    second: _Controllers_Shadows_19
+  - first:
+      213: 4548034549227221888
+    second: _Controllers_Shadows_20
+  - first:
+      213: -8711245277867308249
+    second: _Controllers_Shadows_21
+  - first:
+      213: 4116215480668458344
+    second: _Controllers_Shadows_22
+  - first:
+      213: -2369000124072464415
+    second: _Controllers_Shadows_23
+  - first:
+      213: 5456565326195451307
+    second: _Controllers_Shadows_24
+  - first:
+      213: 8679920492542869419
+    second: _Controllers_Shadows_25
+  - first:
+      213: -978312993629127659
+    second: _Controllers_Shadows_26
+  - first:
+      213: 2638644637250844121
+    second: _Controllers_Shadows_27
+  - first:
+      213: 5280642577359813992
+    second: _Controllers_Shadows_28
+  - first:
+      213: 8919894513230846858
+    second: _Controllers_Shadows_29
+  - first:
+      213: 5318581827581548962
+    second: _Controllers_Shadows_30
+  - first:
+      213: -9151766177536373104
+    second: _Controllers_Shadows_31
+  - first:
+      213: 962877159590348529
+    second: _Controllers_Shadows_32
+  - first:
+      213: 8942742613680762052
+    second: _Controllers_Shadows_33
+  - first:
+      213: 1315508425754201639
+    second: _Controllers_Shadows_34
+  - first:
+      213: -5924692005722020184
+    second: _Controllers_Shadows_35
+  - first:
+      213: -7344143354764489541
+    second: _Controllers_Shadows_36
+  - first:
+      213: 6303609496159433000
+    second: _Controllers_Shadows_37
+  - first:
+      213: 7770753062437146052
+    second: _Controllers_Shadows_38
+  - first:
+      213: 1388710746639315841
+    second: _Controllers_Shadows_39
+  - first:
+      213: 150404508714637623
+    second: _Controllers_Shadows_40
+  - first:
+      213: -2007812269791853642
+    second: _Controllers_Shadows_41
+  - first:
+      213: -7519061375684806611
+    second: _Controllers_Shadows_42
+  - first:
+      213: -3504343071539577725
+    second: _Controllers_Shadows_43
+  - first:
+      213: -904104385836473776
+    second: _Controllers_Shadows_44
+  - first:
+      213: -7829540715571602410
+    second: _Controllers_Shadows_45
+  - first:
+      213: 9148335905377215640
+    second: _Controllers_Shadows_46
+  - first:
+      213: -7766503058013479574
+    second: _Controllers_Shadows_47
+  - first:
+      213: 7346128716451556004
+    second: _Controllers_Shadows_48
+  - first:
+      213: 5496156084209668736
+    second: _Controllers_Shadows_49
+  - first:
+      213: 7319071148843408647
+    second: _Controllers_Shadows_50
+  - first:
+      213: -1932798379245258631
+    second: _Controllers_Shadows_51
+  - first:
+      213: 793706504236961820
+    second: _Controllers_Shadows_52
+  - first:
+      213: -7648826168192130672
+    second: _Controllers_Shadows_53
+  - first:
+      213: -8651975906738056266
+    second: _Controllers_Shadows_54
+  - first:
+      213: -6797867126564692048
+    second: _Controllers_Shadows_55
+  - first:
+      213: -3397191440154642842
+    second: _Controllers_Shadows_56
+  - first:
+      213: -4812050601734551942
+    second: _Controllers_Shadows_57
+  - first:
+      213: 2138360378396115948
+    second: _Controllers_Shadows_58
+  - first:
+      213: 8517807082073048508
+    second: _Controllers_Shadows_59
+  - first:
+      213: -7546372751642133501
+    second: _Controllers_Shadows_60
+  - first:
+      213: -3692056488050590162
+    second: _Controllers_Shadows_61
+  - first:
+      213: 1369221283466816034
+    second: _Controllers_Shadows_62
+  - first:
+      213: 9187907694258228699
+    second: _Controllers_Shadows_63
+  - first:
+      213: -1717955323708290176
+    second: _Controllers_Shadows_64
+  - first:
+      213: -7003969067610966304
+    second: _Controllers_Shadows_65
+  - first:
+      213: -8268275332117366204
+    second: _Controllers_Shadows_66
+  - first:
+      213: 7786128221659133910
+    second: _Controllers_Shadows_67
+  - first:
+      213: -4235487998915754057
+    second: _Controllers_Shadows_68
+  - first:
+      213: -4757069934937734811
+    second: _Controllers_Shadows_69
+  - first:
+      213: -5224806746982416052
+    second: _Controllers_Shadows_70
+  - first:
+      213: 7673361463707226490
+    second: _Controllers_Shadows_71
+  - first:
+      213: 3850355741800590631
+    second: _Controllers_Shadows_72
+  - first:
+      213: -2766587343042104517
+    second: _Controllers_Shadows_73
+  - first:
+      213: -5569663473109547862
+    second: _Controllers_Shadows_74
+  - first:
+      213: -8971733325525421963
+    second: _Controllers_Shadows_75
+  - first:
+      213: 2169087716342991903
+    second: _Controllers_Shadows_76
+  - first:
+      213: -5254826700608541494
+    second: _Controllers_Shadows_77
+  - first:
+      213: 8791899966519999341
+    second: _Controllers_Shadows_78
+  - first:
+      213: -3964500197036088311
+    second: _Controllers_Shadows_79
+  - first:
+      213: -3495232011925387483
+    second: _Controllers_Shadows_80
+  - first:
+      213: -3215351544236367274
+    second: _Controllers_Shadows_81
+  - first:
+      213: -7116402856914250191
+    second: _Controllers_Shadows_82
+  - first:
+      213: 7640319566679315973
+    second: _Controllers_Shadows_83
+  - first:
+      213: -5807553856807638638
+    second: _Controllers_Shadows_84
+  - first:
+      213: 5837628947560561397
+    second: _Controllers_Shadows_85
+  - first:
+      213: -1861764950632304900
+    second: _Controllers_Shadows_86
+  - first:
+      213: -5604439801760371235
+    second: _Controllers_Shadows_87
+  - first:
+      213: 16690799919871455
+    second: _Controllers_Shadows_88
+  - first:
+      213: -6187508705992630749
+    second: _Controllers_Shadows_89
+  - first:
+      213: -2201586433529161242
+    second: _Controllers_Shadows_90
+  - first:
+      213: -8906958851204350459
+    second: _Controllers_Shadows_91
+  - first:
+      213: -6926740780602411295
+    second: _Controllers_Shadows_92
+  - first:
+      213: 7434823507275449935
+    second: _Controllers_Shadows_93
+  - first:
+      213: 8642412716478640627
+    second: _Controllers_Shadows_94
+  - first:
+      213: 2479374311227893673
+    second: _Controllers_Shadows_95
+  - first:
+      213: 763643001904408958
+    second: _Controllers_Shadows_96
+  - first:
+      213: -8835335443980058267
+    second: _Controllers_Shadows_97
+  - first:
+      213: 389519344992114894
+    second: _Controllers_Shadows_98
+  - first:
+      213: -7791571397375745814
+    second: _Controllers_Shadows_99
+  - first:
+      213: -6051117133868964485
+    second: _Controllers_Shadows_100
+  - first:
+      213: 5966560514509026634
+    second: _Controllers_Shadows_101
+  - first:
+      213: -4674366655314153735
+    second: _Controllers_Shadows_102
+  - first:
+      213: 971298392530278818
+    second: _Controllers_Shadows_103
+  - first:
+      213: 4180791462939776977
+    second: _Controllers_Shadows_104
+  - first:
+      213: -1039361886878752562
+    second: _Controllers_Shadows_105
+  - first:
+      213: 1185118777329427353
+    second: _Controllers_Shadows_106
+  - first:
+      213: -8996846653228730983
+    second: _Controllers_Shadows_107
+  - first:
+      213: 4682933876944228501
+    second: _Controllers_Shadows_108
+  - first:
+      213: 2927224160908678909
+    second: _Controllers_Shadows_109
+  - first:
+      213: -1029401648334643948
+    second: _Controllers_Shadows_110
+  - first:
+      213: -7448132978843708773
+    second: _Controllers_Shadows_111
+  - first:
+      213: 6393520971116340081
+    second: _Controllers_Shadows_112
+  - first:
+      213: 8400625800455046714
+    second: _Controllers_Shadows_113
+  - first:
+      213: -6178279253949185799
+    second: _Controllers_Shadows_114
+  - first:
+      213: -4129891592864211388
+    second: _Controllers_Shadows_115
+  - first:
+      213: -6146534528162804232
+    second: _Controllers_Shadows_116
+  - first:
+      213: 7620258588380037701
+    second: _Controllers_Shadows_117
+  - first:
+      213: 7046148335925426674
+    second: _Controllers_Shadows_118
+  - first:
+      213: -7435810292987515769
+    second: _Controllers_Shadows_119
+  - first:
+      213: 7239054734030057736
+    second: _Controllers_Shadows_120
+  - first:
+      213: -2709943784875173407
+    second: _Controllers_Shadows_121
+  - first:
+      213: -4835498063175264367
+    second: _Controllers_Shadows_122
+  - first:
+      213: -7977418380092268818
+    second: _Controllers_Shadows_123
+  - first:
+      213: -1444396578997995449
+    second: _Controllers_Shadows_124
+  - first:
+      213: 6306930379574817344
+    second: _Controllers_Shadows_125
+  - first:
+      213: -5712371501775490313
+    second: _Controllers_Shadows_126
+  - first:
+      213: -1826393807267051388
+    second: _Controllers_Shadows_127
+  - first:
+      213: 1756915566730806632
+    second: _Controllers_Shadows_128
+  - first:
+      213: 883799319113422559
+    second: _Controllers_Shadows_129
+  - first:
+      213: 1451360982604058845
+    second: _Controllers_Shadows_130
+  - first:
+      213: -1709128029944666724
+    second: _Controllers_Shadows_131
+  - first:
+      213: -6379356170542617975
+    second: _Controllers_Shadows_132
+  - first:
+      213: 5583287730567556083
+    second: _Controllers_Shadows_133
+  - first:
+      213: 6338166893240725842
+    second: _Controllers_Shadows_134
+  - first:
+      213: -8971921364953582876
+    second: _Controllers_Shadows_135
+  - first:
+      213: 2631045957997597818
+    second: _Controllers_Shadows_136
+  - first:
+      213: -6751907896320226993
+    second: _Controllers_Shadows_137
+  - first:
+      213: 6443563119741994232
+    second: _Controllers_Shadows_138
+  - first:
+      213: -754395023052082789
+    second: _Controllers_Shadows_139
+  - first:
+      213: 3094030547358586879
+    second: _Controllers_Shadows_140
+  - first:
+      213: -4826079045730279461
+    second: _Controllers_Shadows_141
+  - first:
+      213: 8472223003842280623
+    second: _Controllers_Shadows_142
+  - first:
+      213: -3837346860802858236
+    second: _Controllers_Shadows_143
+  - first:
+      213: 364503683320638071
+    second: _Controllers_Shadows_144
+  - first:
+      213: -2833122775241014641
+    second: _Controllers_Shadows_145
+  - first:
+      213: 2216250276815108910
+    second: _Controllers_Shadows_146
+  - first:
+      213: 504488242375846224
+    second: _Controllers_Shadows_147
+  - first:
+      213: -6835890618678406164
+    second: _Controllers_Shadows_148
+  - first:
+      213: 1098402658284755200
+    second: _Controllers_Shadows_149
+  - first:
+      213: 1819473387401195224
+    second: _Controllers_Shadows_150
+  - first:
+      213: -7841644148161132897
+    second: _Controllers_Shadows_151
+  - first:
+      213: -4234448220666692341
+    second: _Controllers_Shadows_152
+  - first:
+      213: 2042880553632644846
+    second: _Controllers_Shadows_153
+  - first:
+      213: -3614345997886301165
+    second: _Controllers_Shadows_154
+  - first:
+      213: -9141903416370922098
+    second: _Controllers_Shadows_155
+  - first:
+      213: -5596420645096670715
+    second: _Controllers_Shadows_156
+  - first:
+      213: 4719616625830666421
+    second: _Controllers_Shadows_157
+  - first:
+      213: -8209202785057331214
+    second: _Controllers_Shadows_158
+  - first:
+      213: 8818974546453153379
+    second: _Controllers_Shadows_159
+  - first:
+      213: 557814273141019705
+    second: _Controllers_Shadows_160
+  - first:
+      213: -5065463566774054314
+    second: _Controllers_Shadows_161
+  - first:
+      213: 8000074511201074773
+    second: _Controllers_Shadows_162
+  - first:
+      213: 4013263702322460964
+    second: _Controllers_Shadows_163
+  - first:
+      213: -8545135564987721749
+    second: _Controllers_Shadows_164
+  - first:
+      213: 7298408821732063580
+    second: _Controllers_Shadows_165
+  - first:
+      213: 1548128796854953044
+    second: _Controllers_Shadows_166
+  - first:
+      213: -3733901788727707360
+    second: _Controllers_Shadows_167
+  - first:
+      213: -6109827300302791006
+    second: _Controllers_Shadows_168
+  - first:
+      213: 352154676494422227
+    second: _Controllers_Shadows_169
+  - first:
+      213: -3204132600578765979
+    second: _Controllers_Shadows_170
+  - first:
+      213: -8293429110599541470
+    second: _Controllers_Shadows_171
+  - first:
+      213: 8917174364690788965
+    second: _Controllers_Shadows_172
+  - first:
+      213: -2255974470718073537
+    second: _Controllers_Shadows_173
+  - first:
+      213: 5970012197559975705
+    second: _Controllers_Shadows_174
+  - first:
+      213: 4683723573751695302
+    second: _Controllers_Shadows_175
+  - first:
+      213: -6658734115924129705
+    second: _Controllers_Shadows_176
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: _Controllers_Shadows_0
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 318
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555c17b455b368fa0800000000000000
+      internalID: -5798882232668928683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 310
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5031191983ae35c0800000000000000
+      internalID: -4233766790455283621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_2
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 318
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea91bbcd3a6f02a0800000000000000
+      internalID: -6769074901271602458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_3
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 310
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8582ec81669338cc0800000000000000
+      internalID: -3710058557357545384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_4
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 310
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449bf7009bc5cc420800000000000000
+      internalID: 2651596230261455172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_5
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 318
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f46f294da3d3c20800000000000000
+      internalID: 3187768795921272733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_6
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 310
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd8269427740e120800000000000000
+      internalID: 2441029554217848252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_7
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 310
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0c0ff9fe4b903b0800000000000000
+      internalID: -5545702524856516393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_8
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 310
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe825b623bc1b910800000000000000
+      internalID: 1851484339235360447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_9
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 310
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69fb042f98ea189c0800000000000000
+      internalID: -3926665492592279658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_10
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 310
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc4345665c6c3380800000000000000
+      internalID: -8990191637816456008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_11
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 318
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30144e2e657bbbe50800000000000000
+      internalID: 6826251244011798787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_12
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 318
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ec29fb73fc2f1d0800000000000000
+      internalID: -3318362137074414007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_13
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 318
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041f8ae2f76d6f030800000000000000
+      internalID: 3528243199823376704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_14
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 318
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6897271450e1280800000000000000
+      internalID: -9070806820826020191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_15
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 286
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde507cfdde796900800000000000000
+      internalID: 678212710784065245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_16
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 286
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd390391974345c0800000000000000
+      internalID: -4232460534235447866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_17
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 286
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b4e083b56f61a60800000000000000
+      internalID: 7644568289150913373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_18
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 302
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c69dc07991aa6770800000000000000
+      internalID: 8604867718439343811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_19
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 302
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57523344f19272d50800000000000000
+      internalID: 6712378983883941237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_20
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 302
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08374e4735ddd1f30800000000000000
+      internalID: 4548034549227221888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_21
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 302
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b8b6de2907b1780800000000000000
+      internalID: -8711245277867308249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_22
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 302
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d0538cb2cbf1930800000000000000
+      internalID: 4116215480668458344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_23
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 302
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efedcb40fe9f1fd0800000000000000
+      internalID: -2369000124072464415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 284
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5e799014d99bb40800000000000000
+      internalID: 5456565326195451307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 284
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafb6a423b5457870800000000000000
+      internalID: 8679920492542869419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_26
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 278
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c369ff3855c62f0800000000000000
+      internalID: -978312993629127659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_27
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 286
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d573d341595e9420800000000000000
+      internalID: 2638644637250844121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_28
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 278
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86db551327c984940800000000000000
+      internalID: 5280642577359813992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_29
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 278
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b9417dcc4d9cb70800000000000000
+      internalID: 8919894513230846858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_30
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 286
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a998dd3ef56fc940800000000000000
+      internalID: 5318581827581548962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_31
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 278
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e828056256ef080800000000000000
+      internalID: -9151766177536373104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_32
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 278
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f648b3dca3dc5d00800000000000000
+      internalID: 962877159590348529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_33
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 278
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cca036c6010b1c70800000000000000
+      internalID: 8942742613680762052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_34
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 278
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ecc1081ff914210800000000000000
+      internalID: 1315508425754201639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_35
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 278
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6a75bd20447cda0800000000000000
+      internalID: -5924692005722020184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_36
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 286
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc87bf978c541a90800000000000000
+      internalID: -7344143354764489541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_37
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 286
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821bc55507bea7750800000000000000
+      internalID: 6303609496159433000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_38
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 286
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd48d33db247db60800000000000000
+      internalID: 7770753062437146052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_39
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 286
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183343df011b54310800000000000000
+      internalID: 1388710746639315841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_40
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 264
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7399d829a18561200800000000000000
+      internalID: 150404508714637623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 264
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3c263e061d224e0800000000000000
+      internalID: -2007812269791853642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_42
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 265
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2872f9348de6a790800000000000000
+      internalID: -7519061375684806611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_43
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 264
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c38c11b821e5fc0800000000000000
+      internalID: -3504343071539577725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 264
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052285ae9d9f373f0800000000000000
+      internalID: -904104385836473776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_45
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 265
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c95eda332e75390800000000000000
+      internalID: -7829540715571602410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_46
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 254
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894e5f5390b65fe70800000000000000
+      internalID: 9148335905377215640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_47
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 270
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d1f101e96d73490800000000000000
+      internalID: -7766503058013479574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_48
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 270
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa246a6521b2f560800000000000000
+      internalID: 7346128716451556004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_49
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 270
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0825b65b6d4464c40800000000000000
+      internalID: 5496156084209668736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_50
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 270
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d1f988e60929560800000000000000
+      internalID: 7319071148843408647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_51
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 270
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978b2ae4d125d25e0800000000000000
+      internalID: -1932798379245258631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_52
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 270
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1016f04cdfc30b00800000000000000
+      internalID: 793706504236961820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_53
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 246
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09122301029e9d590800000000000000
+      internalID: -7648826168192130672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 246
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3d3a1c0c10ee780800000000000000
+      internalID: -8651975906738056266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_55
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 254
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf5ec27ddf19a1a0800000000000000
+      internalID: -6797867126564692048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_56
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 238
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666b59f5260cad0d0800000000000000
+      internalID: -3397191440154642842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_57
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 238
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76486a1979283db0800000000000000
+      internalID: -4812050601734551942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_58
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 238
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce302144f6bfcad10800000000000000
+      internalID: 2138360378396115948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_59
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 220
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb545407964553670800000000000000
+      internalID: 8517807082073048508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_60
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 220
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cfeabf6f5e54790800000000000000
+      internalID: -7546372751642133501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_61
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 222
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e711b7f2e23ccc0800000000000000
+      internalID: -3692056488050590162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_62
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 206
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22aa1fbb083700310800000000000000
+      internalID: 1369221283466816034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_63
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 200
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd07594e51028f70800000000000000
+      internalID: 9187907694258228699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_64
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 200
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b40663cb89828e0800000000000000
+      internalID: -1717955323708290176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_65
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 201
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6793bdd37ecce90800000000000000
+      internalID: -7003969067610966304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_66
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 200
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44af404846f214d80800000000000000
+      internalID: -8268275332117366204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 200
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7f2ab6d52ed0c60800000000000000
+      internalID: 7786128221659133910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_68
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 201
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b742360b168835c0800000000000000
+      internalID: -4235487998915754057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_69
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 206
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5618854291e7bfdb0800000000000000
+      internalID: -4757069934937734811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_70
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 198
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c418c0222f1cd77b0800000000000000
+      internalID: -5224806746982416052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_71
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 198
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71d07598914d7a60800000000000000
+      internalID: 7673361463707226490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_72
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 198
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72de8e8a5263f6530800000000000000
+      internalID: 3850355741800590631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_73
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 198
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3332e1387b1b99d0800000000000000
+      internalID: -2766587343042104517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_74
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 198
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa446de949494b2b0800000000000000
+      internalID: -5569663473109547862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_75
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 198
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570f58023100e7380800000000000000
+      internalID: -8971733325525421963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_76
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 198
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c894329c52a1e10800000000000000
+      internalID: 2169087716342991903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_77
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 182
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc6df105fa1317b0800000000000000
+      internalID: -5254826700608541494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 182
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b7135207a130a70800000000000000
+      internalID: 8791899966519999341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_79
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 174
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904a2bb53144bf8c0800000000000000
+      internalID: -3964500197036088311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_80
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 174
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5270d91f0017e7fc0800000000000000
+      internalID: -3495232011925387483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_81
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 174
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652a9c16ec6c063d0800000000000000
+      internalID: -3215351544236367274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_82
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 190
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1361d035e457d3d90800000000000000
+      internalID: -7116402856914250191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_83
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 182
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506136e6a2ed70a60800000000000000
+      internalID: 7640319566679315973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_84
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 190
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299e707798c676fa0800000000000000
+      internalID: -5807553856807638638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_85
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 190
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa72e5499c630150800000000000000
+      internalID: 5837628947560561397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_86
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 182
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfee94634aea926e0800000000000000
+      internalID: -1861764950632304900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_87
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 190
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd2303a1b70932b0800000000000000
+      internalID: -5604439801760371235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_88
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 190
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5bd30b13c4b3000800000000000000
+      internalID: 16690799919871455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_89
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 190
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e1cae5d9d812aa0800000000000000
+      internalID: -6187508705992630749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_90
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 182
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9dc2f9dc46271e0800000000000000
+      internalID: -2201586433529161242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_91
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 182
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e71fcad10246480800000000000000
+      internalID: -8906958851204350459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_92
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 182
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e63bf0a5f54fdf90800000000000000
+      internalID: -6926740780602411295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_93
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 182
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4680e6a69ccd2760800000000000000
+      internalID: 7434823507275449935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_94
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 174
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f13700839400f770800000000000000
+      internalID: 8642412716478640627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_95
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 166
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7a7fdbcc1886220800000000000000
+      internalID: 2479374311227893673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_96
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 174
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79a9b7a341099a00800000000000000
+      internalID: 763643001904408958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_97
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 166
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561862ea935926580800000000000000
+      internalID: -8835335443980058267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_98
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 174
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8d56fc7c9d76500800000000000000
+      internalID: 389519344992114894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_99
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 166
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae023597817ced390800000000000000
+      internalID: -7791571397375745814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_100
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 166
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75e575e60d160ca0800000000000000
+      internalID: -6051117133868964485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_101
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 166
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45be2efc2b7dc250800000000000000
+      internalID: 5966560514509026634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_102
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 166
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fea118fa40512fb0800000000000000
+      internalID: -4674366655314153735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_103
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 166
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9dca9edbeba7d00800000000000000
+      internalID: 971298392530278818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_104
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 166
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7d28c4fa7250a30800000000000000
+      internalID: 4180791462939776977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_105
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 166
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec02383eed17391f0800000000000000
+      internalID: -1039361886878752562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_106
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 142
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993ad5bbf33627010800000000000000
+      internalID: 1185118777329427353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_107
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 158
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995b3afd2a7c42380800000000000000
+      internalID: -8996846653228730983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_108
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 150
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59057e1cc8f1df040800000000000000
+      internalID: 4682933876944228501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_109
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 158
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df617e08dd69f9820800000000000000
+      internalID: 2927224160908678909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_110
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 158
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ddfc3a7a4d6b1f0800000000000000
+      internalID: -1029401648334643948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_111
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 150
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b921624848ae2a890800000000000000
+      internalID: -7448132978843708773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_112
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 158
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173666be2795ab850800000000000000
+      internalID: 6393520971116340081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_113
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 158
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36ca1738a4059470800000000000000
+      internalID: 8400625800455046714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_114
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 158
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f08131a0c7524aa0800000000000000
+      internalID: -6178279253949185799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_115
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 150
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ed4763a7dafa6c0800000000000000
+      internalID: -4129891592864211388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_116
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 150
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdce21996f13baa0800000000000000
+      internalID: -6146534528162804232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_117
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 150
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5420301ffc890c960800000000000000
+      internalID: 7620258588380037701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_118
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 150
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f97b855492f8c160800000000000000
+      internalID: 7046148335925426674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_119
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 142
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c29456fe1bec890800000000000000
+      internalID: -7435810292987515769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_120
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 134
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801b87b2de9467460800000000000000
+      internalID: 7239054734030057736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_121
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 86
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9dc3d4c78546ad0800000000000000
+      internalID: -2709943784875173407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_122
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 94
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1975950912cd4ecb0800000000000000
+      internalID: -4835498063175264367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_123
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 86
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee9deddf348a4190800000000000000
+      internalID: -7977418380092268818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_124
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 78
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748f802d6f874fbe0800000000000000
+      internalID: -1444396578997995449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_125
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 70
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0423da1c3c7b68750800000000000000
+      internalID: 6306930379574817344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_126
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 78
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f27b93726499b0b0800000000000000
+      internalID: -5712371501775490313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_127
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 70
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488cfd9428857a6e0800000000000000
+      internalID: -1826393807267051388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_128
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 70
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865085f3661d16810800000000000000
+      internalID: 1756915566730806632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_129
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 78
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6dc745cc2e34c00800000000000000
+      internalID: 883799319113422559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_130
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 70
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd01af0cf15442410800000000000000
+      internalID: 1451360982604058845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_131
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 78
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c952c73bc15f748e0800000000000000
+      internalID: -1709128029944666724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_132
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 78
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a6c17bc59f777a0800000000000000
+      internalID: -6379356170542617975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_133
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 78
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fba6430c92db7d40800000000000000
+      internalID: 5583287730567556083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_134
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 78
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25131c65531b5f750800000000000000
+      internalID: 6338166893240725842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_135
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 62
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e23439cd055d7380800000000000000
+      internalID: -8971921364953582876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_136
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 62
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a749c22eb5a538420800000000000000
+      internalID: 2631045957997597818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_137
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 62
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f498dab9a876c42a0800000000000000
+      internalID: -6751907896320226993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_138
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 62
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4870894822c6950800000000000000
+      internalID: 6443563119741994232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_139
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 62
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9178a639b9d785f0800000000000000
+      internalID: -754395023052082789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_140
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 70
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff71483d36430fa20800000000000000
+      internalID: 3094030547358586879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_141
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 70
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf5a457da2560db0800000000000000
+      internalID: -4826079045730279461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_142
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 54
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac79e92fe1639570800000000000000
+      internalID: 8472223003842280623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_143
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 54
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403a2e97c510fbac0800000000000000
+      internalID: -3837346860802858236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_144
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 54
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ae5a33b2afe0500800000000000000
+      internalID: 364503683320638071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_145
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 54
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82c0b0b8d9bea8d0800000000000000
+      internalID: -2833122775241014641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_146
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 54
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2bfce272e3b1ce10800000000000000
+      internalID: 2216250276815108910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_147
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 54
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0596c20326d400700800000000000000
+      internalID: 504488242375846224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_148
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 62
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce39f3e43b90221a0800000000000000
+      internalID: -6835890618678406164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_149
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 62
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009586be56f4e3f00800000000000000
+      internalID: 1098402658284755200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_150
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 62
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de2356e761104910800000000000000
+      internalID: 1819473387401195224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_151
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 62
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96c5dda132ec2390800000000000000
+      internalID: -7841644148161132897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_152
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d706347c73c35c0800000000000000
+      internalID: -4234448220666692341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_153
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeeb3d53a05c95c10800000000000000
+      internalID: 2042880553632644846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_154
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31cd1ace67347ddc0800000000000000
+      internalID: -3614345997886301165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_155
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 38
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8df748574f612180800000000000000
+      internalID: -9141903416370922098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_156
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 46
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ab95b03158552b0800000000000000
+      internalID: -5596420645096670715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_157
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 38
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b02aaac0527f7140800000000000000
+      internalID: 4719616625830666421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_158
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 38
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7a28baf8d031e80800000000000000
+      internalID: -8209202785057331214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_159
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 46
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3664d8400aa436a70800000000000000
+      internalID: 8818974546453153379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_160
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 38
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93496314021cdb700800000000000000
+      internalID: 557814273141019705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_161
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 46
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652dfb759bbd3b9b0800000000000000
+      internalID: -5065463566774054314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_162
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 46
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55efbc8b169f50f60800000000000000
+      internalID: 8000074511201074773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_163
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 46
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42936e6f21af1b730800000000000000
+      internalID: 4013263702322460964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_164
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 46
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7995b4a74996980800000000000000
+      internalID: -8545135564987721749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_165
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 30
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59baec9728294560800000000000000
+      internalID: 7298408821732063580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_166
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 30
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454a71b30fe0c7510800000000000000
+      internalID: 1548128796854953044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_167
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 30
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02970b03b148e2cc0800000000000000
+      internalID: -3733901788727707360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_168
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 38
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aed77e0178853ba0800000000000000
+      internalID: -6109827300302791006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_169
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 38
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0517effca13e400800000000000000
+      internalID: 352154676494422227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_170
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 22
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b01414062a883d0800000000000000
+      internalID: -3204132600578765979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_171
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 22
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d94d41a22d7ec80800000000000000
+      internalID: -8293429110599541470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_172
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 30
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5623d97e6da20cb70800000000000000
+      internalID: 8917174364690788965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_173
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 30
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35df7aeb2b21b0e0800000000000000
+      internalID: -2255974470718073537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_174
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 30
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fbf44967eb9d250800000000000000
+      internalID: 5970012197559975705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_175
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 30
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7c79f56cdeff040800000000000000
+      internalID: 4683723573751695302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Controllers_Shadows_176
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 6
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758419ed99c6793a0800000000000000
+      internalID: -6658734115924129705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      _Controllers_Shadows_0: -5798882232668928683
+      _Controllers_Shadows_1: -4233766790455283621
+      _Controllers_Shadows_10: -8990191637816456008
+      _Controllers_Shadows_100: -6051117133868964485
+      _Controllers_Shadows_101: 5966560514509026634
+      _Controllers_Shadows_102: -4674366655314153735
+      _Controllers_Shadows_103: 971298392530278818
+      _Controllers_Shadows_104: 4180791462939776977
+      _Controllers_Shadows_105: -1039361886878752562
+      _Controllers_Shadows_106: 1185118777329427353
+      _Controllers_Shadows_107: -8996846653228730983
+      _Controllers_Shadows_108: 4682933876944228501
+      _Controllers_Shadows_109: 2927224160908678909
+      _Controllers_Shadows_11: 6826251244011798787
+      _Controllers_Shadows_110: -1029401648334643948
+      _Controllers_Shadows_111: -7448132978843708773
+      _Controllers_Shadows_112: 6393520971116340081
+      _Controllers_Shadows_113: 8400625800455046714
+      _Controllers_Shadows_114: -6178279253949185799
+      _Controllers_Shadows_115: -4129891592864211388
+      _Controllers_Shadows_116: -6146534528162804232
+      _Controllers_Shadows_117: 7620258588380037701
+      _Controllers_Shadows_118: 7046148335925426674
+      _Controllers_Shadows_119: -7435810292987515769
+      _Controllers_Shadows_12: -3318362137074414007
+      _Controllers_Shadows_120: 7239054734030057736
+      _Controllers_Shadows_121: -2709943784875173407
+      _Controllers_Shadows_122: -4835498063175264367
+      _Controllers_Shadows_123: -7977418380092268818
+      _Controllers_Shadows_124: -1444396578997995449
+      _Controllers_Shadows_125: 6306930379574817344
+      _Controllers_Shadows_126: -5712371501775490313
+      _Controllers_Shadows_127: -1826393807267051388
+      _Controllers_Shadows_128: 1756915566730806632
+      _Controllers_Shadows_129: 883799319113422559
+      _Controllers_Shadows_13: 3528243199823376704
+      _Controllers_Shadows_130: 1451360982604058845
+      _Controllers_Shadows_131: -1709128029944666724
+      _Controllers_Shadows_132: -6379356170542617975
+      _Controllers_Shadows_133: 5583287730567556083
+      _Controllers_Shadows_134: 6338166893240725842
+      _Controllers_Shadows_135: -8971921364953582876
+      _Controllers_Shadows_136: 2631045957997597818
+      _Controllers_Shadows_137: -6751907896320226993
+      _Controllers_Shadows_138: 6443563119741994232
+      _Controllers_Shadows_139: -754395023052082789
+      _Controllers_Shadows_14: -9070806820826020191
+      _Controllers_Shadows_140: 3094030547358586879
+      _Controllers_Shadows_141: -4826079045730279461
+      _Controllers_Shadows_142: 8472223003842280623
+      _Controllers_Shadows_143: -3837346860802858236
+      _Controllers_Shadows_144: 364503683320638071
+      _Controllers_Shadows_145: -2833122775241014641
+      _Controllers_Shadows_146: 2216250276815108910
+      _Controllers_Shadows_147: 504488242375846224
+      _Controllers_Shadows_148: -6835890618678406164
+      _Controllers_Shadows_149: 1098402658284755200
+      _Controllers_Shadows_15: 678212710784065245
+      _Controllers_Shadows_150: 1819473387401195224
+      _Controllers_Shadows_151: -7841644148161132897
+      _Controllers_Shadows_152: -4234448220666692341
+      _Controllers_Shadows_153: 2042880553632644846
+      _Controllers_Shadows_154: -3614345997886301165
+      _Controllers_Shadows_155: -9141903416370922098
+      _Controllers_Shadows_156: -5596420645096670715
+      _Controllers_Shadows_157: 4719616625830666421
+      _Controllers_Shadows_158: -8209202785057331214
+      _Controllers_Shadows_159: 8818974546453153379
+      _Controllers_Shadows_16: -4232460534235447866
+      _Controllers_Shadows_160: 557814273141019705
+      _Controllers_Shadows_161: -5065463566774054314
+      _Controllers_Shadows_162: 8000074511201074773
+      _Controllers_Shadows_163: 4013263702322460964
+      _Controllers_Shadows_164: -8545135564987721749
+      _Controllers_Shadows_165: 7298408821732063580
+      _Controllers_Shadows_166: 1548128796854953044
+      _Controllers_Shadows_167: -3733901788727707360
+      _Controllers_Shadows_168: -6109827300302791006
+      _Controllers_Shadows_169: 352154676494422227
+      _Controllers_Shadows_17: 7644568289150913373
+      _Controllers_Shadows_170: -3204132600578765979
+      _Controllers_Shadows_171: -8293429110599541470
+      _Controllers_Shadows_172: 8917174364690788965
+      _Controllers_Shadows_173: -2255974470718073537
+      _Controllers_Shadows_174: 5970012197559975705
+      _Controllers_Shadows_175: 4683723573751695302
+      _Controllers_Shadows_176: -6658734115924129705
+      _Controllers_Shadows_18: 8604867718439343811
+      _Controllers_Shadows_19: 6712378983883941237
+      _Controllers_Shadows_2: -6769074901271602458
+      _Controllers_Shadows_20: 4548034549227221888
+      _Controllers_Shadows_21: -8711245277867308249
+      _Controllers_Shadows_22: 4116215480668458344
+      _Controllers_Shadows_23: -2369000124072464415
+      _Controllers_Shadows_24: 5456565326195451307
+      _Controllers_Shadows_25: 8679920492542869419
+      _Controllers_Shadows_26: -978312993629127659
+      _Controllers_Shadows_27: 2638644637250844121
+      _Controllers_Shadows_28: 5280642577359813992
+      _Controllers_Shadows_29: 8919894513230846858
+      _Controllers_Shadows_3: -3710058557357545384
+      _Controllers_Shadows_30: 5318581827581548962
+      _Controllers_Shadows_31: -9151766177536373104
+      _Controllers_Shadows_32: 962877159590348529
+      _Controllers_Shadows_33: 8942742613680762052
+      _Controllers_Shadows_34: 1315508425754201639
+      _Controllers_Shadows_35: -5924692005722020184
+      _Controllers_Shadows_36: -7344143354764489541
+      _Controllers_Shadows_37: 6303609496159433000
+      _Controllers_Shadows_38: 7770753062437146052
+      _Controllers_Shadows_39: 1388710746639315841
+      _Controllers_Shadows_4: 2651596230261455172
+      _Controllers_Shadows_40: 150404508714637623
+      _Controllers_Shadows_41: -2007812269791853642
+      _Controllers_Shadows_42: -7519061375684806611
+      _Controllers_Shadows_43: -3504343071539577725
+      _Controllers_Shadows_44: -904104385836473776
+      _Controllers_Shadows_45: -7829540715571602410
+      _Controllers_Shadows_46: 9148335905377215640
+      _Controllers_Shadows_47: -7766503058013479574
+      _Controllers_Shadows_48: 7346128716451556004
+      _Controllers_Shadows_49: 5496156084209668736
+      _Controllers_Shadows_5: 3187768795921272733
+      _Controllers_Shadows_50: 7319071148843408647
+      _Controllers_Shadows_51: -1932798379245258631
+      _Controllers_Shadows_52: 793706504236961820
+      _Controllers_Shadows_53: -7648826168192130672
+      _Controllers_Shadows_54: -8651975906738056266
+      _Controllers_Shadows_55: -6797867126564692048
+      _Controllers_Shadows_56: -3397191440154642842
+      _Controllers_Shadows_57: -4812050601734551942
+      _Controllers_Shadows_58: 2138360378396115948
+      _Controllers_Shadows_59: 8517807082073048508
+      _Controllers_Shadows_6: 2441029554217848252
+      _Controllers_Shadows_60: -7546372751642133501
+      _Controllers_Shadows_61: -3692056488050590162
+      _Controllers_Shadows_62: 1369221283466816034
+      _Controllers_Shadows_63: 9187907694258228699
+      _Controllers_Shadows_64: -1717955323708290176
+      _Controllers_Shadows_65: -7003969067610966304
+      _Controllers_Shadows_66: -8268275332117366204
+      _Controllers_Shadows_67: 7786128221659133910
+      _Controllers_Shadows_68: -4235487998915754057
+      _Controllers_Shadows_69: -4757069934937734811
+      _Controllers_Shadows_7: -5545702524856516393
+      _Controllers_Shadows_70: -5224806746982416052
+      _Controllers_Shadows_71: 7673361463707226490
+      _Controllers_Shadows_72: 3850355741800590631
+      _Controllers_Shadows_73: -2766587343042104517
+      _Controllers_Shadows_74: -5569663473109547862
+      _Controllers_Shadows_75: -8971733325525421963
+      _Controllers_Shadows_76: 2169087716342991903
+      _Controllers_Shadows_77: -5254826700608541494
+      _Controllers_Shadows_78: 8791899966519999341
+      _Controllers_Shadows_79: -3964500197036088311
+      _Controllers_Shadows_8: 1851484339235360447
+      _Controllers_Shadows_80: -3495232011925387483
+      _Controllers_Shadows_81: -3215351544236367274
+      _Controllers_Shadows_82: -7116402856914250191
+      _Controllers_Shadows_83: 7640319566679315973
+      _Controllers_Shadows_84: -5807553856807638638
+      _Controllers_Shadows_85: 5837628947560561397
+      _Controllers_Shadows_86: -1861764950632304900
+      _Controllers_Shadows_87: -5604439801760371235
+      _Controllers_Shadows_88: 16690799919871455
+      _Controllers_Shadows_89: -6187508705992630749
+      _Controllers_Shadows_9: -3926665492592279658
+      _Controllers_Shadows_90: -2201586433529161242
+      _Controllers_Shadows_91: -8906958851204350459
+      _Controllers_Shadows_92: -6926740780602411295
+      _Controllers_Shadows_93: 7434823507275449935
+      _Controllers_Shadows_94: 8642412716478640627
+      _Controllers_Shadows_95: 2479374311227893673
+      _Controllers_Shadows_96: 763643001904408958
+      _Controllers_Shadows_97: -8835335443980058267
+      _Controllers_Shadows_98: 389519344992114894
+      _Controllers_Shadows_99: -7791571397375745814
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

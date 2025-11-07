@@ -1,0 +1,28 @@
+Contextual cursors for different actions. From Left to right:
+- Arrow 1 Large
+- Arrow 2 Large
+- Arrow 3 Large
+- Arrow 4 Large
+- Arrow 1 Small
+- Arrow 2 Small
+- Arrow 3 Small
+- Arrow 4 Small
+- Crosshair 1
+- Crosshair 2
+- Crosshair 3
+- Crosshair 4
+- Hand 
+- Hand clicking
+- Melee Attack
+- Ranged Attack
+- Magic Attack
+- Hammer
+- Pick-axe
+- Axe
+- Sickle
+- Shovel
+- Hoe
+- Fishing rod
+- Gear
+- Purse
+- Conversation

@@ -1,0 +1,6877 @@
+fileFormatVersion: 2
+guid: 5a2503540744ca04d8a3b7d26975c76c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4203961897316227909
+    second: _Keyboard_And_Mouse_Shadows_0
+  - first:
+      213: -1017550187641270068
+    second: _Keyboard_And_Mouse_Shadows_1
+  - first:
+      213: 3674853201175470337
+    second: _Keyboard_And_Mouse_Shadows_2
+  - first:
+      213: -6751523893796245905
+    second: _Keyboard_And_Mouse_Shadows_3
+  - first:
+      213: -3613850640238985942
+    second: _Keyboard_And_Mouse_Shadows_4
+  - first:
+      213: -870717911459743758
+    second: _Keyboard_And_Mouse_Shadows_5
+  - first:
+      213: -4201978395578538773
+    second: _Keyboard_And_Mouse_Shadows_6
+  - first:
+      213: -4629124243789782427
+    second: _Keyboard_And_Mouse_Shadows_7
+  - first:
+      213: 2923017591157920797
+    second: _Keyboard_And_Mouse_Shadows_8
+  - first:
+      213: 7055449862207359011
+    second: _Keyboard_And_Mouse_Shadows_9
+  - first:
+      213: 5736871991133540863
+    second: _Keyboard_And_Mouse_Shadows_10
+  - first:
+      213: 8825006291298746762
+    second: _Keyboard_And_Mouse_Shadows_11
+  - first:
+      213: -2769023879737272129
+    second: _Keyboard_And_Mouse_Shadows_12
+  - first:
+      213: 3060990732445358541
+    second: _Keyboard_And_Mouse_Shadows_13
+  - first:
+      213: -2865246352967436500
+    second: _Keyboard_And_Mouse_Shadows_14
+  - first:
+      213: -7833261151422232390
+    second: _Keyboard_And_Mouse_Shadows_15
+  - first:
+      213: -1243114841983264677
+    second: _Keyboard_And_Mouse_Shadows_16
+  - first:
+      213: 3489054772959175826
+    second: _Keyboard_And_Mouse_Shadows_17
+  - first:
+      213: 5419631343079911784
+    second: _Keyboard_And_Mouse_Shadows_18
+  - first:
+      213: 2807299402345047961
+    second: _Keyboard_And_Mouse_Shadows_19
+  - first:
+      213: -2571549035674139074
+    second: _Keyboard_And_Mouse_Shadows_20
+  - first:
+      213: 9218210760408444101
+    second: _Keyboard_And_Mouse_Shadows_21
+  - first:
+      213: 3056816746432372875
+    second: _Keyboard_And_Mouse_Shadows_22
+  - first:
+      213: -8219069591571448069
+    second: _Keyboard_And_Mouse_Shadows_23
+  - first:
+      213: -4570717698105294062
+    second: _Keyboard_And_Mouse_Shadows_24
+  - first:
+      213: -767804480740273211
+    second: _Keyboard_And_Mouse_Shadows_25
+  - first:
+      213: 9165160313012580592
+    second: _Keyboard_And_Mouse_Shadows_26
+  - first:
+      213: -5423501792575958488
+    second: _Keyboard_And_Mouse_Shadows_27
+  - first:
+      213: 5610483727217079606
+    second: _Keyboard_And_Mouse_Shadows_28
+  - first:
+      213: -2264190846548253719
+    second: _Keyboard_And_Mouse_Shadows_29
+  - first:
+      213: 6291019159341915770
+    second: _Keyboard_And_Mouse_Shadows_30
+  - first:
+      213: 7710270450914740130
+    second: _Keyboard_And_Mouse_Shadows_31
+  - first:
+      213: -6863693479438977311
+    second: _Keyboard_And_Mouse_Shadows_32
+  - first:
+      213: -5807268085162007505
+    second: _Keyboard_And_Mouse_Shadows_33
+  - first:
+      213: -2442227736314606187
+    second: _Keyboard_And_Mouse_Shadows_34
+  - first:
+      213: 5123407970704783447
+    second: _Keyboard_And_Mouse_Shadows_35
+  - first:
+      213: 8889126183704825333
+    second: _Keyboard_And_Mouse_Shadows_36
+  - first:
+      213: 8439657423252966280
+    second: _Keyboard_And_Mouse_Shadows_37
+  - first:
+      213: 3369760136038227942
+    second: _Keyboard_And_Mouse_Shadows_38
+  - first:
+      213: -6741078395089772595
+    second: _Keyboard_And_Mouse_Shadows_39
+  - first:
+      213: 663585450091646200
+    second: _Keyboard_And_Mouse_Shadows_40
+  - first:
+      213: 8286762390680829887
+    second: _Keyboard_And_Mouse_Shadows_41
+  - first:
+      213: -5330352406869777732
+    second: _Keyboard_And_Mouse_Shadows_42
+  - first:
+      213: 5891085134040522395
+    second: _Keyboard_And_Mouse_Shadows_43
+  - first:
+      213: 2347628716496319108
+    second: _Keyboard_And_Mouse_Shadows_44
+  - first:
+      213: 6386980314817850735
+    second: _Keyboard_And_Mouse_Shadows_45
+  - first:
+      213: -7748005911616296228
+    second: _Keyboard_And_Mouse_Shadows_46
+  - first:
+      213: 7035520526350447333
+    second: _Keyboard_And_Mouse_Shadows_47
+  - first:
+      213: 3956730752154533941
+    second: _Keyboard_And_Mouse_Shadows_48
+  - first:
+      213: -2919756852263117382
+    second: _Keyboard_And_Mouse_Shadows_49
+  - first:
+      213: 1870028594227969996
+    second: _Keyboard_And_Mouse_Shadows_50
+  - first:
+      213: -2100162623648290226
+    second: _Keyboard_And_Mouse_Shadows_51
+  - first:
+      213: 5799742244777579679
+    second: _Keyboard_And_Mouse_Shadows_52
+  - first:
+      213: -5093149805946360775
+    second: _Keyboard_And_Mouse_Shadows_53
+  - first:
+      213: -7475395049734429849
+    second: _Keyboard_And_Mouse_Shadows_54
+  - first:
+      213: -4883502076819749942
+    second: _Keyboard_And_Mouse_Shadows_55
+  - first:
+      213: -3958775554810204262
+    second: _Keyboard_And_Mouse_Shadows_56
+  - first:
+      213: 7187660533731926647
+    second: _Keyboard_And_Mouse_Shadows_57
+  - first:
+      213: -2039103976988524446
+    second: _Keyboard_And_Mouse_Shadows_58
+  - first:
+      213: 6075506820385088934
+    second: _Keyboard_And_Mouse_Shadows_59
+  - first:
+      213: -8211751183845917221
+    second: _Keyboard_And_Mouse_Shadows_60
+  - first:
+      213: 925144624048159693
+    second: _Keyboard_And_Mouse_Shadows_61
+  - first:
+      213: -1308362832784065640
+    second: _Keyboard_And_Mouse_Shadows_62
+  - first:
+      213: 1025923608385532340
+    second: _Keyboard_And_Mouse_Shadows_63
+  - first:
+      213: -7359161551265581975
+    second: _Keyboard_And_Mouse_Shadows_64
+  - first:
+      213: -2833442942105404755
+    second: _Keyboard_And_Mouse_Shadows_65
+  - first:
+      213: -4311131851051262420
+    second: _Keyboard_And_Mouse_Shadows_66
+  - first:
+      213: 3405462818148064337
+    second: _Keyboard_And_Mouse_Shadows_67
+  - first:
+      213: 3278764844215499046
+    second: _Keyboard_And_Mouse_Shadows_68
+  - first:
+      213: 6124135035992867781
+    second: _Keyboard_And_Mouse_Shadows_69
+  - first:
+      213: -2849173251772104279
+    second: _Keyboard_And_Mouse_Shadows_70
+  - first:
+      213: 289766221545894061
+    second: _Keyboard_And_Mouse_Shadows_71
+  - first:
+      213: 7758584954977761706
+    second: _Keyboard_And_Mouse_Shadows_72
+  - first:
+      213: -8274688491797244081
+    second: _Keyboard_And_Mouse_Shadows_73
+  - first:
+      213: 5156477920836388293
+    second: _Keyboard_And_Mouse_Shadows_74
+  - first:
+      213: -1408201757709798479
+    second: _Keyboard_And_Mouse_Shadows_75
+  - first:
+      213: -524928985173642027
+    second: _Keyboard_And_Mouse_Shadows_76
+  - first:
+      213: 3528412381217074634
+    second: _Keyboard_And_Mouse_Shadows_77
+  - first:
+      213: -3518349733175046447
+    second: _Keyboard_And_Mouse_Shadows_78
+  - first:
+      213: 6482666253491297694
+    second: _Keyboard_And_Mouse_Shadows_79
+  - first:
+      213: -2919654716592365898
+    second: _Keyboard_And_Mouse_Shadows_80
+  - first:
+      213: -5752982751863395683
+    second: _Keyboard_And_Mouse_Shadows_81
+  - first:
+      213: 7465443332195304523
+    second: _Keyboard_And_Mouse_Shadows_82
+  - first:
+      213: -3349395917364692713
+    second: _Keyboard_And_Mouse_Shadows_83
+  - first:
+      213: 526929873081349191
+    second: _Keyboard_And_Mouse_Shadows_84
+  - first:
+      213: -7731686125466228332
+    second: _Keyboard_And_Mouse_Shadows_85
+  - first:
+      213: 8513966969457290660
+    second: _Keyboard_And_Mouse_Shadows_86
+  - first:
+      213: 7855380537445046621
+    second: _Keyboard_And_Mouse_Shadows_87
+  - first:
+      213: -283871078820211178
+    second: _Keyboard_And_Mouse_Shadows_88
+  - first:
+      213: -7527901609825593937
+    second: _Keyboard_And_Mouse_Shadows_89
+  - first:
+      213: 7063489874626096309
+    second: _Keyboard_And_Mouse_Shadows_90
+  - first:
+      213: -7918314105754029764
+    second: _Keyboard_And_Mouse_Shadows_91
+  - first:
+      213: -6606576409713194552
+    second: _Keyboard_And_Mouse_Shadows_92
+  - first:
+      213: -2505951773251086565
+    second: _Keyboard_And_Mouse_Shadows_93
+  - first:
+      213: -5394852415365719437
+    second: _Keyboard_And_Mouse_Shadows_94
+  - first:
+      213: -6398562186920692792
+    second: _Keyboard_And_Mouse_Shadows_95
+  - first:
+      213: 6985244917265325431
+    second: _Keyboard_And_Mouse_Shadows_96
+  - first:
+      213: 2451156706063716663
+    second: _Keyboard_And_Mouse_Shadows_97
+  - first:
+      213: 5606603586144777643
+    second: _Keyboard_And_Mouse_Shadows_98
+  - first:
+      213: 6619656492040642843
+    second: _Keyboard_And_Mouse_Shadows_99
+  - first:
+      213: 1003309068587416435
+    second: _Keyboard_And_Mouse_Shadows_100
+  - first:
+      213: -2936748677501672129
+    second: _Keyboard_And_Mouse_Shadows_101
+  - first:
+      213: 2521801841675031848
+    second: _Keyboard_And_Mouse_Shadows_102
+  - first:
+      213: 7954361137844983320
+    second: _Keyboard_And_Mouse_Shadows_103
+  - first:
+      213: 2262544015040915552
+    second: _Keyboard_And_Mouse_Shadows_104
+  - first:
+      213: 4471452381088118155
+    second: _Keyboard_And_Mouse_Shadows_105
+  - first:
+      213: 3017115923471082693
+    second: _Keyboard_And_Mouse_Shadows_106
+  - first:
+      213: 2820853602843652775
+    second: _Keyboard_And_Mouse_Shadows_107
+  - first:
+      213: -6915895314244119193
+    second: _Keyboard_And_Mouse_Shadows_108
+  - first:
+      213: 7252836067875198331
+    second: _Keyboard_And_Mouse_Shadows_109
+  - first:
+      213: 2004966671249711476
+    second: _Keyboard_And_Mouse_Shadows_110
+  - first:
+      213: 82605187211132558
+    second: _Keyboard_And_Mouse_Shadows_111
+  - first:
+      213: -2747948020156213569
+    second: _Keyboard_And_Mouse_Shadows_112
+  - first:
+      213: 7642072589397879987
+    second: _Keyboard_And_Mouse_Shadows_113
+  - first:
+      213: 2917119002263599813
+    second: _Keyboard_And_Mouse_Shadows_114
+  - first:
+      213: 3626015537574145016
+    second: _Keyboard_And_Mouse_Shadows_115
+  - first:
+      213: -7522684409513348659
+    second: _Keyboard_And_Mouse_Shadows_116
+  - first:
+      213: -713998495554494101
+    second: _Keyboard_And_Mouse_Shadows_117
+  - first:
+      213: 1241190790135417578
+    second: _Keyboard_And_Mouse_Shadows_118
+  - first:
+      213: 2268066235690281986
+    second: _Keyboard_And_Mouse_Shadows_119
+  - first:
+      213: -7586678656631677929
+    second: _Keyboard_And_Mouse_Shadows_120
+  - first:
+      213: -7815642114968823979
+    second: _Keyboard_And_Mouse_Shadows_121
+  - first:
+      213: -5733032879507464465
+    second: _Keyboard_And_Mouse_Shadows_122
+  - first:
+      213: 222656789899648835
+    second: _Keyboard_And_Mouse_Shadows_123
+  - first:
+      213: 4582504664967803458
+    second: _Keyboard_And_Mouse_Shadows_124
+  - first:
+      213: -5369213182656633899
+    second: _Keyboard_And_Mouse_Shadows_125
+  - first:
+      213: 5329890871833599323
+    second: _Keyboard_And_Mouse_Shadows_126
+  - first:
+      213: -7409533328514956967
+    second: _Keyboard_And_Mouse_Shadows_127
+  - first:
+      213: -3159320996083582173
+    second: _Keyboard_And_Mouse_Shadows_128
+  - first:
+      213: 5671399279717975448
+    second: _Keyboard_And_Mouse_Shadows_129
+  - first:
+      213: -1329800816962125107
+    second: _Keyboard_And_Mouse_Shadows_130
+  - first:
+      213: 4318242753860199485
+    second: _Keyboard_And_Mouse_Shadows_131
+  - first:
+      213: -8037697524955228861
+    second: _Keyboard_And_Mouse_Shadows_132
+  - first:
+      213: 960717166783544094
+    second: _Keyboard_And_Mouse_Shadows_133
+  - first:
+      213: -5276036089110998101
+    second: _Keyboard_And_Mouse_Shadows_134
+  - first:
+      213: -6644928591049441663
+    second: _Keyboard_And_Mouse_Shadows_135
+  - first:
+      213: 5869453713056021748
+    second: _Keyboard_And_Mouse_Shadows_136
+  - first:
+      213: -8494690241573183204
+    second: _Keyboard_And_Mouse_Shadows_137
+  - first:
+      213: 2164229232691263887
+    second: _Keyboard_And_Mouse_Shadows_138
+  - first:
+      213: 8617949363789084077
+    second: _Keyboard_And_Mouse_Shadows_139
+  - first:
+      213: 34698829350251574
+    second: _Keyboard_And_Mouse_Shadows_140
+  - first:
+      213: 3582460115700485987
+    second: _Keyboard_And_Mouse_Shadows_141
+  - first:
+      213: 4379300694750223418
+    second: _Keyboard_And_Mouse_Shadows_142
+  - first:
+      213: -4604764575976342729
+    second: _Keyboard_And_Mouse_Shadows_143
+  - first:
+      213: 6391796384861186753
+    second: _Keyboard_And_Mouse_Shadows_144
+  - first:
+      213: -3709825206942310926
+    second: _Keyboard_And_Mouse_Shadows_145
+  - first:
+      213: -7832892033056682023
+    second: _Keyboard_And_Mouse_Shadows_146
+  - first:
+      213: 6016723495476119767
+    second: _Keyboard_And_Mouse_Shadows_147
+  - first:
+      213: -1095671919664991308
+    second: _Keyboard_And_Mouse_Shadows_148
+  - first:
+      213: 8777785165821254548
+    second: _Keyboard_And_Mouse_Shadows_149
+  - first:
+      213: 8587226898547336379
+    second: _Keyboard_And_Mouse_Shadows_150
+  - first:
+      213: -123868569558311538
+    second: _Keyboard_And_Mouse_Shadows_151
+  - first:
+      213: -98349026199401966
+    second: _Keyboard_And_Mouse_Shadows_152
+  - first:
+      213: -3087117189861858427
+    second: _Keyboard_And_Mouse_Shadows_153
+  - first:
+      213: 3985932047690769174
+    second: _Keyboard_And_Mouse_Shadows_154
+  - first:
+      213: -7778583320049505321
+    second: _Keyboard_And_Mouse_Shadows_155
+  - first:
+      213: -2127093314457850710
+    second: _Keyboard_And_Mouse_Shadows_156
+  - first:
+      213: 3529383196983087780
+    second: _Keyboard_And_Mouse_Shadows_157
+  - first:
+      213: 6553987050942894680
+    second: _Keyboard_And_Mouse_Shadows_158
+  - first:
+      213: 2010317002641274662
+    second: _Keyboard_And_Mouse_Shadows_159
+  - first:
+      213: 6437614245506900538
+    second: _Keyboard_And_Mouse_Shadows_160
+  - first:
+      213: -6482120177685378774
+    second: _Keyboard_And_Mouse_Shadows_161
+  - first:
+      213: -5588408968413216282
+    second: _Keyboard_And_Mouse_Shadows_162
+  - first:
+      213: -6879557759648559366
+    second: _Keyboard_And_Mouse_Shadows_163
+  - first:
+      213: 200451585374690306
+    second: _Keyboard_And_Mouse_Shadows_164
+  - first:
+      213: 7135018356413901206
+    second: _Keyboard_And_Mouse_Shadows_165
+  - first:
+      213: -4482291732858253871
+    second: _Keyboard_And_Mouse_Shadows_166
+  - first:
+      213: -8584866638352939532
+    second: _Keyboard_And_Mouse_Shadows_167
+  - first:
+      213: 7619207723815040013
+    second: _Keyboard_And_Mouse_Shadows_168
+  - first:
+      213: 5907258400297897327
+    second: _Keyboard_And_Mouse_Shadows_169
+  - first:
+      213: 3969599448673715515
+    second: _Keyboard_And_Mouse_Shadows_170
+  - first:
+      213: -2245854668389462722
+    second: _Keyboard_And_Mouse_Shadows_171
+  - first:
+      213: -394014365813699033
+    second: _Keyboard_And_Mouse_Shadows_172
+  - first:
+      213: -7868674675442097553
+    second: _Keyboard_And_Mouse_Shadows_173
+  - first:
+      213: -8880714180140470365
+    second: _Keyboard_And_Mouse_Shadows_174
+  - first:
+      213: -1418454945587962988
+    second: _Keyboard_And_Mouse_Shadows_175
+  - first:
+      213: -5155314267394067120
+    second: _Keyboard_And_Mouse_Shadows_176
+  - first:
+      213: -7389732579263172239
+    second: _Keyboard_And_Mouse_Shadows_177
+  - first:
+      213: -1293003331084874087
+    second: _Keyboard_And_Mouse_Shadows_178
+  - first:
+      213: 1140758286380370193
+    second: _Keyboard_And_Mouse_Shadows_179
+  - first:
+      213: -8450350987864201867
+    second: _Keyboard_And_Mouse_Shadows_180
+  - first:
+      213: -6313329074085169276
+    second: _Keyboard_And_Mouse_Shadows_181
+  - first:
+      213: -4280259036444968734
+    second: _Keyboard_And_Mouse_Shadows_182
+  - first:
+      213: 8816989222403368259
+    second: _Keyboard_And_Mouse_Shadows_183
+  - first:
+      213: 3523478874314123909
+    second: _Keyboard_And_Mouse_Shadows_184
+  - first:
+      213: 4649505610621707082
+    second: _Keyboard_And_Mouse_Shadows_185
+  - first:
+      213: -3889811032093785840
+    second: _Keyboard_And_Mouse_Shadows_186
+  - first:
+      213: -2331342986576843998
+    second: _Keyboard_And_Mouse_Shadows_187
+  - first:
+      213: 8723045482168283175
+    second: _Keyboard_And_Mouse_Shadows_188
+  - first:
+      213: -3941899115430001528
+    second: _Keyboard_And_Mouse_Shadows_189
+  - first:
+      213: -2474675065284288699
+    second: _Keyboard_And_Mouse_Shadows_190
+  - first:
+      213: 1678579746701750914
+    second: _Keyboard_And_Mouse_Shadows_191
+  - first:
+      213: 2409583326230714106
+    second: _Keyboard_And_Mouse_Shadows_192
+  - first:
+      213: -2101355792665285371
+    second: _Keyboard_And_Mouse_Shadows_193
+  - first:
+      213: -2594498710850167740
+    second: _Keyboard_And_Mouse_Shadows_194
+  - first:
+      213: -5768107741354355719
+    second: _Keyboard_And_Mouse_Shadows_195
+  - first:
+      213: 3254235249152896603
+    second: _Keyboard_And_Mouse_Shadows_196
+  - first:
+      213: 1739200904913146509
+    second: _Keyboard_And_Mouse_Shadows_197
+  - first:
+      213: -4103152808583064793
+    second: _Keyboard_And_Mouse_Shadows_198
+  - first:
+      213: -3987133947597432909
+    second: _Keyboard_And_Mouse_Shadows_199
+  - first:
+      213: -2352569209823086365
+    second: _Keyboard_And_Mouse_Shadows_200
+  - first:
+      213: 5930596502818960178
+    second: _Keyboard_And_Mouse_Shadows_201
+  - first:
+      213: -1383688609225251082
+    second: _Keyboard_And_Mouse_Shadows_202
+  - first:
+      213: 8651999165494421520
+    second: _Keyboard_And_Mouse_Shadows_203
+  - first:
+      213: 925812331238703424
+    second: _Keyboard_And_Mouse_Shadows_204
+  - first:
+      213: -2198249023641701721
+    second: _Keyboard_And_Mouse_Shadows_205
+  - first:
+      213: -2094120714714283175
+    second: _Keyboard_And_Mouse_Shadows_206
+  - first:
+      213: -6234138180131205176
+    second: _Keyboard_And_Mouse_Shadows_207
+  - first:
+      213: -2577915360115221186
+    second: _Keyboard_And_Mouse_Shadows_208
+  - first:
+      213: 6030300703711704757
+    second: _Keyboard_And_Mouse_Shadows_209
+  - first:
+      213: 9205830425550535618
+    second: _Keyboard_And_Mouse_Shadows_210
+  - first:
+      213: -2070990874468382540
+    second: _Keyboard_And_Mouse_Shadows_211
+  - first:
+      213: 6495254590886433958
+    second: _Keyboard_And_Mouse_Shadows_212
+  - first:
+      213: -2881916507773262271
+    second: _Keyboard_And_Mouse_Shadows_213
+  - first:
+      213: -3348471559855815668
+    second: _Keyboard_And_Mouse_Shadows_214
+  - first:
+      213: 8138056310828578347
+    second: _Keyboard_And_Mouse_Shadows_215
+  - first:
+      213: -2290874802600744385
+    second: _Keyboard_And_Mouse_Shadows_216
+  - first:
+      213: -544079634329414055
+    second: _Keyboard_And_Mouse_Shadows_217
+  - first:
+      213: -5330743655246291480
+    second: _Keyboard_And_Mouse_Shadows_218
+  - first:
+      213: 5548232134333379069
+    second: _Keyboard_And_Mouse_Shadows_219
+  - first:
+      213: 2631900590505146712
+    second: _Keyboard_And_Mouse_Shadows_220
+  - first:
+      213: 1234078699298653547
+    second: _Keyboard_And_Mouse_Shadows_221
+  - first:
+      213: -4442878816545265056
+    second: _Keyboard_And_Mouse_Shadows_222
+  - first:
+      213: 4669837272007673343
+    second: _Keyboard_And_Mouse_Shadows_223
+  - first:
+      213: -842077569241108609
+    second: _Keyboard_And_Mouse_Shadows_224
+  - first:
+      213: -1701750925867839092
+    second: _Keyboard_And_Mouse_Shadows_225
+  - first:
+      213: 8719478824480523538
+    second: _Keyboard_And_Mouse_Shadows_226
+  - first:
+      213: 1191476172146651462
+    second: _Keyboard_And_Mouse_Shadows_227
+  - first:
+      213: -3628427611719011590
+    second: _Keyboard_And_Mouse_Shadows_228
+  - first:
+      213: 1472839747468086601
+    second: _Keyboard_And_Mouse_Shadows_229
+  - first:
+      213: 7067515115309473767
+    second: _Keyboard_And_Mouse_Shadows_230
+  - first:
+      213: -9135518133763630117
+    second: _Keyboard_And_Mouse_Shadows_231
+  - first:
+      213: 4817327126436950424
+    second: _Keyboard_And_Mouse_Shadows_232
+  - first:
+      213: -416971277471496809
+    second: _Keyboard_And_Mouse_Shadows_233
+  - first:
+      213: 1510402550076180624
+    second: _Keyboard_And_Mouse_Shadows_234
+  - first:
+      213: -2787549856849760615
+    second: _Keyboard_And_Mouse_Shadows_235
+  - first:
+      213: -2356905148694485843
+    second: _Keyboard_And_Mouse_Shadows_236
+  - first:
+      213: -578762361502360118
+    second: _Keyboard_And_Mouse_Shadows_237
+  - first:
+      213: -2457702659908756064
+    second: _Keyboard_And_Mouse_Shadows_238
+  - first:
+      213: -1158264923315992248
+    second: _Keyboard_And_Mouse_Shadows_239
+  - first:
+      213: -4871630785552883952
+    second: _Keyboard_And_Mouse_Shadows_240
+  - first:
+      213: 4746370334084361284
+    second: _Keyboard_And_Mouse_Shadows_241
+  - first:
+      213: -222435284796686861
+    second: _Keyboard_And_Mouse_Shadows_242
+  - first:
+      213: -5350556468149771587
+    second: _Keyboard_And_Mouse_Shadows_243
+  - first:
+      213: 1323934208065863626
+    second: _Keyboard_And_Mouse_Shadows_244
+  - first:
+      213: -6854277139661527773
+    second: _Keyboard_And_Mouse_Shadows_245
+  - first:
+      213: -958262844429163460
+    second: _Keyboard_And_Mouse_Shadows_246
+  - first:
+      213: 1919900698963314922
+    second: _Keyboard_And_Mouse_Shadows_247
+  - first:
+      213: -6560562963096515360
+    second: _Keyboard_And_Mouse_Shadows_248
+  - first:
+      213: 4849903905647423589
+    second: _Keyboard_And_Mouse_Shadows_249
+  - first:
+      213: -7318001060850196941
+    second: _Keyboard_And_Mouse_Shadows_250
+  - first:
+      213: 7042425785150081819
+    second: _Keyboard_And_Mouse_Shadows_251
+  - first:
+      213: -4964328081838671331
+    second: _Keyboard_And_Mouse_Shadows_252
+  - first:
+      213: -6890752883569941826
+    second: _Keyboard_And_Mouse_Shadows_253
+  - first:
+      213: -4986486517866004491
+    second: _Keyboard_And_Mouse_Shadows_254
+  - first:
+      213: 7126683520961759789
+    second: _Keyboard_And_Mouse_Shadows_255
+  - first:
+      213: 2641836552497881884
+    second: _Keyboard_And_Mouse_Shadows_256
+  - first:
+      213: 1675453638375577912
+    second: _Keyboard_And_Mouse_Shadows_257
+  - first:
+      213: 3930966717903348247
+    second: _Keyboard_And_Mouse_Shadows_258
+  - first:
+      213: -8969357379760116571
+    second: _Keyboard_And_Mouse_Shadows_259
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 350
+        width: 96
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4603d8de688a5c0800000000000000
+      internalID: -4203961897316227909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 374
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0928cde7fe0e1f0800000000000000
+      internalID: -1017550187641270068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 350
+        width: 96
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10165c92483bff230800000000000000
+      internalID: 3674853201175470337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_3
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 374
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e66b92ac4cd42a0800000000000000
+      internalID: -6751523893796245905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_4
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 350
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2dbc3d5df509ddc0800000000000000
+      internalID: -3613850640238985942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_5
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 350
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f73fdb3ca69ae3f0800000000000000
+      internalID: -870717911459743758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 350
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4eca989e29fa5c0800000000000000
+      internalID: -4201978395578538773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_7
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 350
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562e2c3c60c02cfb0800000000000000
+      internalID: -4629124243789782427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 350
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d149f292305a09820800000000000000
+      internalID: 2923017591157920797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_9
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 350
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328c27fa44ef9e160800000000000000
+      internalID: 7055449862207359011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 358
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff117614ea67d9f40800000000000000
+      internalID: 5736871991133540863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_11
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 358
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81037d0778b87a70800000000000000
+      internalID: 8825006291298746762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 358
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb89fa9c3737299d0800000000000000
+      internalID: -2769023879737272129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_13
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 342
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc91b247ad2da7a20800000000000000
+      internalID: 3060990732445358541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_14
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 350
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2774696f999c38d0800000000000000
+      internalID: -2865246352967436500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_15
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 350
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab84c943c7aaa4390800000000000000
+      internalID: -7833261151422232390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_16
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 350
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58529433a19fbee0800000000000000
+      internalID: -1243114841983264677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_17
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 350
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294ec1884dc9b6030800000000000000
+      internalID: 3489054772959175826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_18
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 350
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861f9d9fdf5663b40800000000000000
+      internalID: 5419631343079911784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_19
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 350
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99761f6cee785f620800000000000000
+      internalID: 2807299402345047961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_20
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 358
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e360526d6c5005cd0800000000000000
+      internalID: -2571549035674139074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_21
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 358
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc24dea8d9adef70800000000000000
+      internalID: 9218210760408444101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_22
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 358
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80219a92aefb6a20800000000000000
+      internalID: 3056816746432372875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_23
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 342
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe3b22c0cfffed80800000000000000
+      internalID: -8219069591571448069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 342
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213c7d3687c8190c0800000000000000
+      internalID: -4570717698105294062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_25
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 342
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3d58c84e53855f0800000000000000
+      internalID: -767804480740273211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_26
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 342
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f07f9edeb0313f70800000000000000
+      internalID: 9165160313012580592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_27
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 342
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822d0d6cad9dbb4b0800000000000000
+      internalID: -5423501792575958488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_28
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 342
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63532ea69317cdd40800000000000000
+      internalID: 5610483727217079606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_29
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 342
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3ecc7db6af390e0800000000000000
+      internalID: -2264190846548253719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_30
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 318
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e50cb18903e4750800000000000000
+      internalID: 6291019159341915770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_31
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7c6f4df12600b60800000000000000
+      internalID: 7710270450914740130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_32
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6ffd655234fb0a0800000000000000
+      internalID: -6863693479438977311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_33
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24a47cd170786fa0800000000000000
+      internalID: -5807268085162007505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_34
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d8c5430d67b1ed0800000000000000
+      internalID: -2442227736314606187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_35
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758734587600a1740800000000000000
+      internalID: 5123407970704783447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_36
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd895fda258c5b70800000000000000
+      internalID: 8889126183704825333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_37
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b4bf216bfaf1570800000000000000
+      internalID: 8439657423252966280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_38
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef94de6dfac3ce20800000000000000
+      internalID: 3369760136038227942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_39
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf1d995ae0e272a0800000000000000
+      internalID: -6741078395089772595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_40
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc84d67377853900800000000000000
+      internalID: 663585450091646200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_41
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 318
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbff89a3d7e700370800000000000000
+      internalID: 8286762390680829887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_42
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 318
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2e0e43ab8c606b0800000000000000
+      internalID: -5330352406869777732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_43
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ed11497b651c150800000000000000
+      internalID: 5891085134040522395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_44
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482f44f11e3749020800000000000000
+      internalID: 2347628716496319108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_45
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d6124b1cc13a850800000000000000
+      internalID: 6386980314817850735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_46
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdaeb709cad897490800000000000000
+      internalID: -7748005911616296228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_47
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2761794a033a160800000000000000
+      internalID: 7035520526350447333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_48
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530090ac7a129e630800000000000000
+      internalID: 3956730752154533941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_49
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd1856cc90fa77d0800000000000000
+      internalID: -2919756852263117382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_50
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccff7ce391da3f910800000000000000
+      internalID: 1870028594227969996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_51
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a24ee8839bad2e0800000000000000
+      internalID: -2100162623648290226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_52
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 318
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f945bc0e7d2dc7050800000000000000
+      internalID: 5799742244777579679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_53
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 318
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ca7b47c3f7159b0800000000000000
+      internalID: -5093149805946360775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_54
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 302
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763add00fcf024890800000000000000
+      internalID: -7475395049734429849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_55
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3c64b2cb05a3cb0800000000000000
+      internalID: -4883502076819749942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_56
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fa90e7b9a9f09c0800000000000000
+      internalID: -3958775554810204262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_57
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772af2f6c23bfb360800000000000000
+      internalID: 7187660533731926647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_58
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260438f8cb5a3b3e0800000000000000
+      internalID: -2039103976988524446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_59
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a524838349805450800000000000000
+      internalID: 6075506820385088934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_60
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd78f65ecff90e80800000000000000
+      internalID: -8211751183845917221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_61
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbb04a4226c6dc00800000000000000
+      internalID: 925144624048159693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_62
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89bf4928fe2c7dde0800000000000000
+      internalID: -1308362832784065640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_63
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1b1841610dc3e00800000000000000
+      internalID: 1025923608385532340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_64
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9643a144f810fd990800000000000000
+      internalID: -7359161551265581975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_65
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 302
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa387808a69da8d0800000000000000
+      internalID: -2833442942105404755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_66
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e973e3c68cb24c0800000000000000
+      internalID: -4311131851051262420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_67
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c1483e362a24f20800000000000000
+      internalID: 3405462818148064337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_68
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629f0811143808d20800000000000000
+      internalID: 3278764844215499046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_69
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c301e04e5c4df450800000000000000
+      internalID: 6124135035992867781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_70
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a14498e504b578d0800000000000000
+      internalID: -2849173251772104279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_71
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0762fd7d4750400800000000000000
+      internalID: 289766221545894061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_72
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9b329e8e70cab60800000000000000
+      internalID: 7758584954977761706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_73
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47996b68a66a2d80800000000000000
+      internalID: -8274688491797244081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_74
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5099b495d7f8740800000000000000
+      internalID: 5156477920836388293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_75
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b370ab56ff057ce0800000000000000
+      internalID: -1408201757709798479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_76
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 286
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d43b628ed317b8f0800000000000000
+      internalID: -524928985173642027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_77
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 286
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acda88bcd5077f030800000000000000
+      internalID: 3528412381217074634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_78
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 286
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dec2860f8f4c2fc0800000000000000
+      internalID: -3518349733175046447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_79
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 286
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9dd2c46c9e07f950800000000000000
+      internalID: 6482666253491297694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_80
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 286
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bed7b6118d4b77d0800000000000000
+      internalID: -2919654716592365898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_81
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 286
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9aab34faac4920b0800000000000000
+      internalID: -5752982751863395683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_82
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 286
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b444f4238259a9760800000000000000
+      internalID: 7465443332195304523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_83
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 286
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7197555b82e8481d0800000000000000
+      internalID: -3349395917364692713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_84
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 286
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7443e828de7005700800000000000000
+      internalID: 526929873081349191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_85
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 286
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499e4c0ee6883b490800000000000000
+      internalID: -7731686125466228332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_86
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 286
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad29eb89dfa72670800000000000000
+      internalID: 8513966969457290660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_87
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 286
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59ddedaafae30d60800000000000000
+      internalID: 7855380537445046621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_88
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 286
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6161ae002cc7f0cf0800000000000000
+      internalID: -283871078820211178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_89
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 286
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa51142de55878790800000000000000
+      internalID: -7527901609825593937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_90
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 286
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc28a3fd9e860260800000000000000
+      internalID: 7063489874626096309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_91
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 286
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31f09a164f7c1290800000000000000
+      internalID: -7918314105754029764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_92
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 286
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9c19d22c9b054a0800000000000000
+      internalID: -6606576409713194552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_93
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 286
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17db1ba322193dd0800000000000000
+      internalID: -2505951773251086565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_94
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 286
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ad776bf42a125b0800000000000000
+      internalID: -5394852415365719437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_95
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 286
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3785f879db337a0800000000000000
+      internalID: -6398562186920692792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_96
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 286
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77dd3ba2e3390f060800000000000000
+      internalID: 6985244917265325431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_97
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 286
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7319eb19902440220800000000000000
+      internalID: 2451156706063716663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_98
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 270
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5379ca148aecd40800000000000000
+      internalID: 5606603586144777643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_99
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 270
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11e03fc18ebddb50800000000000000
+      internalID: 6619656492040642843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_100
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 270
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37bb41938487ced00800000000000000
+      internalID: 1003309068587416435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_101
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 270
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f352aea23a29e37d0800000000000000
+      internalID: -2936748677501672129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_102
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 270
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82557f6f96d3ff220800000000000000
+      internalID: 2521801841675031848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_103
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 270
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8161c649f41936e60800000000000000
+      internalID: 7954361137844983320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_104
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 270
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06823315bcb266f10800000000000000
+      internalID: 2262544015040915552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_105
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 270
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85f4d4ff3acd0e30800000000000000
+      internalID: 4471452381088118155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_106
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 270
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c42ba072f2fed920800000000000000
+      internalID: 3017115923471082693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_107
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 270
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a270e0086fa52720800000000000000
+      internalID: 2820853602843652775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_108
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 270
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765d0ba8addc500a0800000000000000
+      internalID: -6915895314244119193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_109
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 270
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7597dff9ff37a460800000000000000
+      internalID: 7252836067875198331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_110
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 270
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4712652909213db10800000000000000
+      internalID: 2004966671249711476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_111
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 270
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ef258eaf8752100800000000000000
+      internalID: 82605187211132558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_112
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 270
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6d95db5d35dd9d0800000000000000
+      internalID: -2747948020156213569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_113
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 270
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc6fc6d7881e0a60800000000000000
+      internalID: 7642072589397879987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_114
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 270
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cab679e640bb7820800000000000000
+      internalID: 2917119002263599813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_115
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 270
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb67238be1325230800000000000000
+      internalID: 3626015537574145016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_116
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 254
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1769de26e0a9790800000000000000
+      internalID: -7522684409513348659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_117
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 254
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61af46b62e5716f0800000000000000
+      internalID: -713998495554494101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_118
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 254
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea02809278993110800000000000000
+      internalID: 1241190790135417578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_119
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 254
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c6061893ac97f10800000000000000
+      internalID: 2268066235690281986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_120
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 254
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c5e6e25f3b6b690800000000000000
+      internalID: -7586678656631677929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_121
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 254
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55753bdc7e2498390800000000000000
+      internalID: -7815642114968823979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_122
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 254
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee925398fc2070b0800000000000000
+      internalID: -5733032879507464465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_123
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 254
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f1cc4bb29071300800000000000000
+      internalID: 222656789899648835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_124
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 190
+        width: 96
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242f9f0b6b3589f30800000000000000
+      internalID: 4582504664967803458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_125
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 214
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d32864ce09bc75b0800000000000000
+      internalID: -5369213182656633899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_126
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 190
+        width: 96
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d1d3b428397f940800000000000000
+      internalID: 5329890871833599323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_127
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 214
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951c272f1bc0c2990800000000000000
+      internalID: -7409533328514956967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_128
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 190
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b3109fa46d724d0800000000000000
+      internalID: -3159320996083582173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_129
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 190
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8950ff6b89bd4be40800000000000000
+      internalID: 5671399279717975448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_130
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 190
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2c2fad3399b8de0800000000000000
+      internalID: -1329800816962125107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_131
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 190
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34edb5d7ea7deb30800000000000000
+      internalID: 4318242753860199485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_132
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 190
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345d105cfac547090800000000000000
+      internalID: -8037697524955228861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_133
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 190
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bb0cf4c27255d00800000000000000
+      internalID: 960717166783544094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_134
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 198
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3d56e6121c7c6b0800000000000000
+      internalID: -5276036089110998101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_135
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 198
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e39ac17a878c3a0800000000000000
+      internalID: -6644928591049441663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_136
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 198
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc3d48ed0d747150800000000000000
+      internalID: 5869453713056021748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_137
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 182
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11ad0a6b3ccc1a80800000000000000
+      internalID: -8494690241573183204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_138
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 190
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8934134503e80e10800000000000000
+      internalID: 2164229232691263887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_139
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 190
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5b3f8594b199770800000000000000
+      internalID: 8617949363789084077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_140
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 190
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c2b85c6664b7000800000000000000
+      internalID: 34698829350251574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_141
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 190
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f055a9e7477b130800000000000000
+      internalID: 3582460115700485987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_142
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 190
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c553387c666cc30800000000000000
+      internalID: 4379300694750223418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_143
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 190
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73bb0a6e3079810c0800000000000000
+      internalID: -4604764575976342729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_144
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 198
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cae64462f834b850800000000000000
+      internalID: 6391796384861186753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_145
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 198
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fdd96931ad048cc0800000000000000
+      internalID: -3709825206942310926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_146
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 198
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df4ba5423afb4390800000000000000
+      internalID: -7832892033056682023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_147
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 182
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8c9932422bf7350800000000000000
+      internalID: 6016723495476119767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_148
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 182
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b37ff5b1346bc0f0800000000000000
+      internalID: -1095671919664991308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_149
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 182
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b18730a15f0d970800000000000000
+      internalID: 8777785165821254548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_150
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 182
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4e79dfd55fb2770800000000000000
+      internalID: 8587226898547336379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_151
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 182
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d14a8313ee74ef0800000000000000
+      internalID: -123868569558311538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_152
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 182
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a016de41892aef0800000000000000
+      internalID: -98349026199401966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_153
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 182
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5832846a54b5825d0800000000000000
+      internalID: -3087117189861858427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_154
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 158
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61324793410e05730800000000000000
+      internalID: 3985932047690769174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_155
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbaba0eeabec0490800000000000000
+      internalID: -7778583320049505321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_156
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaca1ab76eb0b72e0800000000000000
+      internalID: -2127093314457850710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_157
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2d8647153eaf030800000000000000
+      internalID: 3529383196983087780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_158
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85216f19f7074fa50800000000000000
+      internalID: 6553987050942894680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_159
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6277c5ca9a416eb10800000000000000
+      internalID: 2010317002641274662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_160
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32ee606c00075950800000000000000
+      internalID: 6437614245506900538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_161
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29cba9ca02ea06a0800000000000000
+      internalID: -6482120177685378774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_162
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e18f12e6abf172b0800000000000000
+      internalID: -5588408968413216282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_163
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe8d54caa6e680a0800000000000000
+      internalID: -6879557759648559366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_164
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c1ce4a7a528c200800000000000000
+      internalID: 200451585374690306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_165
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 158
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69921f7646da40360800000000000000
+      internalID: 7135018356413901206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_166
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 158
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd405bca63bbc1c0800000000000000
+      internalID: -4482291732858253871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_167
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f50fd8e64d6cd880800000000000000
+      internalID: -8584866638352939532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_168
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0478e77e0ddcb960800000000000000
+      internalID: 7619207723815040013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_169
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6dc232973ccaf150800000000000000
+      internalID: 5907258400297897327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_170
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3588ceaaa9d61730800000000000000
+      internalID: 3969599448673715515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_171
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d4e71041f15d0e0800000000000000
+      internalID: -2245854668389462722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_172
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e0649950e288af0800000000000000
+      internalID: -394014365813699033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_173
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62692d921adcc290800000000000000
+      internalID: -7868674675442097553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_174
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afe3f4518d51c480800000000000000
+      internalID: -8880714180140470365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_175
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b55560eb2a05ce0800000000000000
+      internalID: -1418454945587962988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_176
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 158
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0553972ecf4a478b0800000000000000
+      internalID: -5155314267394067120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_177
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 158
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17133e32f55627990800000000000000
+      internalID: -7389732579263172239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_178
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 142
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e0a4d22545e0ee0800000000000000
+      internalID: -1293003331084874087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_179
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11909421e99c4df00800000000000000
+      internalID: 1140758286380370193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_180
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575abf46c825aba80800000000000000
+      internalID: -8450350987864201867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_181
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487f10518ac8268a0800000000000000
+      internalID: -6313329074085169276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_182
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8ba0a85177994c0800000000000000
+      internalID: -4280259036444968734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_183
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345eccdbbfc3c5a70800000000000000
+      internalID: 8816989222403368259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_184
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a26153e59e5e030800000000000000
+      internalID: 3523478874314123909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_185
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43ea4ef7bc568040800000000000000
+      internalID: 4649505610621707082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_186
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01187a4b97d940ac0800000000000000
+      internalID: -3889811032093785840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_187
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b2d7bd7e765afd0800000000000000
+      internalID: -2331342986576843998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_188
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720773c36ab7e0970800000000000000
+      internalID: 8723045482168283175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_189
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 142
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8844e5cb3af8b49c0800000000000000
+      internalID: -3941899115430001528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_190
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f9637b32038add0800000000000000
+      internalID: -2474675065284288699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_191
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282b259d2638b4710800000000000000
+      internalID: 1678579746701750914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_192
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af69fa8c44f807120800000000000000
+      internalID: 2409583326230714106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_193
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50de97f3a0c76d2e0800000000000000
+      internalID: -2101355792665285371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_194
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c11913b2d7efbd0800000000000000
+      internalID: -2594498710850167740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_195
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3946ae19093ffa0800000000000000
+      internalID: -5768107741354355719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_196
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e2059a7bd592d20800000000000000
+      internalID: 3254235249152896603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_197
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82d2622202e22810800000000000000
+      internalID: 1739200904913146509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_198
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7239241924cae07c0800000000000000
+      internalID: -4103152808583064793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_199
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7dd85accadaa8c0800000000000000
+      internalID: -3987133947597432909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_200
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 126
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e839f2a4cef95fd0800000000000000
+      internalID: -2352569209823086365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_201
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233b2b00916bd4250800000000000000
+      internalID: 5930596502818960178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_202
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6ef5f7a862ccce0800000000000000
+      internalID: -1383688609225251082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_203
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01865489663121870800000000000000
+      internalID: 8651999165494421520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_204
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041c82cf86529dc00800000000000000
+      internalID: 925812331238703424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_205
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2bcf9e8204e71e0800000000000000
+      internalID: -2198249023641701721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_206
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9530baa1e4030f2e0800000000000000
+      internalID: -2094120714714283175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_207
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf4494ea54eb79a0800000000000000
+      internalID: -6234138180131205176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_208
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d1f4b63a7693cd0800000000000000
+      internalID: -2577915360115221186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_209
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b636854a8eefa350800000000000000
+      internalID: 6030300703711704757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_210
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 126
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb3c695ffda1cf70800000000000000
+      internalID: 9205830425550535618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_211
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 126
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b88c32b5cc5243e0800000000000000
+      internalID: -2070990874468382540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_212
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4d28713a7c32a50800000000000000
+      internalID: 6495254590886433958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_213
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14627d984306108d0800000000000000
+      internalID: -2881916507773262271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_214
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04cb467bd6d781d0800000000000000
+      internalID: -3348471559855815668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_215
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b263011f81f20f070800000000000000
+      internalID: 8138056310828578347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_216
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ae61e218d2530e0800000000000000
+      internalID: -2290874802600744385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_217
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956554a847a0378f0800000000000000
+      internalID: -544079634329414055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_218
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed906893e46506b0800000000000000
+      internalID: -5330743655246291480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_219
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1395afab74ffc40800000000000000
+      internalID: 5548232134333379069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_220
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859333584a3668420800000000000000
+      internalID: 2631900590505146712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_221
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 126
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b658290e904502110800000000000000
+      internalID: 1234078699298653547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_222
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 110
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a26b77149b752c0800000000000000
+      internalID: -4442878816545265056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_223
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 110
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff585ecc1489ec040800000000000000
+      internalID: 4669837272007673343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_224
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 110
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f2f0c89e65054f0800000000000000
+      internalID: -842077569241108609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_225
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 110
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8194779c8a2268e0800000000000000
+      internalID: -1701750925867839092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_226
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 110
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215c3b70bcfc10970800000000000000
+      internalID: 8719478824480523538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_227
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 110
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641b42f0449f88010800000000000000
+      internalID: 1191476172146651462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_228
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 110
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2f446bf4c35adc0800000000000000
+      internalID: -3628427611719011590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_229
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 110
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d49e662f3907410800000000000000
+      internalID: 1472839747468086601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_230
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 110
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef99b45d8bd41260800000000000000
+      internalID: 7067515115309473767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_231
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 110
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb11edc8ae183180800000000000000
+      internalID: -9135518133763630117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_232
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 110
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891b02a8f759ad240800000000000000
+      internalID: 4817327126436950424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_233
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 110
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79545c415de963af0800000000000000
+      internalID: -416971277471496809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_234
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 110
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0988229ed1706f410800000000000000
+      internalID: 1510402550076180624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_235
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 110
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e67cc9c22a059d0800000000000000
+      internalID: -2787549856849760615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_236
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 110
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4a6c231479a4fd0800000000000000
+      internalID: -2356905148694485843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_237
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 110
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd1949d2b2d7f7f0800000000000000
+      internalID: -578762361502360118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_238
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 110
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad1b98c37c74edd0800000000000000
+      internalID: -2457702659908756064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_239
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 110
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84984f160340defe0800000000000000
+      internalID: -1158264923315992248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_240
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 94
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f534e8c9d746cb0800000000000000
+      internalID: -4871630785552883952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_241
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 94
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44cec87ebae7ed140800000000000000
+      internalID: 4746370334084361284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_242
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 94
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd3e287940c9ecf0800000000000000
+      internalID: -222435284796686861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_243
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 94
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2a34d9d310fb5b0800000000000000
+      internalID: -5350556468149771587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_244
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 94
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acff0c1d52f8f5210800000000000000
+      internalID: 1323934208065863626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_245
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 94
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325e46ac147b0e0a0800000000000000
+      internalID: -6854277139661527773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_246
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 94
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c342854250193b2f0800000000000000
+      internalID: -958262844429163460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_247
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 94
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae88bbd738bd4aa10800000000000000
+      internalID: 1919900698963314922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_248
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 46
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec4c029eb234f4a0800000000000000
+      internalID: -6560562963096515360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_249
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 46
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560f4e208e15e4340800000000000000
+      internalID: 4849903905647423589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_250
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 46
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e971ebecc317a90800000000000000
+      internalID: -7318001060850196941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_251
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 46
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b0ce070f8bbb160800000000000000
+      internalID: 7042425785150081819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_252
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 54
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a728569e92b1bb0800000000000000
+      internalID: -4964328081838671331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_253
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 54
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2a0dbd2c02f50a0800000000000000
+      internalID: -6890752883569941826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_254
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 54
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff72597ee07ccab0800000000000000
+      internalID: -4986486517866004491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_255
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 54
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a4e8d47e017e260800000000000000
+      internalID: 7126683520961759789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_256
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 14
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c136742f850b9a420800000000000000
+      internalID: 2641836552497881884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_257
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 14
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83913090538604710800000000000000
+      internalID: 1675453638375577912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_258
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 14
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712238c17699d8630800000000000000
+      internalID: 3930966717903348247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Keyboard_And_Mouse_Shadows_259
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 14
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acaedb1cf0768380800000000000000
+      internalID: -8969357379760116571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      _Keyboard_And_Mouse_Shadows_0: -4203961897316227909
+      _Keyboard_And_Mouse_Shadows_1: -1017550187641270068
+      _Keyboard_And_Mouse_Shadows_10: 5736871991133540863
+      _Keyboard_And_Mouse_Shadows_100: 1003309068587416435
+      _Keyboard_And_Mouse_Shadows_101: -2936748677501672129
+      _Keyboard_And_Mouse_Shadows_102: 2521801841675031848
+      _Keyboard_And_Mouse_Shadows_103: 7954361137844983320
+      _Keyboard_And_Mouse_Shadows_104: 2262544015040915552
+      _Keyboard_And_Mouse_Shadows_105: 4471452381088118155
+      _Keyboard_And_Mouse_Shadows_106: 3017115923471082693
+      _Keyboard_And_Mouse_Shadows_107: 2820853602843652775
+      _Keyboard_And_Mouse_Shadows_108: -6915895314244119193
+      _Keyboard_And_Mouse_Shadows_109: 7252836067875198331
+      _Keyboard_And_Mouse_Shadows_11: 8825006291298746762
+      _Keyboard_And_Mouse_Shadows_110: 2004966671249711476
+      _Keyboard_And_Mouse_Shadows_111: 82605187211132558
+      _Keyboard_And_Mouse_Shadows_112: -2747948020156213569
+      _Keyboard_And_Mouse_Shadows_113: 7642072589397879987
+      _Keyboard_And_Mouse_Shadows_114: 2917119002263599813
+      _Keyboard_And_Mouse_Shadows_115: 3626015537574145016
+      _Keyboard_And_Mouse_Shadows_116: -7522684409513348659
+      _Keyboard_And_Mouse_Shadows_117: -713998495554494101
+      _Keyboard_And_Mouse_Shadows_118: 1241190790135417578
+      _Keyboard_And_Mouse_Shadows_119: 2268066235690281986
+      _Keyboard_And_Mouse_Shadows_12: -2769023879737272129
+      _Keyboard_And_Mouse_Shadows_120: -7586678656631677929
+      _Keyboard_And_Mouse_Shadows_121: -7815642114968823979
+      _Keyboard_And_Mouse_Shadows_122: -5733032879507464465
+      _Keyboard_And_Mouse_Shadows_123: 222656789899648835
+      _Keyboard_And_Mouse_Shadows_124: 4582504664967803458
+      _Keyboard_And_Mouse_Shadows_125: -5369213182656633899
+      _Keyboard_And_Mouse_Shadows_126: 5329890871833599323
+      _Keyboard_And_Mouse_Shadows_127: -7409533328514956967
+      _Keyboard_And_Mouse_Shadows_128: -3159320996083582173
+      _Keyboard_And_Mouse_Shadows_129: 5671399279717975448
+      _Keyboard_And_Mouse_Shadows_13: 3060990732445358541
+      _Keyboard_And_Mouse_Shadows_130: -1329800816962125107
+      _Keyboard_And_Mouse_Shadows_131: 4318242753860199485
+      _Keyboard_And_Mouse_Shadows_132: -8037697524955228861
+      _Keyboard_And_Mouse_Shadows_133: 960717166783544094
+      _Keyboard_And_Mouse_Shadows_134: -5276036089110998101
+      _Keyboard_And_Mouse_Shadows_135: -6644928591049441663
+      _Keyboard_And_Mouse_Shadows_136: 5869453713056021748
+      _Keyboard_And_Mouse_Shadows_137: -8494690241573183204
+      _Keyboard_And_Mouse_Shadows_138: 2164229232691263887
+      _Keyboard_And_Mouse_Shadows_139: 8617949363789084077
+      _Keyboard_And_Mouse_Shadows_14: -2865246352967436500
+      _Keyboard_And_Mouse_Shadows_140: 34698829350251574
+      _Keyboard_And_Mouse_Shadows_141: 3582460115700485987
+      _Keyboard_And_Mouse_Shadows_142: 4379300694750223418
+      _Keyboard_And_Mouse_Shadows_143: -4604764575976342729
+      _Keyboard_And_Mouse_Shadows_144: 6391796384861186753
+      _Keyboard_And_Mouse_Shadows_145: -3709825206942310926
+      _Keyboard_And_Mouse_Shadows_146: -7832892033056682023
+      _Keyboard_And_Mouse_Shadows_147: 6016723495476119767
+      _Keyboard_And_Mouse_Shadows_148: -1095671919664991308
+      _Keyboard_And_Mouse_Shadows_149: 8777785165821254548
+      _Keyboard_And_Mouse_Shadows_15: -7833261151422232390
+      _Keyboard_And_Mouse_Shadows_150: 8587226898547336379
+      _Keyboard_And_Mouse_Shadows_151: -123868569558311538
+      _Keyboard_And_Mouse_Shadows_152: -98349026199401966
+      _Keyboard_And_Mouse_Shadows_153: -3087117189861858427
+      _Keyboard_And_Mouse_Shadows_154: 3985932047690769174
+      _Keyboard_And_Mouse_Shadows_155: -7778583320049505321
+      _Keyboard_And_Mouse_Shadows_156: -2127093314457850710
+      _Keyboard_And_Mouse_Shadows_157: 3529383196983087780
+      _Keyboard_And_Mouse_Shadows_158: 6553987050942894680
+      _Keyboard_And_Mouse_Shadows_159: 2010317002641274662
+      _Keyboard_And_Mouse_Shadows_16: -1243114841983264677
+      _Keyboard_And_Mouse_Shadows_160: 6437614245506900538
+      _Keyboard_And_Mouse_Shadows_161: -6482120177685378774
+      _Keyboard_And_Mouse_Shadows_162: -5588408968413216282
+      _Keyboard_And_Mouse_Shadows_163: -6879557759648559366
+      _Keyboard_And_Mouse_Shadows_164: 200451585374690306
+      _Keyboard_And_Mouse_Shadows_165: 7135018356413901206
+      _Keyboard_And_Mouse_Shadows_166: -4482291732858253871
+      _Keyboard_And_Mouse_Shadows_167: -8584866638352939532
+      _Keyboard_And_Mouse_Shadows_168: 7619207723815040013
+      _Keyboard_And_Mouse_Shadows_169: 5907258400297897327
+      _Keyboard_And_Mouse_Shadows_17: 3489054772959175826
+      _Keyboard_And_Mouse_Shadows_170: 3969599448673715515
+      _Keyboard_And_Mouse_Shadows_171: -2245854668389462722
+      _Keyboard_And_Mouse_Shadows_172: -394014365813699033
+      _Keyboard_And_Mouse_Shadows_173: -7868674675442097553
+      _Keyboard_And_Mouse_Shadows_174: -8880714180140470365
+      _Keyboard_And_Mouse_Shadows_175: -1418454945587962988
+      _Keyboard_And_Mouse_Shadows_176: -5155314267394067120
+      _Keyboard_And_Mouse_Shadows_177: -7389732579263172239
+      _Keyboard_And_Mouse_Shadows_178: -1293003331084874087
+      _Keyboard_And_Mouse_Shadows_179: 1140758286380370193
+      _Keyboard_And_Mouse_Shadows_18: 5419631343079911784
+      _Keyboard_And_Mouse_Shadows_180: -8450350987864201867
+      _Keyboard_And_Mouse_Shadows_181: -6313329074085169276
+      _Keyboard_And_Mouse_Shadows_182: -4280259036444968734
+      _Keyboard_And_Mouse_Shadows_183: 8816989222403368259
+      _Keyboard_And_Mouse_Shadows_184: 3523478874314123909
+      _Keyboard_And_Mouse_Shadows_185: 4649505610621707082
+      _Keyboard_And_Mouse_Shadows_186: -3889811032093785840
+      _Keyboard_And_Mouse_Shadows_187: -2331342986576843998
+      _Keyboard_And_Mouse_Shadows_188: 8723045482168283175
+      _Keyboard_And_Mouse_Shadows_189: -3941899115430001528
+      _Keyboard_And_Mouse_Shadows_19: 2807299402345047961
+      _Keyboard_And_Mouse_Shadows_190: -2474675065284288699
+      _Keyboard_And_Mouse_Shadows_191: 1678579746701750914
+      _Keyboard_And_Mouse_Shadows_192: 2409583326230714106
+      _Keyboard_And_Mouse_Shadows_193: -2101355792665285371
+      _Keyboard_And_Mouse_Shadows_194: -2594498710850167740
+      _Keyboard_And_Mouse_Shadows_195: -5768107741354355719
+      _Keyboard_And_Mouse_Shadows_196: 3254235249152896603
+      _Keyboard_And_Mouse_Shadows_197: 1739200904913146509
+      _Keyboard_And_Mouse_Shadows_198: -4103152808583064793
+      _Keyboard_And_Mouse_Shadows_199: -3987133947597432909
+      _Keyboard_And_Mouse_Shadows_2: 3674853201175470337
+      _Keyboard_And_Mouse_Shadows_20: -2571549035674139074
+      _Keyboard_And_Mouse_Shadows_200: -2352569209823086365
+      _Keyboard_And_Mouse_Shadows_201: 5930596502818960178
+      _Keyboard_And_Mouse_Shadows_202: -1383688609225251082
+      _Keyboard_And_Mouse_Shadows_203: 8651999165494421520
+      _Keyboard_And_Mouse_Shadows_204: 925812331238703424
+      _Keyboard_And_Mouse_Shadows_205: -2198249023641701721
+      _Keyboard_And_Mouse_Shadows_206: -2094120714714283175
+      _Keyboard_And_Mouse_Shadows_207: -6234138180131205176
+      _Keyboard_And_Mouse_Shadows_208: -2577915360115221186
+      _Keyboard_And_Mouse_Shadows_209: 6030300703711704757
+      _Keyboard_And_Mouse_Shadows_21: 9218210760408444101
+      _Keyboard_And_Mouse_Shadows_210: 9205830425550535618
+      _Keyboard_And_Mouse_Shadows_211: -2070990874468382540
+      _Keyboard_And_Mouse_Shadows_212: 6495254590886433958
+      _Keyboard_And_Mouse_Shadows_213: -2881916507773262271
+      _Keyboard_And_Mouse_Shadows_214: -3348471559855815668
+      _Keyboard_And_Mouse_Shadows_215: 8138056310828578347
+      _Keyboard_And_Mouse_Shadows_216: -2290874802600744385
+      _Keyboard_And_Mouse_Shadows_217: -544079634329414055
+      _Keyboard_And_Mouse_Shadows_218: -5330743655246291480
+      _Keyboard_And_Mouse_Shadows_219: 5548232134333379069
+      _Keyboard_And_Mouse_Shadows_22: 3056816746432372875
+      _Keyboard_And_Mouse_Shadows_220: 2631900590505146712
+      _Keyboard_And_Mouse_Shadows_221: 1234078699298653547
+      _Keyboard_And_Mouse_Shadows_222: -4442878816545265056
+      _Keyboard_And_Mouse_Shadows_223: 4669837272007673343
+      _Keyboard_And_Mouse_Shadows_224: -842077569241108609
+      _Keyboard_And_Mouse_Shadows_225: -1701750925867839092
+      _Keyboard_And_Mouse_Shadows_226: 8719478824480523538
+      _Keyboard_And_Mouse_Shadows_227: 1191476172146651462
+      _Keyboard_And_Mouse_Shadows_228: -3628427611719011590
+      _Keyboard_And_Mouse_Shadows_229: 1472839747468086601
+      _Keyboard_And_Mouse_Shadows_23: -8219069591571448069
+      _Keyboard_And_Mouse_Shadows_230: 7067515115309473767
+      _Keyboard_And_Mouse_Shadows_231: -9135518133763630117
+      _Keyboard_And_Mouse_Shadows_232: 4817327126436950424
+      _Keyboard_And_Mouse_Shadows_233: -416971277471496809
+      _Keyboard_And_Mouse_Shadows_234: 1510402550076180624
+      _Keyboard_And_Mouse_Shadows_235: -2787549856849760615
+      _Keyboard_And_Mouse_Shadows_236: -2356905148694485843
+      _Keyboard_And_Mouse_Shadows_237: -578762361502360118
+      _Keyboard_And_Mouse_Shadows_238: -2457702659908756064
+      _Keyboard_And_Mouse_Shadows_239: -1158264923315992248
+      _Keyboard_And_Mouse_Shadows_24: -4570717698105294062
+      _Keyboard_And_Mouse_Shadows_240: -4871630785552883952
+      _Keyboard_And_Mouse_Shadows_241: 4746370334084361284
+      _Keyboard_And_Mouse_Shadows_242: -222435284796686861
+      _Keyboard_And_Mouse_Shadows_243: -5350556468149771587
+      _Keyboard_And_Mouse_Shadows_244: 1323934208065863626
+      _Keyboard_And_Mouse_Shadows_245: -6854277139661527773
+      _Keyboard_And_Mouse_Shadows_246: -958262844429163460
+      _Keyboard_And_Mouse_Shadows_247: 1919900698963314922
+      _Keyboard_And_Mouse_Shadows_248: -6560562963096515360
+      _Keyboard_And_Mouse_Shadows_249: 4849903905647423589
+      _Keyboard_And_Mouse_Shadows_25: -767804480740273211
+      _Keyboard_And_Mouse_Shadows_250: -7318001060850196941
+      _Keyboard_And_Mouse_Shadows_251: 7042425785150081819
+      _Keyboard_And_Mouse_Shadows_252: -4964328081838671331
+      _Keyboard_And_Mouse_Shadows_253: -6890752883569941826
+      _Keyboard_And_Mouse_Shadows_254: -4986486517866004491
+      _Keyboard_And_Mouse_Shadows_255: 7126683520961759789
+      _Keyboard_And_Mouse_Shadows_256: 2641836552497881884
+      _Keyboard_And_Mouse_Shadows_257: 1675453638375577912
+      _Keyboard_And_Mouse_Shadows_258: 3930966717903348247
+      _Keyboard_And_Mouse_Shadows_259: -8969357379760116571
+      _Keyboard_And_Mouse_Shadows_26: 9165160313012580592
+      _Keyboard_And_Mouse_Shadows_27: -5423501792575958488
+      _Keyboard_And_Mouse_Shadows_28: 5610483727217079606
+      _Keyboard_And_Mouse_Shadows_29: -2264190846548253719
+      _Keyboard_And_Mouse_Shadows_3: -6751523893796245905
+      _Keyboard_And_Mouse_Shadows_30: 6291019159341915770
+      _Keyboard_And_Mouse_Shadows_31: 7710270450914740130
+      _Keyboard_And_Mouse_Shadows_32: -6863693479438977311
+      _Keyboard_And_Mouse_Shadows_33: -5807268085162007505
+      _Keyboard_And_Mouse_Shadows_34: -2442227736314606187
+      _Keyboard_And_Mouse_Shadows_35: 5123407970704783447
+      _Keyboard_And_Mouse_Shadows_36: 8889126183704825333
+      _Keyboard_And_Mouse_Shadows_37: 8439657423252966280
+      _Keyboard_And_Mouse_Shadows_38: 3369760136038227942
+      _Keyboard_And_Mouse_Shadows_39: -6741078395089772595
+      _Keyboard_And_Mouse_Shadows_4: -3613850640238985942
+      _Keyboard_And_Mouse_Shadows_40: 663585450091646200
+      _Keyboard_And_Mouse_Shadows_41: 8286762390680829887
+      _Keyboard_And_Mouse_Shadows_42: -5330352406869777732
+      _Keyboard_And_Mouse_Shadows_43: 5891085134040522395
+      _Keyboard_And_Mouse_Shadows_44: 2347628716496319108
+      _Keyboard_And_Mouse_Shadows_45: 6386980314817850735
+      _Keyboard_And_Mouse_Shadows_46: -7748005911616296228
+      _Keyboard_And_Mouse_Shadows_47: 7035520526350447333
+      _Keyboard_And_Mouse_Shadows_48: 3956730752154533941
+      _Keyboard_And_Mouse_Shadows_49: -2919756852263117382
+      _Keyboard_And_Mouse_Shadows_5: -870717911459743758
+      _Keyboard_And_Mouse_Shadows_50: 1870028594227969996
+      _Keyboard_And_Mouse_Shadows_51: -2100162623648290226
+      _Keyboard_And_Mouse_Shadows_52: 5799742244777579679
+      _Keyboard_And_Mouse_Shadows_53: -5093149805946360775
+      _Keyboard_And_Mouse_Shadows_54: -7475395049734429849
+      _Keyboard_And_Mouse_Shadows_55: -4883502076819749942
+      _Keyboard_And_Mouse_Shadows_56: -3958775554810204262
+      _Keyboard_And_Mouse_Shadows_57: 7187660533731926647
+      _Keyboard_And_Mouse_Shadows_58: -2039103976988524446
+      _Keyboard_And_Mouse_Shadows_59: 6075506820385088934
+      _Keyboard_And_Mouse_Shadows_6: -4201978395578538773
+      _Keyboard_And_Mouse_Shadows_60: -8211751183845917221
+      _Keyboard_And_Mouse_Shadows_61: 925144624048159693
+      _Keyboard_And_Mouse_Shadows_62: -1308362832784065640
+      _Keyboard_And_Mouse_Shadows_63: 1025923608385532340
+      _Keyboard_And_Mouse_Shadows_64: -7359161551265581975
+      _Keyboard_And_Mouse_Shadows_65: -2833442942105404755
+      _Keyboard_And_Mouse_Shadows_66: -4311131851051262420
+      _Keyboard_And_Mouse_Shadows_67: 3405462818148064337
+      _Keyboard_And_Mouse_Shadows_68: 3278764844215499046
+      _Keyboard_And_Mouse_Shadows_69: 6124135035992867781
+      _Keyboard_And_Mouse_Shadows_7: -4629124243789782427
+      _Keyboard_And_Mouse_Shadows_70: -2849173251772104279
+      _Keyboard_And_Mouse_Shadows_71: 289766221545894061
+      _Keyboard_And_Mouse_Shadows_72: 7758584954977761706
+      _Keyboard_And_Mouse_Shadows_73: -8274688491797244081
+      _Keyboard_And_Mouse_Shadows_74: 5156477920836388293
+      _Keyboard_And_Mouse_Shadows_75: -1408201757709798479
+      _Keyboard_And_Mouse_Shadows_76: -524928985173642027
+      _Keyboard_And_Mouse_Shadows_77: 3528412381217074634
+      _Keyboard_And_Mouse_Shadows_78: -3518349733175046447
+      _Keyboard_And_Mouse_Shadows_79: 6482666253491297694
+      _Keyboard_And_Mouse_Shadows_8: 2923017591157920797
+      _Keyboard_And_Mouse_Shadows_80: -2919654716592365898
+      _Keyboard_And_Mouse_Shadows_81: -5752982751863395683
+      _Keyboard_And_Mouse_Shadows_82: 7465443332195304523
+      _Keyboard_And_Mouse_Shadows_83: -3349395917364692713
+      _Keyboard_And_Mouse_Shadows_84: 526929873081349191
+      _Keyboard_And_Mouse_Shadows_85: -7731686125466228332
+      _Keyboard_And_Mouse_Shadows_86: 8513966969457290660
+      _Keyboard_And_Mouse_Shadows_87: 7855380537445046621
+      _Keyboard_And_Mouse_Shadows_88: -283871078820211178
+      _Keyboard_And_Mouse_Shadows_89: -7527901609825593937
+      _Keyboard_And_Mouse_Shadows_9: 7055449862207359011
+      _Keyboard_And_Mouse_Shadows_90: 7063489874626096309
+      _Keyboard_And_Mouse_Shadows_91: -7918314105754029764
+      _Keyboard_And_Mouse_Shadows_92: -6606576409713194552
+      _Keyboard_And_Mouse_Shadows_93: -2505951773251086565
+      _Keyboard_And_Mouse_Shadows_94: -5394852415365719437
+      _Keyboard_And_Mouse_Shadows_95: -6398562186920692792
+      _Keyboard_And_Mouse_Shadows_96: 6985244917265325431
+      _Keyboard_And_Mouse_Shadows_97: 2451156706063716663
+      _Keyboard_And_Mouse_Shadows_98: 5606603586144777643
+      _Keyboard_And_Mouse_Shadows_99: 6619656492040642843
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,5 @@
+- The different UI versions (Classic, Grim, and Stylized) are organized in separate folders for better organization. You can freely mix and match elements between versions since they're all compatible with each other.
+
+- General_UI_Resources contains several general and miscellaneous assets that can be used in combination with the assets from the different version folders.
+
+- The Pack includes separate layers for assets, asset outlines, window backgrounds (when relevant), and shadows. This layered structure provides greater flexibility when using and editing the assets.

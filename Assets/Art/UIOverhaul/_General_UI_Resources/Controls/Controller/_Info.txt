@@ -1,0 +1,7 @@
+8x8px Gaming controller assets and icons arranged vertically for:
+
+- Xbox
+- PlayStation
+- Switch
+
+Thumbstick controls are consistent across all three systems. Each button includes both regular and pressed states. White outline variants are available for button highlighting.

@@ -1,0 +1,3029 @@
+fileFormatVersion: 2
+guid: 4c94d341e51a37c47baba1adbb880b1c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2596021658190068515
+    second: _Cursors_0
+  - first:
+      213: 9163996252895491855
+    second: _Cursors_1
+  - first:
+      213: 8389416549462455892
+    second: _Cursors_2
+  - first:
+      213: 6725898872858272910
+    second: _Cursors_3
+  - first:
+      213: 5714397454505162507
+    second: _Cursors_4
+  - first:
+      213: 4631444871004613991
+    second: _Cursors_5
+  - first:
+      213: -4103543452693467416
+    second: _Cursors_6
+  - first:
+      213: 3374970100673277730
+    second: _Cursors_7
+  - first:
+      213: -2488856604292968471
+    second: _Cursors_8
+  - first:
+      213: -8935100208288681458
+    second: _Cursors_9
+  - first:
+      213: 4409536389914580805
+    second: _Cursors_10
+  - first:
+      213: 8859294109314750973
+    second: _Cursors_11
+  - first:
+      213: -7373566928353668090
+    second: _Cursors_12
+  - first:
+      213: -5390554333587338929
+    second: _Cursors_13
+  - first:
+      213: 4676663494263603189
+    second: _Cursors_14
+  - first:
+      213: -4892818550547825278
+    second: _Cursors_15
+  - first:
+      213: 354347963523218999
+    second: _Cursors_16
+  - first:
+      213: -5806459710479543996
+    second: _Cursors_17
+  - first:
+      213: 4274270027894400639
+    second: _Cursors_18
+  - first:
+      213: -2582007602916189434
+    second: _Cursors_19
+  - first:
+      213: -3660749135424021548
+    second: _Cursors_20
+  - first:
+      213: -184240092519145440
+    second: _Cursors_21
+  - first:
+      213: -4036087329135147343
+    second: _Cursors_22
+  - first:
+      213: -2208913285949928129
+    second: _Cursors_23
+  - first:
+      213: 88953031179156149
+    second: _Cursors_24
+  - first:
+      213: -4246321057306997524
+    second: _Cursors_25
+  - first:
+      213: 7009452762080443512
+    second: _Cursors_26
+  - first:
+      213: 7905802701449331444
+    second: _Cursors_27
+  - first:
+      213: 7351758554113683017
+    second: _Cursors_28
+  - first:
+      213: 3205646128361589611
+    second: _Cursors_29
+  - first:
+      213: -7425232750558144702
+    second: _Cursors_30
+  - first:
+      213: -3947738861289838360
+    second: _Cursors_31
+  - first:
+      213: 4616594870464433490
+    second: _Cursors_32
+  - first:
+      213: 2563295378455436693
+    second: _Cursors_33
+  - first:
+      213: -6671855836844835777
+    second: _Cursors_34
+  - first:
+      213: -4778169435348396847
+    second: _Cursors_35
+  - first:
+      213: 8452024625016567075
+    second: _Cursors_36
+  - first:
+      213: -1107012779423441139
+    second: _Cursors_37
+  - first:
+      213: 8701426089683591915
+    second: _Cursors_38
+  - first:
+      213: -4532405845391609911
+    second: _Cursors_39
+  - first:
+      213: 8721155983298841852
+    second: _Cursors_40
+  - first:
+      213: -2518177274421042678
+    second: _Cursors_41
+  - first:
+      213: -859955785468241967
+    second: _Cursors_42
+  - first:
+      213: 779946089454589007
+    second: _Cursors_43
+  - first:
+      213: -9195874263799434264
+    second: _Cursors_44
+  - first:
+      213: 1530965173324965352
+    second: _Cursors_45
+  - first:
+      213: -2573142901173062849
+    second: _Cursors_46
+  - first:
+      213: 5940105226520693070
+    second: _Cursors_47
+  - first:
+      213: -2448222964732395812
+    second: _Cursors_48
+  - first:
+      213: 4248932644901032438
+    second: _Cursors_49
+  - first:
+      213: -4262448871310740743
+    second: _Cursors_50
+  - first:
+      213: 2902335599615717784
+    second: _Cursors_51
+  - first:
+      213: 2613554473472139454
+    second: _Cursors_52
+  - first:
+      213: 7213105338451510711
+    second: _Cursors_53
+  - first:
+      213: 7511614726956969193
+    second: _Cursors_54
+  - first:
+      213: -2193328816643346694
+    second: _Cursors_55
+  - first:
+      213: -5138079325760037760
+    second: _Cursors_56
+  - first:
+      213: 1948792029243630333
+    second: _Cursors_57
+  - first:
+      213: 7628552109476673531
+    second: _Cursors_58
+  - first:
+      213: 4153091317660754451
+    second: _Cursors_59
+  - first:
+      213: -3670965003388295200
+    second: _Cursors_60
+  - first:
+      213: -774601003544443376
+    second: _Cursors_61
+  - first:
+      213: 3135680997125185014
+    second: _Cursors_62
+  - first:
+      213: -6133499117910328245
+    second: _Cursors_63
+  - first:
+      213: 4702666773813833915
+    second: _Cursors_64
+  - first:
+      213: 7665195906293512933
+    second: _Cursors_65
+  - first:
+      213: 8574159618750316437
+    second: _Cursors_66
+  - first:
+      213: -4605164503504626629
+    second: _Cursors_67
+  - first:
+      213: 1702368794123633540
+    second: _Cursors_68
+  - first:
+      213: -7484380068331037682
+    second: _Cursors_69
+  - first:
+      213: 4272057994655125300
+    second: _Cursors_70
+  - first:
+      213: 6999129180502331278
+    second: _Cursors_71
+  - first:
+      213: 1790592472422152826
+    second: _Cursors_72
+  - first:
+      213: 1693913874709673254
+    second: _Cursors_73
+  - first:
+      213: -6584550422057674986
+    second: _Cursors_74
+  - first:
+      213: 3976615323811710395
+    second: _Cursors_75
+  - first:
+      213: -7601372777579546660
+    second: _Cursors_76
+  - first:
+      213: -8199770659696317748
+    second: _Cursors_77
+  - first:
+      213: 3061056995600031780
+    second: _Cursors_78
+  - first:
+      213: -4491523164872209194
+    second: _Cursors_79
+  - first:
+      213: 3149374012892222998
+    second: _Cursors_80
+  - first:
+      213: -85877499800438028
+    second: _Cursors_81
+  - first:
+      213: -4928228359410369767
+    second: _Cursors_82
+  - first:
+      213: -5571489469857651970
+    second: _Cursors_83
+  - first:
+      213: -9028980261115863037
+    second: _Cursors_84
+  - first:
+      213: 4734732003181236664
+    second: _Cursors_85
+  - first:
+      213: -332529322979391006
+    second: _Cursors_86
+  - first:
+      213: 3816690554112380878
+    second: _Cursors_87
+  - first:
+      213: -6652266687912220216
+    second: _Cursors_88
+  - first:
+      213: 3940552498074101589
+    second: _Cursors_89
+  - first:
+      213: -4502684032592749872
+    second: _Cursors_90
+  - first:
+      213: -5368421944244976832
+    second: _Cursors_91
+  - first:
+      213: 8639078511266643306
+    second: _Cursors_92
+  - first:
+      213: 4859013214996117169
+    second: _Cursors_93
+  - first:
+      213: -2515434773237875639
+    second: _Cursors_94
+  - first:
+      213: -4188112443999730524
+    second: _Cursors_95
+  - first:
+      213: 4649576721613305921
+    second: _Cursors_96
+  - first:
+      213: -6975644784706892340
+    second: _Cursors_97
+  - first:
+      213: 8053507039948555297
+    second: _Cursors_98
+  - first:
+      213: 6669761045006345256
+    second: _Cursors_99
+  - first:
+      213: -7172751013417336406
+    second: _Cursors_100
+  - first:
+      213: 2048329876104735540
+    second: _Cursors_101
+  - first:
+      213: -982427988875295016
+    second: _Cursors_102
+  - first:
+      213: 9120935187110649313
+    second: _Cursors_103
+  - first:
+      213: 3645187717556931367
+    second: _Cursors_104
+  - first:
+      213: -5519202430490358888
+    second: _Cursors_105
+  - first:
+      213: 6793442263397704002
+    second: _Cursors_106
+  - first:
+      213: -8970441582888463134
+    second: _Cursors_107
+  - first:
+      213: -2101341769997027641
+    second: _Cursors_108
+  - first:
+      213: -7626329477507664066
+    second: _Cursors_109
+  - first:
+      213: 2067972099291940317
+    second: _Cursors_110
+  - first:
+      213: -2900210694159550513
+    second: _Cursors_111
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: _Cursors_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 56
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bb3ad91fbe60420800000000000000
+      internalID: 2596021658190068515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07b8d00a0e0d2f70800000000000000
+      internalID: 9163996252895491855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 56
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4563e7717e13d6470800000000000000
+      internalID: 8389416549462455892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84eae7b361375d50800000000000000
+      internalID: 6725898872858272910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_4
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b073d2d653e9d4f40800000000000000
+      internalID: 5714397454505162507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_5
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76de80d5292364040800000000000000
+      internalID: 4631444871004613991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee63d5a8f84d07c0800000000000000
+      internalID: -4103543452693467416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fe13adc6d46de20800000000000000
+      internalID: 3374970100673277730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_8
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 64
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef8b3cda1ec57dd0800000000000000
+      internalID: -2488856604292968471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_9
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 57
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e023f6463b5200480800000000000000
+      internalID: -8935100208288681458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_10
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 64
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5475401ebf1d13d30800000000000000
+      internalID: 4409536389914580805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_11
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 57
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df99a6acd0982fa70800000000000000
+      internalID: 8859294109314750973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_12
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 10
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60459eb02f3dba990800000000000000
+      internalID: -7373566928353668090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_13
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 9
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49851cd467e035b0800000000000000
+      internalID: -5390554333587338929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_14
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 57
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff7e958ba8d6e040800000000000000
+      internalID: 4676663494263603189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_15
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28db7289377391cb0800000000000000
+      internalID: -4892818550547825278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_16
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e3fac6895eae400800000000000000
+      internalID: 354347963523218999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_17
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441df3248af4b6fa0800000000000000
+      internalID: -5806459710479543996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_18
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76aebeb1f1415b30800000000000000
+      internalID: 4274270027894400639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_19
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b92d4e3cdda2cd0800000000000000
+      internalID: -2582007602916189434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_20
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 56
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db9b3b8e08623dc0800000000000000
+      internalID: -3660749135424021548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_21
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020e20cac92717df0800000000000000
+      internalID: -184240092519145440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_22
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6c17055ffecf7c0800000000000000
+      internalID: -4036087329135147343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_23
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 55
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d405bd11d5851e0800000000000000
+      internalID: -2208913285949928129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_24
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bab0218f460c3100800000000000000
+      internalID: 88953031179156149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_25
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 56
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec84f01f790215c0800000000000000
+      internalID: -4246321057306997524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_26
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c7fa14624964160800000000000000
+      internalID: 7009452762080443512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_27
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 55
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f206349bad07bd60800000000000000
+      internalID: 7905802701449331444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_28
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ea2642471b60660800000000000000
+      internalID: 7351758554113683017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_29
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 39
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b49946b2ebc7c20800000000000000
+      internalID: 3205646128361589611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_30
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2479268672644f890800000000000000
+      internalID: -7425232750558144702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_31
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 39
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e860d2fb60d639c0800000000000000
+      internalID: -3947738861289838360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_32
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d4ced2390711040800000000000000
+      internalID: 4616594870464433490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_33
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d9c37d097a29320800000000000000
+      internalID: 2563295378455436693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_34
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c3f34277ec863a0800000000000000
+      internalID: -6671855836844835777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_35
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d41e61e63880bdb0800000000000000
+      internalID: -4778169435348396847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_36
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 48
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32577fe9d9f9b4570800000000000000
+      internalID: 8452024625016567075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_37
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 41
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fd5a80eb913a0f0800000000000000
+      internalID: -1107012779423441139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_38
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 48
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be228ea2deca1c870800000000000000
+      internalID: 8701426089683591915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_39
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 41
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf6787b5e8a911c0800000000000000
+      internalID: -4532405845391609911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_40
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 43
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfccc4ff825c70970800000000000000
+      internalID: 8721155983298841852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_41
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 41
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a022cac5c13ad0dd0800000000000000
+      internalID: -2518177274421042678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_42
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 41
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d79f94f4c2d014f0800000000000000
+      internalID: -859955785468241967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_43
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 39
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4455e506dce2da00800000000000000
+      internalID: 779946089454589007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_44
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 39
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3f3133411b16080800000000000000
+      internalID: -9195874263799434264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_45
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 39
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e56787b6b41f3510800000000000000
+      internalID: 1530965173324965352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_46
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 39
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33f24b1a2c5a4cd0800000000000000
+      internalID: -2573142901173062849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_47
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 39
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4905334b3e7f6250800000000000000
+      internalID: 5940105226520693070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_48
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 40
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdefb205f2a260ed0800000000000000
+      internalID: -2448222964732395812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_49
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 39
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f113ed8abd37fa30800000000000000
+      internalID: 4248932644901032438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_50
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 39
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f23240c55db8d4c0800000000000000
+      internalID: -4262448871310740743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_51
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 39
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891b012c9da274820800000000000000
+      internalID: 2902335599615717784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_52
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 39
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0a07842f5354420800000000000000
+      internalID: 2613554473472139454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_53
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b540e1b6191a1460800000000000000
+      internalID: 7213105338451510711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_54
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 39
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ececd1cbcd9e3860800000000000000
+      internalID: 7511614726956969193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_55
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 39
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe6850ef0bbf81e0800000000000000
+      internalID: -2193328816643346694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_56
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c5b407310e1b8b0800000000000000
+      internalID: -5138079325760037760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_57
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 23
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2ed2486008b0b10800000000000000
+      internalID: 1948792029243630333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_58
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7f9ebc9bf0ed960800000000000000
+      internalID: 7628552109476673531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_59
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 23
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312ade4ac8eb2a930800000000000000
+      internalID: 4153091317660754451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_60
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7662e67cc1e0dc0800000000000000
+      internalID: -3670965003388295200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_61
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0168215cd701045f0800000000000000
+      internalID: -774601003544443376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_62
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fdd69ad04d248b20800000000000000
+      internalID: 3135680997125185014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_63
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c78c68c0f61eaa0800000000000000
+      internalID: -6133499117910328245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_64
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0b436d38a334140800000000000000
+      internalID: 4702666773813833915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_65
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 25
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea3768901f306a60800000000000000
+      internalID: 7665195906293512933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_66
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f7c13deb88df670800000000000000
+      internalID: 8574159618750316437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_67
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 25
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c5e54884b2710c0800000000000000
+      internalID: -4605164503504626629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_68
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4830372166700a710800000000000000
+      internalID: 1702368794123633540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_69
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 25
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c5d175bf3222890800000000000000
+      internalID: -7484380068331037682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_70
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 25
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f494f9c16694b30800000000000000
+      internalID: 4272057994655125300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_71
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 23
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f89ec18e6e12160800000000000000
+      internalID: 6999129180502331278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_72
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 23
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7af530ed5679d810800000000000000
+      internalID: 1790592472422152826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_73
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 23
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625fc2eb1bdf18710800000000000000
+      internalID: 1693913874709673254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_74
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 23
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6179a9f074afe94a0800000000000000
+      internalID: -6584550422057674986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_75
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 23
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb50c286196cf2730800000000000000
+      internalID: 3976615323811710395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_76
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 24
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7fb0b8bbf728690800000000000000
+      internalID: -7601372777579546660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_77
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 23
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca612d7700943e80800000000000000
+      internalID: -8199770659696317748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_78
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 23
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420e6fb8e1f0b7a20800000000000000
+      internalID: 3061056995600031780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_79
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 23
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc8a598a77eaa1c0800000000000000
+      internalID: -4491523164872209194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_80
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 23
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61699478af2d4bb20800000000000000
+      internalID: 3149374012892222998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_81
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa32327ed6eecef0800000000000000
+      internalID: -85877499800438028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_82
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 23
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bb6510b6a6b9bb0800000000000000
+      internalID: -4928228359410369767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_83
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 23
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef22e4f98d71ea2b0800000000000000
+      internalID: -5571489469857651970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_84
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 8
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300ec244a4e92b280800000000000000
+      internalID: -9028980261115863037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_85
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b19a44dba525b140800000000000000
+      internalID: 4734732003181236664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_86
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 8
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e98962b75e926bf0800000000000000
+      internalID: -332529322979391006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_87
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf057756db97f430800000000000000
+      internalID: 3816690554112380878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_88
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 9
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9e3db41b66ea3a0800000000000000
+      internalID: -6652266687912220216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_89
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 9
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5572c7a7e97afa630800000000000000
+      internalID: 3940552498074101589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_90
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 9
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da5c758ab04381c0800000000000000
+      internalID: -4502684032592749872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_91
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 9
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043cdd05fa88f75b0800000000000000
+      internalID: -5368421944244976832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_92
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 16
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d32ca522c24e770800000000000000
+      internalID: 8639078511266643306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_93
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 9
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6b5ce56ceae6340800000000000000
+      internalID: 4859013214996117169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_94
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 16
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94cbd7da661671dd0800000000000000
+      internalID: -2515434773237875639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_95
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 9
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4c008fbe5d0e5c0800000000000000
+      internalID: -4188112443999730524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_96
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 11
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148bfafc46d968040800000000000000
+      internalID: 4649576721613305921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_97
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 9
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd4d30e608813f90800000000000000
+      internalID: -6975644784706892340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_98
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 9
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124cd38cbfdc3cf60800000000000000
+      internalID: 8053507039948555297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_99
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82467502550cf8c50800000000000000
+      internalID: 6669761045006345256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_100
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1cfe6c4f4457c90800000000000000
+      internalID: -7172751013417336406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_101
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43bea087b212d6c10800000000000000
+      internalID: 2048329876104735540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_102
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6cfa103f6bd52f0800000000000000
+      internalID: -982427988875295016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_103
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed57175a32149e70800000000000000
+      internalID: 9120935187110649313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_104
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 8
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b09948aee469230800000000000000
+      internalID: 3645187717556931367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_105
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b4627a1aad763b0800000000000000
+      internalID: -5519202430490358888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_106
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24122ffceb7274e50800000000000000
+      internalID: 6793442263397704002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_107
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 7
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e45a8568e6928380800000000000000
+      internalID: -8970441582888463134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_108
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6f2a72bc886d2e0800000000000000
+      internalID: -2101341769997027641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_109
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 8
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37b0190fb5d92690800000000000000
+      internalID: -7626329477507664066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_110
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd507bfeaa9e2bc10800000000000000
+      internalID: 2067972099291940317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _Cursors_111
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 7
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7b4d85db160c7d0800000000000000
+      internalID: -2900210694159550513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      _Cursors_0: 2596021658190068515
+      _Cursors_1: 9163996252895491855
+      _Cursors_10: 4409536389914580805
+      _Cursors_100: -7172751013417336406
+      _Cursors_101: 2048329876104735540
+      _Cursors_102: -982427988875295016
+      _Cursors_103: 9120935187110649313
+      _Cursors_104: 3645187717556931367
+      _Cursors_105: -5519202430490358888
+      _Cursors_106: 6793442263397704002
+      _Cursors_107: -8970441582888463134
+      _Cursors_108: -2101341769997027641
+      _Cursors_109: -7626329477507664066
+      _Cursors_11: 8859294109314750973
+      _Cursors_110: 2067972099291940317
+      _Cursors_111: -2900210694159550513
+      _Cursors_12: -7373566928353668090
+      _Cursors_13: -5390554333587338929
+      _Cursors_14: 4676663494263603189
+      _Cursors_15: -4892818550547825278
+      _Cursors_16: 354347963523218999
+      _Cursors_17: -5806459710479543996
+      _Cursors_18: 4274270027894400639
+      _Cursors_19: -2582007602916189434
+      _Cursors_2: 8389416549462455892
+      _Cursors_20: -3660749135424021548
+      _Cursors_21: -184240092519145440
+      _Cursors_22: -4036087329135147343
+      _Cursors_23: -2208913285949928129
+      _Cursors_24: 88953031179156149
+      _Cursors_25: -4246321057306997524
+      _Cursors_26: 7009452762080443512
+      _Cursors_27: 7905802701449331444
+      _Cursors_28: 7351758554113683017
+      _Cursors_29: 3205646128361589611
+      _Cursors_3: 6725898872858272910
+      _Cursors_30: -7425232750558144702
+      _Cursors_31: -3947738861289838360
+      _Cursors_32: 4616594870464433490
+      _Cursors_33: 2563295378455436693
+      _Cursors_34: -6671855836844835777
+      _Cursors_35: -4778169435348396847
+      _Cursors_36: 8452024625016567075
+      _Cursors_37: -1107012779423441139
+      _Cursors_38: 8701426089683591915
+      _Cursors_39: -4532405845391609911
+      _Cursors_4: 5714397454505162507
+      _Cursors_40: 8721155983298841852
+      _Cursors_41: -2518177274421042678
+      _Cursors_42: -859955785468241967
+      _Cursors_43: 779946089454589007
+      _Cursors_44: -9195874263799434264
+      _Cursors_45: 1530965173324965352
+      _Cursors_46: -2573142901173062849
+      _Cursors_47: 5940105226520693070
+      _Cursors_48: -2448222964732395812
+      _Cursors_49: 4248932644901032438
+      _Cursors_5: 4631444871004613991
+      _Cursors_50: -4262448871310740743
+      _Cursors_51: 2902335599615717784
+      _Cursors_52: 2613554473472139454
+      _Cursors_53: 7213105338451510711
+      _Cursors_54: 7511614726956969193
+      _Cursors_55: -2193328816643346694
+      _Cursors_56: -5138079325760037760
+      _Cursors_57: 1948792029243630333
+      _Cursors_58: 7628552109476673531
+      _Cursors_59: 4153091317660754451
+      _Cursors_6: -4103543452693467416
+      _Cursors_60: -3670965003388295200
+      _Cursors_61: -774601003544443376
+      _Cursors_62: 3135680997125185014
+      _Cursors_63: -6133499117910328245
+      _Cursors_64: 4702666773813833915
+      _Cursors_65: 7665195906293512933
+      _Cursors_66: 8574159618750316437
+      _Cursors_67: -4605164503504626629
+      _Cursors_68: 1702368794123633540
+      _Cursors_69: -7484380068331037682
+      _Cursors_7: 3374970100673277730
+      _Cursors_70: 4272057994655125300
+      _Cursors_71: 6999129180502331278
+      _Cursors_72: 1790592472422152826
+      _Cursors_73: 1693913874709673254
+      _Cursors_74: -6584550422057674986
+      _Cursors_75: 3976615323811710395
+      _Cursors_76: -7601372777579546660
+      _Cursors_77: -8199770659696317748
+      _Cursors_78: 3061056995600031780
+      _Cursors_79: -4491523164872209194
+      _Cursors_8: -2488856604292968471
+      _Cursors_80: 3149374012892222998
+      _Cursors_81: -85877499800438028
+      _Cursors_82: -4928228359410369767
+      _Cursors_83: -5571489469857651970
+      _Cursors_84: -9028980261115863037
+      _Cursors_85: 4734732003181236664
+      _Cursors_86: -332529322979391006
+      _Cursors_87: 3816690554112380878
+      _Cursors_88: -6652266687912220216
+      _Cursors_89: 3940552498074101589
+      _Cursors_9: -8935100208288681458
+      _Cursors_90: -4502684032592749872
+      _Cursors_91: -5368421944244976832
+      _Cursors_92: 8639078511266643306
+      _Cursors_93: 4859013214996117169
+      _Cursors_94: -2515434773237875639
+      _Cursors_95: -4188112443999730524
+      _Cursors_96: 4649576721613305921
+      _Cursors_97: -6975644784706892340
+      _Cursors_98: 8053507039948555297
+      _Cursors_99: 6669761045006345256
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

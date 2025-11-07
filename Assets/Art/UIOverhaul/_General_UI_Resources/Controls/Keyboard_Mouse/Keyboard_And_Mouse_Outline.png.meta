@@ -1,0 +1,6877 @@
+fileFormatVersion: 2
+guid: d29a3b556160aa94e9065a76ccdb4f84
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8362929923235363845
+    second: Keyboard_And_Mouse_Outline_0
+  - first:
+      213: -100845437248907041
+    second: Keyboard_And_Mouse_Outline_1
+  - first:
+      213: -558985432392634019
+    second: Keyboard_And_Mouse_Outline_2
+  - first:
+      213: 5696804612436847670
+    second: Keyboard_And_Mouse_Outline_3
+  - first:
+      213: -9181347165959079078
+    second: Keyboard_And_Mouse_Outline_4
+  - first:
+      213: 3244533215461051533
+    second: Keyboard_And_Mouse_Outline_5
+  - first:
+      213: -6026999439204833683
+    second: Keyboard_And_Mouse_Outline_6
+  - first:
+      213: 3416110681493562423
+    second: Keyboard_And_Mouse_Outline_7
+  - first:
+      213: 5410542544090174743
+    second: Keyboard_And_Mouse_Outline_8
+  - first:
+      213: 7456562116984553329
+    second: Keyboard_And_Mouse_Outline_9
+  - first:
+      213: -8545788798061195013
+    second: Keyboard_And_Mouse_Outline_10
+  - first:
+      213: -3059753241489174803
+    second: Keyboard_And_Mouse_Outline_11
+  - first:
+      213: -2867171232159407062
+    second: Keyboard_And_Mouse_Outline_12
+  - first:
+      213: -3064355647001749082
+    second: Keyboard_And_Mouse_Outline_13
+  - first:
+      213: -3302651022522310132
+    second: Keyboard_And_Mouse_Outline_14
+  - first:
+      213: 4987787971608618118
+    second: Keyboard_And_Mouse_Outline_15
+  - first:
+      213: -5117440824017850419
+    second: Keyboard_And_Mouse_Outline_16
+  - first:
+      213: 2833968704663491189
+    second: Keyboard_And_Mouse_Outline_17
+  - first:
+      213: 1147366077931338492
+    second: Keyboard_And_Mouse_Outline_18
+  - first:
+      213: 8506978197102621216
+    second: Keyboard_And_Mouse_Outline_19
+  - first:
+      213: -4852524690475134343
+    second: Keyboard_And_Mouse_Outline_20
+  - first:
+      213: -151180911425919673
+    second: Keyboard_And_Mouse_Outline_21
+  - first:
+      213: -1698745208241707054
+    second: Keyboard_And_Mouse_Outline_22
+  - first:
+      213: 8246637897178242697
+    second: Keyboard_And_Mouse_Outline_23
+  - first:
+      213: -3949157081472014994
+    second: Keyboard_And_Mouse_Outline_24
+  - first:
+      213: -4155602692021006485
+    second: Keyboard_And_Mouse_Outline_25
+  - first:
+      213: 8145521312150344754
+    second: Keyboard_And_Mouse_Outline_26
+  - first:
+      213: 4463836712027088288
+    second: Keyboard_And_Mouse_Outline_27
+  - first:
+      213: -2753614850923213053
+    second: Keyboard_And_Mouse_Outline_28
+  - first:
+      213: 1744230969807730523
+    second: Keyboard_And_Mouse_Outline_29
+  - first:
+      213: 7681005819599668797
+    second: Keyboard_And_Mouse_Outline_30
+  - first:
+      213: -1974920788371839196
+    second: Keyboard_And_Mouse_Outline_31
+  - first:
+      213: -7234156990691677338
+    second: Keyboard_And_Mouse_Outline_32
+  - first:
+      213: -658337604755902868
+    second: Keyboard_And_Mouse_Outline_33
+  - first:
+      213: 3287177300014916543
+    second: Keyboard_And_Mouse_Outline_34
+  - first:
+      213: 5273241364527160037
+    second: Keyboard_And_Mouse_Outline_35
+  - first:
+      213: 5176574445030730063
+    second: Keyboard_And_Mouse_Outline_36
+  - first:
+      213: 603724083022661615
+    second: Keyboard_And_Mouse_Outline_37
+  - first:
+      213: 6287622009869318779
+    second: Keyboard_And_Mouse_Outline_38
+  - first:
+      213: -3814289935927996594
+    second: Keyboard_And_Mouse_Outline_39
+  - first:
+      213: 3083199054314596238
+    second: Keyboard_And_Mouse_Outline_40
+  - first:
+      213: -5364195265187555784
+    second: Keyboard_And_Mouse_Outline_41
+  - first:
+      213: -156968046066240748
+    second: Keyboard_And_Mouse_Outline_42
+  - first:
+      213: 7787822000641096357
+    second: Keyboard_And_Mouse_Outline_43
+  - first:
+      213: 8395273667909731318
+    second: Keyboard_And_Mouse_Outline_44
+  - first:
+      213: -2639107720200794618
+    second: Keyboard_And_Mouse_Outline_45
+  - first:
+      213: 5781773113019677158
+    second: Keyboard_And_Mouse_Outline_46
+  - first:
+      213: -5898627536903908951
+    second: Keyboard_And_Mouse_Outline_47
+  - first:
+      213: -2214873928041035777
+    second: Keyboard_And_Mouse_Outline_48
+  - first:
+      213: 7582424271401364200
+    second: Keyboard_And_Mouse_Outline_49
+  - first:
+      213: 8246366268105298605
+    second: Keyboard_And_Mouse_Outline_50
+  - first:
+      213: -6351906733918510988
+    second: Keyboard_And_Mouse_Outline_51
+  - first:
+      213: 8013195391052860522
+    second: Keyboard_And_Mouse_Outline_52
+  - first:
+      213: -4122220407458963375
+    second: Keyboard_And_Mouse_Outline_53
+  - first:
+      213: 9210203110657917646
+    second: Keyboard_And_Mouse_Outline_54
+  - first:
+      213: 8249070114431477166
+    second: Keyboard_And_Mouse_Outline_55
+  - first:
+      213: -6378405707635307426
+    second: Keyboard_And_Mouse_Outline_56
+  - first:
+      213: 4206299957429951356
+    second: Keyboard_And_Mouse_Outline_57
+  - first:
+      213: 3800984894203827790
+    second: Keyboard_And_Mouse_Outline_58
+  - first:
+      213: -8916533417801600627
+    second: Keyboard_And_Mouse_Outline_59
+  - first:
+      213: -2414373303587246101
+    second: Keyboard_And_Mouse_Outline_60
+  - first:
+      213: -2240971032444374936
+    second: Keyboard_And_Mouse_Outline_61
+  - first:
+      213: 542768771535766074
+    second: Keyboard_And_Mouse_Outline_62
+  - first:
+      213: 2058022847328637099
+    second: Keyboard_And_Mouse_Outline_63
+  - first:
+      213: -5081569440587538648
+    second: Keyboard_And_Mouse_Outline_64
+  - first:
+      213: -2750344651915409513
+    second: Keyboard_And_Mouse_Outline_65
+  - first:
+      213: -898744200498673761
+    second: Keyboard_And_Mouse_Outline_66
+  - first:
+      213: -6095124037249399262
+    second: Keyboard_And_Mouse_Outline_67
+  - first:
+      213: -517016041967579463
+    second: Keyboard_And_Mouse_Outline_68
+  - first:
+      213: -1289791189948824893
+    second: Keyboard_And_Mouse_Outline_69
+  - first:
+      213: -2733611370724414367
+    second: Keyboard_And_Mouse_Outline_70
+  - first:
+      213: 4113156722637719659
+    second: Keyboard_And_Mouse_Outline_71
+  - first:
+      213: -5819253431171064865
+    second: Keyboard_And_Mouse_Outline_72
+  - first:
+      213: 6032637788910590386
+    second: Keyboard_And_Mouse_Outline_73
+  - first:
+      213: 366381051278860815
+    second: Keyboard_And_Mouse_Outline_74
+  - first:
+      213: 5887036950088746368
+    second: Keyboard_And_Mouse_Outline_75
+  - first:
+      213: -9100983966988609751
+    second: Keyboard_And_Mouse_Outline_76
+  - first:
+      213: -3493951059266793602
+    second: Keyboard_And_Mouse_Outline_77
+  - first:
+      213: 2080896714424307380
+    second: Keyboard_And_Mouse_Outline_78
+  - first:
+      213: -3152729524580522528
+    second: Keyboard_And_Mouse_Outline_79
+  - first:
+      213: -634360152265219786
+    second: Keyboard_And_Mouse_Outline_80
+  - first:
+      213: -7510746166232083953
+    second: Keyboard_And_Mouse_Outline_81
+  - first:
+      213: 6929997318308725429
+    second: Keyboard_And_Mouse_Outline_82
+  - first:
+      213: 2469033661527668296
+    second: Keyboard_And_Mouse_Outline_83
+  - first:
+      213: 921264602549769596
+    second: Keyboard_And_Mouse_Outline_84
+  - first:
+      213: 6131622557134034426
+    second: Keyboard_And_Mouse_Outline_85
+  - first:
+      213: -724561998765951844
+    second: Keyboard_And_Mouse_Outline_86
+  - first:
+      213: -5839287512864940346
+    second: Keyboard_And_Mouse_Outline_87
+  - first:
+      213: -8229161929787173556
+    second: Keyboard_And_Mouse_Outline_88
+  - first:
+      213: -2585168501720139041
+    second: Keyboard_And_Mouse_Outline_89
+  - first:
+      213: -3040358297556472227
+    second: Keyboard_And_Mouse_Outline_90
+  - first:
+      213: -5356375514333652960
+    second: Keyboard_And_Mouse_Outline_91
+  - first:
+      213: -4752775641414044006
+    second: Keyboard_And_Mouse_Outline_92
+  - first:
+      213: -5914719998857674023
+    second: Keyboard_And_Mouse_Outline_93
+  - first:
+      213: -5519107961666433634
+    second: Keyboard_And_Mouse_Outline_94
+  - first:
+      213: -3811098579863772856
+    second: Keyboard_And_Mouse_Outline_95
+  - first:
+      213: -3989294339874251371
+    second: Keyboard_And_Mouse_Outline_96
+  - first:
+      213: -2513348384548700753
+    second: Keyboard_And_Mouse_Outline_97
+  - first:
+      213: -1134049144195898628
+    second: Keyboard_And_Mouse_Outline_98
+  - first:
+      213: -3506875694749275069
+    second: Keyboard_And_Mouse_Outline_99
+  - first:
+      213: 5738547632273868303
+    second: Keyboard_And_Mouse_Outline_100
+  - first:
+      213: 9037440112722105637
+    second: Keyboard_And_Mouse_Outline_101
+  - first:
+      213: -3592361522814492699
+    second: Keyboard_And_Mouse_Outline_102
+  - first:
+      213: 5413353951751665296
+    second: Keyboard_And_Mouse_Outline_103
+  - first:
+      213: 5350632437917474705
+    second: Keyboard_And_Mouse_Outline_104
+  - first:
+      213: -8746989807537403304
+    second: Keyboard_And_Mouse_Outline_105
+  - first:
+      213: -8820996424018542248
+    second: Keyboard_And_Mouse_Outline_106
+  - first:
+      213: -533338456649555752
+    second: Keyboard_And_Mouse_Outline_107
+  - first:
+      213: -9060801233703894032
+    second: Keyboard_And_Mouse_Outline_108
+  - first:
+      213: 4284416594695354611
+    second: Keyboard_And_Mouse_Outline_109
+  - first:
+      213: -518947191102227097
+    second: Keyboard_And_Mouse_Outline_110
+  - first:
+      213: 760365496619214723
+    second: Keyboard_And_Mouse_Outline_111
+  - first:
+      213: -5019171690986978881
+    second: Keyboard_And_Mouse_Outline_112
+  - first:
+      213: 2780612429889484515
+    second: Keyboard_And_Mouse_Outline_113
+  - first:
+      213: 5493508721515643678
+    second: Keyboard_And_Mouse_Outline_114
+  - first:
+      213: 3208164872008787230
+    second: Keyboard_And_Mouse_Outline_115
+  - first:
+      213: 2131129380644360567
+    second: Keyboard_And_Mouse_Outline_116
+  - first:
+      213: 1107130863703034453
+    second: Keyboard_And_Mouse_Outline_117
+  - first:
+      213: -652611016749735197
+    second: Keyboard_And_Mouse_Outline_118
+  - first:
+      213: 4609682569166374092
+    second: Keyboard_And_Mouse_Outline_119
+  - first:
+      213: -606263812871301636
+    second: Keyboard_And_Mouse_Outline_120
+  - first:
+      213: 7137837944877913877
+    second: Keyboard_And_Mouse_Outline_121
+  - first:
+      213: 7374228432150472155
+    second: Keyboard_And_Mouse_Outline_122
+  - first:
+      213: 6841428602855134477
+    second: Keyboard_And_Mouse_Outline_123
+  - first:
+      213: 6047648037897552534
+    second: Keyboard_And_Mouse_Outline_124
+  - first:
+      213: -1417801366239508411
+    second: Keyboard_And_Mouse_Outline_125
+  - first:
+      213: -5506000971877912167
+    second: Keyboard_And_Mouse_Outline_126
+  - first:
+      213: 8071280017328412101
+    second: Keyboard_And_Mouse_Outline_127
+  - first:
+      213: 3449725607756839347
+    second: Keyboard_And_Mouse_Outline_128
+  - first:
+      213: 8002899414996148795
+    second: Keyboard_And_Mouse_Outline_129
+  - first:
+      213: 422228931268359215
+    second: Keyboard_And_Mouse_Outline_130
+  - first:
+      213: 398559542783981356
+    second: Keyboard_And_Mouse_Outline_131
+  - first:
+      213: 2586376850721953935
+    second: Keyboard_And_Mouse_Outline_132
+  - first:
+      213: -6549117191871426475
+    second: Keyboard_And_Mouse_Outline_133
+  - first:
+      213: 205797279650488733
+    second: Keyboard_And_Mouse_Outline_134
+  - first:
+      213: -3163565585874514453
+    second: Keyboard_And_Mouse_Outline_135
+  - first:
+      213: -4165483771587916712
+    second: Keyboard_And_Mouse_Outline_136
+  - first:
+      213: 3989079810107746555
+    second: Keyboard_And_Mouse_Outline_137
+  - first:
+      213: 1060455811834669421
+    second: Keyboard_And_Mouse_Outline_138
+  - first:
+      213: -7932816015947800771
+    second: Keyboard_And_Mouse_Outline_139
+  - first:
+      213: -6622700843838507083
+    second: Keyboard_And_Mouse_Outline_140
+  - first:
+      213: -4325567876757499291
+    second: Keyboard_And_Mouse_Outline_141
+  - first:
+      213: -7032796971957534795
+    second: Keyboard_And_Mouse_Outline_142
+  - first:
+      213: -5867729432424278266
+    second: Keyboard_And_Mouse_Outline_143
+  - first:
+      213: -2286915182532189923
+    second: Keyboard_And_Mouse_Outline_144
+  - first:
+      213: -1688565115345791313
+    second: Keyboard_And_Mouse_Outline_145
+  - first:
+      213: -4980386334080903701
+    second: Keyboard_And_Mouse_Outline_146
+  - first:
+      213: -14723545930734539
+    second: Keyboard_And_Mouse_Outline_147
+  - first:
+      213: -7780945115470140030
+    second: Keyboard_And_Mouse_Outline_148
+  - first:
+      213: -1318278762634102447
+    second: Keyboard_And_Mouse_Outline_149
+  - first:
+      213: -1189385272970324382
+    second: Keyboard_And_Mouse_Outline_150
+  - first:
+      213: -361252842803639481
+    second: Keyboard_And_Mouse_Outline_151
+  - first:
+      213: 5365421244425874884
+    second: Keyboard_And_Mouse_Outline_152
+  - first:
+      213: -22926982195857456
+    second: Keyboard_And_Mouse_Outline_153
+  - first:
+      213: 8216220555569932595
+    second: Keyboard_And_Mouse_Outline_154
+  - first:
+      213: -144982004589578267
+    second: Keyboard_And_Mouse_Outline_155
+  - first:
+      213: 7307031271908578314
+    second: Keyboard_And_Mouse_Outline_156
+  - first:
+      213: -5400859392911341979
+    second: Keyboard_And_Mouse_Outline_157
+  - first:
+      213: -696701576279246095
+    second: Keyboard_And_Mouse_Outline_158
+  - first:
+      213: -5667773071730805640
+    second: Keyboard_And_Mouse_Outline_159
+  - first:
+      213: 4523455951342503836
+    second: Keyboard_And_Mouse_Outline_160
+  - first:
+      213: -3277988436939045586
+    second: Keyboard_And_Mouse_Outline_161
+  - first:
+      213: -2795850195743288401
+    second: Keyboard_And_Mouse_Outline_162
+  - first:
+      213: 3915343593677003707
+    second: Keyboard_And_Mouse_Outline_163
+  - first:
+      213: 730904257589404314
+    second: Keyboard_And_Mouse_Outline_164
+  - first:
+      213: -638858447645786476
+    second: Keyboard_And_Mouse_Outline_165
+  - first:
+      213: 7159918367783199504
+    second: Keyboard_And_Mouse_Outline_166
+  - first:
+      213: -8008838056044565940
+    second: Keyboard_And_Mouse_Outline_167
+  - first:
+      213: -4711118803039735598
+    second: Keyboard_And_Mouse_Outline_168
+  - first:
+      213: -855821992122799653
+    second: Keyboard_And_Mouse_Outline_169
+  - first:
+      213: -8974447506990861247
+    second: Keyboard_And_Mouse_Outline_170
+  - first:
+      213: 683834845869871977
+    second: Keyboard_And_Mouse_Outline_171
+  - first:
+      213: -8528784307314770969
+    second: Keyboard_And_Mouse_Outline_172
+  - first:
+      213: 6699936543852112399
+    second: Keyboard_And_Mouse_Outline_173
+  - first:
+      213: 4979598805428314642
+    second: Keyboard_And_Mouse_Outline_174
+  - first:
+      213: -6252869134082750723
+    second: Keyboard_And_Mouse_Outline_175
+  - first:
+      213: -2298863115818295165
+    second: Keyboard_And_Mouse_Outline_176
+  - first:
+      213: -160682454755393684
+    second: Keyboard_And_Mouse_Outline_177
+  - first:
+      213: -327701081839578433
+    second: Keyboard_And_Mouse_Outline_178
+  - first:
+      213: 7918250727261013166
+    second: Keyboard_And_Mouse_Outline_179
+  - first:
+      213: 5736487917858609852
+    second: Keyboard_And_Mouse_Outline_180
+  - first:
+      213: -7029596017275024347
+    second: Keyboard_And_Mouse_Outline_181
+  - first:
+      213: 1313107915431010044
+    second: Keyboard_And_Mouse_Outline_182
+  - first:
+      213: 1879254480418634997
+    second: Keyboard_And_Mouse_Outline_183
+  - first:
+      213: -6168133330031831238
+    second: Keyboard_And_Mouse_Outline_184
+  - first:
+      213: -8085497356774101831
+    second: Keyboard_And_Mouse_Outline_185
+  - first:
+      213: 5174802283257159139
+    second: Keyboard_And_Mouse_Outline_186
+  - first:
+      213: 1135040975415790174
+    second: Keyboard_And_Mouse_Outline_187
+  - first:
+      213: -1138859191934709977
+    second: Keyboard_And_Mouse_Outline_188
+  - first:
+      213: -2372474229867011015
+    second: Keyboard_And_Mouse_Outline_189
+  - first:
+      213: 6051989558219160038
+    second: Keyboard_And_Mouse_Outline_190
+  - first:
+      213: 4615678152867735628
+    second: Keyboard_And_Mouse_Outline_191
+  - first:
+      213: -7580605821414843929
+    second: Keyboard_And_Mouse_Outline_192
+  - first:
+      213: -7572960464038195082
+    second: Keyboard_And_Mouse_Outline_193
+  - first:
+      213: -4546258486153273144
+    second: Keyboard_And_Mouse_Outline_194
+  - first:
+      213: -7684074540050626106
+    second: Keyboard_And_Mouse_Outline_195
+  - first:
+      213: 7282739986779128982
+    second: Keyboard_And_Mouse_Outline_196
+  - first:
+      213: -1422334451978321275
+    second: Keyboard_And_Mouse_Outline_197
+  - first:
+      213: -5575370500721352430
+    second: Keyboard_And_Mouse_Outline_198
+  - first:
+      213: -6721765140505715723
+    second: Keyboard_And_Mouse_Outline_199
+  - first:
+      213: 7801071990743111874
+    second: Keyboard_And_Mouse_Outline_200
+  - first:
+      213: 8524284910496131820
+    second: Keyboard_And_Mouse_Outline_201
+  - first:
+      213: -2261265603917268270
+    second: Keyboard_And_Mouse_Outline_202
+  - first:
+      213: -5972220550539853108
+    second: Keyboard_And_Mouse_Outline_203
+  - first:
+      213: -1525950981795117588
+    second: Keyboard_And_Mouse_Outline_204
+  - first:
+      213: 5352176576858278089
+    second: Keyboard_And_Mouse_Outline_205
+  - first:
+      213: -8555149581900333473
+    second: Keyboard_And_Mouse_Outline_206
+  - first:
+      213: -6732710111449197655
+    second: Keyboard_And_Mouse_Outline_207
+  - first:
+      213: 7308905132694500121
+    second: Keyboard_And_Mouse_Outline_208
+  - first:
+      213: -3570805217577677551
+    second: Keyboard_And_Mouse_Outline_209
+  - first:
+      213: 3111014061773791358
+    second: Keyboard_And_Mouse_Outline_210
+  - first:
+      213: 7483415883038471941
+    second: Keyboard_And_Mouse_Outline_211
+  - first:
+      213: -4467527875668920866
+    second: Keyboard_And_Mouse_Outline_212
+  - first:
+      213: -7792650439238418690
+    second: Keyboard_And_Mouse_Outline_213
+  - first:
+      213: 3044959626588387533
+    second: Keyboard_And_Mouse_Outline_214
+  - first:
+      213: -1932974096335747358
+    second: Keyboard_And_Mouse_Outline_215
+  - first:
+      213: -8256172722838877198
+    second: Keyboard_And_Mouse_Outline_216
+  - first:
+      213: -7863939104669462687
+    second: Keyboard_And_Mouse_Outline_217
+  - first:
+      213: -8445447397524224224
+    second: Keyboard_And_Mouse_Outline_218
+  - first:
+      213: -7634238665913139537
+    second: Keyboard_And_Mouse_Outline_219
+  - first:
+      213: -3313765229776400266
+    second: Keyboard_And_Mouse_Outline_220
+  - first:
+      213: -7486057282491680187
+    second: Keyboard_And_Mouse_Outline_221
+  - first:
+      213: 6910806944677878236
+    second: Keyboard_And_Mouse_Outline_222
+  - first:
+      213: -6413534093467568151
+    second: Keyboard_And_Mouse_Outline_223
+  - first:
+      213: -3697405152268294452
+    second: Keyboard_And_Mouse_Outline_224
+  - first:
+      213: 6964149386361259694
+    second: Keyboard_And_Mouse_Outline_225
+  - first:
+      213: -6459365042365339742
+    second: Keyboard_And_Mouse_Outline_226
+  - first:
+      213: 7206056604988311413
+    second: Keyboard_And_Mouse_Outline_227
+  - first:
+      213: -111784122367810546
+    second: Keyboard_And_Mouse_Outline_228
+  - first:
+      213: 6782407326101473976
+    second: Keyboard_And_Mouse_Outline_229
+  - first:
+      213: -8154786889417024940
+    second: Keyboard_And_Mouse_Outline_230
+  - first:
+      213: 3870779366306839057
+    second: Keyboard_And_Mouse_Outline_231
+  - first:
+      213: -38653672934269643
+    second: Keyboard_And_Mouse_Outline_232
+  - first:
+      213: -2974739403829834855
+    second: Keyboard_And_Mouse_Outline_233
+  - first:
+      213: 9215879220831405942
+    second: Keyboard_And_Mouse_Outline_234
+  - first:
+      213: -5857298797629026769
+    second: Keyboard_And_Mouse_Outline_235
+  - first:
+      213: -4596901238106884017
+    second: Keyboard_And_Mouse_Outline_236
+  - first:
+      213: -19535476956231411
+    second: Keyboard_And_Mouse_Outline_237
+  - first:
+      213: 866478248198754519
+    second: Keyboard_And_Mouse_Outline_238
+  - first:
+      213: -9187159284450567463
+    second: Keyboard_And_Mouse_Outline_239
+  - first:
+      213: 2526582344151014429
+    second: Keyboard_And_Mouse_Outline_240
+  - first:
+      213: 2817582814902403646
+    second: Keyboard_And_Mouse_Outline_241
+  - first:
+      213: -6449144895867291984
+    second: Keyboard_And_Mouse_Outline_242
+  - first:
+      213: 1728548094751259519
+    second: Keyboard_And_Mouse_Outline_243
+  - first:
+      213: -1714540278537309006
+    second: Keyboard_And_Mouse_Outline_244
+  - first:
+      213: -3127850255726612122
+    second: Keyboard_And_Mouse_Outline_245
+  - first:
+      213: -8649786088227760439
+    second: Keyboard_And_Mouse_Outline_246
+  - first:
+      213: -1074641653027353493
+    second: Keyboard_And_Mouse_Outline_247
+  - first:
+      213: 6947404309211362300
+    second: Keyboard_And_Mouse_Outline_248
+  - first:
+      213: 8963150687629658309
+    second: Keyboard_And_Mouse_Outline_249
+  - first:
+      213: -7302877370925829605
+    second: Keyboard_And_Mouse_Outline_250
+  - first:
+      213: 6050417521676638153
+    second: Keyboard_And_Mouse_Outline_251
+  - first:
+      213: 971113952146397499
+    second: Keyboard_And_Mouse_Outline_252
+  - first:
+      213: -2045963813613790028
+    second: Keyboard_And_Mouse_Outline_253
+  - first:
+      213: 7123456089615014806
+    second: Keyboard_And_Mouse_Outline_254
+  - first:
+      213: -9193382829337084317
+    second: Keyboard_And_Mouse_Outline_255
+  - first:
+      213: 932975460615466885
+    second: Keyboard_And_Mouse_Outline_256
+  - first:
+      213: -1500037927703625875
+    second: Keyboard_And_Mouse_Outline_257
+  - first:
+      213: -8290854584293262402
+    second: Keyboard_And_Mouse_Outline_258
+  - first:
+      213: -5814905712245272364
+    second: Keyboard_And_Mouse_Outline_259
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 351
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50cbdebd4781f0470800000000000000
+      internalID: 8362929923235363845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 351
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd85f8feb99b99ef0800000000000000
+      internalID: -100845437248907041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 343
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d517e9bf5b51e38f0800000000000000
+      internalID: -558985432392634019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 351
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63cea1fac9d1f0f40800000000000000
+      internalID: 5696804612436847670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 351
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b387db56d459080800000000000000
+      internalID: -9181347165959079078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_5
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 351
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c0389e4c5e60d20800000000000000
+      internalID: 3244533215461051533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 351
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66a7b441fbcb5ca0800000000000000
+      internalID: -6026999439204833683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_7
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 359
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73467d3c096786f20800000000000000
+      internalID: 3416110681493562423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_8
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 359
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71512ae07cb161b40800000000000000
+      internalID: 5410542544090174743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_9
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 367
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fbf742db70b7760800000000000000
+      internalID: 7456562116984553329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_10
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 375
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0dc0e9d52476980800000000000000
+      internalID: -8545788798061195013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_11
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 351
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee00bc53a29985d0800000000000000
+      internalID: -3059753241489174803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_12
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 351
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a246bec84f2c538d0800000000000000
+      internalID: -2867171232159407062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_13
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 343
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a99ff256c83975d0800000000000000
+      internalID: -3064355647001749082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_14
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 351
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c022a79a460aa22d0800000000000000
+      internalID: -3302651022522310132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_15
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 351
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684a2b6dbbe283540800000000000000
+      internalID: 4987787971608618118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_16
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 351
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf65551fa23bf8b0800000000000000
+      internalID: -5117440824017850419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_17
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 351
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5729a0a9587445720800000000000000
+      internalID: 2833968704663491189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_18
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 359
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa3e6e6e534cef00800000000000000
+      internalID: 1147366077931338492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_19
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 359
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0227b4e299bde0670800000000000000
+      internalID: 8506978197102621216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_20
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 367
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972da68f08e58acb0800000000000000
+      internalID: -4852524690475134343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_21
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 375
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74563a513c5e6edf0800000000000000
+      internalID: -151180911425919673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_22
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 359
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d72bd2cb38dc68e0800000000000000
+      internalID: -1698745208241707054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_23
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 343
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e55949971f17270800000000000000
+      internalID: 8246637897178242697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_24
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 359
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6564a4de86c139c0800000000000000
+      internalID: -3949157081472014994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_25
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 343
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f4e627e555456c0800000000000000
+      internalID: -4155602692021006485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_26
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 343
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23458110a74ba0170800000000000000
+      internalID: 8145521312150344754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_27
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 343
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5e8b3d6dbb2fd30800000000000000
+      internalID: 4463836712027088288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_28
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 343
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f4b72e1e139c9d0800000000000000
+      internalID: -2753614850923213053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_29
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 343
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57ff9163d0c43810800000000000000
+      internalID: 1744230969807730523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_30
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 319
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3642f2e81a689a60800000000000000
+      internalID: 7681005819599668797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_31
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427ef8da10ca794e0800000000000000
+      internalID: -1974920788371839196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_32
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66be9609b8c1b9b90800000000000000
+      internalID: -7234156990691677338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_33
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e2e3ebf6d1dd6f0800000000000000
+      internalID: -658337604755902868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_34
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3ed1196566e9d20800000000000000
+      internalID: 3287177300014916543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_35
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea998b05115e2940800000000000000
+      internalID: 5273241364527160037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_36
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49eb65f703e6d740800000000000000
+      internalID: 5176574445030730063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_37
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe70ae6dadbd06800800000000000000
+      internalID: 603724083022661615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_38
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a303c97ee124750800000000000000
+      internalID: 6287622009869318779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_39
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f0aa2238be01bc0800000000000000
+      internalID: -3814289935927996594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_40
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87ed345439b9ca20800000000000000
+      internalID: 3083199054314596238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_41
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 319
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836d9a8b3dc8e85b0800000000000000
+      internalID: -5364195265187555784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_42
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 319
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413722dc46652ddf0800000000000000
+      internalID: -156968046066240748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_43
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa3f2219d6e31c60800000000000000
+      internalID: 7787822000641096357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_44
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f343ffbbe0028470800000000000000
+      internalID: 8395273667909731318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_45
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ec075d281006bd0800000000000000
+      internalID: -2639107720200794618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_46
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9317d530cfc3050800000000000000
+      internalID: 5781773113019677158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_47
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a15188e18dd32ea0800000000000000
+      internalID: -5898627536903908951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_48
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff707d8b5ef2341e0800000000000000
+      internalID: -2214873928041035777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_49
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eaad2193be2a3960800000000000000
+      internalID: 7582424271401364200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_50
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da21e220e6af07270800000000000000
+      internalID: 8246366268105298605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_51
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4702066ba7e79d7a0800000000000000
+      internalID: -6351906733918510988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_52
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cc08f90c6943f60800000000000000
+      internalID: 8013195391052860522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_53
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 319
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150ea8f316eeac6c0800000000000000
+      internalID: -4122220407458963375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_54
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 303
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec286ff6ee631df70800000000000000
+      internalID: 9210203110657917646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_55
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5aaf940959a7270800000000000000
+      internalID: 8249070114431477166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_56
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cc21b9dc95b77a0800000000000000
+      internalID: -6378405707635307426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_57
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b5a5d7687cf5a30800000000000000
+      internalID: 4206299957429951356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_58
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4615af6f9fcfb430800000000000000
+      internalID: 3800984894203827790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_59
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81390c291c124480800000000000000
+      internalID: -8916533417801600627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_60
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befee74b54c6e7ed0800000000000000
+      internalID: -2414373303587246101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_61
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860763b18b876e0e0800000000000000
+      internalID: -2240971032444374936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_62
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32809e625d488700800000000000000
+      internalID: 542768771535766074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_63
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba059a230e09f8c10800000000000000
+      internalID: 2058022847328637099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_64
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f9c406483aa79b0800000000000000
+      internalID: -5081569440587538648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_65
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 303
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797cfac6c10d4d9d0800000000000000
+      internalID: -2750344651915409513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_66
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97855159e40783f0800000000000000
+      internalID: -898744200498673761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_67
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2260ec14bf4c96ba0800000000000000
+      internalID: -6095124037249399262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_68
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be085b26a033d8f0800000000000000
+      internalID: -517016041967579463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_69
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c20ca01fbdb91ee0800000000000000
+      internalID: -1289791189948824893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_70
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ca00e01f2401ad0800000000000000
+      internalID: -2733611370724414367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_71
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68c45e2f3ed41930800000000000000
+      internalID: 4113156722637719659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_72
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb531906dbdd3fa0800000000000000
+      internalID: -5819253431171064865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_73
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b91d925b1c38b350800000000000000
+      internalID: 6032637788910590386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_74
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0229edff95a51500800000000000000
+      internalID: 366381051278860815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_75
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08583ad4ae4f2b150800000000000000
+      internalID: 5887036950088746368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_76
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 287
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9275e151d4fc2b180800000000000000
+      internalID: -9100983966988609751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_77
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f8dc9f50ef28fc0800000000000000
+      internalID: -3493951059266793602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_78
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bec9856984d0ec10800000000000000
+      internalID: 2080896714424307380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_79
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5ed7683314f34d0800000000000000
+      internalID: -3152729524580522528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_80
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631a1907dcc4237f0800000000000000
+      internalID: -634360152265219786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_81
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f021c9bc72874c790800000000000000
+      internalID: -7510746166232083953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_82
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2833428db4c2060800000000000000
+      internalID: 6929997318308725429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_83
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846b6dd9805c34220800000000000000
+      internalID: 2469033661527668296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_84
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75de13664df8cc00800000000000000
+      internalID: 921264602549769596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_85
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af51fbe9a36e71550800000000000000
+      internalID: 6131622557134034426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_86
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 287
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94fec573b6d1f5f0800000000000000
+      internalID: -724561998765951844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_87
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 287
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce9f46e1fea6fea0800000000000000
+      internalID: -5839287512864940346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_88
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c451ed723d42ccd80800000000000000
+      internalID: -8229161929787173556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_89
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda317ac1f2af1cd0800000000000000
+      internalID: -2585168501720139041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_90
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e2c34ac3a7ec5d0800000000000000
+      internalID: -3040358297556472227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_91
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028da8859d45aa5b0800000000000000
+      internalID: -5356375514333652960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_92
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96f2644cbfba0eb0800000000000000
+      internalID: -4752775641414044006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_93
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d28032af71baeda0800000000000000
+      internalID: -5914719998857674023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_94
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d87d3ec803863b0800000000000000
+      internalID: -5519107961666433634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_95
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841693f98024c1bc0800000000000000
+      internalID: -3811098579863772856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_96
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d915f1fed23a8c0800000000000000
+      internalID: -3989294339874251371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_97
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 287
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad3c26e5face1dd0800000000000000
+      internalID: -2513348384548700753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_98
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 271
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf22e52df4c0340f0800000000000000
+      internalID: -1134049144195898628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_99
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ca407c223155fc0800000000000000
+      internalID: -3506875694749275069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_100
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06c75cdaaa63af40800000000000000
+      internalID: 5738547632273868303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_101
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525daad66ef6b6d70800000000000000
+      internalID: 9037440112722105637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_102
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef5cd76a3e552ec0800000000000000
+      internalID: -3592361522814492699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_103
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0967d99ecb8102b40800000000000000
+      internalID: 5413353951751665296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_104
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19fd0c97ad3414a40800000000000000
+      internalID: 5350632437917474705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_105
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a45c31d137c9680800000000000000
+      internalID: -8746989807537403304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_106
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851426dec76859580800000000000000
+      internalID: -8820996424018542248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_107
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 271
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0295adf733998f0800000000000000
+      internalID: -533338456649555752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_108
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f388acb841914280800000000000000
+      internalID: -9060801233703894032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_109
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8fa9c613e457b30800000000000000
+      internalID: 4284416594695354611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_110
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d3a2977445cc8f0800000000000000
+      internalID: -518947191102227097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_111
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387a37df36c5d8a00800000000000000
+      internalID: 760365496619214723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_112
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1460490f1585ab0800000000000000
+      internalID: -5019171690986978881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_113
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6399dc548b69620800000000000000
+      internalID: 2780612429889484515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_114
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13437c831ddc3c40800000000000000
+      internalID: 5493508721515643678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_115
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1568f814f0b58c20800000000000000
+      internalID: 3208164872008787230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_116
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 255
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77194b761ea439d10800000000000000
+      internalID: 2131129380644360567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_117
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 255
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a04ea97a15d5f00800000000000000
+      internalID: 1107130863703034453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_118
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 255
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2202aecb571f6f0800000000000000
+      internalID: -652611016749735197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_119
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 255
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4c87e9fd1e8ff30800000000000000
+      internalID: 4609682569166374092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_120
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 255
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5d1a9364e1697f0800000000000000
+      internalID: -606263812871301636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_121
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 255
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51790c00bc1be0360800000000000000
+      internalID: 7137837944877913877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_122
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 255
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd52aee40b5865660800000000000000
+      internalID: 7374228432150472155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_123
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 255
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05906d1113a1fe50800000000000000
+      internalID: 6841428602855134477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_124
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 191
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692c87149df8de350800000000000000
+      internalID: 6047648037897552534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_125
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 191
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5480b335b25f25ce0800000000000000
+      internalID: -1417801366239508411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_126
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 183
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991f242c941c693b0800000000000000
+      internalID: -5506000971877912167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_127
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 191
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5919b8962f20070800000000000000
+      internalID: 8071280017328412101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_128
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 191
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b93aeea923efdf20800000000000000
+      internalID: 3449725607756839347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_129
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 191
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32e604ed92001f60800000000000000
+      internalID: 8002899414996148795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_130
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 191
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24b426d9fe0cd500800000000000000
+      internalID: 422228931268359215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_131
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 199
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c273b71eac7f78500800000000000000
+      internalID: 398559542783981356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_132
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 199
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f885392ea08a4e320800000000000000
+      internalID: 2586376850721953935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_133
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 207
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550991adc9cdc15a0800000000000000
+      internalID: -6549117191871426475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_134
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 215
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d912f4519832bd200800000000000000
+      internalID: 205797279650488733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_135
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 191
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed8c466cd1c814d0800000000000000
+      internalID: -3163565585874514453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_136
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 191
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c09d4549a3136c0800000000000000
+      internalID: -4165483771587916712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_137
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 183
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8a726c3fe0c5730800000000000000
+      internalID: 3989079810107746555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_138
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 191
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69676c31fe77be00800000000000000
+      internalID: 1060455811834669421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_139
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 191
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3fd6e40dd9f8e190800000000000000
+      internalID: -7932816015947800771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_140
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 191
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7735dcba07714a0800000000000000
+      internalID: -6622700843838507083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_141
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 191
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56257061fee78f3c0800000000000000
+      internalID: -4325567876757499291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_142
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 199
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf37055a6c766e90800000000000000
+      internalID: -7032796971957534795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_143
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 199
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6071f367b23a19ea0800000000000000
+      internalID: -5867729432424278266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_144
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 207
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11a8b112ce3340e0800000000000000
+      internalID: -2286915182532189923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_145
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 215
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa692b759f20198e0800000000000000
+      internalID: -1688565115345791313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_146
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 199
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5d5e0340d12eab0800000000000000
+      internalID: -4980386334080903701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_147
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 183
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534e6f25301bbcff0800000000000000
+      internalID: -14723545930734539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_148
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 199
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d679784a7840490800000000000000
+      internalID: -7780945115470140030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_149
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 183
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159b04e237884bde0800000000000000
+      internalID: -1318278762634102447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_150
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 183
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266d58755647e7fe0800000000000000
+      internalID: -1189385272970324382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_151
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 183
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bc69614729cfaf0800000000000000
+      internalID: -361252842803639481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_152
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 183
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cda650d13ec57a40800000000000000
+      internalID: 5365421244425874884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_153
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 183
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7b17af70c8eaff0800000000000000
+      internalID: -22926982195857456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_154
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 159
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339220b5011e50270800000000000000
+      internalID: 8216220555569932595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_155
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e73d9d82abecfdf0800000000000000
+      internalID: -144982004589578267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_156
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0418cc3a3ac76560800000000000000
+      internalID: 7307031271908578314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_157
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56600b34ffa4c05b0800000000000000
+      internalID: -5400859392911341979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_158
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fabb6f8b91d456f0800000000000000
+      internalID: -696701576279246095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_159
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874f5ff9b660851b0800000000000000
+      internalID: -5667773071730805640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_160
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9785e0b83b86ce30800000000000000
+      internalID: 4523455951342503836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_161
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25096652ee3282d0800000000000000
+      internalID: -3277988436939045586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_162
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3d38d5f052339d0800000000000000
+      internalID: -2795850195743288401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_163
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb18ba0148165630800000000000000
+      internalID: 3915343593677003707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_164
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92ef6ebc81b42a00800000000000000
+      internalID: 730904257589404314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_165
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 159
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49eb05e60a15227f0800000000000000
+      internalID: -638858447645786476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_166
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 159
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013238412d32d5360800000000000000
+      internalID: 7159918367783199504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_167
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a65dd7834ead090800000000000000
+      internalID: -8008838056044565940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_168
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d03722c86ebe9eb0800000000000000
+      internalID: -4711118803039735598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_169
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9ad88be628f14f0800000000000000
+      internalID: -855821992122799653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_170
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1447b628a8b547380800000000000000
+      internalID: -8974447506990861247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_171
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9639b115b287d7900800000000000000
+      internalID: 683834845869871977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_172
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebb3942cdba3a980800000000000000
+      internalID: -8528784307314770969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_173
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0aa6f1f9c4fafc50800000000000000
+      internalID: 6699936543852112399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_174
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212a3810bb61b1540800000000000000
+      internalID: 4979598805428314642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_175
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df64ef3d6a85939a0800000000000000
+      internalID: -6252869134082750723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_176
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38027621d2cc810e0800000000000000
+      internalID: -2298863115818295165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_177
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 159
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fbaa2a82425cdf0800000000000000
+      internalID: -160682454755393684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_178
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 143
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2d0703a95c37bf0800000000000000
+      internalID: -327701081839578433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_179
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea40fd0751743ed60800000000000000
+      internalID: 7918250727261013166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_180
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba584a3e591c9f40800000000000000
+      internalID: 5736487917858609852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_181
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c42dbaaabd17e90800000000000000
+      internalID: -7029596017275024347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_182
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfed40321b8193210800000000000000
+      internalID: 1313107915431010044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_183
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fcf9e34ef3741a10800000000000000
+      internalID: 1879254480418634997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_184
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a379430aa63666aa0800000000000000
+      internalID: -6168133330031831238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_185
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcae192efa8acf80800000000000000
+      internalID: -8085497356774101831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_186
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed5c64624790d740800000000000000
+      internalID: 5174802283257159139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_187
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5acb21e0c970cf00800000000000000
+      internalID: 1135040975415790174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_188
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f0b8f4995f130f0800000000000000
+      internalID: -1138859191934709977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_189
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 143
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93422020247431fd0800000000000000
+      internalID: -2372474229867011015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_190
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9b60a307cfcf350800000000000000
+      internalID: 6051989558219160038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_191
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48663b33de2e0040800000000000000
+      internalID: 4615678152867735628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_192
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e95f405b274cc690800000000000000
+      internalID: -7580605821414843929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_193
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6701deac49077e690800000000000000
+      internalID: -7572960464038195082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_194
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0aab37ef178e0c0800000000000000
+      internalID: -4546258486153273144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_195
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9c8a4faeeac5590800000000000000
+      internalID: -7684074540050626106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_196
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694c08fae6d711560800000000000000
+      internalID: 7282739986779128982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_197
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582480e0a5ad24ce0800000000000000
+      internalID: -1422334451978321275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_198
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211ef45b11e40a2b0800000000000000
+      internalID: -5575370500721352430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_199
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 143
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb9d88d73e77b2a0800000000000000
+      internalID: -6721765140505715723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_200
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 127
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c81e7bc4a9f24c60800000000000000
+      internalID: 7801071990743111874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_201
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea285666f75c4670800000000000000
+      internalID: 8524284910496131820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_202
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dab3b7f9ee5e90e0800000000000000
+      internalID: -2261265603917268270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_203
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2c8cc2d096e1da0800000000000000
+      internalID: -5972220550539853108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_204
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce58179baabb2dae0800000000000000
+      internalID: -1525950981795117588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_205
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8cdc65d30c64a40800000000000000
+      internalID: 5352176576858278089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_206
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ebf7a48c0064980800000000000000
+      internalID: -8555149581900333473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_207
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3d36733db9092a0800000000000000
+      internalID: -6732710111449197655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_208
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913f8437e727e6560800000000000000
+      internalID: 7308905132694500121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_209
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11dcb24d293f17ec0800000000000000
+      internalID: -3570805217577677551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_210
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 127
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70a54b6eca8c2b20800000000000000
+      internalID: 3111014061773791358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_211
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 127
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5073607c81f6ad760800000000000000
+      internalID: 7483415883038471941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_212
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5399a21172002c0800000000000000
+      internalID: -4467527875668920866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_213
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efef66676b1fad390800000000000000
+      internalID: -7792650439238418690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_214
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8f432c5aed14a20800000000000000
+      internalID: 3044959626588387533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_215
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e640ebfc42bc25e0800000000000000
+      internalID: -1932974096335747358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_216
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb4be2d6ae2c6d80800000000000000
+      internalID: -8256172722838877198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_217
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f8fda9c0dadd290800000000000000
+      internalID: -7863939104669462687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_218
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027425d765ebbca80800000000000000
+      internalID: -8445447397524224224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_219
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faef1bb916cbd0690800000000000000
+      internalID: -7634238665913139537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_220
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6701322a4142302d0800000000000000
+      internalID: -3313765229776400266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_221
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 127
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a7bdc709e2c1890800000000000000
+      internalID: -7486057282491680187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_222
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 111
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9d3d81d4e18ef50800000000000000
+      internalID: 6910806944677878236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_223
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7320ce8bc8ef6a0800000000000000
+      internalID: -6413534093467568151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_224
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6695c8a9d20bcc0800000000000000
+      internalID: -3697405152268294452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_225
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea641d028f0a5a060800000000000000
+      internalID: 6964149386361259694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_226
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7ec3797b9bb56a0800000000000000
+      internalID: -6459365042365339742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_227
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5778fab8d4e010460800000000000000
+      internalID: 7206056604988311413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_228
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04ecb6deecd27ef0800000000000000
+      internalID: -111784122367810546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_229
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba09424783ff1e50800000000000000
+      internalID: 6782407326101473976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_230
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a194da78064de80800000000000000
+      internalID: -8154786889417024940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_231
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 111
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a71ac4355c7b530800000000000000
+      internalID: 3870779366306839057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_232
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d1d7370bca67ff0800000000000000
+      internalID: -38653672934269643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_233
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b8d57e54a97b6d0800000000000000
+      internalID: -2974739403829834855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_234
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6774f82d25165ef70800000000000000
+      internalID: 9215879220831405942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_235
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ecfffd6c1b6bea0800000000000000
+      internalID: -5857298797629026769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_236
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48f51beda68430c0800000000000000
+      internalID: -4596901238106884017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_237
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09818356989abff0800000000000000
+      internalID: -19535476956231411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_238
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d05d7d3069560c00800000000000000
+      internalID: 866478248198754519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_239
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da54637e47a08080800000000000000
+      internalID: -9187159284450567463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_240
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 95
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c15ee6149301320800000000000000
+      internalID: 2526582344151014429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_241
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 95
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32c08754a01a1720800000000000000
+      internalID: 2817582814902403646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_242
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 95
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b67ec0e2e80086a0800000000000000
+      internalID: -6449144895867291984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_243
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 95
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bb3dc75590df710800000000000000
+      internalID: 1728548094751259519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_244
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 95
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b43fa063bab438e0800000000000000
+      internalID: -1714540278537309006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_245
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 95
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661fcc4b3c4a794d0800000000000000
+      internalID: -3127850255726612122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_246
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 95
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6911c9169c5f780800000000000000
+      internalID: -8649786088227760439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_247
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 95
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c477a3c1b1611f0800000000000000
+      internalID: -1074641653027353493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_248
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 47
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3bf8909632a6060800000000000000
+      internalID: 6947404309211362300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_249
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 47
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8c674cf02836c70800000000000000
+      internalID: 8963150687629658309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_250
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 47
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b123ab339b7f6aa90800000000000000
+      internalID: -7302877370925829605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_251
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 47
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7d552fda667f350800000000000000
+      internalID: 6050417521676638153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_252
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 55
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b399c1a8ef61a7d00800000000000000
+      internalID: 971113952146397499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_253
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 55
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc1f3260c64b93e0800000000000000
+      internalID: -2045963813613790028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_254
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 55
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b989262999bd260800000000000000
+      internalID: 7123456089615014806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_255
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 55
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36eff2d760b8a6080800000000000000
+      internalID: -9193382829337084317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_256
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 15
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f24220d3892fc00800000000000000
+      internalID: 932975460615466885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_257
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 15
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fbc99c37bce2be0800000000000000
+      internalID: -1500037927703625875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_258
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 15
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbf7c2bea7f0fc80800000000000000
+      internalID: -8290854584293262402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_And_Mouse_Outline_259
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 15
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d01b3b301e4d4fa0800000000000000
+      internalID: -5814905712245272364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Keyboard_And_Mouse_Outline_0: 8362929923235363845
+      Keyboard_And_Mouse_Outline_1: -100845437248907041
+      Keyboard_And_Mouse_Outline_10: -8545788798061195013
+      Keyboard_And_Mouse_Outline_100: 5738547632273868303
+      Keyboard_And_Mouse_Outline_101: 9037440112722105637
+      Keyboard_And_Mouse_Outline_102: -3592361522814492699
+      Keyboard_And_Mouse_Outline_103: 5413353951751665296
+      Keyboard_And_Mouse_Outline_104: 5350632437917474705
+      Keyboard_And_Mouse_Outline_105: -8746989807537403304
+      Keyboard_And_Mouse_Outline_106: -8820996424018542248
+      Keyboard_And_Mouse_Outline_107: -533338456649555752
+      Keyboard_And_Mouse_Outline_108: -9060801233703894032
+      Keyboard_And_Mouse_Outline_109: 4284416594695354611
+      Keyboard_And_Mouse_Outline_11: -3059753241489174803
+      Keyboard_And_Mouse_Outline_110: -518947191102227097
+      Keyboard_And_Mouse_Outline_111: 760365496619214723
+      Keyboard_And_Mouse_Outline_112: -5019171690986978881
+      Keyboard_And_Mouse_Outline_113: 2780612429889484515
+      Keyboard_And_Mouse_Outline_114: 5493508721515643678
+      Keyboard_And_Mouse_Outline_115: 3208164872008787230
+      Keyboard_And_Mouse_Outline_116: 2131129380644360567
+      Keyboard_And_Mouse_Outline_117: 1107130863703034453
+      Keyboard_And_Mouse_Outline_118: -652611016749735197
+      Keyboard_And_Mouse_Outline_119: 4609682569166374092
+      Keyboard_And_Mouse_Outline_12: -2867171232159407062
+      Keyboard_And_Mouse_Outline_120: -606263812871301636
+      Keyboard_And_Mouse_Outline_121: 7137837944877913877
+      Keyboard_And_Mouse_Outline_122: 7374228432150472155
+      Keyboard_And_Mouse_Outline_123: 6841428602855134477
+      Keyboard_And_Mouse_Outline_124: 6047648037897552534
+      Keyboard_And_Mouse_Outline_125: -1417801366239508411
+      Keyboard_And_Mouse_Outline_126: -5506000971877912167
+      Keyboard_And_Mouse_Outline_127: 8071280017328412101
+      Keyboard_And_Mouse_Outline_128: 3449725607756839347
+      Keyboard_And_Mouse_Outline_129: 8002899414996148795
+      Keyboard_And_Mouse_Outline_13: -3064355647001749082
+      Keyboard_And_Mouse_Outline_130: 422228931268359215
+      Keyboard_And_Mouse_Outline_131: 398559542783981356
+      Keyboard_And_Mouse_Outline_132: 2586376850721953935
+      Keyboard_And_Mouse_Outline_133: -6549117191871426475
+      Keyboard_And_Mouse_Outline_134: 205797279650488733
+      Keyboard_And_Mouse_Outline_135: -3163565585874514453
+      Keyboard_And_Mouse_Outline_136: -4165483771587916712
+      Keyboard_And_Mouse_Outline_137: 3989079810107746555
+      Keyboard_And_Mouse_Outline_138: 1060455811834669421
+      Keyboard_And_Mouse_Outline_139: -7932816015947800771
+      Keyboard_And_Mouse_Outline_14: -3302651022522310132
+      Keyboard_And_Mouse_Outline_140: -6622700843838507083
+      Keyboard_And_Mouse_Outline_141: -4325567876757499291
+      Keyboard_And_Mouse_Outline_142: -7032796971957534795
+      Keyboard_And_Mouse_Outline_143: -5867729432424278266
+      Keyboard_And_Mouse_Outline_144: -2286915182532189923
+      Keyboard_And_Mouse_Outline_145: -1688565115345791313
+      Keyboard_And_Mouse_Outline_146: -4980386334080903701
+      Keyboard_And_Mouse_Outline_147: -14723545930734539
+      Keyboard_And_Mouse_Outline_148: -7780945115470140030
+      Keyboard_And_Mouse_Outline_149: -1318278762634102447
+      Keyboard_And_Mouse_Outline_15: 4987787971608618118
+      Keyboard_And_Mouse_Outline_150: -1189385272970324382
+      Keyboard_And_Mouse_Outline_151: -361252842803639481
+      Keyboard_And_Mouse_Outline_152: 5365421244425874884
+      Keyboard_And_Mouse_Outline_153: -22926982195857456
+      Keyboard_And_Mouse_Outline_154: 8216220555569932595
+      Keyboard_And_Mouse_Outline_155: -144982004589578267
+      Keyboard_And_Mouse_Outline_156: 7307031271908578314
+      Keyboard_And_Mouse_Outline_157: -5400859392911341979
+      Keyboard_And_Mouse_Outline_158: -696701576279246095
+      Keyboard_And_Mouse_Outline_159: -5667773071730805640
+      Keyboard_And_Mouse_Outline_16: -5117440824017850419
+      Keyboard_And_Mouse_Outline_160: 4523455951342503836
+      Keyboard_And_Mouse_Outline_161: -3277988436939045586
+      Keyboard_And_Mouse_Outline_162: -2795850195743288401
+      Keyboard_And_Mouse_Outline_163: 3915343593677003707
+      Keyboard_And_Mouse_Outline_164: 730904257589404314
+      Keyboard_And_Mouse_Outline_165: -638858447645786476
+      Keyboard_And_Mouse_Outline_166: 7159918367783199504
+      Keyboard_And_Mouse_Outline_167: -8008838056044565940
+      Keyboard_And_Mouse_Outline_168: -4711118803039735598
+      Keyboard_And_Mouse_Outline_169: -855821992122799653
+      Keyboard_And_Mouse_Outline_17: 2833968704663491189
+      Keyboard_And_Mouse_Outline_170: -8974447506990861247
+      Keyboard_And_Mouse_Outline_171: 683834845869871977
+      Keyboard_And_Mouse_Outline_172: -8528784307314770969
+      Keyboard_And_Mouse_Outline_173: 6699936543852112399
+      Keyboard_And_Mouse_Outline_174: 4979598805428314642
+      Keyboard_And_Mouse_Outline_175: -6252869134082750723
+      Keyboard_And_Mouse_Outline_176: -2298863115818295165
+      Keyboard_And_Mouse_Outline_177: -160682454755393684
+      Keyboard_And_Mouse_Outline_178: -327701081839578433
+      Keyboard_And_Mouse_Outline_179: 7918250727261013166
+      Keyboard_And_Mouse_Outline_18: 1147366077931338492
+      Keyboard_And_Mouse_Outline_180: 5736487917858609852
+      Keyboard_And_Mouse_Outline_181: -7029596017275024347
+      Keyboard_And_Mouse_Outline_182: 1313107915431010044
+      Keyboard_And_Mouse_Outline_183: 1879254480418634997
+      Keyboard_And_Mouse_Outline_184: -6168133330031831238
+      Keyboard_And_Mouse_Outline_185: -8085497356774101831
+      Keyboard_And_Mouse_Outline_186: 5174802283257159139
+      Keyboard_And_Mouse_Outline_187: 1135040975415790174
+      Keyboard_And_Mouse_Outline_188: -1138859191934709977
+      Keyboard_And_Mouse_Outline_189: -2372474229867011015
+      Keyboard_And_Mouse_Outline_19: 8506978197102621216
+      Keyboard_And_Mouse_Outline_190: 6051989558219160038
+      Keyboard_And_Mouse_Outline_191: 4615678152867735628
+      Keyboard_And_Mouse_Outline_192: -7580605821414843929
+      Keyboard_And_Mouse_Outline_193: -7572960464038195082
+      Keyboard_And_Mouse_Outline_194: -4546258486153273144
+      Keyboard_And_Mouse_Outline_195: -7684074540050626106
+      Keyboard_And_Mouse_Outline_196: 7282739986779128982
+      Keyboard_And_Mouse_Outline_197: -1422334451978321275
+      Keyboard_And_Mouse_Outline_198: -5575370500721352430
+      Keyboard_And_Mouse_Outline_199: -6721765140505715723
+      Keyboard_And_Mouse_Outline_2: -558985432392634019
+      Keyboard_And_Mouse_Outline_20: -4852524690475134343
+      Keyboard_And_Mouse_Outline_200: 7801071990743111874
+      Keyboard_And_Mouse_Outline_201: 8524284910496131820
+      Keyboard_And_Mouse_Outline_202: -2261265603917268270
+      Keyboard_And_Mouse_Outline_203: -5972220550539853108
+      Keyboard_And_Mouse_Outline_204: -1525950981795117588
+      Keyboard_And_Mouse_Outline_205: 5352176576858278089
+      Keyboard_And_Mouse_Outline_206: -8555149581900333473
+      Keyboard_And_Mouse_Outline_207: -6732710111449197655
+      Keyboard_And_Mouse_Outline_208: 7308905132694500121
+      Keyboard_And_Mouse_Outline_209: -3570805217577677551
+      Keyboard_And_Mouse_Outline_21: -151180911425919673
+      Keyboard_And_Mouse_Outline_210: 3111014061773791358
+      Keyboard_And_Mouse_Outline_211: 7483415883038471941
+      Keyboard_And_Mouse_Outline_212: -4467527875668920866
+      Keyboard_And_Mouse_Outline_213: -7792650439238418690
+      Keyboard_And_Mouse_Outline_214: 3044959626588387533
+      Keyboard_And_Mouse_Outline_215: -1932974096335747358
+      Keyboard_And_Mouse_Outline_216: -8256172722838877198
+      Keyboard_And_Mouse_Outline_217: -7863939104669462687
+      Keyboard_And_Mouse_Outline_218: -8445447397524224224
+      Keyboard_And_Mouse_Outline_219: -7634238665913139537
+      Keyboard_And_Mouse_Outline_22: -1698745208241707054
+      Keyboard_And_Mouse_Outline_220: -3313765229776400266
+      Keyboard_And_Mouse_Outline_221: -7486057282491680187
+      Keyboard_And_Mouse_Outline_222: 6910806944677878236
+      Keyboard_And_Mouse_Outline_223: -6413534093467568151
+      Keyboard_And_Mouse_Outline_224: -3697405152268294452
+      Keyboard_And_Mouse_Outline_225: 6964149386361259694
+      Keyboard_And_Mouse_Outline_226: -6459365042365339742
+      Keyboard_And_Mouse_Outline_227: 7206056604988311413
+      Keyboard_And_Mouse_Outline_228: -111784122367810546
+      Keyboard_And_Mouse_Outline_229: 6782407326101473976
+      Keyboard_And_Mouse_Outline_23: 8246637897178242697
+      Keyboard_And_Mouse_Outline_230: -8154786889417024940
+      Keyboard_And_Mouse_Outline_231: 3870779366306839057
+      Keyboard_And_Mouse_Outline_232: -38653672934269643
+      Keyboard_And_Mouse_Outline_233: -2974739403829834855
+      Keyboard_And_Mouse_Outline_234: 9215879220831405942
+      Keyboard_And_Mouse_Outline_235: -5857298797629026769
+      Keyboard_And_Mouse_Outline_236: -4596901238106884017
+      Keyboard_And_Mouse_Outline_237: -19535476956231411
+      Keyboard_And_Mouse_Outline_238: 866478248198754519
+      Keyboard_And_Mouse_Outline_239: -9187159284450567463
+      Keyboard_And_Mouse_Outline_24: -3949157081472014994
+      Keyboard_And_Mouse_Outline_240: 2526582344151014429
+      Keyboard_And_Mouse_Outline_241: 2817582814902403646
+      Keyboard_And_Mouse_Outline_242: -6449144895867291984
+      Keyboard_And_Mouse_Outline_243: 1728548094751259519
+      Keyboard_And_Mouse_Outline_244: -1714540278537309006
+      Keyboard_And_Mouse_Outline_245: -3127850255726612122
+      Keyboard_And_Mouse_Outline_246: -8649786088227760439
+      Keyboard_And_Mouse_Outline_247: -1074641653027353493
+      Keyboard_And_Mouse_Outline_248: 6947404309211362300
+      Keyboard_And_Mouse_Outline_249: 8963150687629658309
+      Keyboard_And_Mouse_Outline_25: -4155602692021006485
+      Keyboard_And_Mouse_Outline_250: -7302877370925829605
+      Keyboard_And_Mouse_Outline_251: 6050417521676638153
+      Keyboard_And_Mouse_Outline_252: 971113952146397499
+      Keyboard_And_Mouse_Outline_253: -2045963813613790028
+      Keyboard_And_Mouse_Outline_254: 7123456089615014806
+      Keyboard_And_Mouse_Outline_255: -9193382829337084317
+      Keyboard_And_Mouse_Outline_256: 932975460615466885
+      Keyboard_And_Mouse_Outline_257: -1500037927703625875
+      Keyboard_And_Mouse_Outline_258: -8290854584293262402
+      Keyboard_And_Mouse_Outline_259: -5814905712245272364
+      Keyboard_And_Mouse_Outline_26: 8145521312150344754
+      Keyboard_And_Mouse_Outline_27: 4463836712027088288
+      Keyboard_And_Mouse_Outline_28: -2753614850923213053
+      Keyboard_And_Mouse_Outline_29: 1744230969807730523
+      Keyboard_And_Mouse_Outline_3: 5696804612436847670
+      Keyboard_And_Mouse_Outline_30: 7681005819599668797
+      Keyboard_And_Mouse_Outline_31: -1974920788371839196
+      Keyboard_And_Mouse_Outline_32: -7234156990691677338
+      Keyboard_And_Mouse_Outline_33: -658337604755902868
+      Keyboard_And_Mouse_Outline_34: 3287177300014916543
+      Keyboard_And_Mouse_Outline_35: 5273241364527160037
+      Keyboard_And_Mouse_Outline_36: 5176574445030730063
+      Keyboard_And_Mouse_Outline_37: 603724083022661615
+      Keyboard_And_Mouse_Outline_38: 6287622009869318779
+      Keyboard_And_Mouse_Outline_39: -3814289935927996594
+      Keyboard_And_Mouse_Outline_4: -9181347165959079078
+      Keyboard_And_Mouse_Outline_40: 3083199054314596238
+      Keyboard_And_Mouse_Outline_41: -5364195265187555784
+      Keyboard_And_Mouse_Outline_42: -156968046066240748
+      Keyboard_And_Mouse_Outline_43: 7787822000641096357
+      Keyboard_And_Mouse_Outline_44: 8395273667909731318
+      Keyboard_And_Mouse_Outline_45: -2639107720200794618
+      Keyboard_And_Mouse_Outline_46: 5781773113019677158
+      Keyboard_And_Mouse_Outline_47: -5898627536903908951
+      Keyboard_And_Mouse_Outline_48: -2214873928041035777
+      Keyboard_And_Mouse_Outline_49: 7582424271401364200
+      Keyboard_And_Mouse_Outline_5: 3244533215461051533
+      Keyboard_And_Mouse_Outline_50: 8246366268105298605
+      Keyboard_And_Mouse_Outline_51: -6351906733918510988
+      Keyboard_And_Mouse_Outline_52: 8013195391052860522
+      Keyboard_And_Mouse_Outline_53: -4122220407458963375
+      Keyboard_And_Mouse_Outline_54: 9210203110657917646
+      Keyboard_And_Mouse_Outline_55: 8249070114431477166
+      Keyboard_And_Mouse_Outline_56: -6378405707635307426
+      Keyboard_And_Mouse_Outline_57: 4206299957429951356
+      Keyboard_And_Mouse_Outline_58: 3800984894203827790
+      Keyboard_And_Mouse_Outline_59: -8916533417801600627
+      Keyboard_And_Mouse_Outline_6: -6026999439204833683
+      Keyboard_And_Mouse_Outline_60: -2414373303587246101
+      Keyboard_And_Mouse_Outline_61: -2240971032444374936
+      Keyboard_And_Mouse_Outline_62: 542768771535766074
+      Keyboard_And_Mouse_Outline_63: 2058022847328637099
+      Keyboard_And_Mouse_Outline_64: -5081569440587538648
+      Keyboard_And_Mouse_Outline_65: -2750344651915409513
+      Keyboard_And_Mouse_Outline_66: -898744200498673761
+      Keyboard_And_Mouse_Outline_67: -6095124037249399262
+      Keyboard_And_Mouse_Outline_68: -517016041967579463
+      Keyboard_And_Mouse_Outline_69: -1289791189948824893
+      Keyboard_And_Mouse_Outline_7: 3416110681493562423
+      Keyboard_And_Mouse_Outline_70: -2733611370724414367
+      Keyboard_And_Mouse_Outline_71: 4113156722637719659
+      Keyboard_And_Mouse_Outline_72: -5819253431171064865
+      Keyboard_And_Mouse_Outline_73: 6032637788910590386
+      Keyboard_And_Mouse_Outline_74: 366381051278860815
+      Keyboard_And_Mouse_Outline_75: 5887036950088746368
+      Keyboard_And_Mouse_Outline_76: -9100983966988609751
+      Keyboard_And_Mouse_Outline_77: -3493951059266793602
+      Keyboard_And_Mouse_Outline_78: 2080896714424307380
+      Keyboard_And_Mouse_Outline_79: -3152729524580522528
+      Keyboard_And_Mouse_Outline_8: 5410542544090174743
+      Keyboard_And_Mouse_Outline_80: -634360152265219786
+      Keyboard_And_Mouse_Outline_81: -7510746166232083953
+      Keyboard_And_Mouse_Outline_82: 6929997318308725429
+      Keyboard_And_Mouse_Outline_83: 2469033661527668296
+      Keyboard_And_Mouse_Outline_84: 921264602549769596
+      Keyboard_And_Mouse_Outline_85: 6131622557134034426
+      Keyboard_And_Mouse_Outline_86: -724561998765951844
+      Keyboard_And_Mouse_Outline_87: -5839287512864940346
+      Keyboard_And_Mouse_Outline_88: -8229161929787173556
+      Keyboard_And_Mouse_Outline_89: -2585168501720139041
+      Keyboard_And_Mouse_Outline_9: 7456562116984553329
+      Keyboard_And_Mouse_Outline_90: -3040358297556472227
+      Keyboard_And_Mouse_Outline_91: -5356375514333652960
+      Keyboard_And_Mouse_Outline_92: -4752775641414044006
+      Keyboard_And_Mouse_Outline_93: -5914719998857674023
+      Keyboard_And_Mouse_Outline_94: -5519107961666433634
+      Keyboard_And_Mouse_Outline_95: -3811098579863772856
+      Keyboard_And_Mouse_Outline_96: -3989294339874251371
+      Keyboard_And_Mouse_Outline_97: -2513348384548700753
+      Keyboard_And_Mouse_Outline_98: -1134049144195898628
+      Keyboard_And_Mouse_Outline_99: -3506875694749275069
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

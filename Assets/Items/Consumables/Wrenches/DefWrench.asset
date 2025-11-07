@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Item
   displayName: Common Mana Potion
   description: 
-  icon: {fileID: 3510390449893082495, guid: cac5c5ebe4ea5324a9873523e83a61b1, type: 3}
+  icon: {fileID: -3343255014438747440, guid: 7b184c8ce90b1eb49a47c74c78f4d3e6, type: 3}
   rarity: 2
   kind: 0
   isEquippable: 0

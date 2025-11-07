@@ -1,0 +1,4667 @@
+fileFormatVersion: 2
+guid: 73c4beb1777d36d4f85f4b391abf3201
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6483460941222371921
+    second: Controllers_Outline_0
+  - first:
+      213: 4359404029486978573
+    second: Controllers_Outline_1
+  - first:
+      213: 2897766864184715044
+    second: Controllers_Outline_2
+  - first:
+      213: -7321070013540140749
+    second: Controllers_Outline_3
+  - first:
+      213: 6458236501432619774
+    second: Controllers_Outline_4
+  - first:
+      213: 7985047578675665630
+    second: Controllers_Outline_5
+  - first:
+      213: 1946950332240565108
+    second: Controllers_Outline_6
+  - first:
+      213: -4513580197622691165
+    second: Controllers_Outline_7
+  - first:
+      213: 2866876699291390476
+    second: Controllers_Outline_8
+  - first:
+      213: -5882881150343418455
+    second: Controllers_Outline_9
+  - first:
+      213: -1051959381611337603
+    second: Controllers_Outline_10
+  - first:
+      213: -1744906494098495296
+    second: Controllers_Outline_11
+  - first:
+      213: -4724635270501175217
+    second: Controllers_Outline_12
+  - first:
+      213: -4583516329157680198
+    second: Controllers_Outline_13
+  - first:
+      213: 6948047058588327918
+    second: Controllers_Outline_14
+  - first:
+      213: 497854534834866135
+    second: Controllers_Outline_15
+  - first:
+      213: 6032712823474587173
+    second: Controllers_Outline_16
+  - first:
+      213: 5468539526454999820
+    second: Controllers_Outline_17
+  - first:
+      213: -1907539952046478412
+    second: Controllers_Outline_18
+  - first:
+      213: 8095112517251630885
+    second: Controllers_Outline_19
+  - first:
+      213: 216032239273020908
+    second: Controllers_Outline_20
+  - first:
+      213: -4297142044677437167
+    second: Controllers_Outline_21
+  - first:
+      213: 1476859023045780194
+    second: Controllers_Outline_22
+  - first:
+      213: 5009893255078419735
+    second: Controllers_Outline_23
+  - first:
+      213: -7873173485094072493
+    second: Controllers_Outline_24
+  - first:
+      213: -3523611661493560291
+    second: Controllers_Outline_25
+  - first:
+      213: 8129432898762769876
+    second: Controllers_Outline_26
+  - first:
+      213: 4771771900699583116
+    second: Controllers_Outline_27
+  - first:
+      213: 5197296480308797801
+    second: Controllers_Outline_28
+  - first:
+      213: 6954285213049283568
+    second: Controllers_Outline_29
+  - first:
+      213: -3907398068714992136
+    second: Controllers_Outline_30
+  - first:
+      213: 8492444624174588925
+    second: Controllers_Outline_31
+  - first:
+      213: 4440918491579211927
+    second: Controllers_Outline_32
+  - first:
+      213: 2317099436321962919
+    second: Controllers_Outline_33
+  - first:
+      213: -6124735052557886928
+    second: Controllers_Outline_34
+  - first:
+      213: -4279152400680548843
+    second: Controllers_Outline_35
+  - first:
+      213: 7478591266158573293
+    second: Controllers_Outline_36
+  - first:
+      213: -2683201297178939365
+    second: Controllers_Outline_37
+  - first:
+      213: -4321906333171608142
+    second: Controllers_Outline_38
+  - first:
+      213: 643329944054349917
+    second: Controllers_Outline_39
+  - first:
+      213: 7993711457064342852
+    second: Controllers_Outline_40
+  - first:
+      213: -3765069645857066205
+    second: Controllers_Outline_41
+  - first:
+      213: -5210443491237421743
+    second: Controllers_Outline_42
+  - first:
+      213: -2081802873354262422
+    second: Controllers_Outline_43
+  - first:
+      213: -2274537049777967062
+    second: Controllers_Outline_44
+  - first:
+      213: -7828406882086661694
+    second: Controllers_Outline_45
+  - first:
+      213: -2426011381301155377
+    second: Controllers_Outline_46
+  - first:
+      213: -1668424669477778534
+    second: Controllers_Outline_47
+  - first:
+      213: 3084447862246287518
+    second: Controllers_Outline_48
+  - first:
+      213: 5489560877897175577
+    second: Controllers_Outline_49
+  - first:
+      213: -5643391793959218682
+    second: Controllers_Outline_50
+  - first:
+      213: 2189257259484149031
+    second: Controllers_Outline_51
+  - first:
+      213: -6897071406935771722
+    second: Controllers_Outline_52
+  - first:
+      213: -5397387806767003607
+    second: Controllers_Outline_53
+  - first:
+      213: 4835086348311214613
+    second: Controllers_Outline_54
+  - first:
+      213: 4996568247297779535
+    second: Controllers_Outline_55
+  - first:
+      213: 4041155920767750362
+    second: Controllers_Outline_56
+  - first:
+      213: -1984720800980559263
+    second: Controllers_Outline_57
+  - first:
+      213: -3909260158677488207
+    second: Controllers_Outline_58
+  - first:
+      213: 8068319581213454257
+    second: Controllers_Outline_59
+  - first:
+      213: -5491638038387342397
+    second: Controllers_Outline_60
+  - first:
+      213: 8948929680545572193
+    second: Controllers_Outline_61
+  - first:
+      213: 4733042272739319707
+    second: Controllers_Outline_62
+  - first:
+      213: -1413947116073536533
+    second: Controllers_Outline_63
+  - first:
+      213: 2424989352141099360
+    second: Controllers_Outline_64
+  - first:
+      213: -6476746856586780409
+    second: Controllers_Outline_65
+  - first:
+      213: 4514511625384396197
+    second: Controllers_Outline_66
+  - first:
+      213: 6705531647989123132
+    second: Controllers_Outline_67
+  - first:
+      213: 3889668564824635338
+    second: Controllers_Outline_68
+  - first:
+      213: -4554117941834212934
+    second: Controllers_Outline_69
+  - first:
+      213: 532789464971332023
+    second: Controllers_Outline_70
+  - first:
+      213: 6924594134492354172
+    second: Controllers_Outline_71
+  - first:
+      213: -1697487187011139987
+    second: Controllers_Outline_72
+  - first:
+      213: 6544038089836572438
+    second: Controllers_Outline_73
+  - first:
+      213: 5810004534816108237
+    second: Controllers_Outline_74
+  - first:
+      213: -6626725259119955044
+    second: Controllers_Outline_75
+  - first:
+      213: 5212942436893789126
+    second: Controllers_Outline_76
+  - first:
+      213: -4527935056852602788
+    second: Controllers_Outline_77
+  - first:
+      213: 2854423184974354211
+    second: Controllers_Outline_78
+  - first:
+      213: -3026086116077630909
+    second: Controllers_Outline_79
+  - first:
+      213: -3059873437275510386
+    second: Controllers_Outline_80
+  - first:
+      213: -8885932666768569414
+    second: Controllers_Outline_81
+  - first:
+      213: 8401978380280400113
+    second: Controllers_Outline_82
+  - first:
+      213: -7856428625551641783
+    second: Controllers_Outline_83
+  - first:
+      213: -3269241621353504111
+    second: Controllers_Outline_84
+  - first:
+      213: 3485096251823855961
+    second: Controllers_Outline_85
+  - first:
+      213: 2281221901112219386
+    second: Controllers_Outline_86
+  - first:
+      213: 4881212976279404840
+    second: Controllers_Outline_87
+  - first:
+      213: -7990847859849347227
+    second: Controllers_Outline_88
+  - first:
+      213: -4047455521840211492
+    second: Controllers_Outline_89
+  - first:
+      213: -946847461900725067
+    second: Controllers_Outline_90
+  - first:
+      213: 9154019772414809169
+    second: Controllers_Outline_91
+  - first:
+      213: -1020109447514255399
+    second: Controllers_Outline_92
+  - first:
+      213: -8091831607230978367
+    second: Controllers_Outline_93
+  - first:
+      213: -828910124166222747
+    second: Controllers_Outline_94
+  - first:
+      213: 2126640491107097406
+    second: Controllers_Outline_95
+  - first:
+      213: 6928832464101344310
+    second: Controllers_Outline_96
+  - first:
+      213: -4976556738658215140
+    second: Controllers_Outline_97
+  - first:
+      213: -4492343787451770579
+    second: Controllers_Outline_98
+  - first:
+      213: -1898063314177168225
+    second: Controllers_Outline_99
+  - first:
+      213: -699995203337141720
+    second: Controllers_Outline_100
+  - first:
+      213: 3736356327159421429
+    second: Controllers_Outline_101
+  - first:
+      213: -5306892466818643277
+    second: Controllers_Outline_102
+  - first:
+      213: 393320788307212278
+    second: Controllers_Outline_103
+  - first:
+      213: 7971399929429417072
+    second: Controllers_Outline_104
+  - first:
+      213: -5036648640789268966
+    second: Controllers_Outline_105
+  - first:
+      213: 8421714598538138515
+    second: Controllers_Outline_106
+  - first:
+      213: -8071586050520285049
+    second: Controllers_Outline_107
+  - first:
+      213: 431922840649298915
+    second: Controllers_Outline_108
+  - first:
+      213: 6554941409308051011
+    second: Controllers_Outline_109
+  - first:
+      213: -4327915081835399985
+    second: Controllers_Outline_110
+  - first:
+      213: 3473021238391631349
+    second: Controllers_Outline_111
+  - first:
+      213: -5233888558310070979
+    second: Controllers_Outline_112
+  - first:
+      213: 7030968107840241634
+    second: Controllers_Outline_113
+  - first:
+      213: 7755621492270884593
+    second: Controllers_Outline_114
+  - first:
+      213: 8987008316335835619
+    second: Controllers_Outline_115
+  - first:
+      213: 8992718986825444375
+    second: Controllers_Outline_116
+  - first:
+      213: -1241646002566093453
+    second: Controllers_Outline_117
+  - first:
+      213: 8157360000538527794
+    second: Controllers_Outline_118
+  - first:
+      213: -4708543235273605638
+    second: Controllers_Outline_119
+  - first:
+      213: -529739422446257935
+    second: Controllers_Outline_120
+  - first:
+      213: -5772249879318117515
+    second: Controllers_Outline_121
+  - first:
+      213: -4663126978637421010
+    second: Controllers_Outline_122
+  - first:
+      213: -6879036898028780190
+    second: Controllers_Outline_123
+  - first:
+      213: 6350568297303532338
+    second: Controllers_Outline_124
+  - first:
+      213: -6302593887268832994
+    second: Controllers_Outline_125
+  - first:
+      213: 9080743615572856835
+    second: Controllers_Outline_126
+  - first:
+      213: 6167968474876327815
+    second: Controllers_Outline_127
+  - first:
+      213: 6449940788706524593
+    second: Controllers_Outline_128
+  - first:
+      213: 3923703359771777716
+    second: Controllers_Outline_129
+  - first:
+      213: 4334862159005171533
+    second: Controllers_Outline_130
+  - first:
+      213: 4107533346230263476
+    second: Controllers_Outline_131
+  - first:
+      213: 1428523004562552162
+    second: Controllers_Outline_132
+  - first:
+      213: -1599971284011035384
+    second: Controllers_Outline_133
+  - first:
+      213: -5863914953451186443
+    second: Controllers_Outline_134
+  - first:
+      213: 30594804940149723
+    second: Controllers_Outline_135
+  - first:
+      213: -7074131536633925348
+    second: Controllers_Outline_136
+  - first:
+      213: 4443674487627320296
+    second: Controllers_Outline_137
+  - first:
+      213: 4974304057856793583
+    second: Controllers_Outline_138
+  - first:
+      213: 4751760263940136299
+    second: Controllers_Outline_139
+  - first:
+      213: -1988253283925187735
+    second: Controllers_Outline_140
+  - first:
+      213: 2863886986821361535
+    second: Controllers_Outline_141
+  - first:
+      213: -6635749182891717976
+    second: Controllers_Outline_142
+  - first:
+      213: -3583905781292709770
+    second: Controllers_Outline_143
+  - first:
+      213: 4564556507985701674
+    second: Controllers_Outline_144
+  - first:
+      213: -471466552899373616
+    second: Controllers_Outline_145
+  - first:
+      213: -6572853548921920146
+    second: Controllers_Outline_146
+  - first:
+      213: -7861482541116924605
+    second: Controllers_Outline_147
+  - first:
+      213: 5609443705708737408
+    second: Controllers_Outline_148
+  - first:
+      213: 6973964713454051505
+    second: Controllers_Outline_149
+  - first:
+      213: 5451027436607065056
+    second: Controllers_Outline_150
+  - first:
+      213: -1099031713473984182
+    second: Controllers_Outline_151
+  - first:
+      213: 8869693586281001934
+    second: Controllers_Outline_152
+  - first:
+      213: -516453330526387066
+    second: Controllers_Outline_153
+  - first:
+      213: 5697160609647049957
+    second: Controllers_Outline_154
+  - first:
+      213: 5347639750948546264
+    second: Controllers_Outline_155
+  - first:
+      213: 1933281702870033062
+    second: Controllers_Outline_156
+  - first:
+      213: -5132268811859102229
+    second: Controllers_Outline_157
+  - first:
+      213: 1279660530353980782
+    second: Controllers_Outline_158
+  - first:
+      213: -4259370095773714209
+    second: Controllers_Outline_159
+  - first:
+      213: 9195122762404149941
+    second: Controllers_Outline_160
+  - first:
+      213: -2010826679997452626
+    second: Controllers_Outline_161
+  - first:
+      213: -42978693928566971
+    second: Controllers_Outline_162
+  - first:
+      213: -1286909722170454937
+    second: Controllers_Outline_163
+  - first:
+      213: -6453392074062687659
+    second: Controllers_Outline_164
+  - first:
+      213: 5601247786577700787
+    second: Controllers_Outline_165
+  - first:
+      213: -5198121416793358368
+    second: Controllers_Outline_166
+  - first:
+      213: -2135026568275012503
+    second: Controllers_Outline_167
+  - first:
+      213: -5453380279331298822
+    second: Controllers_Outline_168
+  - first:
+      213: 4145786692089271222
+    second: Controllers_Outline_169
+  - first:
+      213: -2566580078185885788
+    second: Controllers_Outline_170
+  - first:
+      213: 7430570944755780762
+    second: Controllers_Outline_171
+  - first:
+      213: -5619681261379198750
+    second: Controllers_Outline_172
+  - first:
+      213: -4866605411760841863
+    second: Controllers_Outline_173
+  - first:
+      213: 5641394933670842034
+    second: Controllers_Outline_174
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Controllers_Outline_0
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 319
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152edac0061e9f950800000000000000
+      internalID: 6483460941222371921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_1
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 311
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d065af12ed6bf7c30800000000000000
+      internalID: 4359404029486978573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427a0a52c9fe63820800000000000000
+      internalID: 2897766864184715044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_3
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 311
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339fc238c95566a90800000000000000
+      internalID: -7321070013540140749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_4
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 311
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef25a5f71e340a950800000000000000
+      internalID: 6458236501432619774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_5
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 319
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda5e89577690de60800000000000000
+      internalID: 7985047578675665630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_6
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 311
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47317840305f40b10800000000000000
+      internalID: 1946950332240565108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_7
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 311
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa467769ba8c51c0800000000000000
+      internalID: -4513580197622691165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_8
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 311
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c029b1c2b2139c720800000000000000
+      internalID: 2866876699291390476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_9
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 311
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad60f933cecb5ea0800000000000000
+      internalID: -5882881150343418455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_10
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 311
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78aae41480b661f0800000000000000
+      internalID: -1051959381611337603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_11
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 319
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8acfcd9c8d8c7e0800000000000000
+      internalID: -1744906494098495296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_12
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 319
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40fe70f049be6eb0800000000000000
+      internalID: -4724635270501175217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_13
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 319
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3aa52ee241460c0800000000000000
+      internalID: -4583516329157680198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_14
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 319
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefdad9ccfb6c6060800000000000000
+      internalID: 6948047058588327918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_15
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 287
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d746aacf0cb8e600800000000000000
+      internalID: 497854534834866135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_16
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 287
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526852ba95088b350800000000000000
+      internalID: 6032712823474587173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_17
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 287
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b788ac9b724eb40800000000000000
+      internalID: 5468539526454999820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_18
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb676b258e0785e0800000000000000
+      internalID: -1907539952046478412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_19
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5270a97d1fd975070800000000000000
+      internalID: 8095112517251630885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_20
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 303
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced86e15d208ff200800000000000000
+      internalID: 216032239273020908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_21
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 303
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1190b9dd31c7d54c0800000000000000
+      internalID: -4297142044677437167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_22
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 303
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e269fbe47bde7410800000000000000
+      internalID: 1476859023045780194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_23
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 303
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d13973f57b68540800000000000000
+      internalID: 5009893255078419735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 285
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f81fddd6edcb290800000000000000
+      internalID: -7873173485094072493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_25
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 285
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c904edcdd991fc0800000000000000
+      internalID: -3523611661493560291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_26
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 279
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5012c562c81d070800000000000000
+      internalID: 8129432898762769876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_27
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82a362034db83240800000000000000
+      internalID: 4771771900699583116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_28
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 279
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961a135cc91802840800000000000000
+      internalID: 5197296480308797801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_29
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 279
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3ed8e4e85928060800000000000000
+      internalID: 6954285213049283568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_30
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 287
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd0236a82226c9c0800000000000000
+      internalID: -3907398068714992136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_31
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 279
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df32a9a04693bd570800000000000000
+      internalID: 8492444624174588925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_32
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 279
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790ea0fc6df41ad30800000000000000
+      internalID: 4440918491579211927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_33
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 279
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab7a3b29adf72020800000000000000
+      internalID: 2317099436321962919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_34
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 279
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a57e08be1900ba0800000000000000
+      internalID: -6124735052557886928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_35
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 279
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5160da140956d94c0800000000000000
+      internalID: -4279152400680548843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_36
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 287
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de678bf122b49c760800000000000000
+      internalID: 7478591266158573293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_37
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 287
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1038cce2aa53cad0800000000000000
+      internalID: -2683201297178939365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_38
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 287
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b59bc2a6118504c0800000000000000
+      internalID: -4321906333171608142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_39
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 287
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d504bb4fc219de800800000000000000
+      internalID: 643329944054349917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_40
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 265
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4455a4bb73e5fee60800000000000000
+      internalID: 7993711457064342852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_41
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 265
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3237514fa19cfbbc0800000000000000
+      internalID: -3765069645857066205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_42
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 266
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d1c863049c0b7b0800000000000000
+      internalID: -5210443491237421743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_43
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 265
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68e4590153fb13e0800000000000000
+      internalID: -2081802873354262422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_44
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 265
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a20f48faa983f60e0800000000000000
+      internalID: -2274537049777967062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_45
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 266
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1500cda69eb5390800000000000000
+      internalID: -7828406882086661694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_46
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 255
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc96d749083155ed0800000000000000
+      internalID: -2426011381301155377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_47
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b47415a9098d8e0800000000000000
+      internalID: -1668424669477778534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_48
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9827651df82eca20800000000000000
+      internalID: 3084447862246287518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_49
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 271
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91251f39886de2c40800000000000000
+      internalID: 5489560877897175577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_50
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 271
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602d4b83015aea1b0800000000000000
+      internalID: -5643391793959218682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_51
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 271
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7257f79d0edc16e10800000000000000
+      internalID: 2189257259484149031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_52
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 271
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5f61ff81ea840a0800000000000000
+      internalID: -6897071406935771722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_53
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 247
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928c0a6e260a815b0800000000000000
+      internalID: -5397387806767003607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_54
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 247
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a3e699a6da91340800000000000000
+      internalID: 4835086348311214613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_55
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 255
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f472e241950675540800000000000000
+      internalID: 4996568247297779535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_56
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 239
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0145326e1151830800000000000000
+      internalID: 4041155920767750362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_57
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 239
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a993f62fad474e0800000000000000
+      internalID: -1984720800980559263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_58
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 239
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bde07b09948fb9c0800000000000000
+      internalID: -3909260158677488207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_59
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 221
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf6e8c49ed68ff60800000000000000
+      internalID: 8068319581213454257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_60
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 221
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c346eecc48c9c3b0800000000000000
+      internalID: -5491638038387342397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_61
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 223
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1656ed8812cf03c70800000000000000
+      internalID: 8948929680545572193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_62
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 199
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9fd88dced42fa140800000000000000
+      internalID: 4733042272739319707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_63
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 201
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3bf3fd696a06ce0800000000000000
+      internalID: -1413947116073536533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_64
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 201
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0619976b7fa47a120800000000000000
+      internalID: 2424989352141099360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_65
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 202
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70164099c09fd16a0800000000000000
+      internalID: -6476746856586780409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_66
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 201
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a588658764c6ae30800000000000000
+      internalID: 4514511625384396197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_67
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 201
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c380884a185de0d50800000000000000
+      internalID: 6705531647989123132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_68
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 202
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7306c83f0eaf530800000000000000
+      internalID: 3889668564824635338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_69
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 199
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab91db35cd58cc0c0800000000000000
+      internalID: -4554117941834212934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_70
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 199
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9cfaf0239d46700800000000000000
+      internalID: 532789464971332023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_71
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 199
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c769b206da9191060800000000000000
+      internalID: 6924594134492354172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_72
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 199
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d668c67a5605178e0800000000000000
+      internalID: -1697487187011139987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_73
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 199
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61fa55d88f711da50800000000000000
+      internalID: 6544038089836572438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_74
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 199
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce6f19775841a050800000000000000
+      internalID: 5810004534816108237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_75
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 183
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93fb0a9c742904a0800000000000000
+      internalID: -6626725259119955044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_76
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 183
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb0d99e687185840800000000000000
+      internalID: 5212942436893789126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_77
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 167
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50334a4e0b8921c0800000000000000
+      internalID: -4527935056852602788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_78
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 167
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327190b63c2fc9720800000000000000
+      internalID: 2854423184974354211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_79
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 167
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a8377d5be2106d0800000000000000
+      internalID: -3026086116077630909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_80
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 191
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e892a8912552985d0800000000000000
+      internalID: -3059873437275510386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_81
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 183
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb483bb153dea480800000000000000
+      internalID: -8885932666768569414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_82
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 191
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8002f32d2d99470800000000000000
+      internalID: 8401978380280400113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_83
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 191
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943b8ca4acb58f290800000000000000
+      internalID: -7856428625551641783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_84
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 183
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1926d4a011251a2d0800000000000000
+      internalID: -3269241621353504111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_85
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 191
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9599102839c8d5030800000000000000
+      internalID: 3485096251823855961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_86
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 191
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af692ad8b3788af10800000000000000
+      internalID: 2281221901112219386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_87
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 191
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8214924175d8db340800000000000000
+      internalID: 4881212976279404840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_88
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 191
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f3d73753eca1190800000000000000
+      internalID: -7990847859849347227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_89
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 191
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd95580b5ac84d7c0800000000000000
+      internalID: -4047455521840211492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_90
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 183
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b45de0004f1cd2f0800000000000000
+      internalID: -946847461900725067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_91
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 183
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154dfa1ab7c990f70800000000000000
+      internalID: 9154019772414809169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_92
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 183
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df84ecbcd7d7d1f0800000000000000
+      internalID: -1020109447514255399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_93
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 183
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c628bc860a04bf80800000000000000
+      internalID: -8091831607230978367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_94
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ce85242ae1f74f0800000000000000
+      internalID: -828910124166222747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_95
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 167
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b966d5248538d10800000000000000
+      internalID: 2126640491107097406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_96
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63484f26a68282060800000000000000
+      internalID: 6928832464101344310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_97
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b53bb5308bfeab0800000000000000
+      internalID: -4976556738658215140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_98
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 167
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d291104702df7a1c0800000000000000
+      internalID: -4492343787451770579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_99
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ce44dd879b8a5e0800000000000000
+      internalID: -1898063314177168225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_100
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 159
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822cc90421e1946f0800000000000000
+      internalID: -699995203337141720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_101
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 159
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9de9298443ad330800000000000000
+      internalID: 3736356327159421429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_102
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 159
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba04162b612a56b0800000000000000
+      internalID: -5306892466818643277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_103
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 159
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7f3dd4c2b557500800000000000000
+      internalID: 393320788307212278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_104
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 167
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cd634600a10ae60800000000000000
+      internalID: 7971399929429417072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_105
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 167
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a163d4b1fba3a1ab0800000000000000
+      internalID: -5036648640789268966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_106
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 167
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3935695aec0ffd470800000000000000
+      internalID: 8421714598538138515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_107
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 167
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7808dbc8047fbff80800000000000000
+      internalID: -8071586050520285049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_108
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 135
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3774ff88f7ef500800000000000000
+      internalID: 431922840649298915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_109
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 151
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3460e417b74d7fa50800000000000000
+      internalID: 6554941409308051011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_110
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 151
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc43521d92820f3c0800000000000000
+      internalID: -4327915081835399985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_111
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 151
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd68bb5a66a23030800000000000000
+      internalID: 3473021238391631349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_112
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 151
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3562f7261e7d57b0800000000000000
+      internalID: -5233888558310070979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_113
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 151
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2effaee0e34039160800000000000000
+      internalID: 7030968107840241634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_114
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 151
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6e03bf7a081ab60800000000000000
+      internalID: 7755621492270884593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_115
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 87
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9cda0d27448bc70800000000000000
+      internalID: 8987008316335835619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_116
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 95
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c24a6e54e8ccc70800000000000000
+      internalID: 8992718986825444375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_117
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 87
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375a3480a89c4cee0800000000000000
+      internalID: -1241646002566093453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_118
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238441173b3c43170800000000000000
+      internalID: 8157360000538527794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_119
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 71
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afdb2fbdfd4e7aeb0800000000000000
+      internalID: -4708543235273605638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_120
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 79
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8f19d4dccf5a8f0800000000000000
+      internalID: -529739422446257935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_121
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 71
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573c3744159d4efa0800000000000000
+      internalID: -5772249879318117515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_122
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 71
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26a6cf18be394fb0800000000000000
+      internalID: -4663126978637421010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_123
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 79
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26580305360c880a0800000000000000
+      internalID: -6879036898028780190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_124
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 71
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23362aa3830c12850800000000000000
+      internalID: 6350568297303532338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_125
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 73
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19fac98040b888a0800000000000000
+      internalID: -6302593887268832994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_126
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300dd9ed438450e70800000000000000
+      internalID: 9080743615572856835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_127
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 73
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787bfca06a6099550800000000000000
+      internalID: 6167968474876327815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_128
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdb72d59fac28950800000000000000
+      internalID: 6449940788706524593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_129
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 79
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba1433ca6bc37630800000000000000
+      internalID: 3923703359771777716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_130
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 79
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f39c1aa26882c30800000000000000
+      internalID: 4334862159005171533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_131
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 79
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be5025d0d3e00930800000000000000
+      internalID: 4107533346230263476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_132
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 79
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265bc60aa1223d310800000000000000
+      internalID: 1428523004562552162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_133
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 55
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80552bd1892cbc9e0800000000000000
+      internalID: -1599971284011035384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_134
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 63
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6d07e0b603f9ea0800000000000000
+      internalID: -5863914953451186443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_135
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd31e6020d1bc6000800000000000000
+      internalID: 30594804940149723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_136
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11fb8809d2a3dd90800000000000000
+      internalID: -7074131536633925348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_137
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 63
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb0e74276a1bad30800000000000000
+      internalID: 4443674487627320296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_138
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb96558f27480540800000000000000
+      internalID: 4974304057856793583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_139
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6dd7fdb8c4a1f140800000000000000
+      internalID: 4751760263940136299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_140
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 63
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963a2282c2e4864e0800000000000000
+      internalID: -1988253283925187735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_141
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 55
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7fd95e7a029eb720800000000000000
+      internalID: 2863886986821361535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_142
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 63
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa862f964519e3a0800000000000000
+      internalID: -6635749182891717976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_143
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 63
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67844952ea8634ec0800000000000000
+      internalID: -3583905781292709770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_144
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 63
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b6fafb5ff885f30800000000000000
+      internalID: 4564556507985701674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_145
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 63
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d574f60ba30579f0800000000000000
+      internalID: -471466552899373616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_146
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 63
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65e7df858888c4a0800000000000000
+      internalID: -6572853548921920146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_147
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 63
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d5ac0e74766e290800000000000000
+      internalID: -7861482541116924605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_148
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 47
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083f15a845fb8dd40800000000000000
+      internalID: 5609443705708737408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_149
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 47
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0a98d05ff78c060800000000000000
+      internalID: 6973964713454051505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_150
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 47
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb4fd3a290f5ab40800000000000000
+      internalID: 5451027436607065056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_151
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 39
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a498e71ca747fb0f0800000000000000
+      internalID: -1099031713473984182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_152
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 47
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3f6d4b25b771b70800000000000000
+      internalID: 8869693586281001934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_153
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 39
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68448e2ae6035d8f0800000000000000
+      internalID: -516453330526387066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_154
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 39
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec3c5eb361601f40800000000000000
+      internalID: 5697160609647049957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_155
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 47
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6eb0e3502a63a40800000000000000
+      internalID: 5347639750948546264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_156
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 39
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2a45e377564da10800000000000000
+      internalID: 1933281702870033062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_157
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 41
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5725125b486c8b0800000000000000
+      internalID: -5132268811859102229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_158
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 39
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6546d0f87442c110800000000000000
+      internalID: 1279660530353980782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_159
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 41
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd87c7a077da3e4c0800000000000000
+      internalID: -4259370095773714209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_160
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 39
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba353f3f63ab9f70800000000000000
+      internalID: 9195122762404149941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_161
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 47
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaeafd1d9cb1814e0800000000000000
+      internalID: -2010826679997452626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_162
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 47
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f3a770b1f476ff0800000000000000
+      internalID: -42978693928566971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_163
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 47
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c88001d6af32ee0800000000000000
+      internalID: -1286909722170454937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_164
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 47
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5521c25a912f076a0800000000000000
+      internalID: -6453392074062687659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_165
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 23
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b728e96f21abbd40800000000000000
+      internalID: 5601247786577700787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_166
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef7eacbc109cd7b0800000000000000
+      internalID: -5198121416793358368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_167
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 23
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96452f3e5acde52e0800000000000000
+      internalID: -2135026568275012503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_168
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 31
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af166597783b154b0800000000000000
+      internalID: -5453380279331298822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_169
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 31
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3d588f70bc88930800000000000000
+      internalID: 4145786692089271222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_170
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 31
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4afc228640da16cd0800000000000000
+      internalID: -2566580078185885788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_171
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 31
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cc188c7e0be1760800000000000000
+      internalID: 7430570944755780762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_172
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 31
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0e298caa1e202b0800000000000000
+      internalID: -5619681261379198750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_173
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 31
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b50029928567cb0800000000000000
+      internalID: -4866605411760841863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controllers_Outline_174
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 7
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be83238dc24a4e40800000000000000
+      internalID: 5641394933670842034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Controllers_Outline_0: 6483460941222371921
+      Controllers_Outline_1: 4359404029486978573
+      Controllers_Outline_10: -1051959381611337603
+      Controllers_Outline_100: -699995203337141720
+      Controllers_Outline_101: 3736356327159421429
+      Controllers_Outline_102: -5306892466818643277
+      Controllers_Outline_103: 393320788307212278
+      Controllers_Outline_104: 7971399929429417072
+      Controllers_Outline_105: -5036648640789268966
+      Controllers_Outline_106: 8421714598538138515
+      Controllers_Outline_107: -8071586050520285049
+      Controllers_Outline_108: 431922840649298915
+      Controllers_Outline_109: 6554941409308051011
+      Controllers_Outline_11: -1744906494098495296
+      Controllers_Outline_110: -4327915081835399985
+      Controllers_Outline_111: 3473021238391631349
+      Controllers_Outline_112: -5233888558310070979
+      Controllers_Outline_113: 7030968107840241634
+      Controllers_Outline_114: 7755621492270884593
+      Controllers_Outline_115: 8987008316335835619
+      Controllers_Outline_116: 8992718986825444375
+      Controllers_Outline_117: -1241646002566093453
+      Controllers_Outline_118: 8157360000538527794
+      Controllers_Outline_119: -4708543235273605638
+      Controllers_Outline_12: -4724635270501175217
+      Controllers_Outline_120: -529739422446257935
+      Controllers_Outline_121: -5772249879318117515
+      Controllers_Outline_122: -4663126978637421010
+      Controllers_Outline_123: -6879036898028780190
+      Controllers_Outline_124: 6350568297303532338
+      Controllers_Outline_125: -6302593887268832994
+      Controllers_Outline_126: 9080743615572856835
+      Controllers_Outline_127: 6167968474876327815
+      Controllers_Outline_128: 6449940788706524593
+      Controllers_Outline_129: 3923703359771777716
+      Controllers_Outline_13: -4583516329157680198
+      Controllers_Outline_130: 4334862159005171533
+      Controllers_Outline_131: 4107533346230263476
+      Controllers_Outline_132: 1428523004562552162
+      Controllers_Outline_133: -1599971284011035384
+      Controllers_Outline_134: -5863914953451186443
+      Controllers_Outline_135: 30594804940149723
+      Controllers_Outline_136: -7074131536633925348
+      Controllers_Outline_137: 4443674487627320296
+      Controllers_Outline_138: 4974304057856793583
+      Controllers_Outline_139: 4751760263940136299
+      Controllers_Outline_14: 6948047058588327918
+      Controllers_Outline_140: -1988253283925187735
+      Controllers_Outline_141: 2863886986821361535
+      Controllers_Outline_142: -6635749182891717976
+      Controllers_Outline_143: -3583905781292709770
+      Controllers_Outline_144: 4564556507985701674
+      Controllers_Outline_145: -471466552899373616
+      Controllers_Outline_146: -6572853548921920146
+      Controllers_Outline_147: -7861482541116924605
+      Controllers_Outline_148: 5609443705708737408
+      Controllers_Outline_149: 6973964713454051505
+      Controllers_Outline_15: 497854534834866135
+      Controllers_Outline_150: 5451027436607065056
+      Controllers_Outline_151: -1099031713473984182
+      Controllers_Outline_152: 8869693586281001934
+      Controllers_Outline_153: -516453330526387066
+      Controllers_Outline_154: 5697160609647049957
+      Controllers_Outline_155: 5347639750948546264
+      Controllers_Outline_156: 1933281702870033062
+      Controllers_Outline_157: -5132268811859102229
+      Controllers_Outline_158: 1279660530353980782
+      Controllers_Outline_159: -4259370095773714209
+      Controllers_Outline_16: 6032712823474587173
+      Controllers_Outline_160: 9195122762404149941
+      Controllers_Outline_161: -2010826679997452626
+      Controllers_Outline_162: -42978693928566971
+      Controllers_Outline_163: -1286909722170454937
+      Controllers_Outline_164: -6453392074062687659
+      Controllers_Outline_165: 5601247786577700787
+      Controllers_Outline_166: -5198121416793358368
+      Controllers_Outline_167: -2135026568275012503
+      Controllers_Outline_168: -5453380279331298822
+      Controllers_Outline_169: 4145786692089271222
+      Controllers_Outline_17: 5468539526454999820
+      Controllers_Outline_170: -2566580078185885788
+      Controllers_Outline_171: 7430570944755780762
+      Controllers_Outline_172: -5619681261379198750
+      Controllers_Outline_173: -4866605411760841863
+      Controllers_Outline_174: 5641394933670842034
+      Controllers_Outline_18: -1907539952046478412
+      Controllers_Outline_19: 8095112517251630885
+      Controllers_Outline_2: 2897766864184715044
+      Controllers_Outline_20: 216032239273020908
+      Controllers_Outline_21: -4297142044677437167
+      Controllers_Outline_22: 1476859023045780194
+      Controllers_Outline_23: 5009893255078419735
+      Controllers_Outline_24: -7873173485094072493
+      Controllers_Outline_25: -3523611661493560291
+      Controllers_Outline_26: 8129432898762769876
+      Controllers_Outline_27: 4771771900699583116
+      Controllers_Outline_28: 5197296480308797801
+      Controllers_Outline_29: 6954285213049283568
+      Controllers_Outline_3: -7321070013540140749
+      Controllers_Outline_30: -3907398068714992136
+      Controllers_Outline_31: 8492444624174588925
+      Controllers_Outline_32: 4440918491579211927
+      Controllers_Outline_33: 2317099436321962919
+      Controllers_Outline_34: -6124735052557886928
+      Controllers_Outline_35: -4279152400680548843
+      Controllers_Outline_36: 7478591266158573293
+      Controllers_Outline_37: -2683201297178939365
+      Controllers_Outline_38: -4321906333171608142
+      Controllers_Outline_39: 643329944054349917
+      Controllers_Outline_4: 6458236501432619774
+      Controllers_Outline_40: 7993711457064342852
+      Controllers_Outline_41: -3765069645857066205
+      Controllers_Outline_42: -5210443491237421743
+      Controllers_Outline_43: -2081802873354262422
+      Controllers_Outline_44: -2274537049777967062
+      Controllers_Outline_45: -7828406882086661694
+      Controllers_Outline_46: -2426011381301155377
+      Controllers_Outline_47: -1668424669477778534
+      Controllers_Outline_48: 3084447862246287518
+      Controllers_Outline_49: 5489560877897175577
+      Controllers_Outline_5: 7985047578675665630
+      Controllers_Outline_50: -5643391793959218682
+      Controllers_Outline_51: 2189257259484149031
+      Controllers_Outline_52: -6897071406935771722
+      Controllers_Outline_53: -5397387806767003607
+      Controllers_Outline_54: 4835086348311214613
+      Controllers_Outline_55: 4996568247297779535
+      Controllers_Outline_56: 4041155920767750362
+      Controllers_Outline_57: -1984720800980559263
+      Controllers_Outline_58: -3909260158677488207
+      Controllers_Outline_59: 8068319581213454257
+      Controllers_Outline_6: 1946950332240565108
+      Controllers_Outline_60: -5491638038387342397
+      Controllers_Outline_61: 8948929680545572193
+      Controllers_Outline_62: 4733042272739319707
+      Controllers_Outline_63: -1413947116073536533
+      Controllers_Outline_64: 2424989352141099360
+      Controllers_Outline_65: -6476746856586780409
+      Controllers_Outline_66: 4514511625384396197
+      Controllers_Outline_67: 6705531647989123132
+      Controllers_Outline_68: 3889668564824635338
+      Controllers_Outline_69: -4554117941834212934
+      Controllers_Outline_7: -4513580197622691165
+      Controllers_Outline_70: 532789464971332023
+      Controllers_Outline_71: 6924594134492354172
+      Controllers_Outline_72: -1697487187011139987
+      Controllers_Outline_73: 6544038089836572438
+      Controllers_Outline_74: 5810004534816108237
+      Controllers_Outline_75: -6626725259119955044
+      Controllers_Outline_76: 5212942436893789126
+      Controllers_Outline_77: -4527935056852602788
+      Controllers_Outline_78: 2854423184974354211
+      Controllers_Outline_79: -3026086116077630909
+      Controllers_Outline_8: 2866876699291390476
+      Controllers_Outline_80: -3059873437275510386
+      Controllers_Outline_81: -8885932666768569414
+      Controllers_Outline_82: 8401978380280400113
+      Controllers_Outline_83: -7856428625551641783
+      Controllers_Outline_84: -3269241621353504111
+      Controllers_Outline_85: 3485096251823855961
+      Controllers_Outline_86: 2281221901112219386
+      Controllers_Outline_87: 4881212976279404840
+      Controllers_Outline_88: -7990847859849347227
+      Controllers_Outline_89: -4047455521840211492
+      Controllers_Outline_9: -5882881150343418455
+      Controllers_Outline_90: -946847461900725067
+      Controllers_Outline_91: 9154019772414809169
+      Controllers_Outline_92: -1020109447514255399
+      Controllers_Outline_93: -8091831607230978367
+      Controllers_Outline_94: -828910124166222747
+      Controllers_Outline_95: 2126640491107097406
+      Controllers_Outline_96: 6928832464101344310
+      Controllers_Outline_97: -4976556738658215140
+      Controllers_Outline_98: -4492343787451770579
+      Controllers_Outline_99: -1898063314177168225
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
