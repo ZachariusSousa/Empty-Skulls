@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: c2bf79aa8a2f845498587fb747b84a40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5735689412899470215
+    second: rpginventory-Sheet_0
+  - first:
+      213: 1685697017696240679
+    second: rpginventory-Sheet_1
+  - first:
+      213: 1690258968810554731
+    second: rpginventory-Sheet_2
+  - first:
+      213: -3398934033439854130
+    second: rpginventory-Sheet_3
+  - first:
+      213: -7974732827232251172
+    second: rpginventory-Sheet_4
+  - first:
+      213: -2196306603152402478
+    second: rpginventory-Sheet_5
+  - first:
+      213: -524708394414121555
+    second: rpginventory-Sheet_6
+  - first:
+      213: -9181671149553740040
+    second: rpginventory-Sheet_7
+  - first:
+      213: -4488980501157963680
+    second: rpginventory-Sheet_8
+  - first:
+      213: 5356800057349592766
+    second: rpginventory-Sheet_9
+  - first:
+      213: -3412420619474406115
+    second: rpginventory-Sheet_10
+  - first:
+      213: -2065949322032703262
+    second: rpginventory-Sheet_11
+  - first:
+      213: -7436851724492249060
+    second: rpginventory-Sheet_12
+  - first:
+      213: 3417294020283807060
+    second: rpginventory-Sheet_13
+  - first:
+      213: 3436338960064091503
+    second: rpginventory-Sheet_14
+  - first:
+      213: -6528688068108345986
+    second: rpginventory-Sheet_15
+  - first:
+      213: -4071722565027611219
+    second: rpginventory-Sheet_16
+  - first:
+      213: 6597868286175114655
+    second: rpginventory-Sheet_17
+  - first:
+      213: 6353662548847319301
+    second: rpginventory-Sheet_18
+  - first:
+      213: 3732642502977992140
+    second: rpginventory-Sheet_19
+  - first:
+      213: 9001684506401018198
+    second: rpginventory-Sheet_20
+  - first:
+      213: 4636989681106359103
+    second: rpginventory-Sheet_21
+  - first:
+      213: 631659246513274202
+    second: rpginventory-Sheet_22
+  - first:
+      213: -6777693582143402564
+    second: rpginventory-Sheet_23
+  - first:
+      213: 2380163210536098627
+    second: rpginventory-Sheet_24
+  - first:
+      213: -610546837839361507
+    second: rpginventory-Sheet_25
+  - first:
+      213: -365599903807095268
+    second: rpginventory-Sheet_26
+  - first:
+      213: 4521179225345106179
+    second: rpginventory-Sheet_27
+  - first:
+      213: -8689827176461510179
+    second: rpginventory-Sheet_28
+  - first:
+      213: -6311906562908450200
+    second: rpginventory-Sheet_29
+  - first:
+      213: -3425239970722949769
+    second: rpginventory-Sheet_30
+  - first:
+      213: 4986386475674337337
+    second: rpginventory-Sheet_31
+  - first:
+      213: 5266895017009650376
+    second: rpginventory-Sheet_32
+  - first:
+      213: 2434633871869318954
+    second: rpginventory-Sheet_33
+  - first:
+      213: -8082110502978004589
+    second: rpginventory-Sheet_34
+  - first:
+      213: -4036548154892098125
+    second: rpginventory-Sheet_35
+  - first:
+      213: 3793751278865125976
+    second: rpginventory-Sheet_36
+  - first:
+      213: 4039823217640257971
+    second: rpginventory-Sheet_37
+  - first:
+      213: 4338881643964317293
+    second: rpginventory-Sheet_38
+  - first:
+      213: 8253811845285010757
+    second: rpginventory-Sheet_39
+  - first:
+      213: 5201998953348488027
+    second: rpginventory-Sheet_40
+  - first:
+      213: 6059345169832109983
+    second: rpginventory-Sheet_41
+  - first:
+      213: 4043364662048805630
+    second: rpginventory-Sheet_42
+  - first:
+      213: -4121108688458345694
+    second: rpginventory-Sheet_43
+  - first:
+      213: 2135488793262606180
+    second: rpginventory-Sheet_44
+  - first:
+      213: 5731460299384140620
+    second: rpginventory-Sheet_45
+  - first:
+      213: -3233168734681970953
+    second: rpginventory-Sheet_46
+  - first:
+      213: -923770974503821900
+    second: rpginventory-Sheet_47
+  - first:
+      213: -8344154572022506192
+    second: rpginventory-Sheet_48
+  - first:
+      213: 3519544537890378784
+    second: rpginventory-Sheet_49
+  - first:
+      213: -4060552175270195202
+    second: rpginventory-Sheet_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rpginventory-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b77ddc123499f40800000000000000
+      internalID: 5735689412899470215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72448b2a18cc46710800000000000000
+      internalID: 1685697017696240679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 135
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b650f56a391057710800000000000000
+      internalID: 1690258968810554731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 128
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1f4d1418f84d0d0800000000000000
+      internalID: -3398934033439854130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 135
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2dc2edebe045190800000000000000
+      internalID: -7974732827232251172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7914de7c62581e0800000000000000
+      internalID: -2196306603152402478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 135
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadd74cce7cd7b8f0800000000000000
+      internalID: -524708394414121555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 128
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6956e6cb6249080800000000000000
+      internalID: -9181671149553740040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 135
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06813d09400f3b1c0800000000000000
+      internalID: -4488980501157963680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb65d17454d275a40800000000000000
+      internalID: 5356800057349592766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 135
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d157200c685a4a0d0800000000000000
+      internalID: -3412420619474406115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 128
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8184899064453e0800000000000000
+      internalID: -2065949322032703262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 135
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18636a32cefac890800000000000000
+      internalID: -7436851724492249060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455351c4ecaac6f20800000000000000
+      internalID: 3417294020283807060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 135
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f659472e31450bf20800000000000000
+      internalID: 3436338960064091503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 57
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d1213eac07565a0800000000000000
+      internalID: -6528688068108345986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 103
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad369766e55e77c0800000000000000
+      internalID: -4071722565027611219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f957840df36509b50800000000000000
+      internalID: 6597868286175114655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5095fbecc6ebc2850800000000000000
+      internalID: 6353662548847319301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5378f74920dc330800000000000000
+      internalID: 3732642502977992140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6519b289d586cec70800000000000000
+      internalID: 9001684506401018198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f331f711c85e95040800000000000000
+      internalID: 4636989681106359103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5db38fecba14c800800000000000000
+      internalID: 631659246513274202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbdc5e7c89bc0f1a0800000000000000
+      internalID: -6777693582143402564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 87
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b157f44d9080120800000000000000
+      internalID: 2380163210536098627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 95
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ac8d3c2e6e687f0800000000000000
+      internalID: -610546837839361507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 87
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e39a313d02deaf0800000000000000
+      internalID: -365599903807095268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 95
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301229c1d847ebe30800000000000000
+      internalID: 4521179225345106179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 87
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9d9734938876780800000000000000
+      internalID: -8689827176461510179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 95
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86292664c6a9768a0800000000000000
+      internalID: -6311906562908450200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 87
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775d692f46a1770d0800000000000000
+      internalID: -3425239970722949769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 95
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9308163a414333540800000000000000
+      internalID: 4986386475674337337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 87
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca922edc15c71940800000000000000
+      internalID: 5266895017009650376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 95
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2797e27b9e89c120800000000000000
+      internalID: 2434633871869318954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 87
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399da82815396df80800000000000000
+      internalID: -8082110502978004589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 95
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5e5e4f6dc4bf7c0800000000000000
+      internalID: -4036548154892098125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 87
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85290fe10bc16a430800000000000000
+      internalID: 3793751278865125976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 57
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9b2d200d5501830800000000000000
+      internalID: 4039823217640257971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 57
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6eb4f6edddc63c30800000000000000
+      internalID: 4338881643964317293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ddf19842e6b8270800000000000000
+      internalID: 8253811845285010757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b5a489c76313840800000000000000
+      internalID: 5201998953348488027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f976253045e171450800000000000000
+      internalID: 6059345169832109983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef259caccbaec1830800000000000000
+      internalID: 4043364662048805630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2231aaf7b71eec6c0800000000000000
+      internalID: -4121108688458345694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467ce304eb7c2ad10800000000000000
+      internalID: 2135488793262606180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43bb0596cc3a8f40800000000000000
+      internalID: 5731460299384140620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 57
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6c1667a2a7123d0800000000000000
+      internalID: -3233168734681970953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 57
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd12ea613b1e23f0800000000000000
+      internalID: -923770974503821900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 57
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d95af30ab933c80800000000000000
+      internalID: -8344154572022506192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0245f102c1fe7d030800000000000000
+      internalID: 3519544537890378784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpginventory-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff84117f4506a7c0800000000000000
+      internalID: -4060552175270195202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rpginventory-Sheet_0: 5735689412899470215
+      rpginventory-Sheet_1: 1685697017696240679
+      rpginventory-Sheet_10: -3412420619474406115
+      rpginventory-Sheet_11: -2065949322032703262
+      rpginventory-Sheet_12: -7436851724492249060
+      rpginventory-Sheet_13: 3417294020283807060
+      rpginventory-Sheet_14: 3436338960064091503
+      rpginventory-Sheet_15: -6528688068108345986
+      rpginventory-Sheet_16: -4071722565027611219
+      rpginventory-Sheet_17: 6597868286175114655
+      rpginventory-Sheet_18: 6353662548847319301
+      rpginventory-Sheet_19: 3732642502977992140
+      rpginventory-Sheet_2: 1690258968810554731
+      rpginventory-Sheet_20: 9001684506401018198
+      rpginventory-Sheet_21: 4636989681106359103
+      rpginventory-Sheet_22: 631659246513274202
+      rpginventory-Sheet_23: -6777693582143402564
+      rpginventory-Sheet_24: 2380163210536098627
+      rpginventory-Sheet_25: -610546837839361507
+      rpginventory-Sheet_26: -365599903807095268
+      rpginventory-Sheet_27: 4521179225345106179
+      rpginventory-Sheet_28: -8689827176461510179
+      rpginventory-Sheet_29: -6311906562908450200
+      rpginventory-Sheet_3: -3398934033439854130
+      rpginventory-Sheet_30: -3425239970722949769
+      rpginventory-Sheet_31: 4986386475674337337
+      rpginventory-Sheet_32: 5266895017009650376
+      rpginventory-Sheet_33: 2434633871869318954
+      rpginventory-Sheet_34: -8082110502978004589
+      rpginventory-Sheet_35: -4036548154892098125
+      rpginventory-Sheet_36: 3793751278865125976
+      rpginventory-Sheet_37: 4039823217640257971
+      rpginventory-Sheet_38: 4338881643964317293
+      rpginventory-Sheet_39: 8253811845285010757
+      rpginventory-Sheet_4: -7974732827232251172
+      rpginventory-Sheet_40: 5201998953348488027
+      rpginventory-Sheet_41: 6059345169832109983
+      rpginventory-Sheet_42: 4043364662048805630
+      rpginventory-Sheet_43: -4121108688458345694
+      rpginventory-Sheet_44: 2135488793262606180
+      rpginventory-Sheet_45: 5731460299384140620
+      rpginventory-Sheet_46: -3233168734681970953
+      rpginventory-Sheet_47: -923770974503821900
+      rpginventory-Sheet_48: -8344154572022506192
+      rpginventory-Sheet_49: 3519544537890378784
+      rpginventory-Sheet_5: -2196306603152402478
+      rpginventory-Sheet_50: -4060552175270195202
+      rpginventory-Sheet_6: -524708394414121555
+      rpginventory-Sheet_7: -9181671149553740040
+      rpginventory-Sheet_8: -4488980501157963680
+      rpginventory-Sheet_9: 5356800057349592766
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

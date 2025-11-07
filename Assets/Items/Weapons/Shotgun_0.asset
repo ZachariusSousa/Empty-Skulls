@@ -19,7 +19,7 @@ MonoBehaviour:
   kind: 1
   isEquippable: 1
   equipSlot: 1
-  bonusATT: 10
+  bonusATT: 2
   bonusDEF: 0
   bonusSPD: 0
   bonusDEX: 0

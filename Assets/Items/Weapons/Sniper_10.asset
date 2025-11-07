@@ -15,16 +15,16 @@ MonoBehaviour:
   displayName: Robe of Newspaper
   description: 
   icon: {fileID: -993836581801303824, guid: 317fe7f38dc8ef04a87456fabb6156b9, type: 3}
-  rarity: 0
+  rarity: 3
   kind: 1
   isEquippable: 1
   equipSlot: 1
-  bonusATT: 50
-  bonusDEF: 2
+  bonusATT: 150
+  bonusDEF: 0
   bonusSPD: 0
   bonusDEX: 0
   bonusVIT: 0
-  bonusWIS: 1
+  bonusWIS: 0
   bonusLUCK: 0
   bonusMaxHP: 0
   bonusMaxMP: 0

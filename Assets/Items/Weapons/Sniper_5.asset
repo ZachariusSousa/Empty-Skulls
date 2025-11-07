@@ -19,12 +19,12 @@ MonoBehaviour:
   kind: 1
   isEquippable: 1
   equipSlot: 1
-  bonusATT: 50
-  bonusDEF: 2
+  bonusATT: 100
+  bonusDEF: 0
   bonusSPD: 0
   bonusDEX: 0
   bonusVIT: 0
-  bonusWIS: 1
+  bonusWIS: 0
   bonusLUCK: 0
   bonusMaxHP: 0
   bonusMaxMP: 0
