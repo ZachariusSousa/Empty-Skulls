@@ -152,7 +152,7 @@ public class PlayerStats : EntityStats
         set { prog.xpToNext = Mathf.Max(1, value); eventsGroup.onStatChanged?.Invoke("xpToNext", prog.xpToNext); }
     }
 
-    public StatIntEvent onStatChanged => eventsGroup.onStatChanged;
+    public new StatIntEvent onStatChanged => eventsGroup.onStatChanged;
 
     public void TakeDamage(int amount, int defCap) => ApplyDamage(amount, transform.position, false, defCap);
 }

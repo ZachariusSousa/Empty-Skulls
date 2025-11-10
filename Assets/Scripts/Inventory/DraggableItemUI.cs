@@ -99,7 +99,7 @@ public class DraggableItemUI : MonoBehaviour,
         {
                     if (item.kind == ItemKind.Consumable)
                     {
-                        var useHandler = FindObjectOfType<ItemUseHandler>();
+                        var useHandler = UnityEngine.Object.FindFirstObjectByType<ItemUseHandler>();
                         if (useHandler != null)
                         {
                             bool used = useHandler.TryUse(slot);

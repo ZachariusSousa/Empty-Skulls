@@ -16,7 +16,6 @@ public class DamageTextPool : MonoBehaviour
     {
         if (Instance && Instance != this) { Destroy(gameObject); return; }
         Instance = this;
-        DontDestroyOnLoad(gameObject);
 
         if (!prefab) return;
 

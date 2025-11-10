@@ -176,10 +176,13 @@ public class InventoryUI : MonoBehaviour
 
     // === Static helper to find the Player's inventory in scene ===
     public static InventoryUI FindPlayerInventory()
-    {
-        var all = FindObjectsOfType<InventoryUI>(true);
-        foreach (var inv in all)
-            if (inv && inv.owner == InventoryOwner.Player) return inv;
-        return null;
-    }
+{
+    var all = UnityEngine.Object.FindObjectsByType<InventoryUI>(
+        FindObjectsInactive.Include,
+        FindObjectsSortMode.None
+    );
+    foreach (var inv in all)
+        if (inv && inv.owner == InventoryOwner.Player) return inv;
+    return null;
+}
 }
